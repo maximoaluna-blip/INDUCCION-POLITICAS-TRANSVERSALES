@@ -1,0 +1,31 @@
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores e IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Claude Code ---
+.claude/
+
+# --- Node ---
+node_modules/
+
+# --- Generador de cursos (cuando exista) ---
+05-Generador-Cursos/input/
+05-Generador-Cursos/previews/
+
+# --- Artefactos de revisión (regenerables, no parte del sitio publicado) ---
+01-Diseno-Cursos/*.pdf
+01-Diseno-Cursos/Curso-*-preview-*.png
+
+# --- Workspace clasp local ---
+.clasp-workspace/
+
+# --- Archivos temporales de Office ---
+~$*
