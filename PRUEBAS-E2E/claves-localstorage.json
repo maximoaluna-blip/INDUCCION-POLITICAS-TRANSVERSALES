@@ -1,0 +1,74 @@
+{
+  "_porQue": "ADR-034. Ninguna compuerta comparaba lo que los manuales prescriben contra lo que el codigo hace. Este archivo es esa comparacion, hecha maquina.",
+  "_comoFunciona": "codigo.spec.js extrae las claves reales del motor y falla si: (a) el codigo usa una clave no declarada; (b) una clave 'implementada' no aparece en el codigo — el documento miente; (c) una clave 'planeada' si aparece — hay que promoverla y documentarla.",
+  "_ojo": "Las lineas comparten dominio (maximoaluna-blip.github.io) y por tanto localStorage: no hay frontera entre lineas. Una clave sin apellido de linea es legible por las otras tres y por las dos apps.",
+  "linea": "Politicas Transversales",
+  "claves": [
+    {
+      "clave": "courseProgress_<courseId>",
+      "patron": "courseProgress_",
+      "estado": "implementada",
+      "que": "Todo el progreso del estudiante en un curso: perfil, modulos, quizzes, tiempo, reflexiones y fotos.",
+      "alcance": "por curso"
+    },
+    {
+      "clave": "globalUserProfile",
+      "patron": "globalUserProfile",
+      "estado": "implementada",
+      "que": "Nombre, correo y grupo del estudiante, para no pedirselos en cada curso.",
+      "alcance": "cross-course"
+    },
+    {
+      "clave": "certificate_<courseId>",
+      "patron": "certificate_",
+      "estado": "implementada",
+      "que": "Codigo del certificado emitido, para que verificar-certificado.html lo encuentre.",
+      "alcance": "por curso"
+    },
+    {
+      "clave": "commitment_<courseId>",
+      "patron": "commitment_",
+      "estado": "implementada",
+      "que": "Compromiso firmable del cierre del curso.",
+      "alcance": "por curso"
+    },
+    {
+      "clave": "politicas-transversales:<catalogId>",
+      "patron": "politicas-transversales:",
+      "estado": "implementada",
+      "que": "Prefijo con apellido de linea para todo dato cross-course propio. Hoy lo escribe y lee la maquinaria de catalogos heredada al copiar el motor de Desarrollo Institucional el 15-sep-2026: NINGUN curso de esta linea la usa todavia. Se declara implementada porque la cadena SI esta en el codigo — declararla 'planeada' haria fallar la prueba, y mentir en la otra direccion. Cuando se construya el Curso 06 pasara a usarse de verdad.",
+      "alcance": "cross-course dentro de la linea"
+    },
+    {
+      "clave": "politicas-transversales:brujula",
+      "patron": "politicas-transversales:brujula",
+      "estado": "planeada",
+      "que": "Reflexiones de compromiso de los Cursos 01-05, que lee el brujula-display del Curso 06 (plan de linea, seccion 7.2).",
+      "alcance": "cross-course dentro de la linea"
+    },
+    {
+      "clave": "politicas-transversales:semaforo-asp-grupo",
+      "patron": "politicas-transversales:semaforo-asp-grupo",
+      "estado": "planeada",
+      "que": "Las 17 respuestas del semaforo de autoevaluacion de grupo (Curso 06), reutilizables en el Curso 20 CON VERSIONADO DE ESCALA por si la DNAM actualiza el formato — igual que COMPETENCY_SCALE_VERSION en Politica de Adultos.",
+      "alcance": "cross-course dentro de la linea"
+    },
+    {
+      "clave": "politicas-transversales:plan",
+      "patron": "politicas-transversales:plan",
+      "estado": "planeada",
+      "que": "El plan de tres compromisos del Curso 06. NO se llama 'plan personal': en el plano del adulto ese nombre es el del PPD (PNAM 5.2.1) y este ni lo es ni lo alimenta.",
+      "alcance": "cross-course dentro de la linea"
+    }
+  ],
+  "prohibidas": [
+    {
+      "patron": "politica-adultos:",
+      "porQue": "Es el perfil de competencias del ADULTO que produce el Curso 4 de Politica de Adultos. Consumirlo desde aqui cruza lineas y planos (ADR-034). Si un estudiante quiere llevar sus compromisos a su PPD, exporta el PDF."
+    },
+    {
+      "patron": "programa-jovenes:",
+      "porQue": "Plano del joven y otra linea. Esta linea enlaza con Programa de Jovenes por narrativa, nunca por localStorage (plan de linea, seccion 7.2)."
+    }
+  ]
+}

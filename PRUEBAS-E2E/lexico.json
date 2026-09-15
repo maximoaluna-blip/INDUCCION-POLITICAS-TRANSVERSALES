@@ -1,0 +1,34 @@
+{
+  "_porQue": "ADR-034. El motor se propaga por copia entre lineas y el vocabulario viaja con el. Esta linea nacio copiando la maquinaria de Desarrollo Institucional el 15-sep-2026: esta lista impide que vuelva a entrar vocabulario de un plano ajeno junto con el codigo.",
+  "_comoFunciona": "codigo.spec.js extrae las cadenas de texto VISIBLES del motor de linea y del generador (ignorando comentarios) y falla si alguna casa un patron prohibido. NO barre la prosa de los cursos: eso lo juzga el auditor doctrinal, que sabe distinguir acepciones. Ver GLOSARIO-ASC.md seccion E-bis.",
+  "_ojoConEstaLinea": "El riesgo doctrinal mas grande de Politicas Transversales NO lo cubre esta compuerta: son los terminos ASP superados por la Politica 2025 (referente ASP, Escuchadero, DURAS-I, Boton de Denuncias, 'Me Siento a Salvo del Peligro'). Esos viven en la PROSA de los cursos, no en el motor, y los caza el auditor doctrinal contra GLOSARIO-ASC.md seccion C-bis. No intentar meterlos aqui: esta prueba lee otra cosa.",
+  "linea": "Politicas Transversales",
+  "plano": "adulto / institucional",
+  "prohibido": [
+    {
+      "patron": "areas?\\s+de\\s+crecimiento",
+      "porQue": "Las 6 areas de crecimiento (Corporalidad, Creatividad, Caracter, Afectividad, Sociabilidad, Espiritualidad) son del plano del JOVEN — Modelo de Aplicacion PNPJ, Cap. 6.1 p. 29. 'Area' es uno de los terminos de doble plano del proyecto (GLOSARIO-ASC.md seccion E-bis): en esta linea 'area' es la del semaforo ASP de grupo, que es otra cosa.",
+      "enSuLugar": "areas del semaforo de autoevaluacion de grupo, si hablas del instrumento DNAM"
+    },
+    {
+      "patron": "competencias?\\s+(terminales?|intermedias?|educativas?)",
+      "porQue": "Las competencias terminales e intermedias son del plano del JOVEN, dentro de un area de crecimiento. En una linea para adultos no aplican. Ver ADR-034 y GLOSARIO-ASC.md seccion E-bis.",
+      "enSuLugar": "competencias esenciales o especificas del adulto voluntario"
+    },
+    {
+      "patron": "\\bgrado(s)?\\s+de\\s+dominio\\b",
+      "porQue": "Pertenece al modelo de competencias del adulto (Diccionario de Competencias, ASC ago-2020) y solo lo trabaja la linea Politica de Adultos, con su componente de autodiagnostico. Esta linea NO lo tiene: si la cadena aparece, es codigo muerto heredado al copiar el motor.",
+      "enSuLugar": "nada — si aparece, sobra"
+    },
+    {
+      "patron": "\\bDURASLID\\b|\\bDURAS-?I\\b",
+      "porQue": "DURASLID es vocabulario de aplicacion del Programa de Jovenes y vive en el CREAR-CURSO.md de esa linea. Aqui solo puede aparecer como ENLACE a PJ dentro de la prosa de un curso, nunca como cadena del motor. Ademas DURAS-I es la version de 6 rasgos del Manual 2023, superada por DURASLID de 8 (Politica 2025 p. 26).",
+      "enSuLugar": "nada en el motor"
+    },
+    {
+      "patron": "protagonista(s)?\\s+de\\s+programa",
+      "porQue": "Es el termino con que el Programa de Jovenes nombra al joven. El motor de una linea de adultos no deberia nombrarlo: si lo hace, viajo pegado al codigo desde otra linea.",
+      "enSuLugar": "nada en el motor; en la prosa de un curso, el termino es correcto"
+    }
+  ]
+}
