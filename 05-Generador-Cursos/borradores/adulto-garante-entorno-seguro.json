@@ -211,7 +211,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Si diriges una unidad, hay una segunda parte.</strong> Cómo se aplica 2+1 al <strong>planear</strong> una actividad —la Hoja de Ruta de Reunión, la pernocta, el transporte, la actividad acuática— no es de este curso: le toca a la Línea Programa de Jóvenes, que lo está construyendo. Aquí trabajamos la medida como norma que te aplica a ti, seas quien seas; allá se convierte en planeación. Cuando esté disponible, lo verás anunciado en el portal."
+          "text": "🔗 <strong>Si diriges una unidad, hay una segunda parte.</strong> Cómo se aplica 2+1 al <strong>planear</strong> una actividad —la Hoja de Ruta de Reunión, la pernocta, el transporte, la actividad acuática— no es de este curso: le toca a la Línea Programa de Jóvenes, y está en su plan de formación. Aquí trabajamos la medida como norma que te aplica a ti, seas quien seas; allá se convertirá en planeación. El día que ese curso exista, lo verás anunciado en el portal."
         }
       ],
       "reflection": {
@@ -348,7 +348,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Imagina que mañana un protagonista de tu unidad te dice «te voy a contar algo, pero no le digas a nadie». Escribe —y dila en voz alta si puedes— la frase exacta con la que le vas a responder. No la busques perfecta: búscala tuya. Lo que falla en el momento real no es el conocimiento, es no tener las palabras listas. Antes de pasar, léela otra vez y comprueba tres cosas: que no prometa secreto, que no haga ninguna pregunta, y que no prometa un resultado que no depende de ti. Si falla alguna, reescríbela."
+        "prompt": "Imagina que mañana un protagonista de tu unidad te dice «te voy a contar algo, pero no le digas a nadie». Escribe —y dila en voz alta si puedes— la frase exacta con la que le vas a responder. No la busques perfecta: búscala tuya. Lo que falla en el momento real no es el conocimiento, es no tener las palabras listas. Antes de pasar, léela otra vez despacio y mírala tú mismo: ¿prometes secreto? ¿le preguntas algo? ¿le prometes algo que no depende de ti? Si se te coló alguna, cámbiala y ya está."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -572,10 +572,6 @@
           "text": "A Salvo del Peligro es una instancia de acompañamiento y garantía en los procesos de promoción, prevención, y atención de situaciones de riesgo, por ende, NO DEBE entenderse como instancia de carácter judicial, de atención en salud mental o física o disciplinaria, puesto que estos escenarios deberán ser asumidos por las autoridades competentes, entiéndase Policía Nacional, Fiscalía, Comisarías de Familia, ICBF, Hospitales, Clínicas, Psicóloga/o Tratante y Corte de Honor Nacional […], entre otros, no obstante, todas las situaciones deberán reportarse e independientemente del canal por el cuál ingresó el reporte deberá ser trasladado para conocimiento de las otras instancias para lo de su competencia (principio de coordinación)"
         },
         {
-          "type": "paragraph",
-          "text": "Y sobre tu rol concreto, la Política de 2025 no deja lugar a interpretación: pide clarificar el alcance del rol del adulto «entendiendo que en ningún caso su función será de carácter investigativo y de gestión del reporte»."
-        },
-        {
           "type": "heading",
           "level": 3,
           "text": "Las cinco que no son tuyas"
@@ -584,7 +580,7 @@
           "type": "list",
           "ordered": true,
           "items": [
-            "<strong>Investigar.</strong> Ni preguntar de más, ni reconstruir los hechos.",
+            "<strong>Investigar.</strong> Ni preguntar de más, ni reconstruir los hechos — la Política lo dice sin margen: en ningún caso tu función será «de carácter investigativo y de gestión del reporte».",
             "<strong>Gestionar el reporte.</strong> El caso no lo llevas tú.",
             "<strong>Diagnosticar.</strong> Ni salud mental, ni salud física.",
             "<strong>Disciplinar.</strong> Eso es de la Corte de Honor Nacional.",
@@ -703,7 +699,7 @@
             "options": [
               "Que aguantes: airear un problema entre adultos fuera del equipo desgasta al grupo sin necesidad.",
               "Que decirlo es lo esperado: la política pide que las preocupaciones se puedan expresar de forma segura.",
-              "Que hables solo si vuelve a pasar delante de los protagonistas de la unidad."
+              "Que hables solo si vuelve a pasar delante de los protagonistas, porque ahí sí afecta a la unidad."
             ],
             "correctIndex": 1
           },
@@ -729,7 +725,7 @@
     },
     {
       "id": "achievement-2",
-      "name": "La regla de los tres",
+      "name": "Aplico la regla de los tres",
       "emoji": "👥",
       "unlockOnModule": 3
     },
