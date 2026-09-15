@@ -2,10 +2,10 @@
   "courseId": "adulto-garante-entorno-seguro",
   "title": "El Adulto como Garante: reportar, no investigar",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "Tu trabajo no es descubrir qué pasó. En 35 minutos vas a saber qué significa ser garante, cómo funciona la práctica 2+1 en tu día a día, qué decir exactamente cuando alguien te revela algo, por dónde entra un reporte y qué pasa después, dónde termina tu rol y por qué cuidarte a ti también es parte de la política. No hay listas de señales: hay conducta.",
+  "description": "Tu trabajo no es descubrir qué pasó. En 40 minutos vas a saber qué significa ser garante, cómo funciona la práctica 2+1 en tu día a día, qué decir exactamente cuando alguien te revela algo, por dónde entra un reporte y qué pasa después, dónde termina tu rol y por qué cuidarte a ti también es parte de la política. No hay listas de señales: hay conducta.",
   "contentVersion": "2026-09-15",
   "icon": "🤝",
-  "duration": "35 minutos",
+  "duration": "40 minutos",
   "status": "draft",
   "level": 1,
   "levelName": "Ruta de Fundamentación",
@@ -34,23 +34,31 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "Tres cosas que conviene que sepas antes de entrar"
+          "text": "Tres cosas antes de entrar"
         },
         {
           "type": "info-box",
-          "text": "<strong>1. Este curso no reemplaza el módulo oficial.</strong> La Asociación exige realizar su propio curso o módulo de A Salvo del Peligro, y ese certificado lo emite la Asociación. Aquí preparamos, explicamos y aterrizamos. Si todavía no has hecho el módulo oficial, hazlo: este curso te va a servir para aprovecharlo mejor, no para saltártelo."
+          "text": "<strong>1. Aviso de contenido.</strong> Vamos a hablar de situaciones de daño a niñas, niños y jóvenes. Lo haremos en términos sobrios, sin casos gráficos y sin detalles. Aun así, si en algún momento te remueve algo propio, para. La última lección habla justamente de eso: la política también existe para cuidarte a ti."
         },
         {
           "type": "info-box",
-          "text": "<strong>2. Aquí no vas a encontrar listas de señales de abuso.</strong> No por pudor: porque reconocer señales es otro oficio, y una lista sin acompañamiento invita justo a lo que la política prohíbe — diagnosticar. Ese contenido tiene su propio curso, con la advertencia y el cuidado que pide. Hoy trabajamos <strong>conducta</strong>: qué haces tú."
+          "text": "<strong>2. Este curso no reemplaza el módulo oficial.</strong> La Asociación exige realizar su propio curso o módulo de A Salvo del Peligro, y ese certificado lo emite la Asociación. Aquí preparamos, explicamos y aterrizamos. Si todavía no has hecho el módulo oficial, hazlo: este curso te va a servir para aprovecharlo mejor, no para saltártelo."
         },
         {
           "type": "info-box",
-          "text": "<strong>3. Aviso de contenido.</strong> Vamos a hablar de situaciones de daño a niñas, niños y jóvenes. Lo haremos en términos sobrios, sin casos gráficos y sin detalles. Aun así, si en algún momento te remueve algo propio, para. La última lección habla justamente de eso: la política también existe para cuidarte a ti."
+          "text": "<strong>3. Aquí no vas a encontrar listas de señales de abuso.</strong> No por pudor: porque reconocer señales es otro oficio, y una lista sin acompañamiento invita justo a lo que la política prohíbe — diagnosticar. Ese contenido tendrá su propio curso en el Nivel 2 de esta línea, con la advertencia y el cuidado que pide. Hoy trabajamos <strong>conducta</strong>: qué haces tú."
         },
         {
           "type": "paragraph",
           "text": "Son siete lecciones cortas. La tercera es la más importante — es la que vas a usar con las manos temblando."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cada lección cierra con dos preguntas. Hay que acertar las dos para pasar — si fallas una, el sistema te dirá que necesitas «70 %», pero con dos preguntas eso significa las dos. No es examen: puedes reintentarlo las veces que quieras, y fallar es parte de aprender esto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los siete logros de abajo son el mapa: uno por lección, y cada uno dice lo que vas a poder hacer al terminarla. Empieza por el primero."
         }
       ]
     },
@@ -123,11 +131,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Según el Manual Operativo, el deber que la posición de garante impone al adulto es:",
+            "text": "En una salida ves que la puerta del bus queda sin asegurar y los chicos entran y salen solos. No ha pasado nada, y el transporte no está a tu cargo. ¿Qué te pide la posición de garante?",
             "options": [
-              "Obrar para impedir que se materialicen riesgos, peligros o delitos evitables.",
-              "Investigar los hechos con cuidado para poder informar después con precisión.",
-              "Guardar la información con discreción hasta reunir pruebas suficientes del hecho."
+              "Actuar ya para cerrar ese riesgo y avisar a quien corresponda, aunque no haya pasado nada.",
+              "Esperar a que ocurra algo concreto: hasta entonces no hay nada que reportar ni corregir.",
+              "Anotarlo para comentarlo luego con el responsable del transporte, que es de quien depende."
             ],
             "correctIndex": 0
           }
@@ -203,7 +211,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Si diriges una unidad, hay una segunda parte.</strong> Cómo se aplica 2+1 al <strong>planear</strong> una actividad —la Hoja de Ruta de Reunión, la pernocta, el transporte, la actividad acuática— lo enseña el curso «A Salvo del Peligro aplicado al Programa», de la Línea Programa de Jóvenes. Aquí trabajamos la medida como norma que te aplica a ti seas quien seas; allá, cómo se convierte en planeación."
+          "text": "🔗 <strong>Si diriges una unidad, hay una segunda parte.</strong> Cómo se aplica 2+1 al <strong>planear</strong> una actividad —la Hoja de Ruta de Reunión, la pernocta, el transporte, la actividad acuática— no es de este curso: le toca a la Línea Programa de Jóvenes, que lo está construyendo. Aquí trabajamos la medida como norma que te aplica a ti, seas quien seas; allá se convierte en planeación. Cuando esté disponible, lo verás anunciado en el portal."
         }
       ],
       "reflection": {
@@ -216,18 +224,18 @@
           {
             "text": "Un dirigente lleva en su carro a una protagonista que quedó sin quien la recogiera. Va solo con ella. ¿Qué dice la práctica 2+1?",
             "options": [
-              "Es correcto: dejarla sola en el lugar sería peor, y la urgencia lo justifica.",
-              "No cumple 2+1: hay que sumar a otro adulto o a un familiar antes de arrancar.",
-              "Es correcto siempre que avise después al Jefe de Grupo de lo que hizo."
+              "Que no se cumple, y que hay que sumar a otro adulto o a un familiar antes de arrancar.",
+              "Que no se cumple, pero la urgencia lo justifica y basta con avisar después al Jefe.",
+              "Que sí se cumple, porque dejarla sola en el lugar habría sido claramente peor para ella."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           },
           {
-            "text": "¿A quién protege la práctica 2+1?",
+            "text": "Un dirigente con veinte años de trayectoria te dice que a él la práctica 2+1 le sobra. ¿Qué le respondes?",
             "options": [
-              "Solo a los menores de edad, que son los sujetos de especial protección en Colombia.",
-              "A los menores y también al adulto, frente a acusaciones y malentendidos.",
-              "Solo al adulto, porque es quien responde legalmente por todo lo que ocurra."
+              "Que tiene parte de razón: con esa trayectoria, el riesgo de un malentendido en su caso es mínimo.",
+              "Que 2+1 no se gana con años: protege a los chicos, y lo protege a él, porque sin testigos su palabra queda sola.",
+              "Que la medida es para las actividades con menores de edad, no para los chats ni las reuniones entre adultos."
             ],
             "correctIndex": 1
           }
@@ -251,6 +259,10 @@
         {
           "type": "paragraph",
           "text": "Cuando un chico te cuenta algo grave, tu cabeza va a querer entender: ¿cuándo fue?, ¿quién?, ¿estás seguro? Es un impulso decente — quieres ayudar y crees que para ayudar hay que saber. Pero preguntar de más hace tres cosas malas a la vez: obliga a la persona a revivir el hecho, contamina lo que después tendrá que valorar quien sí sabe hacerlo, y puede convertirse, en palabras de la propia Guía, en otra vulneración de sus derechos."
+        },
+        {
+          "type": "blockquote",
+          "text": "Tu trabajo no es descubrir qué pasó. Tu trabajo es que la persona no esté sola y que el reporte llegue."
         },
         {
           "type": "policy-quote",
@@ -315,11 +327,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>No prometas secreto.</strong> Cuando un chico dice «pero no le digas a nadie», la promesa sale sola. Y es la única de esta lista que, si la haces, te obliga después a romperla o a fallarle. La Guía lo pone entre las cosas que no hay que hacer: no hagas falsas promesas ni des falsos argumentos tranquilizadores."
-        },
-        {
-          "type": "paragraph",
-          "text": "La salida honesta es decir la verdad, y cabe en una frase: <em>«voy a cuidar lo que me cuentes y no se lo voy a andar contando a cualquiera. Pero si hay alguien que tiene que saberlo para poder ayudarte, a esa persona sí se lo voy a decir.»</em> Suena a que va a cerrarse. Casi siempre pasa lo contrario: los chicos agradecen que no les mientan."
+          "text": "<strong>No prometas secreto.</strong> Cuando un chico dice «pero no le digas a nadie», la promesa sale sola. Y es la única de esta lista que, si la haces, te obliga después a romperla o a fallarle — por eso la Guía la pone entre las cosas que no hay que hacer: <em>no hagas falsas promesas ni des falsos argumentos tranquilizadores</em>. La salida honesta cabe en una frase, y es esta:<br><br><em>«Voy a cuidar lo que me cuentes y no se lo voy a andar contando a cualquiera. Pero si hay alguien que tiene que saberlo para poder ayudarte, a esa persona sí se lo voy a decir.»</em><br><br>Suena a que va a cerrarse. Casi siempre pasa lo contrario: los chicos agradecen que no les mientan."
         },
         {
           "type": "heading",
@@ -328,11 +336,19 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Protege → Reporta → Acompaña sin investigar.</strong><br><br><strong>Reportar</strong> tiene dos destinos que se suman, no se eligen: <strong>al Estado</strong> si hay riesgo o posible delito, y <strong>a la Asociación</strong> por el botón, siempre. Que primero se atienda lo urgente es sentido común, no letra de la política: ninguna fuente fija un orden, y está preguntado a la Comisión Nacional."
+          "text": "<strong>Protege → Reporta → Acompaña sin investigar.</strong><br><br><strong>Proteger</strong> es lo inmediato: que la persona esté a salvo ahora — y que lo que hagas tú no le añada daño. <strong>Reportar</strong> es que el caso empiece. <strong>Acompañar</strong> es quedarte cerca, sin volver a preguntar."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Reportar</strong> tiene dos destinos que se suman, no se eligen: <strong>al Estado</strong> si hay riesgo o posible delito, y <strong>a la Asociación</strong> por el botón, siempre. Que primero se atienda lo urgente es sentido común, no letra de la política: ninguna fuente fija un orden, y está preguntado a la Comisión Nacional."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>Si pasa hoy.</strong><br>1 · Escucha. No preguntes.<br>2 · No prometas secreto — usa tu frase.<br>3 · Que la persona no quede sola.<br>4 · Reporta por el botón. Hoy, no cuando estés seguro.<br>5 · No se lo cuentes a nadie más que a quien deba saberlo.<br><br>Cinco líneas. Si solo te llevas una pantalla de este curso, que sea esta — hazle captura."
         }
       ],
       "reflection": {
-        "prompt": "Imagina que mañana un protagonista de tu unidad te dice «te voy a contar algo, pero no le digas a nadie». Escribe —y dila en voz alta si puedes— la frase exacta con la que le vas a responder. No la busques perfecta: búscala tuya. Lo que falla en el momento real no es el conocimiento, es no tener las palabras listas."
+        "prompt": "Imagina que mañana un protagonista de tu unidad te dice «te voy a contar algo, pero no le digas a nadie». Escribe —y dila en voz alta si puedes— la frase exacta con la que le vas a responder. No la busques perfecta: búscala tuya. Lo que falla en el momento real no es el conocimiento, es no tener las palabras listas. Antes de pasar, léela otra vez y comprueba tres cosas: que no prometa secreto, que no haga ninguna pregunta, y que no prometa un resultado que no depende de ti. Si falla alguna, reescríbela."
       },
       "quiz": {
         "title": "Mini-quiz Lección 3",
@@ -351,8 +367,8 @@
             "text": "Tras una revelación, el primer impulso de muchos adultos es preguntar detalles para entender bien qué pasó. ¿Por qué no conviene?",
             "options": [
               "Porque interrogar revictimiza y puede dañar la actuación de quien sí debe investigar.",
-              "Porque la Asociación prefiere que esos detalles queden escritos directamente en el formulario.",
-              "Porque no es asunto suyo y podría terminar metido en problemas legales serios."
+              "Porque el protocolo lo prohíbe y hay que cumplirlo, aunque uno no esté de acuerdo.",
+              "Porque no es asunto suyo y podría terminar metido en un problema legal bien serio."
             ],
             "correctIndex": 0
           }
@@ -423,7 +439,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Entra ahora mismo a la página de Scouts de Colombia y busca el botón. No reportes nada: solo localízalo. Anota en una frase dónde está y cuánto te tomó encontrarlo. Si no lo encontraste, anótalo también — ese dato también sirve, y mucho."
+        "prompt": "Entra ahora mismo a scout.org.co y busca el botón. No reportes nada: solo localízalo. Anota en una frase dónde está y cuánto te tomó encontrarlo, y guárdalo en los favoritos de tu teléfono. Si a los tres minutos no aparece, para de buscar y anota «no lo encontré»: ese dato vale tanto como el otro. La política se compromete a que estos canales estén «claramente comunicados a la membresía», así que si no lo encuentras no estás fallando tú. En ese caso escribe también a quién le vas a preguntar esta semana — tu Jefe de Grupo o tu comisionado."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -433,19 +449,19 @@
             "text": "¿Cuándo se reporta por el botón?",
             "options": [
               "Cuando ya se confirmó, con algún grado de certeza, que el hecho efectivamente ocurrió.",
-              "Siempre que se identifique un incidente, sin esperar a estar seguro de los hechos.",
-              "Cuando el Jefe de Grupo lo autorice, después de revisar el caso con calma."
+              "Cuando se identifica el incidente, sin esperar a estar seguro de lo que pasó realmente.",
+              "Cuando el Jefe de Grupo lo autorice, después de revisar el caso con calma y por escrito."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Después de que envías el reporte, ¿quién analiza el incidente?",
+            "text": "Después de que reportaste por el botón, tu Jefe de Grupo te dice: «pásame lo que sepas, que yo le hago seguimiento al caso». ¿Qué es lo correcto?",
             "options": [
-              "El Jefe de Grupo, que es quien conoce el contexto de la unidad.",
-              "El Comité de Gestión de Incidentes.",
-              "El referente regional de A Salvo del Peligro de tu región."
+              "Que el caso lo analiza el Comité de Gestión de Incidentes y el seguimiento no le toca a él.",
+              "Que le pases la información, porque es el responsable de la unidad y le toca saber qué pasa.",
+              "Que el seguimiento lo lleve el referente regional de A Salvo del Peligro de tu misma región."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -508,7 +524,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Has estado en una conversación de adultos scouts donde se comentó el caso de un chico con gente que no tenía por qué saberlo? No hace falta que des nombres ni detalles. Escribe qué habrías dicho para cortar esa conversación, en una frase que puedas usar la próxima vez."
+        "prompt": "¿Has estado en una conversación de adultos scouts donde se comentó el caso de un chico con gente que no tenía por qué saberlo? No hace falta que des nombres ni detalles. Escribe qué habrías dicho para cortar esa conversación, en una frase que puedas usar la próxima vez. Y si nunca te ha pasado, mejor: escribe la frase igual, para tenerla lista el día que pase."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -517,20 +533,20 @@
           {
             "text": "Un dirigente lleva un caso al consejo de grupo «para que entre todos decidan qué hacer». ¿Es correcto?",
             "options": [
-              "Sí: el consejo es el órgano de la unidad y debe conocer lo que pasa en ella.",
-              "No: ampliar el círculo a quien no debe intervenir es ocultar mal, no cuidar.",
-              "Sí, siempre que el consejo firme un acta de confidencialidad antes de hablar."
+              "No, salvo que el consejo firme antes un acta de confidencialidad sobre ese caso.",
+              "No: amplía el círculo a quien no debe intervenir, y eso es ocultar mal, no cuidar.",
+              "Sí: el consejo es el órgano de la unidad y debe conocer lo que pasa dentro de ella."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Según la Política, ¿cabe guardar un secreto sobre un posible delito contra un miembro?",
+            "text": "La mamá de una protagonista te pide, llorando, que no reportes lo que te contó su hija: dice que la familia lo va a manejar en casa. ¿Qué haces?",
             "options": [
-              "Sí, si la familia lo pide expresamente para proteger al menor de edad.",
-              "No cabe: la Política lo excluye de forma expresa.",
-              "Sí, mientras no existan pruebas que confirmen que el hecho ocurrió."
+              "Reportas igual. No le prometes que no lo harás: le dices que hay personas que tienen que saberlo para poder ayudar a su hija, y que eso no está en tus manos decidirlo.",
+              "Respetas la decisión de la familia, que es la que tiene la patria potestad sobre la menor: si ellos dicen que lo van a manejar en casa, no te corresponde a ti pasar por encima.",
+              "Esperas unos días a ver si la familia lo resuelve por su cuenta, y reportas solo si al cabo de esa semana ves que no hicieron nada y la niña sigue exactamente igual."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       }
@@ -586,11 +602,7 @@
         },
         {
           "type": "paragraph",
-          "text": "No es un detalle de nomenclatura. La Guía de Prevención, que sigue siendo un documento útil y vigente en mucho de lo que dice, recomienda en su página 15 «contactar al Referente ASP para recibir la asesoría de la ruta a activar», y lo repite en su lista de qué hacer. <strong>El consejo sigue siendo bueno; el destinatario cambió.</strong>"
-        },
-        {
-          "type": "paragraph",
-          "text": "Hoy, lo que hacía aquel referente lo hacen el <strong>Comité de Gestión de Incidentes</strong> y el <strong>Coordinador o Coordinadora Nacional de Gestión de Incidentes</strong>, y se llega a ellos <strong>por el botón</strong>. La Política es explícita en que nadie distinto de los integrantes designados de la Comisión Nacional puede recibir y gestionar reportes a nombre de la Asociación."
+          "text": "La Guía de Prevención, útil y vigente en mucho de lo que dice, todavía recomienda en su página 15 «contactar al Referente ASP para recibir la asesoría de la ruta a activar»: <strong>el consejo sigue siendo bueno; el destinatario cambió.</strong> Hoy, lo que hacía aquel referente lo hacen el <strong>Comité de Gestión de Incidentes</strong> y el <strong>Coordinador o Coordinadora Nacional de Gestión de Incidentes</strong>, y se llega a ellos <strong>por el botón</strong>. Nadie distinto de los integrantes designados de la Comisión Nacional puede recibir y gestionar reportes a nombre de la Asociación."
         },
         {
           "type": "info-box",
@@ -598,7 +610,7 @@
         }
       ],
       "reflection": {
-        "prompt": "De las cinco cosas que no te corresponden, ¿cuál te costaría más no hacer si mañana pasara algo en tu unidad? Sé honesto contigo mismo: escribe cuál es y por qué. Saber de antemano dónde vas a sentir la tentación es la mejor manera de no caer en ella."
+        "prompt": "De las cinco cosas que no te corresponden, ¿cuál te costaría más no hacer si mañana pasara algo en tu unidad? Sé honesto contigo mismo: escribe cuál es y por qué. Saber de antemano dónde vas a sentir la tentación es la mejor manera de no caer en ella. Piensa en un chico o una chica concretos de tu unidad, sin escribir su nombre, y responde pensando en esa situación."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -607,9 +619,9 @@
           {
             "text": "Un dirigente recibe una revelación y llama al referente regional de A Salvo del Peligro de su región para pedir orientación. ¿Qué pasa con esa decisión hoy?",
             "options": [
-              "Es correcta: el referente regional de la Política es la primera instancia de orientación.",
-              "Ese rol ya no recibe casos: hoy se entra por el botón y lo toma el Comité.",
-              "Es correcta, siempre y cuando además llene el formulario del botón inmediatamente después."
+              "Es correcta: el referente regional de su región es la primera instancia de orientación.",
+              "Es un rol que ya no recibe casos: hoy se entra por el botón y el caso lo toma el Comité.",
+              "Es correcta si además llena el formulario del botón inmediatamente después de llamar."
             ],
             "correctIndex": 1
           },
@@ -647,11 +659,19 @@
         },
         {
           "type": "paragraph",
-          "text": "La misma página añade el compromiso de «reconocer y garantizar que las personas adultas dentro Scouts de Colombia sean cuidadas, acompañadas y protegidas». Eso habilita cosas muy concretas: que puedas decir «no me siento cómodo con cómo me habla ese compañero» sin que se lea como deslealtad. Que si acompañaste una revelación y te dejó mal, buscar apoyo no sea una debilidad sino lo esperable."
+          "text": "Eso habilita cosas muy concretas: que puedas decir «no me siento cómodo con cómo me habla ese compañero» sin que se lea como deslealtad. Que si acompañaste una revelación y te dejó mal, buscar apoyo no sea una debilidad sino lo esperable."
         },
         {
           "type": "mission-box",
           "text": "Tu trabajo no era descubrir qué pasó. Era que la persona no estuviera sola. <strong>Que tú tampoco lo estés es parte de la misma política.</strong>"
+        },
+        {
+          "type": "info-box",
+          "text": "🫂 <strong>Y si este curso te removió algo tuyo.</strong> Pasa, y pasa más de lo que se dice en voz alta: mucha gente llega al voluntariado con una historia propia. La política que acabas de leer te nombra a ti también — dice que los adultos de Scouts de Colombia deben ser «cuidadas, acompañadas y protegidas», y que tu bienestar emocional «también es una responsabilidad colectiva». Eso no lo resuelve un curso. Si algo se movió, no lo cargues solo: habla con alguien en quien confíes, dentro o fuera del grupo, y si necesitas apoyo profesional, búscalo. La Guía se lo dice a quien acompaña con estas palabras: conocer los propios límites y buscar la ayuda de otros es parte del oficio, no una falla."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Y algo que conviene no confundir con lo anterior:</strong> si lo que te pasa a ti está ocurriendo <strong>dentro del Movimiento</strong> —acoso, abuso de poder, el trato de un compañero—, eso sí es un incidente, y el botón también es tuyo. La política promete canales «accesibles, confidenciales y seguros para todas las personas», y protección frente a represalias."
         },
         {
           "type": "heading",
@@ -660,33 +680,32 @@
         },
         {
           "type": "paragraph",
-          "text": "Tres frases cortas, para completar y mostrar a tu consejo. Están pensadas para revisarse en una semana: una cambia una conducta, otra te deja lista una herramienta, y la tercera es la que de verdad te va a salvar el momento difícil."
+          "text": "Tres frases cortas, para completar y mostrar a tu consejo. Una cambia una conducta y otra te deja lista una herramienta: esas dos las puedes revisar en una semana. La tercera no se revisa, se ensaya — y es la que de verdad te va a salvar el momento difícil."
         },
         {
-          "type": "list",
-          "ordered": false,
-          "items": [
-            "Esta semana voy a ____________ para que mi unidad o mi equipo de adultos esté más cerca de la práctica 2+1.",
-            "Guardé el acceso al botón «Me Pongo A Salvo del Peligro» en ____________.",
-            "Si mañana alguien me revelara algo, mi primera frase sería: ____________."
-          ]
+          "type": "mission-box",
+          "text": "<strong>Tus tres frases.</strong> Cópialas en el cuadro de abajo y complétalas con tus palabras.<br><br><strong>1.</strong> Esta semana voy a… para que mi unidad o mi equipo de adultos esté más cerca de la práctica 2+1.<br><strong>2.</strong> Guardé el acceso al botón «Me Pongo A Salvo del Peligro» en…<br><strong>3.</strong> Si mañana alguien me revelara algo, mi primera frase sería…"
+        },
+        {
+          "type": "paragraph",
+          "text": "Al final del curso, después del certificado, vas a encontrar un cuadro que dice «Compromiso Personal». Pega ahí tu frase 1 — la de esta semana. Es la que el sistema guarda aparte, y la que vas a querer volver a leer el domingo."
         }
       ],
       "reflection": {
-        "prompt": "Escribe tus tres compromisos completos, con tus palabras. El tercero es el más importante: si no te sale solo, vuelve a la Lección 3 y tómala prestada hasta que la hagas tuya."
+        "prompt": "Escribe aquí tus tres frases completas, numeradas. La 1 es una conducta que puedes revisar el domingo. La 2 es un hecho: o guardaste el acceso o no. La 3 no se verifica, se ensaya — si no te sale sola, vuelve a la Lección 3 y tómala prestada hasta que la hagas tuya. Cuando las tengas, cópialas y mándaselas a tu Jefe de Grupo o llévalas al próximo consejo: un compromiso que alguien más conoce se cumple mucho más."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
         "nextLabel": "Finalizar el curso 🎓",
         "questions": [
           {
-            "text": "Según la Política 2025, la cultura de protección entre adultos busca:",
+            "text": "Un compañero del consejo te corrige siempre delante de los demás. Te incomoda, pero piensas que sacarlo del equipo sería exagerado. ¿Qué dice la política?",
             "options": [
-              "Que los adultos vigilen el comportamiento de sus compañeros y lo reporten al Comité.",
-              "Que los conflictos entre adultos se resuelvan siempre en la Corte de Honor Nacional.",
-              "Que los adultos también sean cuidados y puedan expresar preocupaciones."
+              "Que aguantes: airear un problema entre adultos fuera del equipo desgasta al grupo sin necesidad.",
+              "Que decirlo es lo esperado: la política pide que las preocupaciones se puedan expresar de forma segura.",
+              "Que hables solo si vuelve a pasar delante de los protagonistas de la unidad."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           },
           {
             "text": "Terminando el curso, un compañero te dice: «entonces si me cuentan algo, ¿no hago nada?». ¿Qué le respondes?",
@@ -747,6 +766,6 @@
   ],
   "certificate": {
     "courseName": "EL ADULTO COMO GARANTE: REPORTAR, NO INVESTIGAR",
-    "description": "ha completado el Curso 03 de la Línea Políticas Transversales — El Adulto como Garante, reconociendo la posición de garante que le atribuyen la ley y la Promesa Scout, la práctica 2+1 como medida que protege a menores y adultos, la conducta debida ante una revelación, la ruta oficial de reporte y el límite expreso de su rol, que en ningún caso es investigativo ni de gestión del reporte, al servicio de los entornos seguros de la Asociación Scouts de Colombia"
+    "description": "ha completado el Curso 03 de la Línea Políticas Transversales — El Adulto como Garante, reconociendo la posición de garante que le atribuyen la ley y la Promesa Scout, la práctica 2+1 como medida que protege a menores y adultos, la conducta debida ante una revelación, la ruta oficial de reporte y el límite expreso de su rol, que en ningún caso es investigativo ni de gestión del reporte, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
   }
 }
