@@ -1,5 +1,5 @@
 {
-  "name": "pruebas-e2e-di",
+  "name": "pruebas-e2e-politicas-transversales",
   "version": "0.1.0",
   "private": true,
   "description": "Pruebas E2E con Playwright para la Linea Politicas Transversales (auditoria funcional: smoke, enlaces, a11y, responsive, persistencia, flujo del alumno).",

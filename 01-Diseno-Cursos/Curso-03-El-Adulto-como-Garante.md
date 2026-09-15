@@ -394,7 +394,7 @@ Y el reconocimiento explícito de la misma página: *"Reconocer y garantizar que
 
 > **Por qué estos tres.** Uno cambia una conducta, otro deja lista una herramienta y el tercero **ensaya la frase**, que es lo que de verdad falla en el momento real. Los tres son verificables por el propio adulto en una semana.
 
-**Bloque 5 · Mini-quiz (1 pregunta).**
+**Bloque 5 · Mini-quiz (2 preguntas).** La segunda es de síntesis del curso completo — y además el esquema exige mínimo dos por lección, cosa que el build rechazó en el primer intento.
 
 **P1.** Según la Política 2025, la cultura de protección entre adultos busca:
 - a) Que los adultos vigilen el comportamiento de sus compañeros y lo reporten.
@@ -462,9 +462,9 @@ Y el reconocimiento explícito de la misma página: *"Reconocer y garantizar que
 | **Microlearning** (5–7 min por lección) | 7 lecciones de 4–6 min. La 3 es la más larga (6) por ser la de conducta. |
 | **Hook de una frase, repetible** | Enunciado en la intro, referenciado en L3, cierra en L7 en eco. |
 | **Patrón anti-definición — variante** | **Variante A** en la Lección 1: la cita del Manual p. 11 es la más densa y jurídica del curso (*"posición de garante… en virtud de la cual"*), y en seco aleja al lector. Las demás lecciones usan **Variante B**: contexto antes de la cita. Registrado aquí por exigencia del `CREAR-CURSO` §6.2. |
-| **Quizzes de escenario, no de memoria** | 13 preguntas; **11 plantean una situación** y piden decidir. Solo P2 de L1 y P1 de L7 son de comprensión directa, y ancladas a cita literal. |
-| **Un distractor = la idea vieja** | Explícito en L1-P1, L2-P1, L3-P1, L4-P1 y L6-P2. En **L4-P2 el distractor es el rol superado**, que es el error más probable de un adulto ya formado. |
-| **Sesgo de longitud** | Opciones de longitud pareja en las 13 preguntas. Sin `<strong>` ni `<em>` en ninguna opción. |
+| **Quizzes de escenario, no de memoria** | 14 preguntas; **12 plantean una situación** y piden decidir. Solo P2 de L1 y P1 de L7 son de comprensión directa, y ancladas a cita literal. |
+| **Un distractor = la idea vieja** | Explícito en L1-P1, L2-P1, L3-P1, L4-P1, L6-P2 y en la de síntesis de L7. En **L4-P2 el distractor es el rol superado**, que es el error más probable de un adulto ya formado. |
+| **Sesgo de longitud** | **La primera versión lo tenía: en 9 de 13 preguntas la correcta era la opción más larga (69 %).** Lo detectó la verificación mecánica sobre el JSON, no la lectura. Se reescribieron 9 preguntas alargando distractores —lo que además los hace más plausibles— y acortando tres correctas: **ahora es 0 de 14**. Sin `<strong>` ni `<em>` en ninguna opción. De paso se repartió `correctIndex`, que estaba fijo en 1 en las 13. |
 | **Reflexiones aterrizadas** | Las 7 piden un caso concreto, una fecha o una frase propia. Las de L3 y L4 hacen **ensayar**, no solo pensar. |
 | **Compromiso firmable y mostrable** | Tres campos verificables en una semana (L7). |
 | **Andragogía (Knowles)** | El adulto llega con experiencia: cada lección parte de algo que ya hizo o creyó, no de la norma. L6 reconoce expresamente que **su formación previa quedó desactualizada** en vez de ignorarlo. |

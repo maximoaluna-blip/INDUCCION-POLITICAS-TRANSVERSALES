@@ -122,14 +122,14 @@ function loadProgress() {
 }
 
 // calculateAssessment eliminada (14-sep-2026, ADR-034 Fase 2): renderizaba el
-// perfil de competencias del adulto con grados de dominio. Desarrollo Institucional
-// no tiene ningun curso con self-assessment ni plan-builder (0 de 6) y la funcion no
-// se invocaba: codigo muerto heredado al copiar el motor de Politica de Adultos.
-// Sus cadenas viajaban igualmente dentro de los 6 HTML compilados.
+// perfil de competencias del adulto con grados de dominio. Esta linea heredo el
+// motor de Desarrollo Institucional el 15-sep-2026 y tampoco tiene ningun curso con
+// self-assessment: la funcion no se invoca desde ninguna parte. Se deja constancia
+// porque sus cadenas viajaban dentro de cada HTML compilado, que es como se detecto.
 
 // loadProfileIntoPlan eliminada (14-sep-2026, ADR-034 Fase 1): cargaba el perfil de
-// competencias del ADULTO. Desarrollo Institucional no tiene ningun curso con
-// self-assessment ni plan-builder (0 de 6); era codigo copiado de Politica de Adultos.
+// competencias del ADULTO, que ninguna leccion de esta linea produce. El plan-builder
+// del Curso 06 sera propio y declarara sus labels en el JSON del curso (ADR-034 Fase 1).
 
 
 // generatePlan ya no vive aqui (14-sep-2026, ADR-034 Fase 1 B): esta en el nucleo,
