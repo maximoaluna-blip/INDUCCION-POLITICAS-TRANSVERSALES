@@ -671,6 +671,7 @@ ${certificateHtml}
         totalModules: ${totalModules},
         contentModules: ${contentModules},
         googleScriptUrl: ${JSON.stringify(googleUrl)},
+        lineName: "Políticas Transversales",
         achievements: ${JSON.stringify(course.achievements)}
     };
 
