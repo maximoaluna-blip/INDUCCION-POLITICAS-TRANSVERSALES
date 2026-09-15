@@ -2,7 +2,7 @@
 
 > **Línea Políticas Transversales · Nivel 1 (Ruta de Fundamentación) · `adulto-garante-entorno-seguro`**
 > **Vertical slice de la línea.** Es el curso de mayor riesgo doctrinal y mayor valor: si pasa las tres auditorías, el patrón de la línea queda validado (plan de línea, Hito B).
-> Diseñado el 15-sep-2026. **Sin auditar todavía.**
+> Diseñado el 15-sep-2026. **Auditado doctrinalmente el mismo día** (`auditor-doctrinal-asc`): APTO CON CORRECCIONES MENORES → correcciones aplicadas → **re-auditoría: contenido APTO**, 0 críticos y 0 mayores nuevos en `.md` y JSON. Lo que quedó pendiente al cerrar no es del contenido: el rótulo de línea del certificado **PDF**, que vive en el núcleo compartido y afecta a tres líneas publicadas. **Falta la auditoría pedagógica.**
 >
 > **Todas las citas de este documento se verificaron contra el PDF fuente**, no contra un informe ni contra otro curso. Donde el texto extraído traía artefactos de composición (la Política 2025 se extrae con letras espaciadas), se normalizó para leer, nunca para citar de memoria.
 
@@ -35,7 +35,7 @@ Al terminar, el adulto podrá:
    - *Política Nacional a Salvo del Peligro (dic-2025), p. 26.*
    - **Alcance (ADR-038):** el concepto y la norma viven aquí. Su aplicación a **planear la actividad** —Hoja de Ruta, pernocta, transporte, actividad acuática— es del curso `a-salvo-del-peligro-programa` de Programa de Jóvenes. Este curso **enlaza, no reexplica**.
 2. **Ejecutar** los pasos ante una revelación: escuchar sin presionar, no prometer secreto, no interrogar, reportar por el canal oficial y acompañar.
-   - *Guía de Prevención y Atención del Daño (2020-2021), pp. 21–22; Política 2025, pp. 44–45.*
+   - *Guía de Prevención y Atención del Daño (2020-2021), pp. 21–22; Política 2025, p. 44.*
 3. **Delimitar** su rol frente a las instancias competentes: qué le corresponde y qué está **expresamente fuera** de su función.
    - *Manual Operativo ASP (2023), pp. 11 y 22; Política 2025, p. 29.*
 
@@ -108,7 +108,7 @@ Apertura con el hook. Luego, tres avisos que van en `info-box` y que **no se neg
 
 **Bloque 4-bis · La otra mitad, que es scout.** La obligación no nace solo del Código Penal. Política 2025, p. 21:
 
-> *"Los principios y valores contenidos en la Ley y la Promesa Scout se constituyen como la principal herramienta para la existencia de entornos seguros dentro del Movimiento Scout en todos sus niveles y áreas."*
+> *"Los principios y valores contenidos en la Ley y la Promesa Scout se constituyen como la principal herramienta para la existencia de entornos seguros dentro del Movimiento Scout en todos sus niveles y áreas…"*
 
 Es el puente con el tono de la línea: **educación por el amor, no por el temor**. El adulto no reporta porque le da miedo la ley; reporta porque prometió hacer todo cuanto de él dependa.
 
@@ -146,7 +146,7 @@ Es el puente con el tono de la línea: **educación por el amor, no por el temor
 
 **Bloque 3 · Cita oficial** (`policy-quote`). Política 2025, p. 26:
 
-> *"La estrategia 2+1 es una medida de protección utilizada para evitar posibles situaciones de riesgo, abuso o malentendidos. Consiste en asegurar que siempre haya al menos tres personas presentes durante las actividades, interacciones o acompañamientos: dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores, tanto en comunicaciones entre adultos-adultos, adultos-jóvenes, jóvenes-jóvenes."*
+> *"La estrategia 2+1 es una medida de protección utilizada para evitar posibles situaciones de riesgo, abuso o malentendidos. Consiste en asegurar que siempre haya al menos tres personas presentes durante las actividades, interacciones o acompañamientos: dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores, tanto en comunicaciones entre adultos - adultos, adultos - jóvenes, jóvenes - jóvenes"*
 
 **Bloque 4 · Aterrizaje al plano del adulto** (`method-grid`, 4 tarjetas). Escenarios de **cualquier adulto**, no solo del que dirige unidad:
 
@@ -189,6 +189,12 @@ Es el puente con el tono de la línea: **educación por el amor, no por el temor
 
 **Bloque 2 · Desarrollo.** Reencuadre del hook. Lo que el adulto quiere hacer —preguntar, confirmar, entender— es lo que **no** debe hacer, y no por trámite: porque interrogar revictimiza y puede arruinar la actuación de quien sí tiene que investigar. La Guía lo dice sin rodeos (p. 15): interrogar *"inquisitivamente"* a la presunta víctima *"se puede convertir en otra vulneración de derechos"*.
 
+**Bloque 2-bis · Cita oficial** (`policy-quote`). Guía de Prevención y Atención del Daño (2020-2021), p. 15:
+
+> *"Es importante que en ningún momento se le falte al respeto a la presunta víctima, juzgando, poniendo en evidencia o interrogando inquisitivamente al niño, la niña, adolescente o joven, o adulto, ya que esto se puede convertir en otra vulneración de derechos para los mismos…"*
+
+> ⚠️ **El corte va marcado, y se explica** (hallazgo M2 de la auditoría del curso). La frase de la Guía no termina ahí: sigue con coma —*", las preguntas deben ser claras y concisas y solo para tomar información que en realidad ayude a esclarecer la situación."*—, justo donde la Guía de 2021 todavía admitía preguntar. Por eso la cita cierra con **puntos suspensivos** y debajo va un `info-box`: *"La Guía es de 2021 y todavía contemplaba que preguntaras un poco. La Política de 2025 cerró esa puerta: tu función no es investigativa. Manda la Política."* Es el **ADR-035** dicho en cristiano, y refuerza la Lección 6.
+
 **Bloque 3 · Dos columnas** (`method-grid`), tomadas literalmente de la Guía, pp. 21–22:
 
 | ✅ Qué hacer | ❌ Qué no hacer o decir |
@@ -213,11 +219,13 @@ Es el puente con el tono de la línea: **educación por el amor, no por el temor
 **Bloque 7 · Mini-quiz (2 preguntas).**
 
 **P1.** Un protagonista te dice: *"te cuento algo si prometes no decirle a nadie."* ¿Qué haces?
-- a) Prometes, porque si no, no te va a contar y perderás la oportunidad de ayudar.
+- a) Prometes que no dirás nada: si no se lo prometes no va a contarte, y perderás la oportunidad de ayudarlo.
 - b) **Le dices que vas a cuidar lo que te cuente, y que si alguien debe saberlo para ayudarlo, se lo dirás.** ✅
-- c) Le dices que primero te cuente y después deciden juntos qué hacer con esa información.
+- c) Le pides que te cuente primero y después deciden entre los dos qué hacer con esa información.
 
 > Distractor (a) = la idea vieja, y es la que más gente elige: la promesa parece el precio de la confianza.
+
+> **Se cuida la información, no la persona** (hallazgo m7). Una versión acortada de la correcta decía *"vas a cuidarlo"*, que promete otra cosa — y más de lo que el adulto puede prometer. Se restaura *"vas a cuidar lo que te cuente"*. **Control de longitud:** al restaurarla la correcta quedó en 101 caracteres y pasaba a ser la más larga de su pregunta, así que se **alargó el distractor (a)** hasta 105 — nunca se acorta la correcta. (c) quedó en 93.
 
 **P2.** Después de una revelación, el primer impulso de muchos adultos es preguntar detalles para entender bien qué pasó. Según esta lección, ¿por qué no?
 - a) Porque no es asunto del adulto y podría meterse en problemas legales.
@@ -236,20 +244,31 @@ Es el puente con el tono de la línea: **educación por el amor, no por el temor
 
 > *"La ruta oficial para presentar un reporte de incidentes es el botón «Me Pongo A Salvo del Peligro», el cual se encuentra ubicado en la página de Scouts de Colombia; allí se diligencia el formulario, disponible en todo momento y desde cualquier dispositivo. En eventos nacionales se dispondrá de códigos QR de fácil acceso, que remitan al formulario de reporte de incidentes."*
 
-> ⚠️ **Nombre — y solo este.** La pieza con el código QR que publica la biblioteca se titula *"Me Siento a Salvo del Peligro"*. Es un **eslogan de la pieza**, no el nombre del mecanismo. El curso enseña **«Me Pongo A Salvo del Peligro»**, que es como lo nombra la Política. *(Hallazgo m8 de la auditoría del plan.)*
+> ⚠️ **Nombre — y solo este.** La pieza con el código QR que publica la biblioteca aparece en la biblioteca catalogada como *"Me Siento a Salvo del Peligro"*, pero lo que la pieza imprime es *"Aquí estoy para que te sientas A Salvo del Peligro"*. Es el **título con que la biblioteca la cataloga**, no un eslogan y no el nombre del mecanismo. El curso enseña **«Me Pongo A Salvo del Peligro»**, que es como lo nombra la Política. *(Hallazgo m8 de la auditoría del plan.)*
 
 > ⚠️ **Sobre la URL.** El proyecto tiene registrado `https://forms.gle/PPgbS1U4ip5t5Q1PA` en `../CLAUDE.md` §8, pero **ninguna fuente oficial la imprime**: la Política solo dice *"en la página de Scouts de Colombia"*. **Verificar en vivo antes de publicar.** Si no responde, el curso enseña **la ruta** —entrar por `scout.org.co` y buscar el botón— y no la URL, que puede cambiar sin avisarnos.
 
-**Bloque 3 · Qué pasa después** (`timeline`, 4 pasos). Es la parte que nadie explica y la que más tranquiliza al que duda si reportar. Política 2025, Anexo 3, p. 44:
+**Bloque 3 · Qué pasa después** (`timeline`, **3 pasos**). Es la parte que nadie explica y la que más tranquiliza al que duda si reportar. Política 2025, Anexo 3, p. 44:
 
-1. **Análisis del incidente** — por el **Comité de Gestión de Incidentes**
-2. **Toma de decisiones** — determinar las acciones apropiadas
-3. **Activación de rutas** — implementar rutas internas y externas
-4. **Seguimiento**, con esta garantía textual:
+1. **Análisis del incidente** — *"Por el Comité de Gestión de Incidentes"*
+2. **Toma de decisiones** — *"Determinar acciones apropiadas"*
+3. **Activación de rutas** — *"Implementar rutas internas/externas"*
+
+> ⚠️ **Son tres, y ahí termina la lista.** El Anexo 3 de la p. 44 numera **exactamente tres** pasos. El párrafo de garantías **no es un cuarto paso**: empieza *"**Durante el trámite**…"* y es transversal a los tres. Y la palabra «**Seguimiento**» no aparece en la p. 44 — viene del Manual 2023 §8.4, que es otro documento y otro plano. *(Hallazgo M1 de la auditoría del curso.)*
+
+**Bloque 3-bis · Las garantías** (`info-box`, inmediatamente debajo del `timeline`). Texto del curso:
+
+> *"Y durante todo el trámite, tres garantías: que se respete el debido proceso, que la información se maneje con confidencialidad, y que se cuide a las víctimas."*
+
+Respaldo textual, Política 2025, p. 44:
 
 > *"Durante el trámite, se garantiza el respeto al debido proceso y la imparcialidad en la valoración de los hechos, se mantiene la confidencialidad en el manejo de la información, salvaguardando la dignidad de todas las personas involucradas, y se establecen estrategias de sensibilización y de cuidado de las víctimas."*
 
 **Bloque 4 · Reformulación** (`info-box`). *"Tú llenas un formulario. A partir de ahí, el caso lo lleva gente designada para eso. No tienes que saber cómo sigue — tienes que asegurarte de que empiece."*
+
+**Bloque 4-bis · Y no esperes a estar seguro** (`paragraph`). Se ancla en la frase más corta y más fuerte que el curso ya cita — Manual Operativo de la Política A Salvo del Peligro (2023), p. 22: *"todas las situaciones deberán reportarse"*. Se reporta lo que se identifica, no lo que se confirma.
+
+> ⚠️ **Sin la etiqueta «principio de precaución»** (hallazgo m5). El principio existe —*Manual Operativo* §5.3, p. 9—, pero **la palabra «precaución» no aparece en la Política 2025**, y el ADR-035 obliga a citar Manual y Guía con título y año. La frase del Manual p. 22 dice lo mismo, en cristiano y con fuente.
 
 **Bloque 5 · Reflexión.**
 
@@ -264,7 +283,7 @@ Es el puente con el tono de la línea: **educación por el amor, no por el temor
 - b) **Siempre que se identifique un incidente, sin esperar a estar seguro de los hechos.** ✅
 - c) Cuando el Jefe de Grupo lo autorice tras revisar el caso.
 
-> Distractor (a) = *"esperar a estar seguro"*, que es la puerta de atrás del «primero averiguo». El Manual lo cierra con el principio de precaución (p. 9).
+> Distractor (a) = *"esperar a estar seguro"*, que es la puerta de atrás del «primero averiguo». El Manual lo cierra en cinco palabras: *"todas las situaciones deberán reportarse"* (p. 22).
 
 **P2.** Después de que envías el reporte, ¿quién analiza el incidente?
 - a) El Jefe de Grupo, que conoce el contexto de la unidad.
@@ -283,7 +302,7 @@ Es el puente con el tono de la línea: **educación por el amor, no por el temor
 
 **Bloque 2 · Desarrollo.** La confusión es honesta: el adulto que calla suele creer que está protegiendo. La Política corta por lo sano (p. 21):
 
-> *"todas las personas en Scouts de Colombia tienen así la obligación de informar, derivar o reportar según sea el incidente, cualquier acción que represente un posible delito o vulnere la dignidad de sus miembros, a los Sistemas estatales de Salud, Protección y/o Justicia, así como a los órganos disciplinarios y de protección de Scouts de Colombia. En ese sentido, **no cabrá la posibilidad de guardar ningún secreto**, ni será permitido ocultar información."*
+> *"todas las personas en Scouts de Colombia tienen así la obligación de informar, derivar o reportar según sea el incidente, cualquier acción que represente un posible delito o vulnere la dignidad de sus miembros, a los Sistemas estatales de Salud, Protección y/o Justicia, así como a los órganos disciplinarios y de protección de Scouts de Colombia. En ese sentido, **no cabrá la posibilidad de guardar ningún secreto**, ni será permitido ocultar información, en cada una de las circunstancias anteriormente mencionadas."*
 
 > 🧩 **Esta cita también sostiene la fórmula.** Fíjate en el *"así como"*: los dos destinos son **acumulativos**. Reportar a la ASC no reemplaza avisar al Estado, ni al revés.
 
@@ -326,7 +345,7 @@ Es el puente con el tono de la línea: **educación por el amor, no por el temor
 
 **Bloque 2 · Cita oficial** (`policy-quote`). Manual Operativo ASP, p. 22 — con la lista completa de instancias:
 
-> *"A Salvo del Peligro es una instancia de acompañamiento y garantía en los procesos de promoción, prevención, y atención de situaciones de riesgo, por ende, **NO DEBE entenderse como instancia de carácter judicial, de atención en salud mental o física o disciplinaria**, puesto que estos escenarios deberán ser asumidos por las autoridades competentes, entiéndase Policía Nacional, Fiscalía, Comisarías de Familia, ICBF, Hospitales, Clínicas, Psicóloga/o Tratante y Corte de Honor Nacional (corte.honor@scout.org.co), entre otros, no obstante, todas las situaciones deberán reportarse."*
+> *"A Salvo del Peligro es una instancia de acompañamiento y garantía en los procesos de promoción, prevención, y atención de situaciones de riesgo, por ende, **NO DEBE entenderse como instancia de carácter judicial, de atención en salud mental o física o disciplinaria**, puesto que estos escenarios deberán ser asumidos por las autoridades competentes, entiéndase Policía Nacional, Fiscalía, Comisarías de Familia, ICBF, Hospitales, Clínicas, Psicóloga/o Tratante y Corte de Honor Nacional […], entre otros, no obstante, todas las situaciones deberán reportarse e independientemente del canal por el cuál ingresó el reporte deberá ser trasladado para conocimiento de las otras instancias para lo de su competencia (principio de coordinación)"*
 
 Y el límite del rol del adulto, Política 2025, p. 29: *"clarificar alcance del rol del adulto en estos incidentes, entendiendo que **en ningún caso su función será de carácter investigativo y de gestión del reporte**."*
 
@@ -335,7 +354,7 @@ Y el límite del rol del adulto, Política 2025, p. 29: *"clarificar alcance del
 1. **Investigar** — ni preguntar de más, ni reconstruir los hechos.
 2. **Gestionar el reporte** — el caso no lo llevas tú.
 3. **Diagnosticar** — ni salud mental, ni física.
-4. **Disciplinar** — eso es de la Corte de Honor.
+4. **Disciplinar** — eso es de la Corte de Honor Nacional.
 5. **Decidir si «amerita»** — esa valoración es del Comité, no tuya.
 
 **Bloque 4 · Y ahora la parte que envejece mal** (`mission-box`) — **el corazón doctrinal de la lección**:
@@ -394,7 +413,11 @@ Y el reconocimiento explícito de la misma página: *"Reconocer y garantizar que
 
 > **Por qué estos tres.** Uno cambia una conducta, otro deja lista una herramienta y el tercero **ensaya la frase**, que es lo que de verdad falla en el momento real. Los tres son verificables por el propio adulto en una semana.
 
-**Bloque 5 · Mini-quiz (2 preguntas).** La segunda es de síntesis del curso completo — y además el esquema exige mínimo dos por lección, cosa que el build rechazó en el primer intento.
+**Bloque 5 · Mini-quiz (2 preguntas).**
+- **P1** sobre la cultura de protección entre adultos (Política p. 30).
+- **P2, de síntesis del curso completo:** *"un compañero te dice «entonces si me cuentan algo, ¿no hago nada?»"* — la correcta es *"hace tres cosas: protege, reporta y acompaña; lo único que no hace es investigar"*, y el distractor es *"primero confirme si el caso es grave"*.
+
+El esquema exige mínimo dos preguntas por lección, y el build rechazó el primer intento con una.
 
 **P1.** Según la Política 2025, la cultura de protección entre adultos busca:
 - a) Que los adultos vigilen el comportamiento de sus compañeros y lo reporten.
@@ -462,9 +485,9 @@ Y el reconocimiento explícito de la misma página: *"Reconocer y garantizar que
 | **Microlearning** (5–7 min por lección) | 7 lecciones de 4–6 min. La 3 es la más larga (6) por ser la de conducta. |
 | **Hook de una frase, repetible** | Enunciado en la intro, referenciado en L3, cierra en L7 en eco. |
 | **Patrón anti-definición — variante** | **Variante A** en la Lección 1: la cita del Manual p. 11 es la más densa y jurídica del curso (*"posición de garante… en virtud de la cual"*), y en seco aleja al lector. Las demás lecciones usan **Variante B**: contexto antes de la cita. Registrado aquí por exigencia del `CREAR-CURSO` §6.2. |
-| **Quizzes de escenario, no de memoria** | 14 preguntas; **12 plantean una situación** y piden decidir. Solo P2 de L1 y P1 de L7 son de comprensión directa, y ancladas a cita literal. |
+| **Quizzes de escenario, no de memoria** | 14 preguntas. **Unas 9 plantean una situación** y piden decidir; las demás —L1-P2, L2-P2, L4-P1, L6-P2 y L7-P1— son de comprensión directa y están ancladas a cita literal. *(El conteo original decía 12 y la re-auditoría lo corrigió: conviene no inflar el acta.)* |
 | **Un distractor = la idea vieja** | Explícito en L1-P1, L2-P1, L3-P1, L4-P1, L6-P2 y en la de síntesis de L7. En **L4-P2 el distractor es el rol superado**, que es el error más probable de un adulto ya formado. |
-| **Sesgo de longitud** | **La primera versión lo tenía: en 9 de 13 preguntas la correcta era la opción más larga (69 %).** Lo detectó la verificación mecánica sobre el JSON, no la lectura. Se reescribieron 9 preguntas alargando distractores —lo que además los hace más plausibles— y acortando tres correctas: **ahora es 0 de 14**. Sin `<strong>` ni `<em>` en ninguna opción. De paso se repartió `correctIndex`, que estaba fijo en 1 en las 13. |
+| **Sesgo de longitud** | **La primera versión lo tenía: en 9 de 13 preguntas la correcta era la opción más larga (69 %).** Lo detectó la verificación mecánica sobre el JSON, no la lectura. Se reescribieron 9 preguntas alargando distractores —lo que además los hace más plausibles— y acortando tres correctas: **ahora es 0 de 14**. Sin `<strong>` ni `<em>` en ninguna opción. De paso se repartió `correctIndex`, que estaba fijo en 1 en las 14. |
 | **Reflexiones aterrizadas** | Las 7 piden un caso concreto, una fecha o una frase propia. Las de L3 y L4 hacen **ensayar**, no solo pensar. |
 | **Compromiso firmable y mostrable** | Tres campos verificables en una semana (L7). |
 | **Andragogía (Knowles)** | El adulto llega con experiencia: cada lección parte de algo que ya hizo o creyó, no de la norma. L6 reconoce expresamente que **su formación previa quedó desactualizada** en vez de ignorarlo. |
@@ -478,7 +501,7 @@ Y el reconocimiento explícito de la misma página: *"Reconocer y garantizar que
 |---|---|
 | **Convertirse en manual de detección** con listas de señales que inviten a diagnosticar | Las señales se **reservan al Nivel 2** y la intro lo dice. Ninguna lección las enumera. |
 | **Enseñar un rol que ya no existe** («referente ASP», «Escuchadero», «DURAS-I») | La Lección 6 lo aborda de frente, y los términos se **glosan como de 2021-2023**. El auditor doctrinal lo verifica contra `GLOSARIO-ASC.md` §C-bis. |
-| **Que un quiz tenga como correcta una conducta prohibida** | Regla de la línea: **ningún quiz puede tener como respuesta correcta «averiguar», «confrontar» o «resolver internamente»**. Las 13 preguntas se revisaron contra esa regla. |
+| **Que un quiz tenga como correcta una conducta prohibida** | Regla de la línea: **ningún quiz puede tener como respuesta correcta «averiguar», «confrontar» o «resolver internamente»**. Las 14 preguntas se revisaron contra esa regla. |
 | **Presentar como norma el orden de la fórmula** | Va marcado como inferencia en §3 y en la L3, pendiente de la consulta a la Comisión Nacional ASP. |
 | **Revictimizar con los ejemplos** | Sin nombres, sin detalles, sin escenas. Los casos son de **conducta del adulto**, nunca de la experiencia de la víctima. |
 | **Sustituir el módulo oficial** | `info-box` fijo en la intro, con el texto de la exigencia n.º 1 del plan de línea. |

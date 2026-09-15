@@ -95,7 +95,7 @@
           "type": "policy-quote",
           "label": "📋 Ver el texto de la Política Nacional",
           "source": "Política Nacional a Salvo del Peligro — «Haré todo cuanto de mí dependa» (Acuerdo C.S.N. 657 del 3 de diciembre de 2025), p. 21.",
-          "text": "Los principios y valores contenidos en la Ley y la Promesa Scout se constituyen como la principal herramienta para la existencia de entornos seguros dentro del Movimiento Scout en todos sus niveles y áreas."
+          "text": "Los principios y valores contenidos en la Ley y la Promesa Scout se constituyen como la principal herramienta para la existencia de entornos seguros dentro del Movimiento Scout en todos sus niveles y áreas…"
         },
         {
           "type": "paragraph",
@@ -152,7 +152,7 @@
           "type": "policy-quote",
           "label": "📋 Ver la definición oficial",
           "source": "Política Nacional a Salvo del Peligro (diciembre de 2025), p. 26.",
-          "text": "La estrategia 2+1 es una medida de protección utilizada para evitar posibles situaciones de riesgo, abuso o malentendidos. Consiste en asegurar que siempre haya al menos tres personas presentes durante las actividades, interacciones o acompañamientos: dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores, tanto en comunicaciones entre adultos-adultos, adultos-jóvenes, jóvenes-jóvenes."
+          "text": "La estrategia 2+1 es una medida de protección utilizada para evitar posibles situaciones de riesgo, abuso o malentendidos. Consiste en asegurar que siempre haya al menos tres personas presentes durante las actividades, interacciones o acompañamientos: dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores, tanto en comunicaciones entre adultos - adultos, adultos - jóvenes, jóvenes - jóvenes"
         },
         {
           "type": "heading",
@@ -256,7 +256,11 @@
           "type": "policy-quote",
           "label": "📋 Ver el texto de la Guía",
           "source": "Guía de Prevención y Atención del Daño (Scouts de Colombia, 2020-2021), p. 15.",
-          "text": "Es importante que en ningún momento se le falte al respeto a la presunta víctima, juzgando, poniendo en evidencia o interrogando inquisitivamente al niño, la niña, adolescente o joven, o adulto, ya que esto se puede convertir en otra vulneración de derechos para los mismos."
+          "text": "Es importante que en ningún momento se le falte al respeto a la presunta víctima, juzgando, poniendo en evidencia o interrogando inquisitivamente al niño, la niña, adolescente o joven, o adulto, ya que esto se puede convertir en otra vulneración de derechos para los mismos…"
+        },
+        {
+          "type": "info-box",
+          "text": "⏳ <strong>Una nota sobre esta cita.</strong> La Guía es de 2021 y todavía contemplaba que preguntaras un poco. La Política de 2025 cerró esa puerta: tu función no es investigativa. Manda la Política."
         },
         {
           "type": "heading",
@@ -337,9 +341,9 @@
           {
             "text": "Un protagonista te dice: «te cuento algo si prometes no decirle a nadie». ¿Qué haces?",
             "options": [
-              "Prometes que no dirás nada: si no lo haces no va a contarte, y perderás la oportunidad de ayudarlo.",
-              "Le pides que te cuente primero y después deciden juntos qué hacer con esa información.",
-              "Le dices que vas a cuidarlo, y que si alguien debe saberlo para ayudarlo, se lo dirás."
+              "Prometes que no dirás nada: si no se lo prometes no va a contarte, y perderás la oportunidad de ayudarlo.",
+              "Le pides que te cuente primero y después deciden entre los dos qué hacer con esa información.",
+              "Le dices que vas a cuidar lo que te cuente, y que si alguien debe saberlo para ayudarlo, se lo dirás."
             ],
             "correctIndex": 2
           },
@@ -377,7 +381,7 @@
         },
         {
           "type": "info-box",
-          "text": "📛 <strong>El nombre, y solo este.</strong> Vas a ver por ahí una pieza con código QR titulada «Me Siento a Salvo del Peligro». Es el eslogan de esa pieza, no el nombre del mecanismo. El botón se llama <strong>«Me Pongo A Salvo del Peligro»</strong>, que es como lo nombra la política."
+          "text": "📛 <strong>El nombre, y solo este.</strong> Vas a ver una pieza con código QR que en la biblioteca aparece como «Me Siento a Salvo del Peligro». Ese no es el nombre del mecanismo. El botón se llama <strong>«Me Pongo A Salvo del Peligro»</strong>, que es como lo nombra la política."
         },
         {
           "type": "heading",
@@ -402,12 +406,12 @@
             {
               "title": "3 · Activación de rutas",
               "description": "Se implementan las rutas internas y externas que correspondan."
-            },
-            {
-              "title": "4 · Con garantías durante todo el trámite",
-              "description": "Debido proceso, imparcialidad en la valoración de los hechos, confidencialidad en el manejo de la información, y estrategias de cuidado de las víctimas."
             }
           ]
+        },
+        {
+          "type": "info-box",
+          "text": "Y durante todo el trámite, tres garantías: que se respete el debido proceso, que la información se maneje con confidencialidad, y que se cuide a las víctimas."
         },
         {
           "type": "info-box",
@@ -415,7 +419,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Y no esperes a estar seguro. El principio que rige aquí es el de precaución: se reporta lo que se identifica, no lo que se confirma. Confirmar es trabajo de otros, y ese trabajo no puede empezar si el reporte no llega."
+          "text": "Y no esperes a estar seguro. El Manual Operativo de la Política A Salvo del Peligro (2023) lo dice en una frase corta, en su página 22: «todas las situaciones deberán reportarse». Se reporta lo que se identifica, no lo que se confirma. Confirmar es trabajo de otros, y ese trabajo no puede empezar si el reporte no llega."
         }
       ],
       "reflection": {
@@ -464,7 +468,7 @@
           "type": "policy-quote",
           "label": "📋 Ver la Declaración de compromiso",
           "source": "Política Nacional a Salvo del Peligro (diciembre de 2025), p. 21.",
-          "text": "todas las personas en Scouts de Colombia tienen así la obligación de informar, derivar o reportar según sea el incidente, cualquier acción que represente un posible delito o vulnere la dignidad de sus miembros, a los Sistemas estatales de Salud, Protección y/o Justicia, así como a los órganos disciplinarios y de protección de Scouts de Colombia. En ese sentido, no cabrá la posibilidad de guardar ningún secreto, ni será permitido ocultar información."
+          "text": "todas las personas en Scouts de Colombia tienen así la obligación de informar, derivar o reportar según sea el incidente, cualquier acción que represente un posible delito o vulnere la dignidad de sus miembros, a los Sistemas estatales de Salud, Protección y/o Justicia, así como a los órganos disciplinarios y de protección de Scouts de Colombia. En ese sentido, no cabrá la posibilidad de guardar ningún secreto, ni será permitido ocultar información, en cada una de las circunstancias anteriormente mencionadas."
         },
         {
           "type": "info-box",
@@ -549,7 +553,7 @@
           "type": "policy-quote",
           "label": "📋 Ver el texto del Manual Operativo",
           "source": "Manual Operativo de la Política A Salvo del Peligro (V1.0, febrero de 2023), p. 22.",
-          "text": "A Salvo del Peligro es una instancia de acompañamiento y garantía en los procesos de promoción, prevención, y atención de situaciones de riesgo, por ende, NO DEBE entenderse como instancia de carácter judicial, de atención en salud mental o física o disciplinaria, puesto que estos escenarios deberán ser asumidos por las autoridades competentes, entiéndase Policía Nacional, Fiscalía, Comisarías de Familia, ICBF, Hospitales, Clínicas, Psicóloga/o Tratante y Corte de Honor Nacional, entre otros, no obstante, todas las situaciones deberán reportarse."
+          "text": "A Salvo del Peligro es una instancia de acompañamiento y garantía en los procesos de promoción, prevención, y atención de situaciones de riesgo, por ende, NO DEBE entenderse como instancia de carácter judicial, de atención en salud mental o física o disciplinaria, puesto que estos escenarios deberán ser asumidos por las autoridades competentes, entiéndase Policía Nacional, Fiscalía, Comisarías de Familia, ICBF, Hospitales, Clínicas, Psicóloga/o Tratante y Corte de Honor Nacional […], entre otros, no obstante, todas las situaciones deberán reportarse e independientemente del canal por el cuál ingresó el reporte deberá ser trasladado para conocimiento de las otras instancias para lo de su competencia (principio de coordinación)"
         },
         {
           "type": "paragraph",
@@ -567,7 +571,7 @@
             "<strong>Investigar.</strong> Ni preguntar de más, ni reconstruir los hechos.",
             "<strong>Gestionar el reporte.</strong> El caso no lo llevas tú.",
             "<strong>Diagnosticar.</strong> Ni salud mental, ni salud física.",
-            "<strong>Disciplinar.</strong> Eso es de la Corte de Honor.",
+            "<strong>Disciplinar.</strong> Eso es de la Corte de Honor Nacional.",
             "<strong>Decidir si «amerita».</strong> Esa valoración es del Comité, no tuya."
           ]
         },

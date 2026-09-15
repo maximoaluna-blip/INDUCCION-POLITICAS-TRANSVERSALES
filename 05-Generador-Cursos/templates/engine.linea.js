@@ -350,7 +350,7 @@ function savePracticesCatalog(catalogId) {
     if (statusEl) {
         var ambitosMarked = Object.keys(data).filter(function (k) { return data[k].state; }).length;
         statusEl.classList.remove('hidden');
-        statusEl.innerHTML = '<strong>✅ Tu catálogo se guardó.</strong> ' + ambitosMarked + ' de 8 ámbitos marcados. Puedes modificarlo y volver a guardar.';
+        statusEl.innerHTML = '<strong>✅ Tu catálogo se guardó.</strong> ' + ambitosMarked + ' ámbitos marcados. Puedes modificarlo y volver a guardar.';
         statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
     showNotification('✅ Catálogo guardado');
@@ -416,16 +416,12 @@ function getCatalogData(catalogId) {
 }
 
 function getAmbitoDisplayName(ambitoId) {
-    var names = {
-        'gobernanza': '🏛️ Gobernanza',
-        'administracion': '🗂️ Administración',
-        'recursos-economicos': '💰 Recursos Económicos',
-        'comunicaciones': '📣 Comunicaciones',
-        'relaciones-internacionales': '🌐 Relaciones Internacionales',
-        'crecimiento': '📈 Crecimiento',
-        'gestion-del-riesgo': '🛡️ Gestión del Riesgo',
-        'control-y-reconocimiento': '🏅 Control y Reconocimiento'
-    };
+    // Vaciado el 15-sep-2026 (M4): eran los 8 ambitos de Desarrollo Institucional
+    // (Gobernanza, Administracion, Recursos Economicos, Comunicaciones, Relaciones
+    // Internacionales, Crecimiento, Gestion del Riesgo, Control y Reconocimiento).
+    // Politicas Transversales no tiene ambitos propios: hasta que los tenga, se
+    // devuelve el id crudo en vez de un nombre de otra linea.
+    var names = {};
     return names[ambitoId] || ambitoId;
 }
 
@@ -435,7 +431,7 @@ function renderCatalogDisplays() {
         var mode = el.getAttribute('data-mode') || 'full';
         var data = getCatalogData(catalogId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá antes el curso que lo alimenta y guardá tu catálogo.</div>';
             return;
         }
         var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
@@ -479,32 +475,13 @@ function renderCatalogDisplays() {
 // Catalogo de 24 metas-tipo (8 ambitos x 3 tipologias) + plan-builder
 // ============================================================
 
-var META_TIPO_CATALOG = [
-    { id: 'G-doc', tipologia: 'doc', ambito: 'Gobernanza', plazo: 6, label: '🟢 G-doc · Escribir la práctica de gobernanza del grupo y compartirla con la región (6 meses)' },
-    { id: 'G-fort', tipologia: 'fort', ambito: 'Gobernanza', plazo: 3, label: '🟡 G-fort · Implementar firma de acta al cierre + convocar al control financiero al consejo (3 meses)' },
-    { id: 'G-crear', tipologia: 'crear', ambito: 'Gobernanza', plazo: 3, label: '🔴 G-crear · Establecer ritual de reunión del consejo: agenda, acta, decisiones registradas (3 meses)' },
-    { id: 'A-doc', tipologia: 'doc', ambito: 'Administración', plazo: 6, label: '🟢 A-doc · Escribir el procedimiento administrativo del grupo (6 meses)' },
-    { id: 'A-fort', tipologia: 'fort', ambito: 'Administración', plazo: 6, label: '🟡 A-fort · Inventario completo de activos + voluntariado formalizado (6 meses)' },
-    { id: 'A-crear', tipologia: 'crear', ambito: 'Administración', plazo: 3, label: '🔴 A-crear · Lista nominal del equipo y los bienes del grupo (3 meses)' },
-    { id: 'RE-doc', tipologia: 'doc', ambito: 'Recursos Económicos', plazo: 6, label: '🟢 RE-doc · Escribir el plan financiero del grupo (6 fuentes, margen ≥17%) (6 meses)' },
-    { id: 'RE-fort', tipologia: 'fort', ambito: 'Recursos Económicos', plazo: 6, label: '🟡 RE-fort · Libro contable básico + diversificar al menos 2 fuentes adicionales (6 meses)' },
-    { id: 'RE-crear', tipologia: 'crear', ambito: 'Recursos Económicos', plazo: 3, label: '🔴 RE-crear · Abrir cuenta bancaria del grupo si no existe (3 meses)' },
-    { id: 'C-doc', tipologia: 'doc', ambito: 'Comunicaciones', plazo: 6, label: '🟢 C-doc · Escribir el manual de comunicaciones del grupo (6 meses)' },
-    { id: 'C-fort', tipologia: 'fort', ambito: 'Comunicaciones', plazo: 6, label: '🟡 C-fort · Comunicación mensual con familias + protocolo de crisis (6 meses)' },
-    { id: 'C-crear', tipologia: 'crear', ambito: 'Comunicaciones', plazo: 3, label: '🔴 C-crear · Crear el canal mínimo de comunicación con las familias (3 meses)' },
-    { id: 'RI-doc', tipologia: 'doc', ambito: 'Relaciones Internacionales', plazo: 12, label: '🟢 RI-doc · Sistematizar la experiencia internacional del grupo (12 meses)' },
-    { id: 'RI-fort', tipologia: 'fort', ambito: 'Relaciones Internacionales', plazo: 12, label: '🟡 RI-fort · Postular el grupo a un proyecto mundial de OMMS (12 meses)' },
-    { id: 'RI-crear', tipologia: 'crear', ambito: 'Relaciones Internacionales', plazo: 12, label: '🔴 RI-crear · Conectar el grupo con al menos un programa mundial (12 meses)' },
-    { id: 'CR-doc', tipologia: 'doc', ambito: 'Crecimiento', plazo: 6, label: '🟢 CR-doc · Escribir el método de crecimiento del grupo (6 meses)' },
-    { id: 'CR-fort', tipologia: 'fort', ambito: 'Crecimiento', plazo: 6, label: '🟡 CR-fort · Plan de Captación anual + SiScout al día + crecimiento ≥2% (6 meses)' },
-    { id: 'CR-crear', tipologia: 'crear', ambito: 'Crecimiento', plazo: 3, label: '🔴 CR-crear · Registro mensual de ingresos y salidas de membresía (3 meses)' },
-    { id: 'GR-doc', tipologia: 'doc', ambito: 'Gestión del Riesgo', plazo: 6, label: '🟢 GR-doc · Escribir el manual de gestión del riesgo del grupo (6 meses)' },
-    { id: 'GR-fort', tipologia: 'fort', ambito: 'Gestión del Riesgo', plazo: 6, label: '🟡 GR-fort · 100 % del equipo con A Salvo del Peligro + Protocolo de Transporte (6 meses)' },
-    { id: 'GR-crear', tipologia: 'crear', ambito: 'Gestión del Riesgo', plazo: 3, label: '🔴 GR-crear · Protocolo mínimo en TODAS las salidas (3 meses)' },
-    { id: 'CT-doc', tipologia: 'doc', ambito: 'Control y Reconocimiento', plazo: 12, label: '🟢 CT-doc · Escribir el sistema de control y reconocimientos del grupo (12 meses)' },
-    { id: 'CT-fort', tipologia: 'fort', ambito: 'Control y Reconocimiento', plazo: 6, label: '🟡 CT-fort · Asamblea Anual según Reglamento + reconocimiento anual de dirigentes (6 meses)' },
-    { id: 'CT-crear', tipologia: 'crear', ambito: 'Control y Reconocimiento', plazo: 3, label: '🔴 CT-crear · Verificar y poner al día la documentación legal del grupo (3 meses)' }
-];
+// Vaciado el 15-sep-2026 (hallazgo M4 de la auditoria doctrinal del Curso 03):
+// traia el curriculo de Desarrollo Institucional -sus 8 ambitos, sus 24 metas-tipo
+// y sus Cursos 11/12/13/14/20/22- heredado al copiar el motor, y viajaba dentro de
+// cada HTML compilado de ESTA linea. Politicas Transversales todavia no configura
+// este componente: al construir el Curso 06 se rellena con lo propio (semaforo ASP
+// de 17 items, tres compromisos) o se borra la maquinaria que no se use.
+var META_TIPO_CATALOG = [];
 
 // --- Brujula display (lee reflexion del Curso 2 L6 desde localStorage cross-curso) ---
 function getBrujulaText(sourceCourseId, sourceModule) {
@@ -520,15 +497,15 @@ function getBrujulaText(sourceCourseId, sourceModule) {
 
 function renderBrujulaDisplays() {
     document.querySelectorAll('.brujula-display').forEach(function (el) {
-        var srcCourse = el.getAttribute('data-source-course') || 'pndi-marco-y-principios';
+        var srcCourse = el.getAttribute('data-source-course') || '';
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
         if (!txt || !txt.trim()) {
-            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, definí tu brújula como reflexión en el <strong>Curso 2 — La Política PNDI: Marco y Principios — Lección 6</strong>. Si ya lo hiciste en otro dispositivo, pulsá "Recuperar mi avance" en la pantalla de inicio.</div>';
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, definí tu brújula como reflexión en el curso que la alimenta. Si ya lo hiciste en otro dispositivo, pulsá "Recuperar mi avance" en la pantalla de inicio.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-display-content">' +
-            '<div class="brujula-display-label">🧭 Tu brújula personal del Curso 2:</div>' +
+            '<div class="brujula-display-label">🧭 Tu brújula personal:</div>' +
             '<blockquote class="brujula-display-text">' + escapeHtml(txt) + '</blockquote>' +
         '</div>';
     });
@@ -538,15 +515,11 @@ function renderBrujulaDisplays() {
 function detectarPrincipioEnBrujula(txt) {
     if (!txt) return null;
     var low = txt.toLowerCase();
-    var principios = [
-        { keys: ['participación juvenil', 'participacion juvenil'], name: 'Participación Juvenil', advice: 'Priorizá metas que involucren a los chicos en las decisiones. Por ejemplo: en <strong>CR-fort</strong> (Plan de Captación) involucrá al clan; en <strong>C-fort</strong> (comunicación con familias) usá un boletín hecho con los rovers.' },
-        { keys: ['normatividad'], name: 'Normatividad', advice: 'Cuidá el cumplimiento del marco legal y reglamentario. <strong>CT-crear</strong> (documentación legal) y <strong>GR-crear/GR-fort</strong> (protocolos de riesgo) saltan al primer lugar de tu lista.' },
-        { keys: ['coherencia'], name: 'Coherencia', advice: 'Que lo que prometemos lo cumplamos. <strong>C-fort</strong> (comunicación mensual con familias) y <strong>CT-fort</strong> (Asamblea según Reglamento) van al frente.' },
-        { keys: ['colectividad', 'consenso'], name: 'Colectividad y Consenso', advice: 'Las decisiones se toman con todos los actores. <strong>G-crear/G-fort</strong> (gobernanza con actas y control colegiado) suben en prioridad.' },
-        { keys: ['aspiracional', 'transformacional'], name: 'Aspiracional y Transformacional', advice: 'Empujá metas que muevan al grupo hacia adelante. <strong>RI-fort/RI-crear</strong> (proyectos mundiales OMMS) y <strong>CR-fort</strong> (crecimiento ≥2 %) primero.' },
-        { keys: ['prospectiva'], name: 'Prospectiva', advice: 'Decidí pensando en 5-10 años. <strong>RE-doc</strong> (plan financiero) y <strong>CT-doc</strong> (sistema de control) priman.' },
-        { keys: ['dinamismo', 'flexibilidad'], name: 'Dinamismo y Flexibilidad', advice: 'Adaptarse al entorno cambiante. <strong>A-fort</strong> (inventario actualizado) y <strong>C-fort</strong> (canales de comunicación modernos) primero.' }
-    ];
+    // Vaciado el 15-sep-2026 (M4): eran los principios de la PNDI de Desarrollo
+    // Institucional mapeados a SUS codigos de meta (CR-fort, CT-crear, G-crear...),
+    // que ya no existen aqui porque META_TIPO_CATALOG se vacio. Politicas
+    // Transversales no tiene todavia un catalogo propio de principios.
+    var principios = [];
     for (var i = 0; i < principios.length; i++) {
         for (var j = 0; j < principios[i].keys.length; j++) {
             if (low.indexOf(principios[i].keys[j]) !== -1) return principios[i];
@@ -557,12 +530,12 @@ function detectarPrincipioEnBrujula(txt) {
 
 function renderBrujulaActions() {
     document.querySelectorAll('.brujula-action').forEach(function (el) {
-        var srcCourse = el.getAttribute('data-source-course') || 'pndi-marco-y-principios';
+        var srcCourse = el.getAttribute('data-source-course') || '';
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
         var matched = detectarPrincipioEnBrujula(txt);
         if (!matched) {
-            el.innerHTML = '<div class="brujula-action-empty">ℹ️ Definí tu brújula en el <strong>Curso 2 — Lección 6</strong> (con uno de los 7 principios) y volvé a esta lección para ver tu sugerencia personalizada.</div>';
+            el.innerHTML = '<div class="brujula-action-empty">ℹ️ Definí tu brújula en el curso que la alimenta y volvé a esta lección para ver tu sugerencia personalizada.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-action-content">' +
@@ -575,22 +548,19 @@ function renderBrujulaActions() {
 // --- Courses suggestion (lee catalogo y propone cursos N2 segun brechas) ---
 function renderCoursesSuggestions() {
     document.querySelectorAll('.courses-suggestion').forEach(function (el) {
-        var catId = el.getAttribute('data-catalog-id') || 'catalogo-buenas-practicas-grupo';
+        var catId = el.getAttribute('data-catalog-id') || '';
         var data = getCatalogData(catId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completá tu catálogo en el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong>.</div>';
+            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completá antes el curso que lo alimenta.</div>';
             return;
         }
-        var coursesByAmbito = {
-            'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
-            'administracion': '🗂️ Curso 9 — Administración del Grupo',
-            'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
-            'comunicaciones': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
-            'relaciones-internacionales': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
-            'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
-            'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
-            'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina (Nivel 3)'
-        };
+        // Vaciado el 15-sep-2026 (hallazgo M4 de la auditoria doctrinal del Curso 03):
+        // traia el curriculo de Desarrollo Institucional -sus 8 ambitos, sus 24 metas-tipo
+        // y sus Cursos 11/12/13/14/20/22- heredado al copiar el motor, y viajaba dentro de
+        // cada HTML compilado de ESTA linea. Politicas Transversales todavia no configura
+        // este componente: al construir el Curso 06 se rellena con lo propio (semaforo ASP
+        // de 17 items, tres compromisos) o se borra la maquinaria que no se use.
+        var coursesByAmbito = {};
         var suggestions = [];
         Object.keys(data).forEach(function (aid) {
             var state = (data[aid].state || '').toLowerCase();
@@ -603,16 +573,16 @@ function renderCoursesSuggestions() {
         var top3 = suggestions.slice(0, 3);
         if (top3.length === 0) {
             el.innerHTML = '<div class="courses-suggestion-content courses-suggestion-strong">' +
-                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — considerá tomar el <strong>Curso 22 (Buenas Prácticas Institucionales)</strong> del Nivel 4 para documentar y compartir tus prácticas con la región.</p>' +
+                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — seguí documentando lo que ya hacés bien para documentar y compartir tus prácticas con la región.</p>' +
             '</div>';
             return;
         }
-        var html = '<div class="courses-suggestion-content"><p><strong>Cursos del Nivel 2 sugeridos según tu catálogo:</strong></p><ul class="courses-suggestion-list">';
+        var html = '<div class="courses-suggestion-content"><p><strong>Sugerencias según tu catálogo:</strong></p><ul class="courses-suggestion-list">';
         top3.forEach(function (s) {
             var stLabel = s.state === 'no' ? '🔴 NO' : '🟡 PARCIAL';
             html += '<li><strong>' + s.course + '</strong> <em>(tu ámbito está en ' + stLabel + ')</em></li>';
         });
-        html += '</ul><p class="courses-suggestion-disclaimer">📅 Los Cursos 7-14 del Nivel 2 están en construcción; esta sugerencia te orienta para cuando estén disponibles.</p></div>';
+        html += '</ul><p class="courses-suggestion-disclaimer">📅 Esta sugerencia te orienta para cuando los cursos estén disponibles.</p></div>';
         el.innerHTML = html;
     });
 }
@@ -645,7 +615,7 @@ function renderGoalSlot(planId, idx) {
         options += '<option value="' + m.id + '">' + escapeHtml(m.label) + '</option>';
     });
     if (currentAmbito) options += '</optgroup>';
-    options += '<option value="custom">✏️ Una meta propia (no de las 24)</option>';
+    options += '<option value="custom">✏️ Una meta propia</option>';
     return '<div class="goal-slot" data-slot-idx="' + idx + '">' +
         '<h4 class="goal-slot-title">Meta ' + (idx + 1) + '</h4>' +
         '<label class="goal-field-label">Elegí una meta-tipo o creá una propia:</label>' +
@@ -799,8 +769,8 @@ function buildPlanPrintableHTML(planId) {
     var grupo = (userProfile && userProfile.group) || '—';
     var region = (userProfile && userProfile.region) || '—';
     var dateStr = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
-    var catalog = getCatalogData('catalogo-buenas-practicas-grupo') || {};
-    var brujula = getBrujulaText('pndi-marco-y-principios', '6') || '';
+    var catalog = getCatalogData('') || {};
+    var brujula = getBrujulaText('', '6') || '';
     var plan = personalPlans[planId] || { goals: [] };
     var adopted = (plan.goals || []).filter(function (g) { return g && g.metaId; });
 
@@ -823,7 +793,7 @@ function buildPlanPrintableHTML(planId) {
             (attrs ? '<p class="pp-cat-attrs"><em>Atributos:</em> ' + escapeHtml(attrs) + '</p>' : '') +
             '</div>';
     });
-    if (!catalogHTML) catalogHTML = '<p><em>Sin catálogo registrado todavía. Completá el Curso 5.</em></p>';
+    if (!catalogHTML) catalogHTML = '<p><em>Sin catálogo registrado todavía. Completá antes el curso que lo alimenta.</em></p>';
 
     var goalsHTML = '';
     adopted.forEach(function (g, idx) {
@@ -844,16 +814,13 @@ function buildPlanPrintableHTML(planId) {
     if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Volvé al plan-builder y elegí al menos una meta antes de generar el PDF.</em></p>';
 
     // Suggested N2 courses
-    var coursesByAmbito = {
-        'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
-        'administracion': '🗂️ Curso 9 — Administración del Grupo',
-        'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
-        'comunicaciones': '📣 Curso 12 — Comunicaciones',
-        'relaciones-internacionales': '📣 Curso 12 — Comunicaciones',
-        'crecimiento': '📈 Curso 13 — Crecimiento',
-        'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
-        'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina'
-    };
+    // Vaciado el 15-sep-2026 (hallazgo M4 de la auditoria doctrinal del Curso 03):
+    // traia el curriculo de Desarrollo Institucional -sus 8 ambitos, sus 24 metas-tipo
+    // y sus Cursos 11/12/13/14/20/22- heredado al copiar el motor, y viajaba dentro de
+    // cada HTML compilado de ESTA linea. Politicas Transversales todavia no configura
+    // este componente: al construir el Curso 06 se rellena con lo propio (semaforo ASP
+    // de 17 items, tres compromisos) o se borra la maquinaria que no se use.
+    var coursesByAmbito = {};
     var sugg = [];
     Object.keys(catalog).forEach(function (aid) {
         var state = (catalog[aid].state || '').toLowerCase();
@@ -864,7 +831,7 @@ function buildPlanPrintableHTML(planId) {
     sugg.sort(function (a, b) { return a.priority - b.priority; });
     var top3 = sugg.slice(0, 3);
     var coursesHTML = top3.length ? '<ul>' + top3.map(function (s) { return '<li>' + s.course + '</li>'; }).join('') + '</ul>' :
-        '<p><em>Tu grupo está sólido — considerá el Curso 22 (Buenas Prácticas Institucionales) del Nivel 4 para documentar y compartir tus prácticas.</em></p>';
+        '<p><em>Tu grupo está sólido — seguí documentando y compartiendo tus prácticas.</em></p>';
 
     return '<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">' +
         '<title>Mi Aporte al DI — ' + escapeHtml(fullName) + '</title>' +
@@ -891,7 +858,7 @@ function buildPlanPrintableHTML(planId) {
             '.pp-footer{text-align:center;margin-top:40px;padding-top:10px;border-top:1px solid #eee;font-size:0.85em;color:#999;}' +
             '@media print{body{margin:0;}h1,h2{page-break-after:avoid;}}' +
         '</style></head><body>' +
-        '<h1>📋 ' + escapeHtml(planTitle || 'Mi plan personal') + '</h1>' +
+        '<h1>📋 ' + escapeHtml(planTitle || 'Mi plan de compromisos') + '</h1>' +
         '<p class="pp-meta"><strong>' + escapeHtml(fullName) + '</strong> · Grupo ' + escapeHtml(grupo) + ' · Región ' + escapeHtml(region) + ' · ' + dateStr + '</p>' +
         '<h2>1. Mi catálogo</h2>' +
         '<div class="pp-summary">' +
