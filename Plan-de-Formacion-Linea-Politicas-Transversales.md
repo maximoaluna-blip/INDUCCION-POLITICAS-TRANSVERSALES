@@ -376,7 +376,7 @@ Todas las claves llevan apellido de línea (ADR-025 / ADR-034), se declaran en `
 
 ### 8.1 Estado actual (14 de septiembre de 2026)
 
-- Línea **por construir**. Carpeta creada con este plan, `INVENTARIO-FUENTES.md`, `README.md` y `AUDITORIA-PLAN-v0.1.md`. Sin `CREAR-CURSO.md`, sin `01-Diseno-Cursos/`, sin repo, sin backend.
+- Línea **por construir**. Carpeta con este plan, `INVENTARIO-FUENTES.md`, `README.md`, `AUDITORIA-PLAN-v0.1.md` y `CONSULTA-DNDI-ASP.md`. Sin `CREAR-CURSO.md`, sin `01-Diseno-Cursos/`, sin backend. **Repo propio desde el 15-sep-2026** (`maximoaluna-blip/INDUCCION-POLITICAS-TRANSVERSALES`, **privado** — ADR-036); cuando se instancie la línea, la estructura del `_TEMPLATE-LINEA/` se construye **dentro de este repo**, no en uno nuevo.
 - Nueve documentos oficiales descargados el 14-sep-2026 a `DOCUMENTOS BASE/` (ver `INVENTARIO-FUENTES.md`); **ya registrados** en `INVENTARIO-DOCUMENTOS-BASE.md` v1.1 (§2 y §3-bis), `CHANGELOG-DOCTRINA.md` y `GLOSARIO-ASC.md`.
 - **Bloqueo levantado (15-sep-2026):** el **ADR-035** quedó **aceptado** —la Política 2025 prevalece— y ya no impide construir. **El único bloqueo que queda es del Curso 04**, a la espera del texto del **Acuerdo C.S.N. 405**, que no está publicado en la biblioteca (verificado el 15-sep: no existe categoría «acuerdos») y hay que pedir a la Cancillería Nacional.
 - `PORTAL-ADULTOS-ASC/lineas.json` y `PORTAL-ADMIN-ASC/dashboards.json`: `status: "coming-soon"`, `coursesPlanned: null`. No tocar hasta aprobar el plan.

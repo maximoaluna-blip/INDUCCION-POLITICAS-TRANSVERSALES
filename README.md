@@ -3,7 +3,7 @@
 > **Estado: borrador v0.2 (15-sep-2026) — correcciones de la auditoría APLICADAS.** El plan fue auditado el 14-sep-2026 (`AUDITORIA-PLAN-v0.1.md`: APTO CON CORRECCIONES, 1 crítico, 8 mayores, 12 menores, 8 no verificables) y el 15-sep se aplicaron las 21 correcciones al plan y a `INVENTARIO-FUENTES.md`, más los colaterales de `GLOSARIO-ASC.md` (v1.6).
 > **ADR-035 cerrado el 15-sep-2026 — ACEPTADO:** la Política 2025 prevalece sobre el Manual Operativo 2023 y la Guía 2021 en lo que difieran (fundamento: p. 31 de la Política, que ordena alinear todo el marco normativo de la ASC a ella). **Se levantó el bloqueo: la línea puede construirse.**
 > **Lo que sigue abierto, porque lo decide el dueño:** el reparto con el curso ASP de Programa de Jóvenes y el nivel de detalle admisible para las señales de abuso. **El Curso 04 sigue bloqueado aparte**, a la espera del texto del Acuerdo C.S.N. 405.
-> Nada de esta carpeta está aprobado, construido ni publicado; la carpeta no tiene repo ni git.
+> Nada de esta carpeta está aprobado, construido ni publicado. **Desde el 15-sep-2026 sí tiene repo:** `maximoaluna-blip/INDUCCION-POLITICAS-TRANSVERSALES`, **privado a propósito** (ADR-036) — los otros repos de línea son públicos porque sirven contenido ya publicado; este guarda un borrador no aprobado de doctrina de protección infantil. **Pasa a público cuando la línea se publique y GitHub Pages lo necesite.**
 > Es la cuarta línea de la plataforma (A Salvo del Peligro, Diversidad e Inclusión, Gestión para la Motivación) y la única que todavía no existe como repo.
 
 ## Qué hay aquí
