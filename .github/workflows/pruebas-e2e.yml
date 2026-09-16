@@ -36,7 +36,7 @@ jobs:
       - name: Recompilar cursos
         working-directory: 05-Generador-Cursos
         run: |
-          for c in bienvenida-politicas-transversales pndi-marco-y-principios niveles-y-estructura-movimiento los-8-ambitos-de-gestion buenas-practicas-en-tu-grupo mi-aporte-al-politicas-transversales; do
+          for c in adulto-garante-entorno-seguro; do
             node build-course.js "$c"
           done
 
@@ -48,7 +48,7 @@ jobs:
           python3 -m http.server 8099 --directory "$GITHUB_WORKSPACE" >/tmp/srv.log 2>&1 &
           SRV=$!
           for i in $(seq 1 15); do
-            curl -sf -o /dev/null "http://localhost:8099/02-Plataforma-Web/bienvenida-politicas-transversales.html" && break
+            curl -sf -o /dev/null "http://localhost:8099/02-Plataforma-Web/adulto-garante-entorno-seguro.html" && break
             sleep 1
           done
           set +e
