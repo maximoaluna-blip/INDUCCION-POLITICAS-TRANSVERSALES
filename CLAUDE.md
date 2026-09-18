@@ -88,6 +88,20 @@ una compuerta no se hereda de otra: depende de si el término tiene una acepció
 
 ✅ **Leen el JSON fuente, no el catálogo: vigilan también los cursos en `draft`** (el hueco del ADR-052).
 
+## Dónde está la consulta a la DNDI
+
+`CONSULTA-DNDI-ASP.md` **ya no vive aquí**: al publicarse la línea (18-sep-2026) este repo pasó a
+**público**, y ese documento es **correspondencia sin enviar** que nombra a personas reales con su
+cargo, tomadas de los créditos de la Política. Está en el repo privado **`DOCS-MAESTRAS-ASC`**, en su
+raíz, y **se borró también de la historia de este repo** — que nunca fue público y no tenía forks.
+
+**La pregunta que sí bloquea trabajo sigue viva:** sin el texto del **Acuerdo C.S.N. 405** no se diseña
+el **Curso 04**. Lo demás de esa consulta es verificación del ADR-035, no un bloqueo.
+
+⚠️ **Regla que deja:** antes de abrir un repo, mirar qué documentos internos arrastra — y sobre todo si
+alguno **nombra a personas**. El proyecto ya publica sus planes y sus auditorías sin problema; la
+correspondencia es otra cosa.
+
 ## La compuerta antes de publicar
 
 Las **tres auditorías**, que responden preguntas distintas y no se sustituyen:

@@ -9,7 +9,7 @@
     "levelName": "Ruta de Fundamentación",
     "order": 3,
     "modules": 8,
-    "status": "draft",
+    "status": "active",
     "file": "adulto-garante-entorno-seguro.html",
     "folder": "adulto-garante-entorno-seguro"
   },
@@ -23,7 +23,7 @@
     "levelName": "Ruta de Fundamentación",
     "order": 1,
     "modules": 7,
-    "status": "draft",
+    "status": "active",
     "file": "bienvenida-politicas-transversales.html",
     "folder": "bienvenida-politicas-transversales"
   }
