@@ -35,7 +35,7 @@ de 2023 en un curso de 2026 manda al adulto a una puerta que ya no existe. **Tab
 | botón **«Me Pongo A Salvo del Peligro»** | «Botón de Denuncias» · y el eslogan «Me Siento a Salvo del Peligro» de la pieza QR |
 | espacios **¡Óyeme!** con dinamizadores, *"no representa atención en salud mental"* | «Escuchadero» con psicólogo/a — **cambió el modelo** |
 | **DURASLID** (8 rasgos) | «DURAS-I» (6) |
-| **Comité de Gestión de Incidentes** | «referente ASP» — **no tiene heredero regional**: ningún rol regional recibe u orienta casos |
+| **Comité de Gestión de Incidentes** | «referente ASP» — **cambió quién gestiona**: hoy ningún rol regional **gestiona** casos. ⚠️ **No escribir «no existe ningún rol regional»**: el cargo **2.2.30 «Coordinador Regional del Safe From Harm»** sigue en el Manual de Cargos (p. 385) y se llama a sí mismo *«el referente regional»*; lo superado son sus funciones de gestión de casos. **Superado ≠ inexistente** |
 
 **Y la prelación está decidida (ADR-035):** la Política 2025 prevalece sobre el Manual Operativo
 2023 y la Guía 2021 en lo que difieran; Manual y Guía se citan solo para lo que la Política no
@@ -56,8 +56,13 @@ conducta y el límite.**
 
 - **Nada publicado.** El catálogo (`02-Plataforma-Web/cursos.json`) está vacío y la línea no está
   dada de alta en `PORTAL-ADULTOS-ASC/lineas.json` ni en `PORTAL-ADMIN-ASC/dashboards.json`.
-- **En construcción:** el vertical slice del **Curso 03** `adulto-garante-entorno-seguro`, el de
-  mayor riesgo doctrinal y mayor valor de la línea.
+- **Auditados y en compuerta humana, los dos en `draft`:** el **Curso 01**
+  `bienvenida-politicas-transversales` (35 min) y el **Curso 03** `adulto-garante-entorno-seguro`
+  (45 min), el de mayor riesgo doctrinal de la plataforma. **Los dos pasan las tres auditorías.**
+  ⚠️ La del Curso 03 encontró que **la raíz del peor error estaba en `../GLOSARIO-ASC.md`**, no en el
+  curso: dos filas del §C-bis se contradecían sobre el mismo rol, el ancla de esta línea copió la más
+  rotunda y el curso copió el ancla. **Corregido de arriba abajo** (glosario v1.27, esta ficha,
+  `doctrina.json` y el curso). *Corregir solo el curso habría dejado la fuente del error en pie.*
 - **Bloqueado aparte:** el **Curso 04** (`diversidad-e-inclusion-movimiento`) no se diseña hasta
   tener el texto del **Acuerdo C.S.N. 405** — las fuentes discrepan sobre si la política de D&I
   adoptada es la Mundial o la Interamericana, y **no está publicado en la biblioteca**.

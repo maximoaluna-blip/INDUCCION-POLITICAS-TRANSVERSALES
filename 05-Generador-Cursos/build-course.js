@@ -617,8 +617,8 @@ function buildCertificateModule(course, certModuleId) {
 
                 <div class="reflection-area">
                     <h4>🎯 Compromiso Personal</h4>
-                    <p>Escribe tu compromiso como adulto certificado para servir a tu grupo scout y al movimiento:</p>
-                    <textarea id="commitment" placeholder="Mi compromiso como adulto del movimiento es..." onchange="saveCommitment(this.value)"></textarea>
+                    <p>Pega aquí la frase con la que te comprometiste en la última lección: la de esta semana:</p>
+                    <textarea id="commitment" placeholder="Esta semana voy a..." onchange="saveCommitment(this.value)"></textarea>
                 </div>
             </div>`;
 }

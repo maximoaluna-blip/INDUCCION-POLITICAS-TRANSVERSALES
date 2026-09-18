@@ -662,4 +662,30 @@ El esquema exige mínimo dos preguntas por lección, y el build rechazó el prim
 
 ---
 
+
+---
+
+## ⚠️ Lo que las auditorías cambiaron (17-sep-2026) — este diseño NO se reescribió
+
+> **Por qué se marca en vez de corregirse (ADR-057):** el diseño es **fuente histórica**. Si se
+> reescribe, se pierde el rastro de qué se creyó al diseñar y qué apareció al auditar. **Lo que vale
+> hoy es el JSON**, no lo de arriba.
+
+| Dónde | Decía | Dice hoy |
+|---|---|---|
+| **L6** | *«En 2025 no existe ningún rol regional que reciba u oriente casos»* y *«esa puerta no existe»* | **«Ningún rol regional gestiona casos»**. El cargo **2.2.30 «Coordinador Regional del Safe From Harm»** sigue en el *Manual de cargos* (**p. 385**) y su Función 3 es *«ser el referente regional»*; **lo superado son sus funciones de gestión de casos**. **Superado ≠ inexistente** |
+| **Certificado** | *«la posición de garante que le atribuyen la ley y la Promesa Scout»* | La posición la atribuye **la ley**; la Promesa funda el **compromiso**. No son la misma fuente de obligación |
+| **L4** | *«tres garantías: debido proceso, confidencialidad, cuidado a las víctimas»* | **Cuatro**: entra la **imparcialidad en la valoración de los hechos** (Política, p. 44) — que es justo la que tranquiliza a quien duda si reportar |
+| **L4** | *«está preguntado a la Comisión Nacional»* | **«es una pregunta que queda por hacerle»**: la consulta a la DNDI **sigue en borrador, sin enviar** |
+| **L3 / L7** | dos paráfrasis presentadas como palabras de la Guía | Citadas con su ubicación y acotadas a lo que la fuente dice |
+| **L3** | la tarjeta de bolsillo mandaba *«reporta por el botón»* antes de decir qué es | Se define **el botón** —nombre, dónde está, que no hay que pedir permiso— antes de mandar a usarlo |
+| **L4** | ningún sitio nombraba el miedo a equivocarse | Caja propia: *«reportar no es acusar»*. Era **el miedo que más reportes frena** y el único que el curso no tocaba |
+| **L6** | cinco prohibiciones y ninguna contrapartida | Entran **«las tres que sí son tuyas»** — estar, reportar, seguir siendo su dirigente — y por qué el límite **libera** en vez de paralizar |
+| **Registro** | los objetivos de aprendizaje vivían **solo aquí** | El alumno los ve |
+| **Duración** | 40 min estimados | **45 min medidos** (ADR-047): 6.063 palabras |
+
+**Lo que este diseño acertó y conviene no perder:** la tesis —*tu trabajo no es descubrir qué pasó*—,
+la estructura de siete lecciones, y haber puesto la línea roja en el centro. Nada de eso se tocó.
+
+
 _Diseñado el 15 de septiembre de 2026. Citas verificadas contra los PDF de `DOCUMENTOS BASE/`. Ver `../Plan-de-Formacion-Linea-Politicas-Transversales.md` §3.2 (ficha del curso) y `../../DECISIONES.md` ADR-035 y ADR-038._

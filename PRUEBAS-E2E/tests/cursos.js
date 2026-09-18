@@ -18,9 +18,19 @@ const path = require('path');
 const GENERADO = path.join(__dirname, '.cursos.json');
 
 // Fallback: espejo de INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/cursos.json.
-// Hoy la linea tiene UN curso y esta en `draft`, no `active`: es el vertical slice.
-// Se lista igual para que la suite tenga algo que probar en local antes de publicar.
+// Los DOS cursos de la linea estan en `draft`, no `active`, asi que sin este espejo la
+// suite no probaria nada (ADR-052). Se listan para que haya algo que probar en local.
+//
+// ⚠️ ESTA LISTA HAY QUE MANTENERLA A MANO. Decia UN curso hasta el 17-sep-2026, cuando
+// ya habia dos: el Curso 01 llevaba dias sin que ninguna prueba local lo tocara, y la
+// suite pasaba en verde igual. Al anadir un curso a esta linea, anadirlo tambien aqui
+// -hasta que la linea se publique y el globalSetup pueda descargar el catalogo real-.
 const FALLBACK = [
+  {
+    courseId: 'bienvenida-politicas-transversales',
+    file: 'bienvenida-politicas-transversales.html',
+    tituloIncluye: 'Bienvenida',
+  },
   {
     courseId: 'adulto-garante-entorno-seguro',
     file: 'adulto-garante-entorno-seguro.html',
