@@ -2,7 +2,7 @@
 
 > **Línea:** Políticas Transversales · **Nivel 1 — Ruta de Fundamentación** · **`courseId`: `bienvenida-politicas-transversales`** · **`order`: 1**
 > **Estado:** diseño del 17-sep-2026, tras la aprobación del Plan de Línea (**ADR-059**). Primer curso construido de la línea después del 03.
-> **Duración:** se **mide** al cerrar las tres auditorías (**ADR-047**). El plan estimó 25 min; no se declara hasta medir.
+> **Duración: 35 minutos**, medidos al cerrar las tres auditorías (**ADR-047**) — 4.358 palabras a 124,5 pal/min. El plan estimó 25.
 
 ---
 
@@ -54,11 +54,11 @@ La Cartilla (**§2.4, pp. 15–17**) describe el módulo de inducción como *«u
 
 ### Objetivos de aprendizaje
 
-1. **Nombrar** las tres políticas transversales y el documento rector de cada una. ⚠️ **Salvedad del plan, respetada:** para **Diversidad e Inclusión** el curso enseña *que* la ASC la adoptó y remite a la biblioteca, **sin afirmar el título** — las fuentes discrepan sobre qué adoptó el **Acuerdo C.S.N. 405** y el texto no está publicado.
-2. **Situar** las tres dentro del ciclo de vida del adulto: atracción y vinculación · desempeño · decisiones para el futuro.
+1. **Nombrar** las tres políticas transversales y el documento rector **de las dos que hoy se pueden probar**. ⚠️ **Salvedad del plan, respetada:** para **Diversidad e Inclusión** el curso enseña *que* la ASC la adoptó y remite a la biblioteca, **sin afirmar el título** — las fuentes discrepan sobre qué adoptó el **Acuerdo C.S.N. 405** y el texto no está publicado.
+2. ~~**Situar** las tres dentro del ciclo de vida del adulto~~ **RETIRADO el 17-sep-2026** (hallazgo **M2** doctrinal / **H3** pedagógico): el curso **no lo enseñaba ni lo evaluaba** —«atracción y vinculación», «desempeño» y «decisiones para el futuro» no aparecían ni una vez— **y el certificado lo acreditaba**. Sustituido por: **Reconocer** cuáles de las casillas de tu inducción son las de la protección, y por qué la Cartilla las llama *de vital importancia*.
 3. **Explicar** por qué dos de ellas viven en la **Zona de Cascada** del módulo de inducción y la tercera no.
 4. **Distinguir** lo que esta línea ofrece —comprensión y aplicación— de lo que la ASC **exige** por fuera de ella.
-5. **Enumerar** los seis pasos de la fase de inducción que su jefe inmediato le va a pedir.
+5. **Enumerar** los **NUEVE** pasos de la fase de inducción — los seis que su jefe inmediato le pide y los tres que suelen olvidarse. ⚠️ **Este diseño decía «seis» y era falso; ver §9.**
 6. **Escribir** su primer compromiso con una de las tres políticas.
 
 ---
@@ -162,5 +162,22 @@ Es deliberadamente **el opuesto del hito que hay que desactivar**: el curso empi
 
 ## 8. Estado
 
-1. **Hecho:** comprobación de fuentes (§0), corrección al plan (§1), este diseño.
-2. **Pendiente:** JSON y build · auditoría doctrinal · auditoría pedagógica · auditoría funcional · **medir la duración** (ADR-047) · compuerta humana · publicación.
+1. **Hecho el 17-sep-2026:** comprobación de fuentes (§0) · corrección al plan (§1) · este diseño · JSON y build · **auditoría doctrinal** (1 crítico, 8 mayores, 10 menores, 4 no verificables) · **auditoría pedagógica** (4 altos, 9 medios, 8 bajos) · **40 correcciones aplicadas** · **auditoría funcional** (36 passed / 0 failed / 2 skipped, sobre copia con el `status` volteado, ADR-052) · **duración medida** (ADR-047): **4.358 palabras → 35 minutos**, no los 25 que estimó el plan · glosario **v1.26** con tres entradas · **33 filas** de trazabilidad, las primeras de este curso.
+2. **Pendiente:** compuerta humana y publicación.
+
+---
+
+## 9. El crítico, y por qué es de método
+
+> **La fase de inducción tiene NUEVE pasos, no seis — y el número llegó al certificado.**
+>
+> La *Guía — Fase de inducción de Adultos Voluntarios Nuevos* (v1, marzo 2025) tiene **nueve filas** en su columna PASOS. El curso decía **seis** en **siete sitios**: la descripción, un objetivo, la L1, dos veces la L5, la respuesta correcta de un quiz, la reflexión y el **texto del certificado**.
+>
+> **La causa no fue una lectura equivocada: fue una lectura truncada.** Extraje la p. 2 con `[:1600]` y la página tiene **2.861 caracteres**. Corté la fuente por la mitad, y sobre esa mitad construí una lección entera — precisamente la lección cuya tesis es *«lo que la ASC te exige está fuera de esta plataforma»*.
+>
+> **Y lo que se quedó en la mitad no perdida no era relleno.** Los tres pasos que faltaban —**asesor personal**, **valoración inicial por competencias** y **tres meses de acompañamiento con retroalimentación**— son los únicos de los nueve que **necesitan a otra persona**. El curso enumeraba los seis trámites y se dejaba fuera todo el acompañamiento. Hoy la L5 los enseña y remata con eso.
+>
+> **Las dos reglas que deja:**
+> 1. **Al extraer texto de una fuente, imprimir primero su longitud.** Un `[:N]` sin comprobar cuánto había es una cita truncada que no se ve truncada. Ninguna de las tres auditorías habría encontrado esto si el número no estuviera en la fuente: comparan el curso con lo que se les da.
+> 2. **Un número que va al certificado se cuenta dos veces, en la fuente.** Es el tercer curso seguido en el que un dato falso llega al certificado (Curso 15 de PJ, y este). El glosario **v1.26** fija ahora los dos números —seis estaciones del módulo, nueve pasos de la fase— precisamente para que la próxima vez haya contra qué comparar.
+

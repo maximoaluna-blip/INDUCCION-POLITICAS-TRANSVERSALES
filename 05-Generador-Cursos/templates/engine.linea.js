@@ -144,7 +144,7 @@ function recoverProgress() {
     var msgDiv = document.getElementById('recoveryMessage');
 
     if (!email) {
-        showNotification('⚠️ Ingresa tu correo electronico', 'warning');
+        showNotification('⚠️ Ingresa tu correo electrónico', 'warning');
         return;
     }
 
@@ -432,7 +432,7 @@ function renderCatalogDisplays() {
         var mode = el.getAttribute('data-mode') || 'full';
         var data = getCatalogData(catalogId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá antes el curso que lo alimenta y guardá tu catálogo.</div>';
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completa antes el curso que lo alimenta y guarda tu catálogo.</div>';
             return;
         }
         var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
@@ -502,7 +502,7 @@ function renderBrujulaDisplays() {
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
         if (!txt || !txt.trim()) {
-            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, definí tu brújula como reflexión en el curso que la alimenta. Si ya lo hiciste en otro dispositivo, pulsá "Recuperar mi avance" en la pantalla de inicio.</div>';
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, define tu brújula como reflexión en el curso que la alimenta. Si ya lo hiciste en otro dispositivo, pulsa "Recuperar mi avance" en la pantalla de inicio.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-display-content">' +
@@ -536,7 +536,7 @@ function renderBrujulaActions() {
         var txt = getBrujulaText(srcCourse, srcModule);
         var matched = detectarPrincipioEnBrujula(txt);
         if (!matched) {
-            el.innerHTML = '<div class="brujula-action-empty">ℹ️ Definí tu brújula en el curso que la alimenta y volvé a esta lección para ver tu sugerencia personalizada.</div>';
+            el.innerHTML = '<div class="brujula-action-empty">ℹ️ Define tu brújula en el curso que la alimenta y vuelve a esta lección para ver tu sugerencia personalizada.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-action-content">' +
@@ -552,7 +552,7 @@ function renderCoursesSuggestions() {
         var catId = el.getAttribute('data-catalog-id') || '';
         var data = getCatalogData(catId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completá antes el curso que lo alimenta.</div>';
+            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completa antes el curso que lo alimenta.</div>';
             return;
         }
         // Vaciado el 15-sep-2026 (hallazgo M4 de la auditoria doctrinal del Curso 03):
@@ -574,7 +574,7 @@ function renderCoursesSuggestions() {
         var top3 = suggestions.slice(0, 3);
         if (top3.length === 0) {
             el.innerHTML = '<div class="courses-suggestion-content courses-suggestion-strong">' +
-                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — seguí documentando lo que ya hacés bien para documentar y compartir tus prácticas con la región.</p>' +
+                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — sigue documentando lo que ya haces bien para documentar y compartir tus prácticas con la región.</p>' +
             '</div>';
             return;
         }
@@ -605,7 +605,7 @@ function renderGoalPlanners() {
 }
 
 function renderGoalSlot(planId, idx) {
-    var options = '<option value="">— Elegí una meta-tipo —</option>';
+    var options = '<option value="">— Elige una meta-tipo —</option>';
     var currentAmbito = '';
     META_TIPO_CATALOG.forEach(function (m) {
         if (m.ambito !== currentAmbito) {
@@ -619,12 +619,12 @@ function renderGoalSlot(planId, idx) {
     options += '<option value="custom">✏️ Una meta propia</option>';
     return '<div class="goal-slot" data-slot-idx="' + idx + '">' +
         '<h4 class="goal-slot-title">Meta ' + (idx + 1) + '</h4>' +
-        '<label class="goal-field-label">Elegí una meta-tipo o creá una propia:</label>' +
+        '<label class="goal-field-label">Elige una meta-tipo o crea una propia:</label>' +
         '<select class="goal-meta-select" aria-label="Meta-tipo para la prioridad ' + (idx + 1) + '" data-slot-idx="' + idx + '" onchange="onGoalMetaChange(\'' + planId + '\', ' + idx + ', this.value)">' + options + '</select>' +
         '<div class="goal-fields hidden" id="gf-' + planId + '-' + idx + '">' +
             '<div class="goal-custom-desc hidden">' +
                 '<label class="goal-field-label">📝 Tu meta propia (descripción):</label>' +
-                '<textarea class="goal-custom-textarea" placeholder="Describí tu meta en una frase…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'customDescription\', this.value)"></textarea>' +
+                '<textarea class="goal-custom-textarea" placeholder="Describe tu meta en una frase…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'customDescription\', this.value)"></textarea>' +
             '</div>' +
             '<label class="goal-field-label">⏰ Plazo:</label>' +
             '<select class="goal-plazo-select" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'plazo\', this.value)">' +
@@ -743,7 +743,7 @@ function saveGoalPlanner(planId) {
     var statusEl = document.getElementById('gp-status-' + planId);
     if (statusEl) {
         statusEl.classList.remove('hidden');
-        statusEl.innerHTML = '<strong>✅ Tu plan se guardó.</strong> Tenés <strong>' + adopted.length + '</strong> meta' + (adopted.length === 1 ? '' : 's') + ' adoptada' + (adopted.length === 1 ? '' : 's') + '. Podés modificarlo y volver a guardar cuando quieras.';
+        statusEl.innerHTML = '<strong>✅ Tu plan se guardó.</strong> Tienes <strong>' + adopted.length + '</strong> meta' + (adopted.length === 1 ? '' : 's') + ' adoptada' + (adopted.length === 1 ? '' : 's') + '. Puedes modificarlo y volver a guardar cuando quieras.';
         statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
     showNotification('✅ Plan guardado');
@@ -754,7 +754,7 @@ function generatePlanPDF(planId) {
     var content = buildPlanPrintableHTML(planId);
     var win = window.open('', '_blank');
     if (!win) {
-        showNotification('⚠️ El navegador bloqueó la ventana. Permití pop-ups y volvé a intentar.', 'warning');
+        showNotification('⚠️ El navegador bloqueó la ventana. Permite las ventanas emergentes y vuelve a intentarlo.', 'warning');
         return;
     }
     win.document.open();
@@ -794,7 +794,7 @@ function buildPlanPrintableHTML(planId) {
             (attrs ? '<p class="pp-cat-attrs"><em>Atributos:</em> ' + escapeHtml(attrs) + '</p>' : '') +
             '</div>';
     });
-    if (!catalogHTML) catalogHTML = '<p><em>Sin catálogo registrado todavía. Completá antes el curso que lo alimenta.</em></p>';
+    if (!catalogHTML) catalogHTML = '<p><em>Sin catálogo registrado todavía. Completa antes el curso que lo alimenta.</em></p>';
 
     var goalsHTML = '';
     adopted.forEach(function (g, idx) {
@@ -812,7 +812,7 @@ function buildPlanPrintableHTML(planId) {
             '</dl>' +
         '</div>';
     });
-    if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Volvé al plan-builder y elegí al menos una meta antes de generar el PDF.</em></p>';
+    if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Vuelve al plan-builder y elige al menos una meta antes de generar el PDF.</em></p>';
 
     // Suggested N2 courses
     // Vaciado el 15-sep-2026 (hallazgo M4 de la auditoria doctrinal del Curso 03):
@@ -832,7 +832,7 @@ function buildPlanPrintableHTML(planId) {
     sugg.sort(function (a, b) { return a.priority - b.priority; });
     var top3 = sugg.slice(0, 3);
     var coursesHTML = top3.length ? '<ul>' + top3.map(function (s) { return '<li>' + s.course + '</li>'; }).join('') + '</ul>' :
-        '<p><em>Tu grupo está sólido — seguí documentando y compartiendo tus prácticas.</em></p>';
+        '<p><em>Tu grupo está sólido — sigue documentando y compartiendo tus prácticas.</em></p>';
 
     return '<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">' +
         '<title>Mi Aporte al DI — ' + escapeHtml(fullName) + '</title>' +

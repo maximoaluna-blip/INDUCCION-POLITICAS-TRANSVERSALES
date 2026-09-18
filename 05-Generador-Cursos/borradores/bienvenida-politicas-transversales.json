@@ -2,10 +2,10 @@
   "courseId": "bienvenida-politicas-transversales",
   "title": "Bienvenida a las Políticas Transversales",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "Hay tres cosas que la Asociación le pide a todo adulto antes de pedirle cualquier otra: cuidar, incluir y sostener. Aquí vas a saber cuáles son las tres políticas que lo sostienen, dónde las puso la ASC dentro de tu propia inducción, y —sobre todo— qué te exige la Asociación por fuera de esta plataforma, que no es lo mismo.",
+  "description": "Hay tres cosas que la Asociación le pide a todo adulto antes de pedirle cualquier otra: cuidar, incluir y sostener. Aquí vas a saber cuáles son las tres políticas que lo sostienen, dónde las puso la ASC dentro de tu propia inducción, y —sobre todo— qué te exige la Asociación por fuera de esta plataforma, que no es lo mismo y son nueve pasos, no los seis del correo.",
   "contentVersion": "2026-09-17",
   "icon": "🛡️",
-  "duration": "25 minutos",
+  "duration": "35 minutos",
   "level": 1,
   "levelName": "Ruta de Fundamentación",
   "order": 1,
@@ -26,7 +26,7 @@
     {
       "id": "achievement-3",
       "emoji": "🏕️",
-      "name": "Sé que me incluye",
+      "name": "Sé que también me protege",
       "unlockOnModule": 4
     },
     {
@@ -56,7 +56,7 @@
   ],
   "certificate": {
     "courseName": "BIENVENIDA A LAS POLÍTICAS TRANSVERSALES",
-    "description": "ha completado el Curso 01 de la Línea Políticas Transversales — Bienvenida a las Políticas Transversales, con el que abre la Ruta de Fundamentación, reconociendo las tres políticas transversales de la Asociación y el documento rector de cada una, situándolas dentro del ciclo de vida del adulto, explicando por qué dos de ellas viven en la Zona de Cascada del módulo de inducción y la tercera no, distinguiendo lo que esta línea ofrece de lo que la Asociación exige por fuera de ella, enumerando los seis pasos de la fase de inducción de adultos voluntarios nuevos, y escribiendo su primer compromiso con una de las tres políticas."
+    "description": "ha completado el Curso 01 de la Línea Políticas Transversales — Bienvenida a las Políticas Transversales, con el que abre la Ruta de Fundamentación, reconociendo las tres políticas transversales de la Asociación y el documento rector de las que lo tienen publicado, explicando por qué dos de ellas viven en la Zona de Cascada del módulo de inducción y la tercera no, reconociendo cuáles de las casillas de su inducción corresponden a la protección de derechos, distinguiendo lo que esta línea ofrece de lo que la Asociación exige por fuera de ella, enumerando los nueve pasos de la fase de inducción de adultos voluntarios nuevos, y escribiendo su primer compromiso con una de las tres políticas."
   },
   "modules": [
     {
@@ -68,18 +68,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "⏱️ <strong>~25 minutos de lectura y quizzes.</strong> Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
-        },
-        {
-          "type": "course-objectives",
-          "items": [
-            "<strong>Nombrar</strong> las tres políticas transversales y el documento rector de cada una.",
-            "<strong>Situar</strong> las tres dentro de tu ciclo de vida como adulto en el Movimiento.",
-            "<strong>Explicar</strong> por qué dos de ellas viven en la <em>Zona de Cascada</em> de tu inducción y la tercera no.",
-            "<strong>Distinguir</strong> lo que esta línea te ofrece de lo que la Asociación te <strong>exige</strong> por fuera de ella.",
-            "<strong>Enumerar</strong> los seis pasos de la fase de inducción que tu jefe inmediato te va a pedir.",
-            "<strong>Escribir</strong> tu primer compromiso con una de las tres políticas."
-          ]
+          "text": "⏱️ <strong>~35 minutos de lectura y quizzes.</strong> Cada lección cierra con dos preguntas y hay que acertar las dos para seguir; puedes reintentarlo las veces que quieras, y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "paragraph",
@@ -87,11 +76,22 @@
         },
         {
           "type": "paragraph",
-          "text": "Este curso recorre esa lista. Y al recorrerla vas a descubrir que <strong>dos de esas casillas no son papeleo</strong>: son lo único que la Asociación considera —con estas palabras— <em>«de vital importancia (…) para la protección y garantía de los derechos fundamentales»</em> de las personas del Movimiento."
+          "text": "Este curso recorre esa lista. Y al recorrerla vas a descubrir que <strong>dos de esas casillas no son papeleo</strong>: son los únicos temas que la Cartilla llama <em>«de vital importancia»</em>, porque de ellos salen las pautas que protegen los derechos de todos — niños y adultos."
         },
         {
           "type": "info-box",
           "text": "🧭 <strong>La idea que sostiene esta línea entera.</strong> Hay <strong>tres cosas</strong> que la Asociación le pide a todo adulto antes de pedirle cualquier otra: <strong>cuidar</strong>, <strong>incluir</strong> y <strong>sostener</strong>. No son tres trámites separados: son tres respuestas a la misma pregunta — <em>¿qué tiene que ser verdad para que un adulto pueda estar cerca de un niño?</em>"
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Nombrar</strong> las tres políticas transversales y el documento rector de las dos que hoy se pueden probar — y saber por qué de la tercera no te vamos a decir el título.",
+            "<strong>Reconocer</strong> cuáles de las casillas de tu inducción son las de la protección, y por qué la Cartilla las llama <em>de vital importancia</em>.",
+            "<strong>Explicar</strong> por qué dos de ellas viven en una misma estación de tu inducción —la <em>Zona de Cascada</em>— y la tercera no.",
+            "<strong>Distinguir</strong> lo que esta línea te ofrece de lo que la Asociación te <strong>exige</strong> por fuera de ella.",
+            "<strong>Enumerar</strong> los <strong>nueve</strong> pasos de la fase de inducción — los seis que te pide tu jefe inmediato y los tres que suelen olvidarse.",
+            "<strong>Escribir</strong> tu primer compromiso con una de las tres políticas."
+          ]
         }
       ]
     },
@@ -102,6 +102,14 @@
       "navLabel": "Las tres",
       "sections": [
         {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> no son tres trámites separados. Son tres respuestas a la misma pregunta — <em>¿qué tiene que ser verdad para que un adulto pueda estar cerca de un niño?</em>"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de los nombres, lo que hay detrás. Piensa en tu grupo un sábado cualquiera. <strong>Tres cosas pueden salir mal, y son distintas:</strong> que alguien salga lastimado, que alguien quede fuera, y que el adulto que sostiene todo se canse y se vaya sin que nadie se dé cuenta. La Asociación tiene una política para cada una. <strong>Son estas tres, y varias de las casillas de tu correo salen de ellas.</strong>"
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "Las tres, con su documento"
@@ -111,7 +119,7 @@
           "items": [
             {
               "title": "🏕️ A Salvo del Peligro — cuidar",
-              "description": "<strong>Política Nacional A Salvo del Peligro</strong>, de <strong>diciembre de 2025</strong>, aprobada por el <strong>Acuerdo C.S.N. 657</strong>. Es la más reciente de las tres y la más exigente.",
+              "description": "<strong>Política Nacional A Salvo del Peligro</strong>, de <strong>diciembre de 2025</strong>, aprobada por el <strong>Acuerdo C.S.N. 657</strong>. Es la más reciente de las tres, y la única que un Acuerdo del Consejo Scout Nacional aprobó en 2025. 📌 <em>Ojo al buscarla: su portada la titula «Haré todo cuanto de mí dependa: Política Nacional de Entornos Seguros». Es el mismo documento.</em>",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
@@ -123,7 +131,7 @@
             },
             {
               "title": "💪 Gestión para la Motivación — sostener",
-              "description": "La cartilla <strong>Gestión para la Motivación</strong>. Es la que pregunta algo que las otras dos no preguntan: <em>¿qué hace que un adulto se quede?</em>",
+              "description": "Está en la <strong>Política de Adultos, capítulo 6</strong>, y se desarrolla en la <strong>cartilla <em>Gestión para la Motivación</em></strong> (2020). Es la que pregunta algo que las otras dos no preguntan: <em>¿qué hace que un adulto se quede?</em>",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             }
@@ -135,7 +143,7 @@
         },
         {
           "type": "info-box",
-          "text": "📚 <strong>Dónde están los documentos.</strong> Los tres viven en la biblioteca oficial, en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a> — A Salvo del Peligro en el área de <strong>Desarrollo Institucional</strong>, y la Cartilla Metodológica y la cartilla de Motivación en la de <strong>Adultos en el Movimiento</strong>. <strong>Búscalos por título exacto:</strong> la biblioteca no numera sus documentos."
+          "text": "📚 <strong>Dónde buscarlos.</strong> En la biblioteca oficial, en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>: <strong>A Salvo del Peligro</strong> en el área de <strong>Desarrollo Institucional</strong>; la <strong>Cartilla Metodológica</strong>, la <strong>Política de Adultos</strong> y la cartilla de <strong>Gestión para la Motivación</strong> en la de <strong>Adultos en el Movimiento</strong>. <strong>Búscalos por título exacto:</strong> la biblioteca no numera sus documentos."
         }
       ],
       "quiz": {
@@ -146,19 +154,19 @@
             "text": "Un compañero afirma, citando una circular del grupo, cómo se llama la política de Diversidad e Inclusión que adoptó la ASC. ¿Qué haces?",
             "options": [
               "Repetirlo: si viene en una circular del grupo, es la fuente más cercana que tienes a mano.",
-              "Decirle que el texto del Acuerdo 405 no está publicado y que nadie puede afirmar el título.",
-              "Buscarlo en la Cartilla Metodológica, que es donde están descritos los tres módulos."
+              "Decirle que ese título no se puede probar todavía, y en la Lección 4 vas a ver por qué.",
+              "Buscarlo en la Cartilla Metodológica, que es donde se describen los módulos de inducción."
             ],
             "correctIndex": 1
           },
           {
-            "text": "De los tres documentos rectores, ¿cuál aprobó un Acuerdo del Consejo Scout Nacional en 2025?",
+            "text": "En el consejo de grupo alguien propone escribir «unas reglas de cuidado propias del grupo». ¿Qué respondes?",
             "options": [
-              "La cartilla Gestión para la Motivación, que orienta cómo sostener a los adultos voluntarios.",
-              "La Política Nacional A Salvo del Peligro, por el Acuerdo C.S.N. 657 de diciembre.",
-              "La Cartilla Metodológica, que compila los documentos complementarios de la PNAM."
+              "Que eso ya está escrito y es nacional: la Política A Salvo del Peligro, de 2025.",
+              "Que está bien mientras queden en acta, porque cada grupo se organiza como quiera.",
+              "Que hay que esperar a que la Región publique su propio protocolo de cuidado."
             ],
-            "correctIndex": 1
+            "correctIndex": 0
           }
         ]
       },
@@ -201,13 +209,17 @@
             },
             {
               "title": "5 · Zona de Maderos",
-              "description": "Tu rol y lo que se espera de ti en el cargo, más un encuadre del sistema de gestión por competencias."
+              "description": "Tu rol y lo que se espera de ti en el cargo, más un encuadre del <strong>sistema de gestión de adultos por competencias</strong>."
             },
             {
               "title": "6 · Certificación",
               "description": "El certificado. Informativo, pero requisito indispensable del ciclo de vida del adulto."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De las seis, quédate con una: <strong>la cuarta</strong>. Las otras cinco son el recorrido; esa es la razón por la que existe esta línea."
         },
         {
           "type": "heading",
@@ -218,7 +230,7 @@
           "type": "policy-quote",
           "label": "📖 La Zona de Cascada, textual",
           "source": "Cartilla Metodológica (DNAM), §2.4, p. 16 del PDF.",
-          "text": "En esta parte del recorrido se analizan temas de vital importancia para la Organización Scout Mundial, ya que determinan las pautas y directrices entorno a la protección y garantía de los derechos fundamentales de los niños, niñas, adolescentes, jóvenes y adultos que hacen parte del Movimiento Scout."
+          "text": "En esta parte del recorrido se analizan temas de vital importancia para la Organización Scout Mundial, ya que determinan las pautas y directrices entorno a la protección y garantía de los derechos fundamentales de los niños, niñas, adolescentes, jóvenes y adultos que hacen parte del Movimiento Scout.…"
         },
         {
           "type": "paragraph",
@@ -262,7 +274,7 @@
           {
             "text": "Un dirigente te dice que Gestión para la Motivación es «lo mismo que las otras dos, pero para adultos». ¿Qué le falta ver?",
             "options": [
-              "Nada: las tres están juntas en la Zona de Cascada y las tres protegen a alguien.",
+              "Que las tres están juntas en la Zona de Cascada, protegiendo cada una a alguien distinto.",
               "Que no protege derechos: sostiene a quien los protege, y por eso vive en otro apartado.",
               "Que es la única de las tres que no tiene un documento rector propio que la respalde."
             ],
@@ -276,7 +288,7 @@
     },
     {
       "id": 4,
-      "title": "🏕️ A Salvo del Peligro en dos minutos",
+      "title": "🏕️ A Salvo del Peligro: el titular",
       "emoji": "🏕️",
       "navLabel": "Cuidar",
       "sections": [
@@ -292,7 +304,7 @@
           "type": "policy-quote",
           "label": "📖 A quién obliga",
           "source": "Política Nacional A Salvo del Peligro (DNDI, dic-2025), p. 11 del PDF.",
-          "text": "A Salvo del Peligro es un compromiso y una responsabilidad de toda la membresía."
+          "text": "A Salvo del Peligro es un compromiso y una responsabilidad de toda la membresía.…"
         },
         {
           "type": "paragraph",
@@ -315,6 +327,10 @@
           "text": "Esa frase cambia la conversación. Un adulto al que un superior le grita delante de la unidad, una dirigente a la que se le cargan todas las salidas del año, alguien a quien se le exige guardar un secreto: <strong>eso también es materia de esta política</strong>. Y encaja con lo que ya leíste en la Cascada — la Cartilla decía <em>«niños, niñas, adolescentes, jóvenes <strong>y adultos</strong>»</em>."
         },
         {
+          "type": "paragraph",
+          "text": "<strong>Ojo con el borde, porque se confunde fácil.</strong> Un adulto al que se le maltrata, se le grita o se le sobrecarga hasta hacerle daño es materia de <em>esta</em> política. Un adulto al que simplemente nadie le ha dicho nunca que importa es materia de la tercera, <strong>Gestión para la Motivación</strong>. La diferencia no es cuánto se cansó: es <strong>si hay alguien haciéndole daño</strong>."
+        },
+        {
           "type": "info-box",
           "text": "➡️ <strong>Esto es solo el titular.</strong> El <strong>Curso 02</strong> desarrolla la política entera —qué es un entorno seguro, la diferencia entre peligro y riesgo, la Declaración— y el <strong>Curso 03</strong> te dice qué hacer con las manos: qué decir, qué no prometer, por dónde entra un reporte. Aquí solo necesitas saber que existe y que <strong>te incluye a ti en las dos direcciones</strong>."
         }
@@ -324,11 +340,11 @@
         "nextLabel": "Continuar a Diversidad e Inclusión 🌈",
         "questions": [
           {
-            "text": "¿A quién obliga la Política A Salvo del Peligro, según su propio texto?",
+            "text": "El contador de tu grupo, que nunca va a campamentos, te dice: «A Salvo del Peligro no es cosa mía, yo no trato con los chicos». ¿Qué le respondes?",
             "options": [
-              "A los dirigentes de unidad y a quienes acompañan actividades con menores de edad.",
-              "A toda la membresía: es un compromiso y una responsabilidad de todos.",
-              "A los adultos que ocupan cargos en el nivel de grupo, región o nación."
+              "Que tiene razón mientras no acompañe actividades: la política se activa con el contacto directo.",
+              "Que la política obliga a toda la membresía, tenga o no contacto con los chicos.",
+              "Que le conviene hacerla igual, porque el grupo la necesita para su autoevaluación anual."
             ],
             "correctIndex": 1
           },
@@ -337,7 +353,7 @@
             "options": [
               "Porque la política también protege al adulto frente a riesgo, maltrato y acoso.",
               "Porque no menciona a los jóvenes mayores, que también son sujetos de protección.",
-              "Porque la protección es responsabilidad del Comité de Gestión de Incidentes."
+              "Porque la protección solo aplica durante las actividades, no en el día a día del grupo."
             ],
             "correctIndex": 0
           }
@@ -349,7 +365,7 @@
     },
     {
       "id": 5,
-      "title": "🌈 Diversidad e Inclusión en dos minutos",
+      "title": "🌈 Diversidad e Inclusión: lo que sí y lo que no podemos decirte",
       "emoji": "🌈",
       "navLabel": "Incluir",
       "sections": [
@@ -376,7 +392,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Lo que sí consta, y es bastante: la ASC la adoptó, la Cartilla la coloca entre los temas <em>«de vital importancia»</em> de la inducción, y el Movimiento Scout Mundial tiene guías propias de Diversidad e Inclusión que la biblioteca sí publica."
+          "text": "Lo que sí consta, y es bastante: la ASC la adoptó, y la Cartilla la coloca entre los temas <em>«de vital importancia»</em> de tu inducción. Y en la biblioteca, en la sección de <strong>Externos</strong>, sí hay guías de Diversidad e Inclusión del Movimiento Scout: la <strong>Guía Dos</strong>, sobre discapacidad, y la <strong>Guía Tres</strong>, sobre grupos minoritarios. <strong>Pero la inclusión no espera a un título.</strong> Antes de la próxima actividad de tu unidad, mira quién falta: el que no puede pagar la salida, el que no tiene cómo llegar, el que necesita que le expliquen dos veces, el que no se siente en casa. <strong>Ninguna de esas cuatro preguntas necesita un acuerdo publicado para hacértela el sábado.</strong>"
         },
         {
           "type": "info-box",
@@ -388,11 +404,11 @@
         "nextLabel": "Continuar a lo que te exigen 📋",
         "questions": [
           {
-            "text": "Este curso no te dice cómo se llama la política de Diversidad e Inclusión de la ASC. ¿Por qué?",
+            "text": "Un dirigente va a citar en una capacitación «la política de inclusión de la ASC», con nombre y todo, sacado de una presentación que le pasaron. ¿Qué le sugieres?",
             "options": [
-              "Porque es materia del Curso 04 y aquí las tres políticas solo se anuncian de pasada.",
-              "Porque el texto del Acuerdo que la adoptó no está publicado y las fuentes discrepan.",
-              "Porque la ASC adoptó la guía mundial y esa no tiene un título en español."
+              "Que la cite: si circula en una presentación de la ASC, ya es fuente suficiente para un grupo.",
+              "Que diga que la ASC la adoptó pero que el título no consta, porque el acuerdo no está publicado.",
+              "Que la cite solo si aclara que se trata de la guía del Movimiento Scout Mundial."
             ],
             "correctIndex": 1
           },
@@ -400,7 +416,7 @@
             "text": "¿Qué tiene que ver la inclusión con la seguridad?",
             "options": [
               "Son planos distintos: una cuida el trato y la otra cuida la integridad física.",
-              "Un entorno que no es seguro para todos no es un entorno seguro, sino uno cómodo.",
+              "Un entorno que no es seguro para todos no es un entorno seguro, es uno parcial.",
               "La inclusión es un requisito posterior: primero se asegura y después se incluye."
             ],
             "correctIndex": 1
@@ -423,24 +439,35 @@
         },
         {
           "type": "paragraph",
-          "text": "Volvamos al correo de la Lección 1. Esas seis casillas no se las inventó tu jefe de grupo: son la <strong>fase de inducción de adultos voluntarios nuevos</strong>, y están escritas, una por una, en una guía oficial de <strong>marzo de 2025</strong>."
+          "text": "Volvamos al correo de la Lección 1. Esas seis casillas no se las inventó tu jefe de grupo: salen de una guía oficial de <strong>marzo de 2025</strong>. <strong>Pero esa guía no tiene seis pasos: tiene nueve</strong> — y los tres que tu jefe no te mandó son, con diferencia, los mejores."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "Los seis pasos, en orden"
+          "text": "Los nueve pasos, en orden"
         },
         {
           "type": "list",
           "ordered": true,
           "items": [
-            "<strong>Registrar tu hoja de vida en Talento 360°</strong> — todos los campos, con fotografía.",
+            "<strong>Registrar tu hoja de vida en <a href=\"https://scouts.talento360.com.co/hrm/inicio.aspx\" target=\"_blank\" rel=\"noopener\">Talento 360°</a></strong> — todos los campos, con fotografía.",
             "<strong>Registrar el compromiso de acuerdo mutuo</strong> — el acuerdo de servicio voluntario, la solicitud de registro e inscripción, y el nombramiento oficial de tu jefe inmediato.",
-            "<strong>Inscribirte en SISCOUT</strong> — registro completo.",
-            "<strong>Leer el Manual de Cargos, Perfiles y Funciones por Competencias</strong> — el de tu cargo. La Cartilla dice que ese manual <em>«es de estricto cumplimiento»</em>.",
-            "<strong>Hacer el curso de inducción general</strong> en <strong>Universidad Scout</strong> — el de las seis estaciones. <strong>Descargar el certificado y entregarlo a tu jefe inmediato.</strong>",
-            "<strong>Hacer los cuatro cursos de A Salvo del Peligro</strong> en <code>learn.scout.org</code>. <strong>Descargar los certificados y entregarlos a tu jefe inmediato.</strong>"
+            "<strong>Inscribirte en <a href=\"https://colombia.siscout.org/login/\" target=\"_blank\" rel=\"noopener\">SISCOUT</a></strong> — registro completo.",
+            "<strong>Leer el Manual de Cargos, Perfiles y Funciones por Competencias</strong> — el de tu cargo. La Cartilla dice que <em>«su contenido es de estricto cumplimiento»</em>.",
+            "<strong>Hacer el curso de inducción general</strong> en <a href=\"https://colombia.universidadscout.org/\" target=\"_blank\" rel=\"noopener\">Universidad Scout</a> — el módulo nacional de inducción, el de las seis estaciones. <strong>Descargar el certificado y entregarlo a tu jefe inmediato.</strong>",
+            "<strong>Hacer los cuatro cursos de A Salvo del Peligro.</strong> ⚠️ <strong>Tres están en <a href=\"https://learn.scout.org\" target=\"_blank\" rel=\"noopener\">learn.scout.org</a> y el cuarto en otra plataforma distinta</strong> — los cuatro enlaces están en la guía, tómalos de ahí y no des por terminado con tres. <strong>Descargar los certificados y entregarlos a tu jefe inmediato.</strong>",
+            "<strong>Pedir tu asesor personal</strong> — alguien que te acompañe a desarrollar tus competencias. Se firma un <strong>aval de aceptación de asesoría</strong> y se lo mandas a tu jefe inmediato; después se agenda la primera reunión para revisar tu valoración e iniciar tu <strong>Plan Personal de Desarrollo</strong>.",
+            "<strong>Hacer tu valoración inicial por competencias</strong> en Talento 360° — la <strong>Evaluación #1</strong>. Es la foto de dónde arrancas.",
+            "<strong>Dejarte acompañar los tres primeros meses.</strong> Este no es un paso tuyo: es de tu jefe inmediato, que hace seguimiento, resuelve dudas y al final te da una <strong>retroalimentación</strong>."
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mira los tres últimos y compáralos con los seis primeros. Los seis te <strong>vinculan</strong>: dicen quién eres, qué firmaste y qué cargo tienes. <strong>Los tres últimos te acompañan</strong> — una persona asignada, una foto de tus competencias y tres meses de seguimiento con retroalimentación al final. <strong>Son los únicos que necesitan a otro ser humano</strong>, y son justo los que se caen primero cuando el grupo va con prisa. Si tu jefe no te los mencionó, ya sabes qué pedirle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y aquí se cierra lo que te prometimos al empezar. De las seis casillas de tu correo, cuatro te <strong>vinculan</strong>. <strong>Las dos últimas —la 5 y la 6— son las de la protección</strong>, y son las únicas dos del correo que son formación: dentro de la 5 está la estación que la Cartilla llama <em>de vital importancia</em>, y la 6 son los cuatro cursos de A Salvo del Peligro. <strong>Esas dos no son papeleo.</strong>"
         },
         {
           "type": "info-box",
@@ -453,11 +480,21 @@
         },
         {
           "type": "paragraph",
-          "text": "La <strong>Política Nacional A Salvo del Peligro</strong> no deja el módulo a criterio de cada grupo: lo pone entre las exigencias de la Asociación a sus adultos. Los seis pasos de arriba son la forma concreta que la ASC le dio a esa exigencia."
+          "text": "¿Y por qué lo exige la Asociación, y no lo deja a criterio de cada grupo? Porque está en la Política."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📖 La exigencia, textual",
+          "source": "Política Nacional A Salvo del Peligro (DNDI, dic-2025), «Articulación de la Política en los Eventos de la Organización», ítem 1, p. 33 del PDF.",
+          "text": "Exigir a los adultos voluntarios y equipos de servicio, la realización del curso o módulo de A Salvo del Peligro para la participación en los eventos y disponer de los mecanismos para hacerlo en sitio cuando no se presenten certificados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el alcance, que es más concreto de lo que suele contarse: ahí la exigencia es <strong>para participar en eventos</strong>, y el responsable de hacerla cumplir en los nacionales y regionales es la <strong>Comisión Nacional de A Salvo del Peligro</strong>. La <em>Guía de inducción</em> lo pide además a <strong>todo adulto que entra</strong>. <em>Las dos van en la misma dirección, aunque no nacieron a la vez: la Guía es de marzo de 2025 y la Política, de diciembre.</em>"
         },
         {
           "type": "info-box",
-          "text": "🤝 <strong>Entonces, ¿para qué sirve esta línea?</strong> El módulo oficial te da <strong>información y un certificado</strong>. Esta línea te da <strong>comprensión y práctica</strong>: qué significan esas políticas el sábado por la tarde, con tu unidad, cuando algo pasa. <strong>Van juntos, y en ese orden no importa.</strong> Lo que sí importa es que el certificado del módulo oficial no lo sustituye este curso."
+          "text": "🤝 <strong>Entonces, ¿para qué sirve esta línea?</strong> El módulo oficial te da <strong>información y un certificado</strong>. Esta línea te da <strong>comprensión y práctica</strong>: qué significan esas políticas el sábado por la tarde, con tu unidad, cuando algo pasa. <strong>Van juntos, y en ese orden no importa.</strong> Lo que sí importa es que <strong>este curso no sustituye</strong> el certificado del módulo oficial."
         }
       ],
       "quiz": {
@@ -467,8 +504,8 @@
           {
             "text": "Terminas este curso y crees que ya cumpliste lo que la ASC te exige. ¿Qué te falta?",
             "options": [
-              "Nada más por ahora: el resto son los otros cinco cursos de este mismo Nivel 1.",
-              "Los seis pasos de la fase de inducción, con sus certificados al jefe inmediato.",
+              "Que te faltan los otros cinco cursos de este mismo Nivel 1, y con eso ya está cumplido.",
+              "Los nueve pasos de la fase de inducción, con sus certificados al jefe inmediato.",
               "Firmar el compromiso de acuerdo mutuo, que es el único paso que la ASC exige."
             ],
             "correctIndex": 1
@@ -485,7 +522,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Coge los seis pasos y marca, honestamente, <strong>cuáles tienes hechos y cuáles no</strong>. Escribe los que te falten con una fecha al lado — una fecha real, de esta semana o la siguiente. Si no te falta ninguno, escribe cuál te costó más y por qué: eso le sirve a quien te acompañe al siguiente adulto que llegue."
+        "prompt": "Coge los <strong>nueve</strong> pasos y marca, honestamente, <strong>cuáles tienes hechos y cuáles no</strong>. De los que te falten, <strong>elige uno solo —el que puedas empezar esta semana— y ponle fecha</strong>. Los demás escríbelos debajo, en el orden en que los vas a hacer, todavía sin fecha: nueve fechas de golpe no las cumple nadie, y una sí. Y si los pasos 7, 8 y 9 te suenan a nuevos, esa es tu conversación con tu jefe inmediato esta semana."
       }
     },
     {
@@ -500,7 +537,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Empezaste este curso con un correo que parecía papeleo. Ahora sabes que dos de esas casillas son la estación que la Cartilla llama <em>de vital importancia</em>, que la política de cuidado te obliga y te protege, que hay un hueco documental en la de inclusión y que el certificado que te exige la Asociación no es este."
+          "text": "Empezaste este curso con un correo que parecía papeleo. Ahora sabes cuáles de esas seis casillas no lo son —<strong>la del módulo de inducción y la de los cuatro cursos de A Salvo del Peligro</strong>—, que la lista oficial no tiene seis pasos sino <strong>nueve</strong>, que la política de cuidado te obliga y te protege, que hay un hueco documental en la de inclusión, y que el certificado que te exige la Asociación no es este."
         },
         {
           "type": "heading",
@@ -542,7 +579,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🧭 <strong>Tu primer compromiso.</strong> Una sola cosa, con fecha, para antes del próximo consejo de grupo. Que sea algo que <strong>alguien más pueda notar</strong> — no «ser más consciente», sino algo que ocurre o no ocurre. Preguntarle al jefe de grupo por dónde entra un reporte cuenta. Hacer el primero de los cuatro cursos SFH cuenta. «Estar más atento» no cuenta."
+          "text": "🧭 <strong>Tu primer compromiso.</strong> Una sola cosa, con fecha, para antes del próximo consejo de grupo. Que sea algo que <strong>alguien más pueda notar</strong> — no «ser más consciente», sino algo que ocurre o no ocurre. Preguntarle al jefe de grupo por dónde entra un reporte cuenta. Hacer el primero de los cuatro cursos SFH cuenta. «Estar más atento» no cuenta. <strong>Tres cosas te pide la Asociación antes de pedirte cualquier otra: cuidar, incluir y sostener. Acabas de escribir la primera.</strong>"
         }
       ],
       "quiz": {
@@ -550,27 +587,27 @@
         "nextLabel": "Finalizar el curso ⭐",
         "questions": [
           {
-            "text": "Un dirigente lleva meses agotado, nadie le ha preguntado cómo va y está por retirarse. ¿Cuál de las tres políticas trabaja eso?",
+            "text": "Un dirigente de tu grupo cumple ocho años de servicio. Nadie lo maltrata y nadie lo ha sobrecargado: simplemente nunca le han dicho por qué importa lo que hace, ni le han preguntado qué le gustaría hacer ahora. Está pensando en no renovar. ¿Cuál de las tres políticas trabaja eso?",
             "options": [
-              "A Salvo del Peligro: la política también protege al adulto de situaciones de riesgo.",
-              "Gestión para la Motivación, que pregunta qué hace a un adulto permanecer.",
-              "Diversidad e Inclusión, porque nadie debe quedar fuera del cuidado del grupo."
+              "A Salvo del Peligro, porque el desgaste de un adulto es una situación de riesgo.",
+              "Gestión para la Motivación, que pregunta qué hace que un adulto se quede.",
+              "Diversidad e Inclusión, porque nadie debería quedar fuera del cuidado del grupo."
             ],
             "correctIndex": 1
           },
           {
-            "text": "¿Cuál de estos NO es un compromiso ejecutable?",
+            "text": "Tu asesor te va a preguntar en tres semanas si lo cumpliste. ¿Cuál de estos compromisos NO va a poder responderte con un sí o un no?",
             "options": [
-              "«Voy a ser más consciente de la importancia de los entornos seguros este año.»",
-              "«El martes le pregunto al jefe de grupo por dónde entra un reporte en mi grupo.»",
-              "«Antes del sábado hago el primero de los cuatro cursos SFH y guardo el certificado.»"
+              "«De aquí a fin de año voy a interiorizar mejor el valor del entorno seguro.»",
+              "«El 30 le llevo al consejo los nueve pasos y pregunto cuáles me faltan a mí.»",
+              "«Este mes le escribo al jefe de grupo para saber por dónde entra un reporte.»"
             ],
             "correctIndex": 0
           }
         ]
       },
       "reflection": {
-        "prompt": "Vuelve a la palabra que escribiste en la Lección 1 —<strong>cuidar</strong>, <strong>incluir</strong> o <strong>sostener</strong>—. ¿Sigue siendo la misma? Escribe la palabra otra vez, y debajo <strong>tu compromiso: una cosa concreta, con fecha</strong>, para antes del próximo consejo de grupo. Esto es tu brújula, y el Curso 06 te la va a devolver para que veas qué cumpliste."
+        "prompt": "Vuelve a la palabra que escribiste en la Lección 1 —<strong>cuidar</strong>, <strong>incluir</strong> o <strong>sostener</strong>—. ¿Sigue siendo la misma? Escribe la palabra otra vez, y debajo <strong>tu compromiso: una cosa concreta, con fecha</strong>, para antes del próximo consejo de grupo. Esto es tu brújula, y el Curso 06 te la va a devolver para que veas qué cumpliste. <em>(La palabra está en la <strong>Lección 1</strong>, en la barra de arriba: ábrela un momento o en otra pestaña. Verla escrita es el punto de todo esto.)</em>"
       }
     }
   ]
