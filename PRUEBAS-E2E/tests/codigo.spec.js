@@ -353,4 +353,150 @@ test.describe('Calidad de codigo (AUDITORIA.md mecanico)', () => {
     ).toEqual([]);
   });
 
+
+  // --- Doctrina de la linea: las tres reglas "no negociables" -----------------
+  //
+  // POR QUE EXISTEN (17-sep-2026):
+  // El CLAUDE.md de esta linea declara tres reglas "no negociables" y hasta hoy
+  // NINGUNA la vigilaba una compuerta: vivian solo en prosa, sostenidas por el
+  // auditor doctrinal leyendo. Aqui el peor caso no es una imprecision que se
+  // corrige: es una instruccion de conducta equivocada ante la revelacion de un
+  // dano a un nino.
+  //
+  // ALCANCE, y es lo CONTRARIO de lo que decidio lexico.json a proposito:
+  // estas reglas SI barren la prosa de los cursos. Alli el termino vigilado
+  // ("competencia") tiene cinco acepciones vivas y barrer prosa dio puro ruido;
+  // aqui los terminos no son ambiguos y el dano vive justamente en la prosa --
+  // el propio lexico.json lo dice en su campo _ojoConEstaLinea.
+  //
+  // CALIBRADAS contra el corpus real (4 lineas, 24+ cursos) ANTES de escribirse.
+  // Las versiones ingenuas daban 5 falsos positivos y 0 verdaderos. Estas dan 0.
+
+  /** Todo el texto visible de un curso, con su ubicacion. */
+  function prosaDelCurso(d) {
+    const out = [];
+    const push = (donde, t) => { if (typeof t === 'string' && t.trim()) out.push({ donde, t }); };
+    for (const m of d.modules || []) {
+      for (const s of m.sections || []) {
+        for (const k of ['text', 'label', 'source']) push(`M${m.id}.${s.type}.${k}`, s[k]);
+        for (const it of s.items || []) {
+          if (typeof it === 'string') push(`M${m.id}.${s.type}.item`, it);
+          else if (it && typeof it === 'object')
+            for (const k of ['title', 'description']) push(`M${m.id}.${s.type}.${k}`, it[k]);
+        }
+      }
+      if (m.reflection && m.reflection.prompt) push(`M${m.id}.reflection`, m.reflection.prompt);
+    }
+    return out;
+  }
+
+  const sinTags = (t) => String(t).replace(/<[^>]+>/g, ' ');
+
+  /** Los JSON fuente de los cursos de esta linea. */
+  function cursosDeLaLinea() {
+    const dir = path.join(GEN, 'borradores');
+    if (!fs.existsSync(dir)) return [];
+    return fs
+      .readdirSync(dir)
+      .filter((f) => f.endsWith('.json'))
+      .map((f) => ({ cid: f.replace(/\.json$/, ''), d: JSON.parse(fs.readFileSync(path.join(dir, f), 'utf-8')) }));
+  }
+
+  const doctrinaPath = path.join(__dirname, '..', 'doctrina.json');
+  const hayDoctrina = fs.existsSync(doctrinaPath);
+  const doctrina = hayDoctrina ? JSON.parse(fs.readFileSync(doctrinaPath, 'utf-8')) : null;
+
+  // 1 -- Terminos que la Politica 2025 supero. Pueden aparecer, pero GLOSADOS.
+  test('ningun curso usa como vigente un termino ASP superado (ADR-035)', () => {
+    if (!hayDoctrina) test.skip();
+    const reglas = doctrina.terminosSuperados;
+    const marca = new RegExp(reglas.marcadoresDeGlosa, 'i');
+    const v = reglas.ventanaDeContexto || 260;
+    const fallos = [];
+    for (const { cid, d } of cursosDeLaLinea()) {
+      for (const { donde, t } of prosaDelCurso(d)) {
+        const texto = sinTags(t);
+        for (const r of reglas.prohibidoSinGlosa) {
+          const re = new RegExp(r.patron, 'i');
+          const m = re.exec(texto);
+          if (!m) continue;
+          const ctx = texto.slice(Math.max(0, m.index - v), m.index + v);
+          if (marca.test(ctx)) continue; // glosado como termino de 2021-2023: legitimo
+          fallos.push(
+            `  [${cid}] ${donde}: "${m[0]}" usado SIN glosar\n` +
+              `     ...${texto.slice(Math.max(0, m.index - 70), m.index + 90).replace(/\s+/g, ' ').trim()}...\n` +
+              `     vigente: ${r.vigente}\n` +
+              `     por que: ${r.porQue}`
+          );
+        }
+      }
+    }
+    expect(
+      fallos,
+      `Termino ASP superado usado como vigente. La Politica de dic-2025 no solo renombro:\n` +
+        `en dos casos cambio el modelo, y el "referente ASP" NO TIENE HEREDERO REGIONAL.\n` +
+        `Puede nombrarse, pero glosado como termino de 2021-2023 (ADR-035, GLOSARIO seccion C-bis).\n\n${fallos.join('\n\n')}\n`
+    ).toEqual([]);
+  });
+
+  // 2 -- La linea roja, mirando la CLAVE DE RESPUESTAS. Unica de la plataforma.
+  test('ninguna respuesta correcta instruye al adulto a investigar', () => {
+    if (!hayDoctrina) test.skip();
+    const { verbos, marcadoresQueLoSalvan } = doctrina.lineaRoja;
+    const reVerbo = new RegExp(verbos, 'i');
+    const reArranca = new RegExp('^\\s*[«"\'(]?\\s*' + verbos.replace(/^\\b/, ''), 'i');
+    const reSalva = new RegExp(marcadoresQueLoSalvan, 'i');
+    const fallos = [];
+    for (const { cid, d } of cursosDeLaLinea()) {
+      for (const m of d.modules || []) {
+        const qs = (m.quiz && m.quiz.questions) || [];
+        qs.forEach((q, i) => {
+          const correcta = sinTags(q.options[q.correctIndex] || '');
+          if (!reVerbo.test(correcta)) return;
+          const instruye = reArranca.test(correcta);
+          const salvada = reSalva.test(correcta);
+          if (!instruye && salvada) return; // explica por que NO se investiga: legitimo
+          fallos.push(
+            `  [${cid}] M${m.id} pregunta ${i + 1}\n` +
+              `     correcta: "${correcta.trim()}"\n` +
+              `     ${instruye ? 'Arranca con un verbo de la linea roja: es una instruccion.' : 'Contiene un verbo de la linea roja y ninguna negacion ni consecuencia.'}`
+          );
+        });
+      }
+    }
+    expect(
+      fallos,
+      `LINEA ROJA de esta linea: "el adulto reporta y deriva; NUNCA investiga ni atiende"\n` +
+        `(Politica 2025 p. 29: "en ningun caso su funcion sera de caracter investigativo").\n` +
+        `Ningun quiz puede tener como correcta averiguar, confrontar o resolver internamente.\n` +
+        `Un item que explica POR QUE no se investiga es correcto y no falla aqui.\n\n${fallos.join('\n\n')}\n`
+    ).toEqual([]);
+  });
+
+  // 3 -- El antidoto del riesgo numero uno del Plan de Linea.
+  test('todo curso que menciona el modulo oficial dice que no lo sustituye', () => {
+    if (!hayDoctrina) test.skip();
+    const { menciona, frase } = doctrina.antidoto;
+    const reMenc = new RegExp(menciona, 'i');
+    const reFrase = new RegExp(frase, 'i');
+    const fallos = [];
+    for (const { cid, d } of cursosDeLaLinea()) {
+      const todo = prosaDelCurso(d).map((x) => sinTags(x.t)).join(' ');
+      if (!reMenc.test(todo)) continue;
+      if (reFrase.test(todo)) continue;
+      const m = reMenc.exec(todo);
+      fallos.push(
+        `  [${cid}] menciona el modulo oficial y NO dice que este curso no lo sustituye\n` +
+          `     ...${todo.slice(Math.max(0, m.index - 80), m.index + 100).replace(/\s+/g, ' ').trim()}...`
+      );
+    }
+    expect(
+      fallos,
+      `Riesgo numero uno del Plan de Linea: presentar estos cursos como equivalentes al\n` +
+        `"curso o modulo de A Salvo del Peligro" que la ASC exige. Esta plataforma EMITE\n` +
+        `certificados y ensena sobre algo que NO puede acreditar: cada curso que lo mencione\n` +
+        `tiene que decirlo con esas palabras.\n\n${fallos.join('\n\n')}\n`
+    ).toEqual([]);
+  });
+
 });

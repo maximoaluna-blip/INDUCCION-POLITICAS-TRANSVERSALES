@@ -1,0 +1,58 @@
+{
+  "_porQue": "Esta linea tiene TRES reglas declaradas 'no negociables' en su CLAUDE.md, y hasta el 17-sep-2026 NINGUNA la vigilaba una compuerta: vivian solo en prosa, y las sostenia el auditor doctrinal leyendo. La leccion repetida del proyecto es que lo automatizado se cumple y lo que depende de acordarse deriva (ADR-025). Estas tres reglas son las que en esta linea cuestan mas caro equivocarse: el peor caso no es una imprecision doctrinal que se corrige, sino una instruccion de conducta equivocada ante la revelacion de un dano a un nino.",
+
+  "_alcance": "A DIFERENCIA de lexico.json, estas reglas SI barren la PROSA DE LOS CURSOS (los JSON de 05-Generador-Cursos/borradores). Eso es deliberado y es lo contrario de lo que se decidio para lexico.json, por una razon medida: alli el termino vigilado ('competencia') tiene CINCO acepciones vivas y barrer prosa dio puro ruido; aqui los terminos no son ambiguos -un 'Escuchadero' es un 'Escuchadero'- y el dano vive justamente en la prosa, como el propio lexico.json documenta en su campo _ojoConEstaLinea.",
+
+  "_calibracion": "Las tres reglas se calibraron contra el corpus REAL (las 4 lineas, 24+ cursos) ANTES de escribirlas. Las versiones ingenuas daban 5 falsos positivos y 0 verdaderos: los 3 hits de terminos superados eran el Curso 03 ENSENANDO que el termino esta superado, y el de la linea roja era un item correcto que explica POR QUE no interrogar. Las versiones de abajo dan 0 falsos positivos sobre ese mismo corpus. Regla de la casa: automatizar el DANO MEDIBLE, no su proxy.",
+
+  "linea": "Politicas Transversales",
+
+  "terminosSuperados": {
+    "_porQue": "La Politica Nacional a Salvo del Peligro (dic-2025) no solo renombro: en dos casos cambio el MODELO. Escribir el termino de 2023 en un curso de 2026 manda al adulto a una puerta que ya no existe -y la puerta es por donde se reporta que a un chico le esta pasando algo-. Ver ADR-035 y GLOSARIO-ASC.md seccion C-bis.",
+    "_comoFunciona": "El termino superado PUEDE aparecer -la doctrina de la linea exige glosarlo expresamente como termino de 2021-2023-, pero solo si cerca hay una marca de que esta superado. Lo que falla es usarlo COMO VIGENTE, a secas.",
+    "marcadoresDeGlosa": "(ya no|superad|no es el nombre|se llamaba|aprendiste a|202[0-3]|antes se|todav[ií]a|cambi[oó]|pas[oó] a|obsolet|de entonces|en su p[aá]gina|si te formaron|la edici[oó]n anterior|versi[oó]n anterior|qued[oó] atr[aá]s)",
+    "ventanaDeContexto": 260,
+    "prohibidoSinGlosa": [
+      {
+        "patron": "\\bEscuchadero\\b",
+        "vigente": "espacios ¡Oyeme!",
+        "porQue": "No es un renombre: cambio el modelo. El Escuchadero tenia psicologo/a; los espacios ¡Oyeme! los dinamizan adultos formados y la Politica dice expresamente que NO representan atencion en salud mental."
+      },
+      {
+        "patron": "referente(s)? ASP\\b",
+        "vigente": "Comite de Gestion de Incidentes",
+        "porQue": "Es el caso mas grave: el referente ASP NO TIENE HEREDERO REGIONAL. Lo que hacia lo hace hoy el Comite de Gestion de Incidentes y el Coordinador Nacional; los Referentes Regionales de Promocion hacen campanas, no reciben casos. En 2025 no existe un rol regional que reciba u oriente casos (Politica 2025, pp. 39-42)."
+      },
+      {
+        "patron": "Bot[oó]n de Denuncias",
+        "vigente": "boton «Me Pongo A Salvo del Peligro»",
+        "porQue": "Nombre superado del mecanismo de reporte. Un adulto que busque «Boton de Denuncias» no lo encuentra."
+      },
+      {
+        "patron": "Me Siento a Salvo del Peligro",
+        "vigente": "«Me Pongo A Salvo del Peligro»",
+        "porQue": "Eslogan de la pieza QR, no el nombre del mecanismo. La pieza sigue circulando, asi que el curso puede nombrarla -pero marcandola."
+      },
+      {
+        "patron": "\\bDURAS-?I\\b(?!D)",
+        "vigente": "DURASLID",
+        "porQue": "DURAS-I tenia 6 rasgos; DURASLID tiene 8 (anade Ludicas y Diversas)."
+      }
+    ]
+  },
+
+  "lineaRoja": {
+    "_porQue": "Es la regla 2 de 'Lo que no es negociable' del CLAUDE.md de la linea: «el adulto reporta y deriva; nunca investiga ni atiende» -«en ningun caso su funcion sera de caracter investigativo y de gestion del reporte» (Politica 2025, p. 29)-. Y la consecuencia operativa que ningun otro control mira: NINGUN quiz puede tener como respuesta correcta «averiguar», «confrontar» o «resolver internamente».",
+    "_comoFunciona": "Mira SOLO la opcion marcada como correcta. Falla si (a) la opcion ARRANCA con un verbo de la linea roja -es una instruccion-, o (b) contiene uno y no hay ningun marcador de negacion o de consecuencia en toda la opcion. Un item que explica POR QUE no se investiga es correcto y pasa.",
+    "_esLaUnicaCompuertaQueMiraLaClaveDeRespuestas": "En toda la plataforma. Esta linea es la que lo justifica.",
+    "verbos": "\\b(investigar|investigue|investigues|investigando|averiguar|averigua|averigües|averiguando|confrontar|confronta|confrontes|confrontando|indagar|indaga|indagando|interrogar|interroga|interrogando|resolverlo internamente|resolver internamente|resolverlo en el grupo)\\b",
+    "marcadoresQueLoSalvan": "\\b(no|nunca|jam[aá]s|sin|ni|evita|evitar|abstente|revictimiza\\w*|da[nñ]a\\w*|perjudic\\w*|quien s[ií]|corresponde|autoridad\\w*|entorpec\\w*)\\b"
+  },
+
+  "antidoto": {
+    "_porQue": "Es la regla 1 de 'Lo que no es negociable': «ningun curso sustituye ni certifica el modulo oficial de A Salvo del Peligro que exige la ASC». Es el riesgo doctrinal numero uno del Plan de Linea, y es estructural: esta plataforma EMITE certificados y ensena sobre algo que NO puede acreditar. La Politica lo exige para la participacion en eventos (p. 33) y la Guia de induccion a todo adulto que entra (p. 2).",
+    "_comoFunciona": "Si un curso de esta linea menciona el modulo oficial o los cursos SFH, en alguna parte del curso tiene que estar la frase de no-sustitucion. No se exige donde: se exige que este.",
+    "menciona": "(m[oó]dulo (oficial |nacional )?de A Salvo del Peligro|curso o m[oó]dulo de A Salvo|cursos? SFH|cursos de A Salvo del Peligro|m[oó]dulo Safe From Harm)",
+    "frase": "(no (lo )?(sustituye|reemplaza)|no sustituye|no reemplaza|no certifica|no acredita)"
+  }
+}

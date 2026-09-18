@@ -62,6 +62,27 @@ conducta y el límite.**
   tener el texto del **Acuerdo C.S.N. 405** — las fuentes discrepan sobre si la política de D&I
   adoptada es la Mundial o la Interamericana, y **no está publicado en la biblioteca**.
 
+## Las tres reglas «no negociables» ya son compuerta (ADR-060, 17-sep-2026)
+
+Hasta esa fecha las tres vivían **solo en prosa**, en la sección de arriba, y las sostenía el auditor doctrinal
+leyendo. Hoy las declara **`PRUEBAS-E2E/doctrina.json`** y las vigilan tres pruebas de `codigo.spec.js`:
+
+| Regla | Qué falla exactamente |
+|---|---|
+| **Términos ASP superados** | Usarlos **como vigentes**. Pueden aparecer —la doctrina exige glosarlos como términos de 2021-2023— pero solo con una marca de superación cerca. |
+| **La línea roja** | Que **la opción CORRECTA** de un quiz arranque con *investigar · averiguar · confrontar · indagar · interrogar*, o lo contenga sin negación ni consecuencia. **Es la única compuerta de la plataforma que mira la clave de respuestas.** |
+| **El antídoto** | Que un curso mencione el módulo oficial y **no diga en ninguna parte** que este curso no lo sustituye. |
+
+⚠️ **Estas tres barren la PROSA de los cursos, al revés que `lexico.json`** — y es deliberado: allí el término
+vigilado tiene cinco acepciones vivas y barrer prosa dio ruido; aquí los términos no son ambiguos. **El alcance de
+una compuerta no se hereda de otra: depende de si el término tiene una acepción o cinco.**
+
+⚠️ **Se calibraron contra el corpus real antes de escribirse.** Las versiones ingenuas daban **5 falsos positivos y
+0 verdaderos**: señalaban al Curso 03 *enseñando* que un término está superado, y a un ítem correcto que explica
+*por qué no* interrogar. **Al tocarlas, recalibrar** — `scratchpad/calibrar_compuertas.py` hace la medida.
+
+✅ **Leen el JSON fuente, no el catálogo: vigilan también los cursos en `draft`** (el hueco del ADR-052).
+
 ## La compuerta antes de publicar
 
 Las **tres auditorías**, que responden preguntas distintas y no se sustituyen:
