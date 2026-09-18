@@ -26,5 +26,19 @@
     "status": "active",
     "file": "bienvenida-politicas-transversales.html",
     "folder": "bienvenida-politicas-transversales"
+  },
+  {
+    "courseId": "entornos-seguros-politica-asp",
+    "title": "Entornos Seguros: la Política A Salvo del Peligro",
+    "description": "Cuatro palabras que usamos como sinónimos y no lo son: peligro, riesgo, abuso, violencia. Aquí vas a saber qué entiende la ASC por «entorno seguro», qué dice exactamente la política que se aprobó en diciembre de 2025, y por qué te protege a ti también. Sin esto, el Curso 03 se lee como una lista de prohibiciones.",
+    "icon": "🏕️",
+    "duration": "30 minutos",
+    "level": 1,
+    "levelName": "Ruta de Fundamentación",
+    "order": 2,
+    "modules": 7,
+    "status": "draft",
+    "file": "entornos-seguros-politica-asp.html",
+    "folder": "entornos-seguros-politica-asp"
   }
 ]

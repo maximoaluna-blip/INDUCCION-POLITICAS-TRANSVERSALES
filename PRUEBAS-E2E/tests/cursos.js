@@ -36,6 +36,11 @@ const FALLBACK = [
     file: 'adulto-garante-entorno-seguro.html',
     tituloIncluye: 'Garante',
   },
+  {
+    courseId: 'entornos-seguros-politica-asp',
+    file: 'entornos-seguros-politica-asp.html',
+    tituloIncluye: 'Entornos Seguros',
+  },
 ];
 
 let CURSOS = FALLBACK;
