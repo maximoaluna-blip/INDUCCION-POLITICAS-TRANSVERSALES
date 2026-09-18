@@ -21,7 +21,11 @@
       "sections": [
         {
           "type": "paragraph",
-          "text": "Si te formaste pensando que «A Salvo del Peligro» es el trámite de los antecedentes y la charla del primer día, este curso te va a mover el piso —para bien—. Es una política de 49 páginas aprobada en <strong>diciembre de 2025</strong>, tiene ocho leyes colombianas detrás, y <strong>te nombra a ti en dos sentidos</strong>: como quien debe proteger, y como alguien a quien hay que proteger."
+          "text": "Si te formaste pensando que «A Salvo del Peligro» es el trámite de los antecedentes y la charla del primer día, este curso te va a mover el piso —para bien—. Es una política de 50 páginas aprobada en <strong>diciembre de 2025</strong>, tiene doce leyes colombianas detrás, y <strong>te nombra a ti en dos sentidos</strong>: como quien debe proteger, y como alguien a quien hay que proteger."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos de lectura y quizzes.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. Puedes reintentarlo las veces que quieras y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
@@ -46,8 +50,12 @@
       "navLabel": "De dónde sale",
       "sections": [
         {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> esto no salió de una reunión. Salió de la ley — y el nombre ya lo dijiste tú."
+        },
+        {
           "type": "paragraph",
-          "text": "La política se llama <strong>«Haré todo cuanto de mí dependa»</strong>. Si te suena, es porque esa frase ya la dijiste: está en medio de tu Promesa."
+          "text": "La política se llama <strong>«Haré todo cuanto de mí dependa: Política Nacional de Entornos Seguros»</strong> — de ahí sale el nombre de este curso. Si te suena, es porque esa frase ya la dijiste: está en medio de tu Promesa."
         },
         {
           "type": "policy-quote",
@@ -91,7 +99,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La Política cita <strong>ocho leyes colombianas</strong> más: prevención del abuso sexual infantil, violencia basada en género, derechos de las personas con discapacidad, convivencia escolar… Todas ya existían. Lo que hizo la ASC fue <strong>traducirlas a lo que pasa en una reunión de tropa un sábado</strong>."
+          "text": "La Política nombra <strong>doce leyes colombianas</strong> —y aun así dice «entre otras»—: prevención del abuso sexual infantil, violencia basada en género, derechos de las personas con discapacidad, convivencia escolar… Todas ya existían. Lo que hizo la ASC fue <strong>traducirlas a lo que pasa en una reunión de tropa un sábado</strong>."
         },
         {
           "type": "info-box",
@@ -103,7 +111,7 @@
         "nextLabel": "Continuar: qué es A Salvo del Peligro 🏕️",
         "questions": [
           {
-            "text": "Un dirigente dice en consejo: «esto de A Salvo del Peligro es una moda que llegó de afuera; en mi grupo llevamos treinta años sin problemas». ¿Qué le falta saber?",
+            "text": "Un dirigente dice en consejo: «esto de A Salvo del Peligro es una moda que llegó de afuera; en mi grupo llevamos treinta años sin problemas». De estas tres, ¿cuál se lo responde con una <strong>norma</strong>, no con una intuición?",
             "options": [
               "Que la protección integral la exige la ley colombiana desde 2006, con o sin política scout.",
               "Que la OMMS puede retirarle el reconocimiento internacional al grupo que decida no aplicarla.",
@@ -112,15 +120,18 @@
             "correctIndex": 0
           },
           {
-            "text": "La política se llama «Haré todo cuanto de mí dependa». ¿De dónde sale ese nombre?",
+            "text": "Un dirigente dice que le molesta que la política «le imponga» compromisos nuevos. ¿Qué le muestra el nombre mismo de la política?",
             "options": [
-              "De una frase que está en medio de la Promesa Scout, puesta en primera persona.",
-              "De la Ley Scout, que en uno de sus artículos pide al scout ser útil y servir.",
-              "Del lema «Siempre Listos», que la política reformula para el cuidado de la niñez."
+              "Que el compromiso no es nuevo: esa frase ya la dijo él al hacer su Promesa.",
+              "Que el nombre viene del lema «Siempre Listos», reformulado para la niñez.",
+              "Que el nombre es simbólico, y lo que obliga de verdad es la ley colombiana."
             ],
             "correctIndex": 0
           }
         ]
+      },
+      "reflection": {
+        "prompt": "«Haré todo cuanto de mí dependa» ya lo dijiste tú, en voz alta y delante de gente. Escribe una cosa concreta que hayas hecho en tu grupo en los últimos tres meses —una sola, por pequeña que sea— que ahora reconozcas como parte de ese compromiso: revisar algo, preguntar algo, no dejar pasar algo. Si te cuesta encontrarla, tampoco pasa nada: escribe entonces cuál vas a poder escribir dentro de tres meses."
       }
     },
     {
@@ -129,6 +140,10 @@
       "emoji": "🏕️",
       "navLabel": "Qué es",
       "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> no es un protocolo que alguien guarda. Es una cultura, y te incluye en las dos direcciones."
+        },
         {
           "type": "paragraph",
           "text": "Antes de decirte qué es, tres cosas que <strong>no</strong> es — porque son las tres que la gente cree."
@@ -218,6 +233,9 @@
             "correctIndex": 0
           }
         ]
+      },
+      "reflection": {
+        "prompt": "«La política me protege a mí también.» Ponle un caso, porque en abstracto esa frase no se cree. Piensa en un momento del último año en tu grupo —un consejo, un chat, una salida— en el que a ti o a otro adulto se le habló mal, se le pasó por encima o se le pidió callar algo. No des nombres. Escribe la situación en una línea, y debajo qué habrías querido que pasara. Si no se te ocurre ninguna, escríbelo también: es un buen dato."
       }
     },
     {
@@ -227,8 +245,12 @@
       "navLabel": "Cuatro palabras",
       "sections": [
         {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> cuatro palabras que no son sinónimos. Confundirlas te hace responder con lo que no era."
+        },
+        {
           "type": "paragraph",
-          "text": "Peligro, riesgo, abuso, violencia. Las usamos como si fueran lo mismo, y la Política las separa <strong>a propósito</strong> — porque a cada una se responde distinto."
+          "text": "Peligro, riesgo, abuso, violencia. Las usamos como si fueran lo mismo, y la Política las separa <strong>a propósito</strong> — porque no se responde igual a las cuatro. A un peligro se le baja la probabilidad; a un riesgo se le pone una decisión; a un abuso y a una violencia <strong>se les reporta</strong>. Confundirlas no es un error de vocabulario: es responder con una cosa el día que tocaba la otra."
         },
         {
           "type": "method-grid",
@@ -240,20 +262,20 @@
               "borderColor": "#fb8c00"
             },
             {
-              "title": "🎲 Riesgo",
+              "title": "🎲 Riesgo (para Scouts de Colombia)",
               "description": "«La posibilidad de que un peligro afecte negativamente la integridad» de los miembros (p. 14). Ejemplo: que los lobatos jueguen en la orilla sin supervisión.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "💔 Abuso",
-              "description": "«Cualquier acción u omisión que cause daño físico, psicológico, emocional, sexual o patrimonial», en contextos «escolar, digital, familiar, incluso el Scout» (p. 14).",
+              "description": "«Cualquier acción u omisión que cause daño físico, psicológico, emocional, sexual o patrimonial», en contextos «escolar, digital, familiar, incluso el Scout» (p. 14). Fíjate en la palabra <strong>omisión</strong>: se puede abusar sin hacer nada.",
               "color": "#fce4ec",
               "borderColor": "#d81b60"
             },
             {
               "title": "✊ Violencias interpersonales",
-              "description": "«Actos y comportamientos de agresión intencional» con resultado de daño, «cometidos por una persona o en grupo» (p. 14). La palabra clave es intencional.",
+              "description": "«Actos y comportamientos de agresión <strong>intencional</strong>» con resultado de daño, «cometidos por una persona o en grupo» (p. 14). Aquí alguien lo decidió.",
               "color": "#ede7f6",
               "borderColor": "#5e35b1"
             }
@@ -262,6 +284,10 @@
         {
           "type": "info-box",
           "text": "💡 <strong>Peligro es lo que puede hacer daño. Riesgo es la probabilidad de que te lo haga a ti.</strong> El peligro casi nunca se elimina —el río sigue siendo un río—; <strong>lo que se gestiona es el riesgo</strong>. Por eso planear una actividad no es buscar un sitio sin peligros: es mirar los que hay y bajar la probabilidad."
+        },
+        {
+          "type": "info-box",
+          "text": "💡 <strong>Y la otra pareja: el abuso puede ser por omisión; la violencia siempre es intencional.</strong> Que a un chico con discapacidad se le quede fuera una y otra vez porque nadie adaptó nada encaja en la definición de abuso —puede que nadie quisiera hacerle daño, y el daño está—. Que lo imiten para que los demás se rían, en la de violencia: alguien lo decidió. Por eso no se atienden igual: donde hubo omisión hay un sistema que arreglar; donde hubo intención hay alguien que responde. <strong>Ninguna de las dos la clasificas tú</strong> — las distingues para saber que no son lo mismo, y reportas."
         },
         {
           "type": "heading",
@@ -312,6 +338,14 @@
       "navLabel": "Entorno seguro",
       "sections": [
         {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> lo operativo no es la definición de entorno seguro, sino la del inseguro — y a esa se llega sin que nadie agreda a nadie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pregúntale a tu consejo de grupo qué es un entorno seguro y vas a escuchar casi siempre lo mismo: «uno donde no ha pasado nada». Es la respuesta más común, y es la que esta lección desarma — porque un grupo donde no ha pasado nada puede ser, en los términos exactos de la Política, un entorno inseguro."
+        },
+        {
           "type": "policy-quote",
           "label": "📋 Ver la definición oficial",
           "source": "Política Nacional A Salvo del Peligro (diciembre de 2025), p. 13.",
@@ -319,7 +353,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<em>(«Competencias socioemocionales» aquí son las de la persona —manejar emociones, convivir—, no las competencias del adulto voluntario de las que habla la Política de Adultos. Misma palabra, dos planos.)</em>"
+          "text": "<em>(«Competencias socioemocionales» aquí son las de la persona —manejar emociones, convivir—, no las competencias del adulto voluntario de las que habla la Política de Adultos. Y estas valen para <strong>todo el mundo</strong>: jóvenes y adultos por igual.)</em>"
         },
         {
           "type": "paragraph",
@@ -345,12 +379,16 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Y hay una forma de entorno inseguro que la Política nombra aparte, porque la causa quien debía proteger: la <strong>revictimización</strong> — «repetición o profundización del daño sufrido por una persona, como resultado de respuestas inadecuadas, indiferentes o culpabilizantes» (p. 15). Ocurre, dice la fuente, cuando «no se activan rutas de atención» o «se minimiza el relato de la víctima». Retenla: es la palabra que explica por qué el Curso 03 te va a pedir que <strong>no preguntes</strong>."
+        },
+        {
           "type": "info-box",
           "text": "⚠️ <strong>Las dos últimas no son fallos de papeleo: son culturales.</strong> Un grupo donde «así se ha hecho siempre» tapa una burla sistemática es, en los términos exactos de la Política, un <strong>entorno inseguro</strong> — aunque tenga todos sus protocolos firmados y cero incidentes reportados."
         }
       ],
       "reflection": {
-        "prompt": "De las cuatro maneras de llegar a un entorno inseguro —falta de protocolos, ausencia de supervisión, normalización de conductas violentas, invisibilización—, ¿cuál se parece más a algo que hayas visto en un grupo scout? No hace falta que sea el tuyo ni que des nombres. Escribe qué viste y qué lo hacía pasar desapercibido."
+        "prompt": "De las cuatro maneras de llegar a un entorno inseguro —falta de protocolos, ausencia de supervisión, normalización de conductas violentas, invisibilización—, ¿cuál se parece más a algo que hayas visto en un grupo scout? No hace falta que sea el tuyo ni que des nombres. Escribe qué viste y qué lo hacía pasar desapercibido. Si la respuesta es «en ninguno», vuelve a la tercera: «así se ha hecho siempre» casi nunca se ve desde adentro. Pregúntate qué costumbre de tu grupo le explicarías con algo de vergüenza a un papá que llega nuevo."
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -369,7 +407,7 @@
             "text": "¿Por qué la Política define «entorno seguro» y también «entorno inseguro»?",
             "options": [
               "Porque a un entorno inseguro se puede llegar sin que nadie agreda a nadie.",
-              "Porque el manual operativo exige definir ambos términos por separado.",
+              "Porque el entorno inseguro es el que ya tuvo un caso y hay que reportarlo.",
               "Porque el entorno inseguro es el que se reporta, y el seguro es el que se audita."
             ],
             "correctIndex": 0
@@ -384,6 +422,10 @@
       "navLabel": "La Declaración",
       "sections": [
         {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la política entera cabe en tres compromisos, y el tercero no admite excepciones."
+        },
+        {
           "type": "paragraph",
           "text": "El corazón de la política cabe en una página: la <strong>Declaración</strong>. Y la Declaración cabe en tres compromisos."
         },
@@ -392,7 +434,7 @@
           "items": [
             {
               "title": "🤝 Uno · Corresponsabilidad de todos",
-              "description": "«Es corresponsabilidad de todos los adultos y jóvenes de la ASC mitigar los riesgos» — en todos los niveles y áreas, no solo en la unidad.",
+              "description": "«Es corresponsabilidad de todos los adultos y jóvenes de la ASC mitigar… los riesgos» — en todos los niveles y áreas, no solo en la unidad.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             },
@@ -404,7 +446,7 @@
             },
             {
               "title": "🤐 Tres · Nadie guarda secretos",
-              "description": "Y esto no admite matices ni excepciones «entre nosotros». Es la frase más tajante de las 49 páginas.",
+              "description": "Y esto no admite excepciones «entre nosotros». Es la frase más tajante de las 50 páginas.",
               "color": "#fce4ec",
               "borderColor": "#d81b60"
             }
@@ -425,12 +467,14 @@
           "text": "Y una última cosa, que cierra el círculo del principio. Cuando la Política explica de dónde saca su autoridad, no apunta a un reglamento:"
         },
         {
-          "type": "blockquote",
-          "text": "Los principios y valores contenidos en la Ley y la Promesa Scout se constituyen como la principal herramienta para la existencia de entornos seguros dentro del Movimiento Scout."
+          "type": "policy-quote",
+          "label": "📋 Ver de dónde saca su autoridad",
+          "source": "Política Nacional A Salvo del Peligro (diciembre de 2025), p. 21.",
+          "text": "Los principios y valores contenidos en la Ley y la Promesa Scout se constituyen como la principal herramienta para la existencia de entornos seguros dentro del Movimiento Scout en todos sus niveles y áreas"
         }
       ],
       "reflection": {
-        "prompt": "«No cabrá la posibilidad de guardar ningún secreto.» Piensa en una situación —real o verosímil— en la que a ti te costaría cumplir eso. No busques un caso grave: busca el incómodo, el del compañero que aprecias, el de la familia que va a quedar mal. Escribe qué te costaría, en una frase."
+        "prompt": "«No cabrá la posibilidad de guardar ningún secreto.» Piensa en una situación —real o verosímil— en la que a ti te costaría cumplir eso. No busques un caso grave: busca el incómodo, el del compañero que aprecias, el de la familia que va a quedar mal. Escribe qué te costaría, en una frase. Y no te quedes ahí: lo que hace cumplible esa frase no es tener más valor, es tener las palabras listas — y eso es la lección «Si alguien te cuenta algo» del Curso 03."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -446,11 +490,11 @@
             "correctIndex": 0
           },
           {
-            "text": "La Declaración obliga a informar, derivar o reportar. ¿A quién?",
+            "text": "Un dirigente reporta un incidente al consejo de grupo y da el tema por cerrado: «ya lo escalé por el conducto interno». ¿Qué le falta?",
             "options": [
-              "Al Estado —Salud, Protección o Justicia— y a los órganos de la ASC: se suman.",
-              "A la ASC primero, y al Estado solo si la ASC lo pide tras valorar el caso.",
-              "Al Estado, y a la ASC solamente cuando el implicado sea miembro de la Asociación."
+              "Le falta el Estado: el conducto interno no reemplaza a Salud ni a Justicia.",
+              "Nada: reportar dentro de la Asociación es el paso que la Declaración pide.",
+              "Le falta esperar: el consejo decide si el caso sale, y él ya cumplió avisando."
             ],
             "correctIndex": 0
           }
@@ -463,6 +507,10 @@
       "emoji": "🗺️",
       "navLabel": "Dónde aplica",
       "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el alcance no termina donde termina la actividad. Y la sorpresa está al final."
+        },
         {
           "type": "paragraph",
           "text": "Sabes qué dice. Falta saber <strong>dónde te alcanza</strong>, y ahí hay una sorpresa al final."
@@ -493,7 +541,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Y ahora la frase que la mayoría no espera. La Política aplica también cuando —textualmente— <strong>«sin representar a Scouts de Colombia, su membresía interactúe entre sí»</strong> (p. 24).<br><br>Léelo otra vez. <strong>El grupo de WhatsApp del consejo a las once de la noche está cubierto.</strong> La conversación en el carro volviendo del campamento, también. No hace falta uniforme, ni pañoleta, ni actividad de por medio: basta con que las dos personas sean de la Asociación."
+          "text": "Y ahora la frase que la mayoría no espera. La Política aplica también cuando —textualmente— <strong>«sin representar a Scouts de Colombia, su membresía interactúe entre sí»</strong> (p. 24).<br><br>Léelo otra vez. <strong>El grupo de WhatsApp del consejo a las once de la noche está cubierto.</strong> La conversación en el carro volviendo del campamento, también. No hace falta uniforme, ni pañoleta, ni actividad de por medio: basta con que las dos personas sean de la Asociación.<br><br>Y ahora léelo al derecho, que es la parte que nadie cuenta: si el mensaje que humilla lo recibes <strong>tú</strong>, ese chat <strong>también te cubre a ti</strong>. No es una cámara encima. Es que la Asociación decidió que su palabra no se quita con la pañoleta — para exigirte y para ampararte, en la misma frase."
         },
         {
           "type": "info-box",
@@ -501,11 +549,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Con esto ya tienes el lenguaje completo: qué es la política, qué significan sus palabras, qué es un entorno seguro, qué te obliga y dónde te alcanza. <strong>Lo que sigue es qué hacer con las manos.</strong> El <strong>Curso 03</strong> —que ya está publicado— te dice exactamente eso: qué decir cuando alguien te cuenta algo, qué no prometer, por dónde entra un reporte y dónde termina tu rol."
+          "text": "Con esto ya tienes el lenguaje completo: qué es la política, qué significan sus palabras, qué es un entorno seguro, qué te obliga y dónde te alcanza. Y las dos cosas con las que abrimos siguen siendo verdad a la vez: <strong>te nombra como quien debe proteger, y como alguien a quien hay que proteger</strong>. Entraste pensando que esta política era para cuidar a los niños de los adultos malos; sales sabiendo que el día que el pasado por encima seas tú, también habla de ti.<br><br><strong>Lo que sigue es qué hacer con las manos.</strong> El <strong>Curso 03</strong> —que ya está publicado— te dice exactamente eso: qué decir cuando alguien te cuenta algo, qué no prometer, por dónde entra un reporte y dónde termina tu rol."
         }
       ],
       "reflection": {
-        "prompt": "El alcance incluye «todo tipo de comunicación verbal y escrita» y lo que pase entre miembros aunque nadie represente a la ASC. Mira el último mes del grupo de WhatsApp de adultos de tu grupo. ¿Hay algo ahí que no escribirías si tuvieras presente que la política lo cubre? No lo cuentes: escribe qué vas a hacer distinto a partir de mañana, en una frase."
+        "prompt": "Mira el último mes del grupo de WhatsApp de adultos de tu grupo, y míralo dos veces. La primera, buscando algo que tú no volverías a escribir. La segunda, buscando algo que a otro le dolió y nadie cortó. No cuentes ninguna de las dos cosas: escribe una sola frase con lo que vas a hacer distinto a partir de mañana — lo que vas a escribir, o lo que vas a cortar. Guárdala: al final del curso, después del certificado, te la van a pedir en el cuadro «Compromiso Personal»."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -521,11 +569,11 @@
             "correctIndex": 0
           },
           {
-            "text": "¿Hasta dónde llega el alcance de la Política en cuanto a personas?",
+            "text": "El grupo contrata un bus y el conductor trata mal a los chicos durante el viaje. No es miembro de la ASC. ¿Lo alcanza la Política?",
             "options": [
-              "Llega a familias, proveedores y aliados, no solo a los miembros afiliados.",
-              "Llega a los afiliados y a los adultos que tengan cargo dentro de la estructura.",
-              "Llega a todo el que entre a una actividad, y termina cuando la actividad termina."
+              "Sí: el alcance se amplía a proveedores y colaboradores externos.",
+              "No: la Política obliga solo a las personas afiliadas a la Asociación.",
+              "Sí, pero solo durante el viaje que el grupo le contrató para ese día."
             ],
             "correctIndex": 0
           }
@@ -542,18 +590,36 @@
     },
     {
       "id": "achievement-2",
+      "name": "Me nombra a mí",
+      "emoji": "🫂",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
       "name": "Las cuatro palabras",
       "emoji": "🔤",
       "unlockOnModule": 4
     },
     {
-      "id": "achievement-3",
+      "id": "achievement-4",
+      "name": "Ver lo que no se ve",
+      "emoji": "🧱",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
       "name": "Nadie guarda secretos",
       "emoji": "✋",
       "unlockOnModule": 6
     },
     {
-      "id": "achievement-4",
+      "id": "achievement-6",
+      "name": "Hasta el chat del domingo",
+      "emoji": "🗺️",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
       "name": "Entornos Seguros",
       "emoji": "🏕️",
       "unlockOnModule": -1
@@ -561,6 +627,6 @@
   ],
   "certificate": {
     "courseName": "ENTORNOS SEGUROS: LA POLÍTICA A SALVO DEL PELIGRO",
-    "description": "ha completado el Curso 02 de la Línea Políticas Transversales — Entornos Seguros, comprendiendo qué entiende la Asociación por A Salvo del Peligro y por entorno seguro, la diferencia entre peligro, riesgo, abuso y violencia, los tres compromisos de la Declaración —incluida la imposibilidad de guardar secretos— y el alcance de la Política Nacional A Salvo del Peligro, aprobada por el Acuerdo C.S.N. 657 del 3 de diciembre de 2025, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
+    "description": "ha completado el Curso 02 de la Línea Políticas Transversales — Entornos Seguros, comprendiendo qué entiende la Asociación por A Salvo del Peligro y por entorno seguro, la diferencia entre peligro, riesgo, abuso y violencia, la protección que la Política extiende también a los propios adultos, los tres compromisos de la Declaración —incluida la imposibilidad de guardar secretos— y el alcance de la Política Nacional A Salvo del Peligro, aprobada por el Acuerdo C.S.N. 657 del 3 de diciembre de 2025, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
   }
 }

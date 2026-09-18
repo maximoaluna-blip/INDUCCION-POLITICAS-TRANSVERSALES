@@ -398,4 +398,29 @@ El vocabulario de la L3 es la base del **Curso 08** (`senales-maltrato-negligenc
 
 ---
 
+
+---
+
+## ⚠️ Lo que las auditorías cambiaron (18-sep-2026) — este diseño NO se reescribió
+
+> **El diseño es fuente histórica** (ADR-057). Lo que vale hoy es el JSON.
+
+| Dónde | Decía | Dice hoy |
+|---|---|---|
+| **Intro y L5** | «una política de **49** páginas» | **50** — el archivo tiene 50 y el último folio impreso es el 48 |
+| **Intro y L1** | «**ocho** leyes colombianas» | **doce**, y la fuente cierra con «entre otras». Las ocho eran solo el bloque «Complementariamente…» |
+| **L5** | *«mitigar los riesgos»* entrecomillado | Con **elipsis**: la fuente intercala catorce palabras. ⚠️ **Este diseño la traía bien** — se perdió al pasar al JSON |
+| **L1, quiz** | El distractor de los «treinta años» quedaba falso | El enunciado pide **qué se responde con una norma**. El distractor es cierto —es la tesis de la L4—, así que el que estaba mal era el enunciado |
+| **L1** | «La política se llama «Haré todo cuanto de mí dependa»» | El título completo: **«…: Política Nacional de Entornos Seguros»**, de donde sale el nombre de este curso |
+| **L3** | Abuso y violencia entraban **como glosario**, sin ejemplo | Con el contraste que faltaba: **el abuso puede ser por omisión; la violencia siempre es intencional** — y la promesa de la primera línea («a cada una se responde distinto») ahora se paga |
+| **L4** | No definía **revictimización** | La define. El §0 de este mismo diseño argumentaba que el Curso 03 la necesita |
+| **L2 y L6** | El hito se enunciaba **una vez** y no volvía | Reflexión propia, segunda cara del remate del WhatsApp, cierre reescrito y **el certificado lo acredita** |
+| **Todas** | Ninguna lección abría con recuadro de orientación | Las seis, como las 12 de los cursos publicados. Y la **L4 abría con la definición oficial**: anti-definición al revés |
+| **Registro** | No decía que el «70 %» del motor son **las dos** preguntas | Lo dice, como el Curso 01 |
+| **Duración** | «por medir» | **30 min medidos**. ⚠️ El Plan estimó 30 y **acertó por accidente**: el curso construido medía ~23, y son las auditorías las que lo trajeron ahí |
+| **Logros** | 4 para 6 lecciones | **7** — uno por lección y el del certificado |
+
+**Lo que este diseño acertó y no se tocó:** el hook, el patrón anti-definición de la L2, la frase-ancla de peligro/riesgo, el remate de la p. 24, las fronteras deliberadas (no tocar el Acuerdo 405, no adelantar el Curso 03, no entrar en el entorno digital con jóvenes) y las cinco citas, **exactas carácter por carácter**.
+
+
 _Diseño escrito el 18-sep-2026. Las nueve páginas de la Política se leyeron de la extracción normalizada y con su longitud impresa antes de citarlas (`../CREAR-CURSO.md` §4-bis). Fuentes: Política Nacional A Salvo del Peligro (dic-2025) pp. 5, 11–15, 21, 23–24, 30; Estatuto Nacional 2025, Art. 5, p. 4._
