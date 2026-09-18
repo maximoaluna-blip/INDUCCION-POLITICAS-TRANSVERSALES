@@ -12,8 +12,8 @@ La **cuarta** línea de la plataforma. Cubre las tres políticas que la ASC exig
 **Diversidad e Inclusión** y **Gestión para la Motivación**.
 
 - **Plan de Línea:** `Plan-de-Formacion-Linea-Politicas-Transversales.md` (BORRADOR v0.2) — 22 cursos en 4 niveles.
-- **Repo:** `maximoaluna-blip/INDUCCION-POLITICAS-TRANSVERSALES`, **PRIVADO** (ADR-036). Pasa a público el día que se active GitHub Pages, no antes.
-- **Color de marca:** verde `#4CAF50`.
+- **Repo:** `maximoaluna-blip/INDUCCION-POLITICAS-TRANSVERSALES`, **PÚBLICO** desde el 18-sep-2026 — **ADR-036 cerrado** al publicarse la línea. ⚠️ El repo es **nuevo**: el anterior quedó renombrado a `…-privado` porque un `force-push` no borra nada en GitHub (ADR-062).
+- **Color de marca:** verde **`#2E7D32`**. ⚠️ No `#4CAF50`: da **2.78:1** sobre blanco, por debajo de AA.
 - **Apellido de las claves de `localStorage`:** `politicas-transversales:` (ADR-025 / ADR-034).
 
 ## Lo que no es negociable en esta línea
@@ -54,15 +54,16 @@ conducta y el límite.**
 
 ## Estado
 
-- **Nada publicado.** El catálogo (`02-Plataforma-Web/cursos.json`) está vacío y la línea no está
-  dada de alta en `PORTAL-ADULTOS-ASC/lineas.json` ni en `PORTAL-ADMIN-ASC/dashboards.json`.
-- **Auditados y en compuerta humana, los dos en `draft`:** el **Curso 01**
+- **PUBLICADA el 18-sep-2026** (**ADR-062**) con **2 cursos `active`** de los 22 planeados: el **Curso 01**
   `bienvenida-politicas-transversales` (35 min) y el **Curso 03** `adulto-garante-entorno-seguro`
-  (45 min), el de mayor riesgo doctrinal de la plataforma. **Los dos pasan las tres auditorías.**
-  ⚠️ La del Curso 03 encontró que **la raíz del peor error estaba en `../GLOSARIO-ASC.md`**, no en el
-  curso: dos filas del §C-bis se contradecían sobre el mismo rol, el ancla de esta línea copió la más
-  rotunda y el curso copió el ancla. **Corregido de arriba abajo** (glosario v1.27, esta ficha,
+  (45 min), el de mayor riesgo doctrinal de la plataforma. **Los dos pasan las tres auditorías**, y la
+  línea está dada de alta en el portal y en el panel admin.
+  ⚠️ La auditoría del Curso 03 encontró que **la raíz del peor error estaba en `../GLOSARIO-ASC.md`**, no
+  en el curso: dos filas del §C-bis se contradecían sobre el mismo rol, el ancla de esta línea copió la
+  más rotunda y el curso copió el ancla. **Corregido de arriba abajo** (glosario v1.27, esta ficha,
   `doctrina.json` y el curso). *Corregir solo el curso habría dejado la fuente del error en pie.*
+- **Cómo se construye el siguiente:** [`CREAR-CURSO.md`](CREAR-CURSO.md), y su **§4-bis** antes que nada:
+  recoge lo que costó construir estos dos **sin** ese documento.
 - **Bloqueado aparte:** el **Curso 04** (`diversidad-e-inclusion-movimiento`) no se diseña hasta
   tener el texto del **Acuerdo C.S.N. 405** — las fuentes discrepan sobre si la política de D&I
   adoptada es la Mundial o la Interamericana, y **no está publicado en la biblioteca**.
@@ -84,7 +85,7 @@ una compuerta no se hereda de otra: depende de si el término tiene una acepció
 
 ⚠️ **Se calibraron contra el corpus real antes de escribirse.** Las versiones ingenuas daban **5 falsos positivos y
 0 verdaderos**: señalaban al Curso 03 *enseñando* que un término está superado, y a un ítem correcto que explica
-*por qué no* interrogar. **Al tocarlas, recalibrar** — `scratchpad/calibrar_compuertas.py` hace la medida.
+*por qué no* interrogar. **Al tocarlas, recalibrar** — `PRUEBAS-E2E/calibrar-doctrina.py` hace la medida — vive **en la suite**, no en un scratchpad.
 
 ✅ **Leen el JSON fuente, no el catálogo: vigilan también los cursos en `draft`** (el hueco del ADR-052).
 
