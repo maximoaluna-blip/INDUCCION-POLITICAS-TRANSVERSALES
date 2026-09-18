@@ -4,7 +4,7 @@
 
 **Asociación Scouts de Colombia · Plataforma de Formación de Adultos**
 
-> **BORRADOR v0.2 — auditado doctrinalmente; pendiente de revisión del dueño.**
+> **v1.0 — APROBADO POR EL DUEÑO el 17-sep-2026.** Auditado doctrinalmente (v0.1) y corregido (v0.2); aprobado sin cambios de estructura. **La línea puede construirse y publicarse.** Ver `DECISIONES.md` **ADR-059**.
 > 4 niveles · 22 cursos propuestos · Ruta progresiva
 >
 > Redactado el 14 de septiembre de 2026 a partir de fuentes locales de `DOCUMENTOS BASE/`.
@@ -14,8 +14,10 @@
 > **p. 31** de la Política ordena *"alinear y actualizar todo el marco normativo"* de la ASC a ella y que su
 > aplicación *"se refleje en manuales, guías, protocolos…"*. **Se levantó el bloqueo: esta línea puede
 > construirse.**
-> **Lo que sigue abierto y decide el dueño:** el reparto con el curso ASP de Programa de Jóvenes (§10, duda 4) y
-> el nivel de detalle admisible para las señales de abuso (§10, duda 8). **Y el Curso 04 sigue bloqueado aparte**,
+> **Lo que sigue abierto y decide el dueño:** el nivel de detalle admisible para las señales de abuso
+> (§10, duda 8), que afecta a los Cursos **07 y 08, del Nivel 2**. ~~El reparto con el curso ASP de
+> Programa de Jóvenes (§10, duda 4)~~ **quedó CERRADO por el ADR-038 el 15-sep-2026**, el mismo día
+> de esta v0.2: la regla es *¿el sujeto es el joven y la unidad, o el adulto y la institución?*. **Y el Curso 04 sigue bloqueado aparte**,
 > a la espera del texto del **Acuerdo C.S.N. 405** (§10, duda 9).
 > Nada de lo que sigue está publicado ni aprobado. Toda afirmación sin respaldo local está marcada
 > `[SIN FUENTE LOCAL — verificar en scout.org.co/biblioteca]`. Las respuestas del auditor a la §10 están íntegras
@@ -223,6 +225,7 @@ Es la ruta común. Toda persona que se inscribe en la plataforma de Políticas T
   1. **Identificar** las tres políticas transversales y el documento oficial rector de cada una, por su título exacto. **Salvedad:** para Diversidad e Inclusión este objetivo **no se puede cumplir todavía** — las fuentes discrepan sobre qué política adoptó el Acuerdo 405 (§1.2). Hasta tener el texto del acuerdo, el curso enseña *que* la ASC la adoptó y remite a la biblioteca, sin afirmar el título.
   2. **Distinguir** lo que esta línea ofrece (comprensión y aplicación) de lo que la ASC exige por fuera de ella (el módulo oficial de A Salvo del Peligro y su certificado).
   3. **Ubicar** las tres políticas dentro de su propio ciclo de vida como adulto (inducción, desempeño, decisiones para el futuro).
+- ⚠️ **CORREGIDO el 17-sep-2026 al abrir la fuente para construir el curso: el hito es cierto para DOS de las tres.** La **Zona de Cascada** (Cartilla §2.4, p. 17) contiene **A salvo del peligro · Inclusión y Diversidad · Código de Conducta de la OMMS**. **Gestión para la Motivación no está ahí**: vive en el **§2.9, p. 24**. Las tres políticas son **tres módulos distintos** de la Cartilla (§2.5, §2.6, §2.9). **El hito mejora en vez de caerse**, y explica el arco *cuidar · incluir · sostener* del propio plan: cuidar e incluir están en la estación de la protección de derechos; sostener está en otra parte porque es otra cosa. Ver `01-Diseno-Cursos/Curso-01-…md` §1. *Lo que sigue se conserva sin corregir, como quedó escrito.*
 - **Hito pedagógico:** desactivar la idea de que "esto es un trámite de inducción". El adulto descubre que la Cartilla Metodológica las coloca en una estación llamada **Cascada** —no en la de bienvenida ni en la de certificación— porque son las que *"determinan las pautas y directrices entorno a la protección y garantía de los derechos fundamentales"* (§2.4, pp. 10–11).
 - **Lecciones (borrador):** (1) Tres políticas, una sola promesa · (2) A Salvo del Peligro en dos minutos · (3) Diversidad e Inclusión en dos minutos · (4) Motivación en dos minutos · (5) Lo que la ASC te exige por fuera de esta plataforma (módulo oficial, antecedentes, Guía de inducción 2025 — cuyos cursos SFH están **habilitados**, es decir *disponibles*, no «habilitantes») · (6) Tu brújula: primer compromiso.
 - **Riesgo doctrinal:** presentar los cursos de esta línea como equivalentes al *"curso o módulo de A Salvo del Peligro"* que la Política 2025 exige (p. 33). **Antídoto:** `info-box` fijo en la lección 5 con el texto literal de la exigencia propia n.º 1 (§1.3) y enlace a la Guía *Fase de inducción de Adultos Voluntarios Nuevos*.
@@ -394,7 +397,7 @@ Todas las claves llevan apellido de línea (ADR-025 / ADR-034), se declaran en `
 
 ### 8.1 Estado actual (14 de septiembre de 2026)
 
-- Línea **por construir**. Carpeta con este plan, `INVENTARIO-FUENTES.md`, `README.md`, `AUDITORIA-PLAN-v0.1.md` y `CONSULTA-DNDI-ASP.md`. Sin `CREAR-CURSO.md`, sin `01-Diseno-Cursos/`, sin backend. **Repo propio desde el 15-sep-2026** (`maximoaluna-blip/INDUCCION-POLITICAS-TRANSVERSALES`, **privado** — ADR-036); cuando se instancie la línea, la estructura del `_TEMPLATE-LINEA/` se construye **dentro de este repo**, no en uno nuevo.
+- ⚠️ **DESACTUALIZADO — corregido el 17-sep-2026.** La línea **ya tiene toda la infraestructura**: `05-Generador-Cursos/` con motor, `course-schema.json` y `build-course.js`; `02-Plataforma-Web/`; `PRUEBAS-E2E/` con su suite; `assets/`; `index.html`, `404.html` y workflow de CI. **Y el Curso 03 (`adulto-garante-entorno-seguro`) está construido** —diseño, JSON, HTML y entrada de catálogo— en `status: draft`, **pendiente de las tres auditorías** (0 filas en `ESTADO-AUDITORIA.md`). Lo que sigue faltando es `CREAR-CURSO.md`.
 - Nueve documentos oficiales descargados el 14-sep-2026 a `DOCUMENTOS BASE/` (ver `INVENTARIO-FUENTES.md`); **ya registrados** en `INVENTARIO-DOCUMENTOS-BASE.md` v1.1 (§2 y §3-bis), `CHANGELOG-DOCTRINA.md` y `GLOSARIO-ASC.md`.
 - **Bloqueo levantado (15-sep-2026):** el **ADR-035** quedó **aceptado** —la Política 2025 prevalece— y ya no impide construir. **El único bloqueo que queda es del Curso 04**, a la espera del texto del **Acuerdo C.S.N. 405**, que no está publicado en la biblioteca (verificado el 15-sep: no existe categoría «acuerdos») y hay que pedir a la Cancillería Nacional.
 - `PORTAL-ADULTOS-ASC/lineas.json` y `PORTAL-ADMIN-ASC/dashboards.json`: `status: "coming-soon"`, `coursesPlanned: null`. No tocar hasta aprobar el plan.

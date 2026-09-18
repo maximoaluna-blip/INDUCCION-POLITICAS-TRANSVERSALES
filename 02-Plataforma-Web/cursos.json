@@ -12,5 +12,19 @@
     "status": "draft",
     "file": "adulto-garante-entorno-seguro.html",
     "folder": "adulto-garante-entorno-seguro"
+  },
+  {
+    "courseId": "bienvenida-politicas-transversales",
+    "title": "Bienvenida a las Políticas Transversales",
+    "description": "Hay tres cosas que la Asociación le pide a todo adulto antes de pedirle cualquier otra: cuidar, incluir y sostener. Aquí vas a saber cuáles son las tres políticas que lo sostienen, dónde las puso la ASC dentro de tu propia inducción, y —sobre todo— qué te exige la Asociación por fuera de esta plataforma, que no es lo mismo.",
+    "icon": "🛡️",
+    "duration": "25 minutos",
+    "level": 1,
+    "levelName": "Ruta de Fundamentación",
+    "order": 1,
+    "modules": 7,
+    "status": "draft",
+    "file": "bienvenida-politicas-transversales.html",
+    "folder": "bienvenida-politicas-transversales"
   }
 ]
