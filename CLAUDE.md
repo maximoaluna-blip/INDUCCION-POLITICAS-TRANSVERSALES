@@ -54,10 +54,14 @@ conducta y el límite.**
 
 ## Estado
 
-- **PUBLICADA el 18-sep-2026** (**ADR-062**) con **2 cursos `active`** de los 22 planeados: el **Curso 01**
-  `bienvenida-politicas-transversales` (35 min) y el **Curso 03** `adulto-garante-entorno-seguro`
-  (45 min), el de mayor riesgo doctrinal de la plataforma. **Los dos pasan las tres auditorías**, y la
-  línea está dada de alta en el portal y en el panel admin.
+- **PUBLICADA el 18-sep-2026** (**ADR-062**) con **3 cursos `active`** de los 22 planeados, la mitad
+  del Nivel 1: **Curso 01** `bienvenida-politicas-transversales` (35 min), **Curso 02**
+  `entornos-seguros-politica-asp` (30 min) y **Curso 03** `adulto-garante-entorno-seguro` (45 min), el
+  de mayor riesgo doctrinal de la plataforma. **Los tres pasan las tres auditorías**, y la línea está
+  dada de alta en el portal y en el panel admin.
+  ⚠️ El **02 se publicó un día después que el 03**, y el 01 le dice al adulto que *«sin el Curso 02, el
+  03 se lee como una lista de prohibiciones»*. **Al planear un nivel, mirar qué curso sostiene a cuál:**
+  el orden de construcción no tiene por qué ser el de numeración, pero el hueco se lee.
   ⚠️ La auditoría del Curso 03 encontró que **la raíz del peor error estaba en `../GLOSARIO-ASC.md`**, no
   en el curso: dos filas del §C-bis se contradecían sobre el mismo rol, el ancla de esta línea copió la
   más rotunda y el curso copió el ancla. **Corregido de arriba abajo** (glosario v1.27, esta ficha,
