@@ -18,8 +18,10 @@ const path = require('path');
 const GENERADO = path.join(__dirname, '.cursos.json');
 
 // Fallback: espejo de INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/cursos.json.
-// Los DOS cursos de la linea estan en `draft`, no `active`, asi que sin este espejo la
-// suite no probaria nada (ADR-052). Se listan para que haya algo que probar en local.
+// Desde el 18-sep-2026 la linea SI esta publicada, asi que contra la URL por defecto el
+// globalSetup ya descarga el catalogo real -y trae solo los `active`-. Este espejo sigue
+// haciendo falta para dos casos: correr sin red, y probar un curso en `draft` (ADR-052),
+// que se hace sirviendo una COPIA con el status volteado, nunca volteando el catalogo.
 //
 // ⚠️ ESTA LISTA HAY QUE MANTENERLA A MANO. Decia UN curso hasta el 17-sep-2026, cuando
 // ya habia dos: el Curso 01 llevaba dias sin que ninguna prueba local lo tocara, y la
@@ -40,6 +42,11 @@ const FALLBACK = [
     courseId: 'entornos-seguros-politica-asp',
     file: 'entornos-seguros-politica-asp.html',
     tituloIncluye: 'Entornos Seguros',
+  },
+  {
+    courseId: 'gestion-para-la-motivacion',
+    file: 'gestion-para-la-motivacion.html',
+    tituloIncluye: 'Motivaci',
   },
 ];
 

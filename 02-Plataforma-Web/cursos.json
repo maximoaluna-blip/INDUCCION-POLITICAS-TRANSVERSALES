@@ -40,5 +40,19 @@
     "status": "active",
     "file": "entornos-seguros-politica-asp.html",
     "folder": "entornos-seguros-politica-asp"
+  },
+  {
+    "courseId": "gestion-para-la-motivacion",
+    "title": "Gestión para la Motivación: motivar es dar",
+    "description": "Motivar no es dar ánimo: es dar algo, y distinto a cada uno. Aquí vas a saber qué separa un motivo de una motivación, las veintiséis maneras concretas de dar que propone la ASC, cuáles son las tres que más se fallan, cuándo hacerlo y —lo que casi nadie se plantea— de dónde sacas la tuya. Es el curso de cuidar a los adultos que cuidan.",
+    "icon": "💪",
+    "duration": "por medir",
+    "level": 1,
+    "levelName": "Ruta de Fundamentación",
+    "order": 5,
+    "modules": 7,
+    "status": "draft",
+    "file": "gestion-para-la-motivacion.html",
+    "folder": "gestion-para-la-motivacion"
   }
 ]
