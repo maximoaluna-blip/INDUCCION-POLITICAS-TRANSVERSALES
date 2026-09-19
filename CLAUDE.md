@@ -54,11 +54,23 @@ conducta y el límite.**
 
 ## Estado
 
-- **PUBLICADA el 18-sep-2026** (**ADR-062**) con **3 cursos `active`** de los 22 planeados, la mitad
-  del Nivel 1: **Curso 01** `bienvenida-politicas-transversales` (35 min), **Curso 02**
-  `entornos-seguros-politica-asp` (30 min) y **Curso 03** `adulto-garante-entorno-seguro` (45 min), el
-  de mayor riesgo doctrinal de la plataforma. **Los tres pasan las tres auditorías**, y la línea está
-  dada de alta en el portal y en el panel admin.
+- **PUBLICADA el 18-sep-2026** (**ADR-062**), y con **4 cursos `active`** desde el 19-sep de los 22
+  planeados: **Curso 01** `bienvenida-politicas-transversales` (35 min), **Curso 02**
+  `entornos-seguros-politica-asp` (30 min), **Curso 03** `adulto-garante-entorno-seguro` (45 min) —el
+  de mayor riesgo doctrinal de la plataforma— y **Curso 05** `gestion-para-la-motivacion` (35 min).
+  **Los cuatro pasan las tres auditorías**, y la línea está dada de alta en el portal y en el panel admin.
+  **Con el 05 el Nivel 1 queda en 4 de 6**, y el arco *cuidar–sostener* cerrado por los dos extremos:
+  falta el **04** (bloqueado) y el **06**.
+  ⚠️ El **Curso 05 cambia de objeto**: los cuatro anteriores hablan de cuidar a los jóvenes; ese habla
+  de **cuidar a los adultos que cuidan**. Su único crítico doctrinal **no estaba en el curso sino en
+  `../GLOSARIO-ASC.md`** (**ADR-064**), que afirmaba *«los 26 "dar" en cuatro familias»* cuando las
+  familias clasifican **25**. **Segunda vez en esta línea** que la raíz del peor hallazgo está en el
+  glosario.
+  ⚠️ Al reconstruir sus cursos apareció que el **Curso 01 seguía imprimiendo** en su cuadro de
+  compromiso *«tu compromiso como **adulto certificado**»* — lo que esta línea **no acredita**—: el
+  texto se había corregido en `build-course.js` al construir el Curso 02, pero **el Curso 01 nunca se
+  recompiló**. ***Lo que no se recompila, no se corrige.*** Hoy el cuadro **lo declara cada curso** en
+  `commitmentBox` (patrón del ADR-034), porque los cuatro piden cosas distintas en su última lección.
   ⚠️ El **02 se publicó un día después que el 03**, y el 01 le dice al adulto que *«sin el Curso 02, el
   03 se lee como una lista de prohibiciones»*. **Al planear un nivel, mirar qué curso sostiene a cuál:**
   el orden de construcción no tiene por qué ser el de numeración, pero el hueco se lee.
