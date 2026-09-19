@@ -58,6 +58,10 @@
     "courseName": "BIENVENIDA A LAS POLÍTICAS TRANSVERSALES",
     "description": "ha completado el Curso 01 de la Línea Políticas Transversales — Bienvenida a las Políticas Transversales, con el que abre la Ruta de Fundamentación, reconociendo las tres políticas transversales de la Asociación y el documento rector de las que lo tienen publicado, explicando por qué dos de ellas viven en la Zona de Cascada del módulo de inducción y la tercera no, reconociendo cuáles de las casillas de su inducción corresponden a la protección de derechos, distinguiendo lo que esta línea ofrece de lo que la Asociación exige por fuera de ella, enumerando los nueve pasos de la fase de inducción de adultos voluntarios nuevos, y escribiendo su primer compromiso con una de las tres políticas."
   },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu brújula: <strong>la palabra</strong> que elegiste —cuidar, incluir o sostener— y debajo <strong>el compromiso concreto, con fecha</strong>, para antes del próximo consejo de grupo. El Curso 06 te lo va a devolver.",
+    "placeholder": "Mi palabra es... y antes del próximo consejo voy a..."
+  },
   "modules": [
     {
       "id": 1,

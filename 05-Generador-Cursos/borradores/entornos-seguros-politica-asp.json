@@ -628,5 +628,9 @@
   "certificate": {
     "courseName": "ENTORNOS SEGUROS: LA POLÍTICA A SALVO DEL PELIGRO",
     "description": "ha completado el Curso 02 de la Línea Políticas Transversales — Entornos Seguros, comprendiendo qué entiende la Asociación por A Salvo del Peligro y por entorno seguro, la diferencia entre peligro, riesgo, abuso y violencia, la protección que la Política extiende también a los propios adultos, los tres compromisos de la Declaración —incluida la imposibilidad de guardar secretos— y el alcance de la Política Nacional A Salvo del Peligro, aprobada por el Acuerdo C.S.N. 657 del 3 de diciembre de 2025, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí la frase de la última lección: <strong>lo que vas a hacer distinto a partir de mañana</strong> — lo que vas a escribir, o lo que vas a cortar.",
+    "placeholder": "A partir de mañana voy a..."
   }
 }

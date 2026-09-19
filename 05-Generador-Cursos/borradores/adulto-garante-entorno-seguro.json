@@ -816,5 +816,9 @@
   "certificate": {
     "courseName": "EL ADULTO COMO GARANTE: REPORTAR, NO INVESTIGAR",
     "description": "ha completado el Curso 03 de la Línea Políticas Transversales — El Adulto como Garante, reconociendo la posición de garante que la ley le atribuye y el compromiso que la Promesa Scout le pide, la práctica 2+1 como medida que protege a menores y adultos, la conducta debida ante una revelación, la ruta oficial de reporte y el límite expreso de su rol, que en ningún caso es investigativo ni de gestión del reporte, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí <strong>tus tres frases, numeradas</strong>, tal como las escribiste en la última lección. Y si aún no se las has mandado a tu Jefe de Grupo, este es el momento: un compromiso que alguien más conoce se cumple mucho más.",
+    "placeholder": "1. ...  2. ...  3. ..."
   }
 }

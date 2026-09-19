@@ -537,6 +537,16 @@ ${introExtras}${reflectionHtml}${quizHtml}
 }
 
 function buildCertificateModule(course, certModuleId) {
+    // El cuadro de compromiso NO lleva texto de dominio (patron del ADR-034): lo declara
+    // cada curso, porque cada uno pide una cosa distinta en su ultima leccion -una palabra
+    // con fecha, una frase para manana, tres frases numeradas, «esta semana voy a...»-.
+    // 19-sep-2026: hasta hoy era fijo, y el Curso 01 publicado seguia diciendo «tu compromiso
+    // como ADULTO CERTIFICADO», que es justo lo que esta linea NO acredita. El texto se habia
+    // corregido aqui, pero el curso nunca se recompilo: la correccion no llego a produccion.
+    const compromiso = course.commitmentBox || {};
+    const cPrompt = compromiso.prompt
+        || 'Pega aquí aquello a lo que te comprometiste en la última lección:';
+    const cPlaceholder = compromiso.placeholder || 'Mi compromiso es...';
     const achHtml = course.achievements.map(a =>
         `<div class="achievement earned">${a.emoji} ${a.name}</div>`
     ).join('\n                    ');
@@ -617,8 +627,8 @@ function buildCertificateModule(course, certModuleId) {
 
                 <div class="reflection-area">
                     <h4>🎯 Compromiso Personal</h4>
-                    <p>Pega aquí la frase con la que te comprometiste en la última lección: la de esta semana:</p>
-                    <textarea id="commitment" placeholder="Esta semana voy a..." onchange="saveCommitment(this.value)"></textarea>
+                    <p>${cPrompt}</p>
+                    <textarea id="commitment" placeholder="${cPlaceholder}" onchange="saveCommitment(this.value)"></textarea>
                 </div>
             </div>`;
 }

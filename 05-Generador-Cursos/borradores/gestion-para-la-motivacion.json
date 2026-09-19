@@ -59,6 +59,10 @@
     "courseName": "GESTIÓN PARA LA MOTIVACIÓN: MOTIVAR ES DAR",
     "description": "ha completado el Curso 05 de la Línea Políticas Transversales — Gestión para la Motivación, distinguiendo motivo, motivación y motivar tal como los define la cartilla oficial «Gestión para la Motivación» de la Dirección Nacional de Adultos en el Movimiento (agosto de 2020), y sosteniendo con ella que motivar no es animar sino dar, y dar a cada persona lo que esa persona necesita y no lo que a uno le motivaría recibir; reconociendo las cuatro familias en que esa cartilla agrupa las maneras de dar y las veintiséis que desarrolla una por una, las tres en que este curso se detiene porque no cuestan dinero —información, reconocimiento y confianza—, los cuatro momentos que señala para motivar y el lugar que ocupa la automotivación, y habiendo elegido a una persona concreta de su equipo y una cosa concreta que darle esta semana, en desarrollo de la Política Nacional de Adultos en el Movimiento, cuyo numeral 6 sostiene que contar con adultos motivados registra mayores niveles de desempeño y compromiso. Este certificado acredita haber cursado esta formación"
   },
+  "commitmentBox": {
+    "prompt": "Pega aquí la frase con la que te comprometiste en la última lección: <strong>la de esta semana</strong> — una persona, y una cosa concreta que puedas darle.",
+    "placeholder": "Esta semana voy a..."
+  },
   "modules": [
     {
       "id": 1,
