@@ -54,13 +54,18 @@ conducta y el límite.**
 
 ## Estado
 
-- **PUBLICADA el 18-sep-2026** (**ADR-062**), y con **4 cursos `active`** desde el 19-sep de los 22
-  planeados: **Curso 01** `bienvenida-politicas-transversales` (35 min), **Curso 02**
+- **PUBLICADA el 18-sep-2026** (**ADR-062**), y con **5 cursos `active`** desde el 19-sep de los 22
+  planeados —**todo el Nivel 1 salvo el 04, que sigue bloqueado**—: **Curso 01** `bienvenida-politicas-transversales` (35 min), **Curso 02**
   `entornos-seguros-politica-asp` (30 min), **Curso 03** `adulto-garante-entorno-seguro` (45 min) —el
-  de mayor riesgo doctrinal de la plataforma— y **Curso 05** `gestion-para-la-motivacion` (35 min).
-  **Los cuatro pasan las tres auditorías**, y la línea está dada de alta en el portal y en el panel admin.
-  **Con el 05 el Nivel 1 queda en 4 de 6**, y el arco *cuidar–sostener* cerrado por los dos extremos:
-  falta el **04** (bloqueado) y el **06**.
+  de mayor riesgo doctrinal de la plataforma— **Curso 05** `gestion-para-la-motivacion` (35 min) y **Curso 06** `mi-compromiso-entornos-seguros` (**60 min**), el que cierra la ruta **cobrando** lo que enseñaron los otros.
+  **Los cinco pasan las tres auditorías**, y la línea está dada de alta en el portal y en el panel admin.
+  ⚠️ El **06 además se RE-AUDITÓ**, porque su veredicto pedagógico fue *REQUIERE MEJORA* y las
+  correcciones lo habían cambiado estructuralmente. Valió la pena: **los tres altos de la re-auditoría
+  eran defectos introducidos AL CORREGIR** — un párrafo que afirmaba una elección que el curso nunca
+  pidió, los criterios de un buen compromiso colocados **después** del formulario que debían sostener,
+  y una pregunta cuyas tres opciones eran los tres ejemplos trabajados del recuadro inmediato.
+  ***Una auditoría corrige; re-auditar comprueba que la corrección no trajo nada nuevo.***
+  **Con el 06 el Nivel 1 queda en 5 de 6**: solo falta el **04**, bloqueado por el Acuerdo 405.
   ⚠️ El **Curso 05 cambia de objeto**: los cuatro anteriores hablan de cuidar a los jóvenes; ese habla
   de **cuidar a los adultos que cuidan**. Su único crítico doctrinal **no estaba en el curso sino en
   `../GLOSARIO-ASC.md`** (**ADR-064**), que afirmaba *«los 26 "dar" en cuatro familias»* cuando las
