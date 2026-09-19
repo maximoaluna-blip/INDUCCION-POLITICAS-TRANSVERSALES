@@ -5,7 +5,7 @@
   "description": "Aquí no se aprende nada nuevo: se cobra lo aprendido. Vas a mirar tu grupo con el semáforo oficial de la Asociación —17 preguntas, cinco áreas, tres colores—, a recoger lo que fuiste escribiendo curso a curso, y a salir con dos compromisos con fecha (tres si te animas con el de Inclusión) que puedas llevar al próximo consejo. Es el último curso publicado de la ruta, y el único que mira a tu grupo entero.",
   "contentVersion": "2026-09-19",
   "icon": "🗺️",
-  "duration": "50 minutos",
+  "duration": "60 minutos",
   "status": "draft",
   "level": 1,
   "levelName": "Ruta de Fundamentación",
@@ -71,7 +71,7 @@
         },
         {
           "type": "info-box",
-          "text": "⏱️ <strong>Unos 50 minutos, y la mayor parte no es leer: es contestar.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y cuando te equivocas el sistema te marca cuál era la buena. Tu avance se guarda, así que <strong>no lo hagas de una sentada</strong>: la Lección 4 te va a pedir pensar, y eso no se hace con prisa."
+          "text": "⏱️ <strong>Unos 60 minutos, y la mayor parte no es leer: es contestar.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y cuando te equivocas el sistema te marca cuál era la buena. Tu avance se guarda, así que <strong>no lo hagas de una sentada</strong>: la Lección 4 te va a pedir pensar, y eso no se hace con prisa."
         },
         {
           "type": "course-objectives",
@@ -91,15 +91,15 @@
         },
         {
           "type": "info-box",
-          "text": "🚦 <strong>Cómo funciona.</strong> Cada ítem se marca en uno de <strong>tres colores</strong>: 🔴 rojo, 🟡 amarillo o 🟢 verde. Y ojo a lo que dice la hoja: <strong>rojo y amarillo no son suspensos — son la lista de lo que hay que mirar</strong>. Marcar amarillo no es aprobar raspando: es reconocer un aspecto a mejorar, igual que el rojo."
-        },
-        {
-          "type": "paragraph",
-          "text": "Y una diferencia de mirada que conviene anunciar. El Curso 05 pasó del joven al adulto; <strong>este pasa del adulto al grupo</strong>. Es el primero de la ruta que no te pregunta por ti, sino por <strong>la unidad entera en la que sirves</strong>."
+          "text": "🚦 <strong>Cómo funciona.</strong> Cada ítem se marca en uno de <strong>tres colores</strong>: 🔴 rojo, 🟡 amarillo o 🟢 verde. Y ojo a lo que dice la hoja: <strong>rojo y amarillo no son suspensos — son la lista de lo que hay que mirar</strong>. Marcar amarillo no es aprobar raspando: es reconocer un aspecto a mejorar, igual que el rojo. <strong>Ten a mano una hoja y un lápiz</strong>: vas a ir marcando los diecisiete a medida que aparecen, y al final de la Lección 3 te pedimos una foto de la hoja."
         },
         {
           "type": "info-box",
           "text": "📍 <strong>Dos cosas que faltan, dichas antes de empezar.</strong> La primera: la ruta prometía cinco cursos antes de este y hay <strong>cuatro</strong> — el de <em>Diversidad e Inclusión</em> está esperando el texto de un acuerdo que la Asociación no ha publicado. La segunda: <strong>el semáforo que vas a usar es un formato oficial, pero no está publicado en la biblioteca virtual</strong>. Por eso lo traemos entero aquí dentro, en vez de mandarte a descargar algo que no vas a encontrar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y una diferencia de mirada que conviene anunciar. El Curso 05 pasó del joven al adulto; <strong>este pasa del adulto al grupo</strong>. Es el primero de la ruta que no te pregunta por ti, sino por <strong>la unidad entera en la que sirves</strong>."
         }
       ]
     },
@@ -119,7 +119,7 @@
         },
         {
           "type": "info-box",
-          "text": "📭 <strong>Si entraste directo a este curso, aquí abajo vas a ver cuatro cajas vacías — y no pasa nada.</strong> Ninguno de los cursos de esta ruta bloquea a otro: se puede empezar por donde se quiera. Si te falta alguno, <strong>escribe tú ahora lo que ese curso te habría pedido</strong> — no te va a costar, porque son cosas que ya sabes de tu grupo: una palabra que describa lo que te preocupa (Curso 01), una cosa que vas a hacer distinto desde mañana (Curso 02), tres frases sobre qué haces si alguien te cuenta algo (Curso 03) y una persona de tu equipo a la que le vas a dar algo esta semana (Curso 05). Con eso tienes tu hilo, y la Lección 4 ya te funciona. <strong>También sale vacía si hiciste el curso y dejaste esa reflexión en blanco</strong>, o si lo hiciste <strong>en otro dispositivo</strong>: para eso, pulsa «Recuperar mi avance» en la pantalla de registro y vuelve aquí."
+          "text": "📭 <strong>Si entraste directo a este curso, aquí abajo vas a ver cuatro cajas vacías — y no pasa nada.</strong> Ninguno de los cursos de esta ruta bloquea a otro: se puede empezar por donde se quiera. Mira las cajas primero; justo debajo te digo qué escribir si alguna sale en blanco."
         },
         {
           "type": "heading",
@@ -160,6 +160,10 @@
           "type": "brujula-display",
           "sourceCourse": "gestion-para-la-motivacion",
           "sourceModule": 7
+        },
+        {
+          "type": "info-box",
+          "text": "📭 <strong>¿Alguna caja salió vacía?</strong> Si te falta algún curso, <strong>escribe tú ahora lo que ese curso te habría pedido</strong> — no te va a costar, porque son cosas que ya sabes de tu grupo: una palabra que describa lo que te preocupa (Curso 01), una cosa que vas a hacer distinto desde mañana (Curso 02), tres frases sobre qué haces si alguien te cuenta algo (Curso 03) y una persona de tu equipo a la que le vas a dar algo esta semana (Curso 05). Con eso tienes tu hilo, y la Lección 4 ya te funciona. <strong>También sale vacía si hiciste el curso y dejaste esa reflexión en blanco</strong>, o si lo hiciste <strong>en otro dispositivo</strong>: para eso, pulsa «Recuperar mi avance» en la pantalla de registro y vuelve aquí."
         },
         {
           "type": "mission-box",
@@ -261,7 +265,7 @@
             "correctIndex": 0
           },
           {
-            "text": "Vuestro semáforo sale con dos ítems en rojo y cinco en amarillo. El jefe de grupo propone dejar los amarillos para el año que viene. ¿Qué le dices?",
+            "text": "El semáforo de tu grupo sale con dos ítems en rojo y cinco en amarillo. El jefe de grupo propone dejar los amarillos para el año que viene. ¿Qué le dices?",
             "options": [
               "Que los amarillos también son aspectos a mejorar y entran en la lista.",
               "Que los amarillos están aprobados y el plan solo mira los dos rojos.",
@@ -272,7 +276,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Mira tus ocho primeros. <strong>Escribe aquí los números que te salieron rojos</strong> — todos, aunque sean cinco. Y ahora elige uno solo: el más rojo. Escribe <strong>qué tendría que pasar para que ese pase a amarillo</strong>. No a verde — a amarillo. Un paso, no el salto entero."
+        "prompt": "Mira tus ocho primeros. <strong>Escribe aquí los números que te salieron rojos y los que te salieron amarillos</strong> — los dos, que los amarillos también cuentan: eso lo acabas de contestar. Y ahora elige uno solo: el más rojo. Escribe <strong>qué tendría que pasar para que ese pase a amarillo</strong>. No a verde — a amarillo. Un paso, no el salto entero."
       }
     },
     {
@@ -342,8 +346,8 @@
         {
           "type": "photo-upload",
           "photoId": "semaforo-lleno",
-          "prompt": "📸 Aquí se acaba de leer y empieza de contestar",
-          "hint": "Coge una hoja, escribe los números del 1 al 17 en columna y ponle a cada uno su color: 🔴 🟡 🟢. No lo pienses mucho — el primer color que se te venga suele ser el bueno. Cuando la tengas, súbele una foto: la vas a necesitar en la lección siguiente, y es lo que vas a llevar al consejo.",
+          "prompt": "📸 Hasta aquí se lee. De aquí en adelante se contesta.",
+          "hint": "Termina de ponerle color a la hoja que empezaste: los diecisiete, cada uno con 🔴, 🟡 o 🟢. <strong>No busques el color perfecto: busca el honesto.</strong> Si dudas entre amarillo y verde, es amarillo. Cuando la tengas, súbele una foto: es lo que vas a llevar al consejo.",
           "buttonLabel": "📷 Subir mi semáforo"
         }
       ],
@@ -363,7 +367,7 @@
           {
             "text": "Un dirigente de tu grupo dice: «lo de los baños diferenciados es exagerado, aquí nos conocemos todos». ¿En qué área del semáforo está ese ítem?",
             "options": [
-              "En Programa: pregunta por lo que el grupo hace, no por la confianza.",
+              "En Programa: pregunta por lo que el grupo prevé antes de la actividad.",
               "En Política: es una norma de conducta de los adultos con los jóvenes.",
               "En Liderazgo: depende de que el equipo adulto lo trate en sus reuniones."
             ],
@@ -387,7 +391,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Ya tienes las dos mitades: <strong>lo que escribiste</strong> en los cursos anteriores y <strong>el diagnóstico que acabas de hacer</strong>. Falta juntarlas y ponerles fecha. Y aquí hay <strong>dos elecciones que no son la misma</strong>, así que vale la pena separarlas. <strong>La primera ya la hiciste</strong>: del semáforo sale <em>dónde mirar</em> — una o dos áreas, que es lo que la hoja recomienda y lo dice tajante: <em>«Recomendamos elegir una o dos áreas para enfocarse en cada término»</em>. Un plan con cinco áreas no se cumple: se abandona en noviembre. <strong>La segunda es la de abajo</strong>: de qué <em>política</em> es cada compromiso que vas a escribir."
+          "text": "Ya tienes las dos mitades: <strong>lo que escribiste</strong> en los cursos anteriores y <strong>el diagnóstico que acabas de hacer</strong>. Falta juntarlas y ponerles fecha. Y aquí hay <strong>dos elecciones que no son la misma</strong>, así que vale la pena separarlas. <strong>La primera hazla ahora, antes de tocar nada de lo de abajo</strong>: vuelve a tus dos reflexiones del semáforo, mira todas las áreas que te salieron con rojo o amarillo y <strong>quédate con una o dos</strong> — la hoja lo dice tajante: <em>«Recomendamos elegir una o dos áreas para enfocarse en cada término»</em>. Un plan con cinco áreas no se cumple: se abandona en noviembre. <strong>La segunda es la de abajo</strong>: de qué <em>política</em> es cada compromiso que vas a escribir."
+        },
+        {
+          "type": "info-box",
+          "text": "✅ <strong>Qué hace bueno a un compromiso.</strong> Tres cosas: <strong>tiene fecha</strong>, <strong>se nota desde fuera</strong> y <strong>no depende de que otro cambie primero</strong>. Las tres se escriben en la casilla de la meta y en la del plazo. <em>«Que el consejo se tome en serio la protección»</em> no es un compromiso — es un deseo sobre terceros: falla la tercera. <em>«Estar más pendiente de los baños»</em> tampoco — falla la segunda, porque nadie puede verlo. <em>«Llevar el ítem 4 al consejo del 6 de octubre y pedir que se decida quién explica la ruta»</em> sí lo es: tiene día, se ve en el acta, y depende de ti."
         },
         {
           "type": "plan-builder",
@@ -423,10 +431,6 @@
             "campoPlazo": "⏰ Plazo (ponle fecha, no «pronto»)",
             "campoRecursos": "📚 Recursos (con qué cuentas para hacerlo)"
           }
-        },
-        {
-          "type": "info-box",
-          "text": "✅ <strong>Qué hace bueno a un compromiso.</strong> Tres cosas: <strong>tiene fecha</strong>, <strong>se nota desde fuera</strong> y <strong>no depende de que otro cambie primero</strong>. Las tres se escriben en la casilla de la meta y en la del plazo. <em>«Que el consejo se tome en serio la protección»</em> no es un compromiso — es un deseo sobre terceros: falla la tercera. <em>«Estar más pendiente de los baños»</em> tampoco — falla la segunda, porque nadie puede verlo. <em>«Llevar el ítem 4 al consejo del 6 de octubre y pedir que se decida quién explica la ruta»</em> sí lo es: tiene día, se ve en el acta, y depende de ti."
         }
       ],
       "quiz": {
@@ -434,11 +438,11 @@
         "nextLabel": "Continuar: llevarlo al consejo 📄",
         "questions": [
           {
-            "text": "Tres dirigentes escriben su compromiso y los tres le ponen la misma fecha. ¿Cuál vas a poder verificar el 6 de octubre?",
+            "text": "Tres dirigentes de tu grupo escriben su compromiso para octubre. ¿Cuál de los tres se va a poder dar por cumplido —o no— sin que nadie discuta?",
             "options": [
-              "Pedir al consejo del 6 de octubre que decida quién explica la ruta.",
-              "Lograr que para el 6 de octubre el consejo valore más la protección.",
-              "Estar más pendiente de los baños en las salidas, desde el 6 de octubre."
+              "Hablar con las familias de mi unidad en la reunión del 18 de octubre.",
+              "Hablar con las familias cuando el jefe de grupo dé el visto bueno.",
+              "Hablar más seguido con las familias de mi unidad durante el trimestre."
             ],
             "correctIndex": 0
           },
