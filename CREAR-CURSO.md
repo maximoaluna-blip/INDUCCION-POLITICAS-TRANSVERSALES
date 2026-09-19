@@ -140,6 +140,11 @@ El Plan estimó 25 y 35 min. Medidos tras las auditorías: **35 y 45**. La medid
 ### El `build-course.js` de la línea imprime texto propio — revisarlo
 Su cuadro de compromiso decía *«tu compromiso como **adulto certificado**»* **en el curso de A Salvo del Peligro**, que es exactamente lo que esta línea **no acredita**. Lo que el build imprime también es doctrina.
 
+### Un **cero de búsqueda** no es una ausencia — y la tilde basta para producirlo
+Al diseñar el Curso 06 di por **inexistente su fuente rectora**. Busqué el semáforo de grupo con `*valuacion*grupo*` y con `grep "evaluacion de grupo"` — **las dos veces sin tildes** — y las dos dieron **cero**. Llegué a escribir que el curso estaba bloqueado y que había que pedirle el documento a la DNDI. **Estaba en el corpus todo el tiempo**, como `23-Evalu**a**ción de grupo SFH (A salvo del peligro).pdf`. Lo encontró un barrido **por frase literal del contenido**, que normaliza acentos y espacios antes de comparar.
+
+Es el mismo fallo que el PDF de la Política con las letras espaciadas —§4-bis, arriba—, con otra ropa: **la búsqueda mintió, no la fuente**. **Buscar por una frase que el documento debe contener, no por su nombre de archivo; normalizar acentos; y no declarar «no existe» hasta que el barrido por contenido también dé cero.**
+
 ### El offset del **índice** de un documento puede **derivar** — el del folio impreso, no
 *Gestión para la Motivación* tiene tres numeraciones. El diseño del Curso 05 declaró **«índice = folio − 2»** tras comprobarlo en **los 26 epígrafes de §6**… y es falso fuera de §6: el índice da **17** para §3 —que está en el folio **17**— y **25** para §6.1 —folio **27**—. **Se comprobó dentro de una sección y se generalizó al documento entero.** Es el `[:1600]` otra vez, con otra ropa: **una muestra no es el documento**. Comprobar en **dos puntos lejanos**, y citar siempre por **folio impreso**.
 
