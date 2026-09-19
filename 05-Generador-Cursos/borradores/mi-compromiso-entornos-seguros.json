@@ -2,26 +2,56 @@
   "courseId": "mi-compromiso-entornos-seguros",
   "title": "Mi Compromiso con los Entornos Seguros",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "Aquí no se aprende nada nuevo: se cobra lo aprendido. Vas a mirar tu grupo con el semáforo oficial de la Asociación —17 preguntas, cinco áreas, tres colores—, a recoger lo que fuiste escribiendo curso a curso, y a salir con dos o tres compromisos con fecha que puedas llevar al próximo consejo. Es el curso que cierra la ruta y el único que mira a tu grupo entero.",
+  "description": "Aquí no se aprende nada nuevo: se cobra lo aprendido. Vas a mirar tu grupo con el semáforo oficial de la Asociación —17 preguntas, cinco áreas, tres colores—, a recoger lo que fuiste escribiendo curso a curso, y a salir con dos compromisos con fecha (tres si te animas con el de Inclusión) que puedas llevar al próximo consejo. Es el último curso publicado de la ruta, y el único que mira a tu grupo entero.",
   "contentVersion": "2026-09-19",
   "icon": "🗺️",
-  "duration": "por medir",
+  "duration": "50 minutos",
   "status": "draft",
   "level": 1,
   "levelName": "Ruta de Fundamentación",
   "order": 6,
   "totalContentModules": 5,
   "achievements": [
-    { "id": "achievement-1", "name": "Mi hilo", "emoji": "🧭", "unlockOnModule": 2 },
-    { "id": "achievement-2", "name": "Las ocho del adulto", "emoji": "🚦", "unlockOnModule": 3 },
-    { "id": "achievement-3", "name": "Las nueve del grupo", "emoji": "👦", "unlockOnModule": 4 },
-    { "id": "achievement-4", "name": "Con fecha", "emoji": "✍️", "unlockOnModule": 5 },
-    { "id": "achievement-5", "name": "Dicho en voz alta", "emoji": "📄", "unlockOnModule": 6 },
-    { "id": "achievement-6", "name": "Mi Compromiso con los Entornos Seguros", "emoji": "🗺️", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "name": "Mi hilo",
+      "emoji": "🧭",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Las ocho del adulto",
+      "emoji": "🚦",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Las nueve del grupo",
+      "emoji": "👦",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Con fecha",
+      "emoji": "✍️",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Dicho en voz alta",
+      "emoji": "📄",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Mi Compromiso con los Entornos Seguros",
+      "emoji": "🗺️",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "MI COMPROMISO CON LOS ENTORNOS SEGUROS",
-    "description": "ha completado el Curso 06 de la Línea Políticas Transversales — Mi Compromiso con los Entornos Seguros, con el que se cierra la Ruta de Fundamentación, habiendo valorado su Grupo Scout con los diecisiete ítems de la «Autoevaluación de grupo en relación a la Política A salvo del peligro» —formato de la serie documental de la Política Nacional de Adultos en el Movimiento— en sus cinco áreas: política, liderazgo, programa, compromiso juvenil y compromiso de los padres; habiendo reconocido que ese instrumento recomienda enfocarse en una o dos áreas y volver a aplicarlo a lo largo del año; habiendo recogido los compromisos que escribió a lo largo de la ruta; y habiendo formulado compromisos propios, fechados y observables, para presentar ante su consejo de grupo. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
+    "description": "ha completado el Curso 06 de la Línea Políticas Transversales — Mi Compromiso con los Entornos Seguros, el último curso publicado de la Ruta de Fundamentación, habiendo valorado su Grupo Scout con los diecisiete ítems de la «Autoevaluación de grupo en relación a la Política A salvo del peligro» —formato de la serie documental de la Política Nacional de Adultos en el Movimiento— en sus cinco áreas: política, liderazgo, programa, compromiso juvenil y compromiso de los padres; habiendo reconocido que ese instrumento recomienda enfocarse en una o dos áreas y volver a aplicarlo a lo largo del año; habiendo vuelto sobre los compromisos que haya escrito en los cursos anteriores; y habiendo formulado compromisos propios, fechados y observables, para presentar ante su consejo de grupo. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
   },
   "commitmentBox": {
     "prompt": "Pega aquí lo último que escribiste: <strong>la fecha del próximo consejo de grupo y la primera frase que vas a decir</strong>.",
@@ -41,7 +71,7 @@
         },
         {
           "type": "info-box",
-          "text": "⏱️ <strong>Unos @@DURACION@@ minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y cuando te equivocas el sistema te marca cuál era la buena. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>Unos 50 minutos, y la mayor parte no es leer: es contestar.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y cuando te equivocas el sistema te marca cuál era la buena. Tu avance se guarda, así que <strong>no lo hagas de una sentada</strong>: la Lección 4 te va a pedir pensar, y eso no se hace con prisa."
         },
         {
           "type": "course-objectives",
@@ -50,8 +80,18 @@
             "<strong>Identificar</strong> las <strong>una o dos</strong> áreas en las que enfocarte — que es lo que el propio instrumento recomienda, y no las diecisiete.",
             "<strong>Recuperar</strong> lo que escribiste en los cursos anteriores y reconocerlo como un hilo, no como reflexiones sueltas.",
             "<strong>Formular</strong> compromisos fechados, observables y mostrables a tu consejo de grupo.",
-            "<strong>Distinguir</strong> este semáforo de los otros dos instrumentos de autoevaluación que existen, y saber cuál le toca a quién."
+            "<strong>Reconocer</strong> que existen otros dos instrumentos de autoevaluación — y que no son este ni te tocan a ti todavía."
           ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 La hoja lo dice en una frase: ábrela, son cuatro líneas y de ahí sale todo lo demás",
+          "source": "Autoevaluación de grupo en relación a la Política «A salvo del peligro», folio 1 — formato de la serie documental de la PNAM.",
+          "text": "La puntuación en esta autoevaluación funciona como un semáforo. Cuanto más verde se encuentre, mejor. En las áreas que se obtuvo un puntaje rojo o amarillo, pueden reconocerse como aspectos a mejorar. Recomendamos elegir una o dos áreas para enfocarse en cada término y volver a realizar esta evaluación a lo largo del año para ver cómo se está realizando el seguimiento."
+        },
+        {
+          "type": "info-box",
+          "text": "🚦 <strong>Cómo funciona.</strong> Cada ítem se marca en uno de <strong>tres colores</strong>: 🔴 rojo, 🟡 amarillo o 🟢 verde. Y ojo a lo que dice la hoja: <strong>rojo y amarillo no son suspensos — son la lista de lo que hay que mirar</strong>. Marcar amarillo no es aprobar raspando: es reconocer un aspecto a mejorar, igual que el rojo."
         },
         {
           "type": "paragraph",
@@ -77,33 +117,49 @@
           "type": "paragraph",
           "text": "Cada curso de esta ruta terminó pidiéndote algo por escrito. No eran ejercicios de relleno: eran <strong>cuatro pedazos del mismo compromiso</strong>, repartidos en cuatro semanas distintas. Aquí están otra vez."
         },
-        { "type": "heading", "level": 3, "text": "Curso 01 — tu palabra y tu primer compromiso" },
+        {
+          "type": "info-box",
+          "text": "📭 <strong>Si entraste directo a este curso, aquí abajo vas a ver cuatro cajas vacías — y no pasa nada.</strong> Ninguno de los cursos de esta ruta bloquea a otro: se puede empezar por donde se quiera. Si te falta alguno, <strong>escribe tú ahora lo que ese curso te habría pedido</strong> — no te va a costar, porque son cosas que ya sabes de tu grupo: una palabra que describa lo que te preocupa (Curso 01), una cosa que vas a hacer distinto desde mañana (Curso 02), tres frases sobre qué haces si alguien te cuenta algo (Curso 03) y una persona de tu equipo a la que le vas a dar algo esta semana (Curso 05). Con eso tienes tu hilo, y la Lección 4 ya te funciona. <strong>También sale vacía si hiciste el curso y dejaste esa reflexión en blanco</strong>, o si lo hiciste <strong>en otro dispositivo</strong>: para eso, pulsa «Recuperar mi avance» en la pantalla de registro y vuelve aquí."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Curso 01 — tu palabra y tu primer compromiso"
+        },
         {
           "type": "brujula-display",
           "sourceCourse": "bienvenida-politicas-transversales",
           "sourceModule": 7
         },
-        { "type": "heading", "level": 3, "text": "Curso 02 — lo que ibas a hacer distinto desde el día siguiente" },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Curso 02 — lo que ibas a hacer distinto desde el día siguiente"
+        },
         {
           "type": "brujula-display",
           "sourceCourse": "entornos-seguros-politica-asp",
           "sourceModule": 7
         },
-        { "type": "heading", "level": 3, "text": "Curso 03 — tus tres frases de garante" },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Curso 03 — tus tres frases de garante"
+        },
         {
           "type": "brujula-display",
           "sourceCourse": "adulto-garante-entorno-seguro",
           "sourceModule": 8
         },
-        { "type": "heading", "level": 3, "text": "Curso 05 — la persona de esta semana" },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Curso 05 — la persona de esta semana"
+        },
         {
           "type": "brujula-display",
           "sourceCourse": "gestion-para-la-motivacion",
           "sourceModule": 7
-        },
-        {
-          "type": "info-box",
-          "text": "📭 <strong>¿Alguna caja salió vacía?</strong> Pasa por dos motivos y los dos tienen arreglo: o no hiciste ese curso todavía —puedes entrar por donde quieras, ninguno bloquea a otro—, o lo hiciste <strong>en otro dispositivo</strong>. En ese caso, pulsa «Recuperar mi avance» en la pantalla de registro y vuelve aquí."
         },
         {
           "type": "mission-box",
@@ -146,19 +202,17 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> las ocho primeras preguntas del semáforo no hablan de los jóvenes. Hablan de <strong>los adultos</strong>."
+          "text": "<strong>Idea central:</strong> las ocho primeras preguntas del semáforo miran sobre todo a <strong>los adultos</strong> — pero dos de ellas ya nombran a todo el mundo."
         },
         {
-          "type": "policy-quote",
-          "label": "📋 Ver cómo se usa el semáforo, en palabras del propio formato",
-          "source": "Autoevaluación de grupo en relación a la Política «A salvo del peligro», folio 1 — formato de la serie documental de la PNAM.",
-          "text": "La puntuación en esta autoevaluación funciona como un semáforo. Cuanto más verde se encuentre, mejor. En las áreas que se obtuvo un puntaje rojo o amarillo, pueden reconocerse como aspectos a mejorar. Recomendamos elegir una o dos áreas para enfocarse en cada término y volver a realizar esta evaluación a lo largo del año para ver cómo se está realizando el seguimiento"
+          "type": "paragraph",
+          "text": "Ya sabes cómo se marca: tres colores, y el rojo y el amarillo son la lista de lo que hay que mirar. Aquí están los primeros seis, literales."
         },
         {
-          "type": "info-box",
-          "text": "🚦 <strong>Cómo funciona.</strong> Cada ítem se marca en uno de <strong>tres colores</strong>: 🔴 rojo, 🟡 amarillo o 🟢 verde. Y ojo a lo que dice la hoja: <strong>rojo y amarillo no son suspensos — son la lista de lo que hay que mirar</strong>. Marcar amarillo no es aprobar raspando: es reconocer un aspecto a mejorar, igual que el rojo."
+          "type": "heading",
+          "level": 3,
+          "text": "Área 1 · POLÍTICA (6 ítems)"
         },
-        { "type": "heading", "level": 3, "text": "Área 1 · POLÍTICA (6 ítems)" },
         {
           "type": "list",
           "ordered": true,
@@ -173,9 +227,13 @@
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>El ítem 4 usa un nombre que ya no es el vigente, y lo dejamos tal cual porque así está en el formato oficial que se llena en papel.</strong> Ese nombre es de <strong>2021-2023</strong> y hoy <strong>quedó atrás</strong>: quien recibe y gestiona un caso es el <strong>Comité de Gestión de Incidentes</strong> (Política Nacional A Salvo del Peligro, dic-2025, pp. 39-42). Sigue existiendo un cargo regional, pero <strong>ya no gestiona casos</strong>. <strong>Si te formaron con el término antiguo, actualiza.</strong> Al contestar el ítem 4, léelo así: <em>«cada miembro del Grupo sabe por dónde se reporta y quién responde»</em>. El Curso 03 lo desarrolla entero."
+          "text": "⚠️ <strong>El ítem 4 nombra a alguien que ya no hace lo que el ítem supone, y lo dejamos tal cual porque así está en el formato oficial que se llena en papel.</strong> Ese reparto de tareas es de <strong>2021-2023</strong> y <strong>quedó atrás</strong>: quien recibe y gestiona un caso hoy es el <strong>Comité de Gestión de Incidentes</strong> (Política Nacional A Salvo del Peligro, dic-2025, pp. 39-42). El cargo regional <strong>sigue existiendo y sigue llamándose así</strong> — lo que ya no hace es gestionar casos. <strong>Si te formaron con el reparto antiguo, actualiza.</strong> Al contestar el ítem 4, léelo así: <em>«cada miembro del Grupo sabe por dónde se reporta y quién responde»</em> — y por dónde se reporta es el botón <strong>«Me Pongo A Salvo del Peligro»</strong> (Política 2025, p. 44). El Curso 03 lo desarrolla entero."
         },
-        { "type": "heading", "level": 3, "text": "Área 2 · LIDERAZGO (2 ítems)" },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Área 2 · LIDERAZGO (2 ítems)"
+        },
         {
           "type": "list",
           "ordered": true,
@@ -186,7 +244,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Fíjate en lo que tienen en común las ocho: <strong>ninguna pregunta por los jóvenes</strong>. Preguntan por los antecedentes de los adultos, por su conducta, por lo que saben y por lo que se habla en las reuniones de equipo. <strong>El semáforo empieza por quien tiene el poder</strong>, que es donde empieza también la Política."
+          "text": "Fíjate en lo que tienen en común casi todas: preguntan por los adultos — sus antecedentes, su conducta, lo que saben, lo que se habla en las reuniones de equipo. <strong>Solo dos, la 4 y la 6, dicen «cada miembro del Grupo» y «todos los miembros del Grupo»: ahí ya entran los jóvenes</strong> — y esa pista se cobra en la lección siguiente. <strong>El semáforo empieza por quien tiene el poder</strong>, que es donde empieza también la Política."
         }
       ],
       "quiz": {
@@ -197,24 +255,24 @@
             "text": "El ítem 4 del semáforo nombra un cargo con el vocabulario de 2023. ¿Cómo se contesta hoy?",
             "options": [
               "Leyéndolo como «sabemos por dónde se reporta y quién responde».",
-              "Buscando quién de la región tiene hoy ese cargo y qué funciones.",
+              "Preguntando al referente regional para que él gestione el caso.",
               "Marcándolo en rojo, porque ese cargo se eliminó y no hay quien lo haga."
             ],
             "correctIndex": 0
           },
           {
-            "text": "Marcas un ítem en amarillo. ¿Qué significa eso, según la propia hoja?",
+            "text": "Vuestro semáforo sale con dos ítems en rojo y cinco en amarillo. El jefe de grupo propone dejar los amarillos para el año que viene. ¿Qué le dices?",
             "options": [
-              "Que es un aspecto a mejorar, igual que el rojo — no un aprobado.",
-              "Que es un aspecto aceptable mientras no haya ningún ítem rojo.",
-              "Que es un aspecto que se revisa solo si sobra tiempo en el año."
+              "Que los amarillos también son aspectos a mejorar y entran en la lista.",
+              "Que los amarillos están aprobados y el plan solo mira los dos rojos.",
+              "Que hay que atacar los siete a la vez, porque todos son a mejorar."
             ],
             "correctIndex": 0
           }
         ]
       },
       "reflection": {
-        "prompt": "De estos ocho ítems, ¿cuál marcarías hoy en <strong>rojo</strong>? Uno solo: el más rojo de todos. Y ahora la parte que cuesta: escribe <strong>qué tendría que pasar para que ese ítem pase a amarillo</strong>. No a verde — a amarillo. Un paso, no el salto entero."
+        "prompt": "Mira tus ocho primeros. <strong>Escribe aquí los números que te salieron rojos</strong> — todos, aunque sean cinco. Y ahora elige uno solo: el más rojo. Escribe <strong>qué tendría que pasar para que ese pase a amarillo</strong>. No a verde — a amarillo. Un paso, no el salto entero."
       }
     },
     {
@@ -225,9 +283,13 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> las nueve que quedan ya no preguntan por ti. Preguntan por <strong>lo que el grupo hace y por quién lo sabe</strong>."
+          "text": "<strong>Idea central:</strong> estas nueve se parten en dos. Las <strong>cuatro de Programa</strong> siguen preguntando por lo que hacen los adultos —dónde, con cuántos, con qué previsión—. Las <strong>cinco últimas</strong> cambian de pregunta: ya no preguntan si proteges, preguntan <strong>si los jóvenes y sus familias lo saben</strong>. Ahí es donde casi todos los grupos se llevan la sorpresa."
         },
-        { "type": "heading", "level": 3, "text": "Área 3 · PROGRAMA (4 ítems)" },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Área 3 · PROGRAMA (4 ítems)"
+        },
         {
           "type": "list",
           "ordered": true,
@@ -238,7 +300,11 @@
             "Tenemos avisos diferenciados para baños de adultos y baños de jóvenes y niños en las actividades Scout."
           ]
         },
-        { "type": "heading", "level": 3, "text": "Área 4 · COMPROMISO JUVENIL (2 ítems)" },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Área 4 · COMPROMISO JUVENIL (2 ítems)"
+        },
         {
           "type": "list",
           "ordered": true,
@@ -249,9 +315,13 @@
         },
         {
           "type": "info-box",
-          "text": "🔎 <strong>Esta es el área que más veces sale roja, y casi nadie lo espera.</strong> Sus dos ítems no preguntan si proteges a los jóvenes: preguntan si <strong>ellos saben</strong>. Que se les hable de protección una vez por trimestre, y que sepan cómo mantenerse a salvo. <strong>Es la diferencia entre proteger a alguien y enseñarle a protegerse</strong> — y es el punto donde esta ruta se da la mano con la de Programa de Jóvenes."
+          "text": "🔎 <strong>Esta es el área que más nos sorprende a nosotros, y por eso la señalamos.</strong> Sus dos ítems no preguntan si proteges a los jóvenes: preguntan si <strong>ellos saben</strong>. Que se les hable de protección una vez por trimestre, y que sepan cómo mantenerse a salvo. <strong>Es la diferencia entre proteger a alguien y enseñarle a protegerse</strong> — y es el punto donde esta ruta se da la mano con la de Programa de Jóvenes. <em>(La hoja dice «líderes» en tres de estos ítems porque viene traducida; en la ASC son <strong>los dirigentes</strong>.)</em>"
         },
-        { "type": "heading", "level": 3, "text": "Área 5 · COMPROMISO DE LOS PADRES (3 ítems)" },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Área 5 · COMPROMISO DE LOS PADRES (3 ítems)"
+        },
         {
           "type": "list",
           "ordered": true,
@@ -263,11 +333,18 @@
         },
         {
           "type": "info-box",
-          "text": "🧩 <strong>Y ya que estás: hay otros dos instrumentos, y no son este.</strong> La <em>Herramienta de Autoevaluación</em> de la Oficina Scout Mundial (2019) evalúa a una <strong>Organización Scout Nacional</strong> entera, no a un grupo. Y el <strong>GSAT</strong> es el sistema de calidad al que remite la Política. <strong>Los dos son materia del Nivel 4</strong>; el que te toca a ti, hoy, es el de tu grupo — el que acabas de leer."
+          "text": "🧩 <strong>Y ya que estás: hay otros dos instrumentos, y no son este.</strong> La <em>Herramienta de Autoevaluación</em> de la Oficina Scout Mundial (2019) se subtitula, literalmente, <em>«una herramienta de autoevaluación para fortalecer las capacidades de tu <strong>organización Scout Nacional</strong>»</em>: no evalúa grupos. Y el <strong>GSAT</strong> es la herramienta con la que se mira <strong>la Asociación entera</strong>: es a la que remite la Política (pp. 36 y 43). <strong>Los dos son materia del Nivel 4</strong>; el que te toca a ti, hoy, es el de tu grupo — el que acabas de leer."
         },
         {
           "type": "paragraph",
           "text": "Con estos nueve son <strong>diecisiete</strong>: seis de Política, dos de Liderazgo, cuatro de Programa, dos de Compromiso juvenil y tres de Compromiso de los padres. <strong>No hay que arreglarlos todos</strong> — la propia hoja dice otra cosa, y de eso va la lección siguiente."
+        },
+        {
+          "type": "photo-upload",
+          "photoId": "semaforo-lleno",
+          "prompt": "📸 Aquí se acaba de leer y empieza de contestar",
+          "hint": "Coge una hoja, escribe los números del 1 al 17 en columna y ponle a cada uno su color: 🔴 🟡 🟢. No lo pienses mucho — el primer color que se te venga suele ser el bueno. Cuando la tengas, súbele una foto: la vas a necesitar en la lección siguiente, y es lo que vas a llevar al consejo.",
+          "buttonLabel": "📷 Subir mi semáforo"
         }
       ],
       "quiz": {
@@ -284,18 +361,18 @@
             "correctIndex": 0
           },
           {
-            "text": "Tu grupo quiere usar la herramienta de autoevaluación de la Oficina Scout Mundial. ¿Qué tiene de raro?",
+            "text": "Un dirigente de tu grupo dice: «lo de los baños diferenciados es exagerado, aquí nos conocemos todos». ¿En qué área del semáforo está ese ítem?",
             "options": [
-              "Está hecha para evaluar una Organización Scout Nacional entera.",
-              "Está hecha para evaluar a cada dirigente por separado, uno a uno.",
-              "Está hecha para evaluar solo el área de programa de un grupo."
+              "En Programa: pregunta por lo que el grupo hace, no por la confianza.",
+              "En Política: es una norma de conducta de los adultos con los jóvenes.",
+              "En Liderazgo: depende de que el equipo adulto lo trate en sus reuniones."
             ],
             "correctIndex": 0
           }
         ]
       },
       "reflection": {
-        "prompt": "Toma el área de <strong>Compromiso de los padres</strong>. ¿Cuándo fue la última vez que un padre o una madre de tu unidad supo, <strong>por ti</strong>, algo sobre protección? Si la respuesta es «nunca» o «no me acuerdo», escríbelo tal cual. Es el rojo más barato de arreglar de los diecisiete."
+        "prompt": "Ahora los números del 9 al 17. <strong>Escribe los rojos y los amarillos</strong>, y al lado de cada uno el área a la que pertenece. Cuando termines tendrás una frase del tipo «tengo tres en Compromiso de los padres y uno suelto en Programa» — <strong>esa frase es tu diagnóstico</strong>, y es lo que la lección siguiente te va a pedir. Si alguna te da vergüenza escribirla, escríbela igual: nadie más lee esto."
       }
     },
     {
@@ -306,38 +383,50 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> la hoja no te pide arreglar diecisiete cosas. Te pide elegir <strong>una o dos</strong>."
+          "text": "<strong>Idea central:</strong> la hoja no te pide arreglar diecisiete cosas. Te pide elegir <strong>una o dos</strong>.<br><br>⏸️ <strong>Y un aviso: esta lección es la larga</strong> —unos quince minutos, y de escribir, no de leer—. Tu avance se guarda solo. Si ahora no tienes ese rato, para aquí y vuelve: lo que se escribe con prisa en esta pantalla es lo que no se cumple en octubre."
         },
         {
           "type": "paragraph",
-          "text": "Ya tienes las dos mitades: <strong>lo que escribiste</strong> en los cursos anteriores y <strong>lo que acabas de ver en rojo</strong>. Falta juntarlas y ponerles fecha. Y ahí conviene hacer caso a la hoja, que es tajante: <em>«Recomendamos elegir una o dos áreas para enfocarse en cada término»</em>. Un plan con cinco áreas no se cumple: se abandona en noviembre."
+          "text": "Ya tienes las dos mitades: <strong>lo que escribiste</strong> en los cursos anteriores y <strong>el diagnóstico que acabas de hacer</strong>. Falta juntarlas y ponerles fecha. Y aquí hay <strong>dos elecciones que no son la misma</strong>, así que vale la pena separarlas. <strong>La primera ya la hiciste</strong>: del semáforo sale <em>dónde mirar</em> — una o dos áreas, que es lo que la hoja recomienda y lo dice tajante: <em>«Recomendamos elegir una o dos áreas para enfocarse en cada término»</em>. Un plan con cinco áreas no se cumple: se abandona en noviembre. <strong>La segunda es la de abajo</strong>: de qué <em>política</em> es cada compromiso que vas a escribir."
         },
         {
           "type": "plan-builder",
           "builderId": "pt-compromisos-entornos-seguros",
           "competences": [
-            { "id": "asp", "name": "🛡️ A Salvo del Peligro" },
-            { "id": "motivacion", "name": "💪 Gestión para la Motivación" },
-            { "id": "inclusion", "name": "🤝 Diversidad e Inclusión (aún sin curso)" }
+            {
+              "id": "asp",
+              "name": "🛡️ A Salvo del Peligro"
+            },
+            {
+              "id": "motivacion",
+              "name": "💪 Gestión para la Motivación"
+            },
+            {
+              "id": "inclusion",
+              "name": "🤝 Diversidad e Inclusión (aún sin curso)"
+            }
           ],
           "labels": {
-            "intro": "Elige <strong>al menos dos</strong> políticas y escribe un compromiso para cada una. <strong>A Salvo del Peligro</strong> y <strong>Gestión para la Motivación</strong> son las que esta ruta te enseñó. <strong>Diversidad e Inclusión</strong> la dejamos disponible pero no te la exigimos: su curso todavía no existe — si ya conoces la política por otra vía, comprométete; si no, déjala y volveremos a por ella.",
-            "placeholderMeta": "Ej: llevar el ítem 4 del semáforo al consejo y acordar quién explica la ruta de reporte a la unidad...",
+            "intro": "Abajo no eliges <strong>áreas del semáforo</strong> otra vez: eliges <strong>de qué política</strong> es cada compromiso. Te pedimos <strong>dos</strong>, y es a propósito: el semáforo solo te mira por el lado de <strong>A Salvo del Peligro</strong>, y esta ruta te enseñó también <strong>Gestión para la Motivación</strong> — que no sale en ninguna hoja y se nota en tu equipo. <strong>Diversidad e Inclusión</strong> la dejamos disponible pero no te la exigimos: su curso todavía no existe. Si ya conoces la política por otra vía, comprométete; si no, déjala y volveremos a por ella.",
+            "placeholderMeta": "Ej: llevar el ítem 4 al consejo y acordar quién explica la ruta de reporte a la unidad — se notará porque quedará escrito en el acta...",
             "placeholderPlazo": "Ej: antes del 6 de octubre",
             "placeholderRecursos": "Ej: los 17 ítems de este curso, el Curso 03 para la ruta de reporte, diez minutos del orden del día...",
             "placeholderCompromiso": "Ej: Me comprometo a llevar esto al consejo con fecha, a decir en voz alta de qué me hago cargo yo, y a volver a mirar el semáforo antes de que acabe el año...",
             "botonGenerar": "📄 Armar mi compromiso con los entornos seguros",
             "minimo": 2,
-            "avisoMinimo": "⚠️ Elige al menos <strong>dos</strong> políticas y completa sus campos. Dos compromisos cumplidos valen más que cinco escritos.",
-            "avisoCampos": "⚠️ Hay campos vacíos. Completa el qué, el para cuándo y el en qué se nota, en todas las políticas que marcaste.",
+            "avisoMinimo": "⚠️ Faltan políticas por elegir. Te pedimos <strong>dos</strong> porque la ruta te enseñó dos, y cada una se nota en un sitio distinto del grupo. Elígelas y completa sus campos.",
+            "avisoCampos": "⚠️ Hay campos vacíos. Completa la meta, el plazo y los recursos en todas las políticas que marcaste.",
             "titulo": "🗺️ Mi compromiso con los entornos seguros",
             "subtituloPrioridades": "Las políticas en las que me enfoco, y lo que me comprometo a hacer",
-            "cierre": "Imprime esto, ponle la fecha del próximo consejo y llévalo. Un compromiso que alguien más conoce se cumple mucho más."
+            "cierre": "Imprime esto, ponle la fecha del próximo consejo y llévalo. Un compromiso que alguien más conoce se cumple mucho más.",
+            "campoMeta": "🎯 Meta concreta (qué vas a hacer, y en qué se va a notar)",
+            "campoPlazo": "⏰ Plazo (ponle fecha, no «pronto»)",
+            "campoRecursos": "📚 Recursos (con qué cuentas para hacerlo)"
           }
         },
         {
           "type": "info-box",
-          "text": "✅ <strong>Qué hace bueno a un compromiso.</strong> Tres cosas: <strong>tiene fecha</strong>, <strong>se nota desde fuera</strong> y <strong>no depende de que otro cambie primero</strong>. <em>«Que el consejo se tome en serio la protección»</em> no es un compromiso — es un deseo sobre terceros. <em>«Llevar el ítem 4 al consejo del 6 de octubre y pedir que se decida quién explica la ruta»</em> sí lo es: tiene día, se ve, y depende de ti."
+          "text": "✅ <strong>Qué hace bueno a un compromiso.</strong> Tres cosas: <strong>tiene fecha</strong>, <strong>se nota desde fuera</strong> y <strong>no depende de que otro cambie primero</strong>. Las tres se escriben en la casilla de la meta y en la del plazo. <em>«Que el consejo se tome en serio la protección»</em> no es un compromiso — es un deseo sobre terceros: falla la tercera. <em>«Estar más pendiente de los baños»</em> tampoco — falla la segunda, porque nadie puede verlo. <em>«Llevar el ítem 4 al consejo del 6 de octubre y pedir que se decida quién explica la ruta»</em> sí lo es: tiene día, se ve en el acta, y depende de ti."
         }
       ],
       "quiz": {
@@ -345,20 +434,20 @@
         "nextLabel": "Continuar: llevarlo al consejo 📄",
         "questions": [
           {
-            "text": "De estas tres frases, ¿cuál es un compromiso y no una intención?",
+            "text": "Tres dirigentes escriben su compromiso y los tres le ponen la misma fecha. ¿Cuál vas a poder verificar el 6 de octubre?",
             "options": [
-              "Llevar el ítem 4 al consejo del 6 de octubre y pedir respuesta.",
-              "Lograr que el consejo se tome en serio la protección este año.",
-              "Mejorar la comunicación con los padres de mi unidad poco a poco."
+              "Pedir al consejo del 6 de octubre que decida quién explica la ruta.",
+              "Lograr que para el 6 de octubre el consejo valore más la protección.",
+              "Estar más pendiente de los baños en las salidas, desde el 6 de octubre."
             ],
             "correctIndex": 0
           },
           {
-            "text": "Tu semáforo salió con rojos en cuatro de las cinco áreas. ¿Qué recomienda la hoja?",
+            "text": "Tu semáforo sale con tres rojos en Compromiso de los padres, uno en Política y uno en Programa. Eliges enfocarte en padres. ¿Qué pasa con los otros dos rojos?",
             "options": [
-              "Elegir una o dos y volver a evaluar más adelante en el año.",
-              "Atacar las cuatro a la vez, que es lo que pide la urgencia.",
-              "Empezar por la que tenga más ítems, para avanzar más rápido."
+              "Se anotan y se vuelven a mirar cuando repitas la evaluación.",
+              "Se atienden también, que son solo dos y se resuelven más rápido.",
+              "Se dan por verdes, porque el área elegida fue otra y no hay tiempo."
             ],
             "correctIndex": 0
           }
@@ -411,7 +500,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Y con esto se cierra la ruta. Empezó prometiéndote tres palabras —<strong>cuidar, incluir, sostener</strong>— y te entrega dos y media: el curso de <em>incluir</em> sigue esperando un acuerdo que no se ha publicado, y esta línea prefiere decírtelo a fingir que está completa. <strong>Lo que sí llevas es esto: sabes qué mirar, sabes qué hacer cuando algo pasa, sabes que a ti también hay que cuidarte, y ahora tienes una fecha escrita.</strong>"
+          "text": "Y con esto se cierra la ruta. Empezó prometiéndote tres palabras —<strong>cuidar, incluir, sostener</strong>— y te entrega dos y media: el curso de <em>incluir</em> sigue esperando un acuerdo que no se ha publicado, y esta línea prefiere decírtelo a fingir que está completa. <strong>Lo que sí llevas es esto: sabes qué mirar, sabes qué hacer cuando algo pasa, sabes que a ti también hay que cuidarte, y ahora tienes una fecha escrita.</strong> Y llevas una hoja con algún rojo, que es lo que vale: <strong>un semáforo en el que todo sale verde a la primera es un semáforo que no se miró</strong>. El tuyo se miró. Guárdala y vuelve a ella antes de que acabe el año — <em>«Un compromiso que solo conoces tú no es un compromiso: es una intención.» Dilo en el consejo y ponle fecha.</em>"
         }
       ],
       "quiz": {

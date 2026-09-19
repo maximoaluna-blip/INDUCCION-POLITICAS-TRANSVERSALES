@@ -243,6 +243,21 @@ if (errors.length > 0) {
     process.exit(1);
 }
 
+// --- Marcadores de plantilla sin sustituir ---
+// 19-sep-2026: el Curso 06 se compilo con «Unos @@DURACION@@ minutos» en la PRIMERA
+// frase que lee el adulto. El marcador es una convencion para escribir el JSON antes
+// de medir la duracion (ADR-047), y funcionaba solo si alguien se acordaba de
+// sustituirlo. Lo que depende de acordarse, deriva: ahora falla el build.
+const marcadores = JSON.stringify(course).match(/@@[A-Z_]+@@/g);
+if (marcadores) {
+    const unicos = Array.from(new Set(marcadores));
+    console.error('❌ Quedan marcadores de plantilla sin sustituir: ' + unicos.join(', '));
+    console.error('   Iban a imprimirse tal cual en el curso. Sustituyelos antes de compilar.');
+    console.error('   Si es @@DURACION@@: mide primero (ADR-047) y escribe el numero en los DOS');
+    console.error('   sitios — el campo "duration" y el aviso de tiempo del modulo de intro.');
+    process.exit(1);
+}
+
 const sesgo = checkSesgoLongitud(course);
 if (sesgo.culpables.length * 2 > sesgo.total) {
     console.warn(`⚠️  Sesgo de longitud: la opcion correcta es la mas larga en ${sesgo.culpables.length}/${sesgo.total} preguntas (mas de la mitad).`);

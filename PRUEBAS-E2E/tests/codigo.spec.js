@@ -414,8 +414,19 @@ test.describe('Calidad de codigo (AUDITORIA.md mecanico)', () => {
     const v = reglas.ventanaDeContexto || 260;
     const fallos = [];
     for (const { cid, d } of cursosDeLaLinea()) {
+      // La ventana se mide sobre la prosa de la LECCION, no de cada cadena suelta.
+      // 19-sep-2026: antes era por fragmento, y asi una glosa escrita en el info-box
+      // siguiente NUNCA podia salvar un termino que aparece dentro de una cita literal
+      // -que es justo el caso del item 4 del semaforo en el Curso 06-. Ver
+      // doctrina.json, campo _ambitoDeLaVentana.
+      const porLeccion = new Map();
       for (const { donde, t } of prosaDelCurso(d)) {
-        const texto = sinTags(t);
+        const mid = donde.split('.')[0];
+        if (!porLeccion.has(mid)) porLeccion.set(mid, []);
+        porLeccion.get(mid).push(sinTags(t));
+      }
+      for (const [donde, trozos] of porLeccion) {
+        const texto = trozos.join(' ');
         for (const r of reglas.prohibidoSinGlosa) {
           const re = new RegExp(r.patron, 'i');
           const m = re.exec(texto);
@@ -434,7 +445,7 @@ test.describe('Calidad de codigo (AUDITORIA.md mecanico)', () => {
     expect(
       fallos,
       `Termino ASP superado usado como vigente. La Politica de dic-2025 no solo renombro:\n` +
-        `en dos casos cambio el modelo, y el "referente ASP" NO TIENE HEREDERO REGIONAL.\n` +
+        `en dos casos cambio el modelo, y el "referente ASP" YA NO GESTIONA CASOS: el cargo\n  regional 2.2.30 sigue vigente (Manual de Cargos, p. 385), lo superado son sus\n  funciones. SUPERADO NO ES INEXISTENTE.\n` +
         `Puede nombrarse, pero glosado como termino de 2021-2023 (ADR-035, GLOSARIO seccion C-bis).\n\n${fallos.join('\n\n')}\n`
     ).toEqual([]);
   });

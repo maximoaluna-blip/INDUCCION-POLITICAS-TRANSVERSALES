@@ -42,8 +42,8 @@
     {
       "clave": "politicas-transversales:brujula",
       "patron": "politicas-transversales:brujula",
-      "estado": "planeada",
-      "que": "Reflexiones de compromiso de los Cursos 01-05, que lee el brujula-display del Curso 06 (plan de linea, seccion 7.2).",
+      "estado": "descartada",
+      "que": "NO EXISTE Y NO HACE FALTA. El plan de linea (7.2) la preveia para que el brujula-display del Curso 06 leyera las reflexiones de los cursos anteriores. Al construir el Curso 06 (19-sep-2026) se comprobo que getBrujulaText() NO lee esta clave: lee courseProgress_<courseId>.reflections[<moduleId>], que ya existe. La clave no se escribe ni se lee en ninguna parte. Se deja declarada para que nadie la vuelva a inventar.",
       "alcance": "cross-course dentro de la linea"
     },
     {

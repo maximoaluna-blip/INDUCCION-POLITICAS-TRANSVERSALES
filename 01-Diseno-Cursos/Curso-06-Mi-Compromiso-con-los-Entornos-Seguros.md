@@ -305,4 +305,27 @@ Cada compromiso pide **qué**, **para cuándo** y **en qué se va a notar** — 
 
 ---
 
+
+---
+
+## ⚠️ Lo que las auditorías cambiaron (19-sep-2026) — este diseño NO se reescribió
+
+> **El diseño es fuente histórica** (ADR-057). Lo que vale hoy es el JSON.
+
+| Dónde | Decía | Dice hoy |
+|---|---|---|
+| **§0-bis** | La glosa del ítem 4 «hace disparar la compuerta del ADR-060» | ⚠️ **Falso: no la disparaba.** El patrón exigía «regional» o «ASP» y el formato escribe *«el referente "Safe From Harm"»* a secas. Y la ventana era **por fragmento**, así que una glosa en la caja siguiente no podía salvar una cita literal. **Las dos cosas arregladas y calibradas** |
+| **§1** | «Duración: por medir» | **50 min** — y **no por palabras**: el recuento daba 25 y este curso es sobre todo actividad. Modelado lección a lección por la auditoría pedagógica |
+| **§4.2** | `brujula-display` «existe» | Existía **en el motor**, no en el build: **ningún build de la plataforma lo renderizaba**. Se añadió el caso, con `sourceCourse` y `sourceModule` **obligatorios** |
+| **§4.3** | «las ocho no preguntan por los jóvenes» | ⚠️ **Falso:** los ítems **4 y 6** dicen «cada / todos los **miembros** del Grupo». El formato distingue «dirigentes», «adultos (18+)» y «miembros» a propósito |
+| **§4.3** | La glosa: «un nombre que ya no es el vigente» | Lo superado son **las funciones**, no el nombre: el cargo 2.2.30 sigue vigente y sigue llamándose así. *Superado ≠ inexistente.* Y ahora dice **por dónde se reporta** |
+| **§4.4** | «el área que más veces sale roja» | **No hay dato.** Se presenta como observación del curso, igual que «las tres que más se fallan» del Curso 05 |
+| **§4.5** | «las tres columnas del `plan-builder`: qué, para cuándo y en qué se va a notar» | ⚠️ **La tercera columna es «Recursos»**, y el motor la imprime cocida. Los rótulos se alinearon a lo que el motor imprime; el criterio se enseña y se evalúa, pero **no tiene campo** |
+| **§4.5** | Mínimo 2 compromisos | Se mantiene — pero **el curso pedía «una o dos áreas» y el sistema exigía «al menos dos políticas»**, mezclando dos planos. Separados explícitamente |
+| **Todo el curso** | «Este te pide **contestar**» | Era una promesa sin instrumento: **15 de los 17 ítems no se contestaban** y ninguna pregunta los tocaba. Instrumentado con `photo-upload` y reflexiones que recogen el conteo |
+| **§7** | El instrumento, citado sin más | Cada una de sus **26 filas de trazabilidad** lleva escrito que **no imprime emisor, versión, fecha ni folio** y que **no está en la biblioteca** — para que nadie tenga que volver a deducirlo |
+
+**Lo que este diseño acertó y no se tocó:** los 17 ítems y su reparto, la decisión de **traer el instrumento dentro** en vez de remitir a un PDF que nadie puede descargar, los cuatro punteros de la brújula (7, 7, 8, 7), el corte 8/9 entre lecciones —que la auditoría pedagógica llamó *«el mejor movimiento conceptual del curso»*—, la reflexión que pregunta **cuál de las cuatro no cumpliste**, y los tres avisos de honestidad.
+
+
 _Diseño escrito el 19-sep-2026. Su fuente rectora estuvo a punto de darse por inexistente porque se buscó sin tildes: está anotado en el §0-bis, y es la lección que este curso deja aunque no tenga nada que ver con su contenido._

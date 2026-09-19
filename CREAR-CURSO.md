@@ -140,6 +140,21 @@ El Plan estimó 25 y 35 min. Medidos tras las auditorías: **35 y 45**. La medid
 ### El `build-course.js` de la línea imprime texto propio — revisarlo
 Su cuadro de compromiso decía *«tu compromiso como **adulto certificado**»* **en el curso de A Salvo del Peligro**, que es exactamente lo que esta línea **no acredita**. Lo que el build imprime también es doctrina.
 
+### Que el **esquema** acepte un tipo de sección no significa que el **build** sepa dibujarlo
+`course-schema.json` acepta `brujula-display`, `brujula-action`, `catalog-display`, `goal-planner`, `pdf-generator`, `practices-builder` y `courses-suggestion`. **El build no renderiza ninguno**: caen al `default` del `switch`, que imprime un `<p>` vacío. Un curso puede declararlos, **pasar la validación** y no imprimir nada. Así vive hoy en Desarrollo Institucional: su curso publicado `mi-aporte-al-desarrollo-institucional` declara una sección `brujula-display` que **no existe en su HTML** — comprobado, 0 ocurrencias. **Antes de usar un tipo de sección, comprobar que el `build-course.js` de la línea tiene su `case`** — no que el esquema lo admita.
+
+### La ventana de una compuerta de vocabulario se mide sobre la **lección**, no sobre la cadena
+El ADR-060 medía sus 260 caracteres **dentro de cada cadena del JSON por separado**. Eso hacía **imposible** aprobar una cita literal glosada: el ítem 4 del semáforo oficial vive en un `list`, y su glosa en el `info-box` siguiente — dos cadenas distintas, así que la glosa no contaba. **Y al calibrarlo apareció un segundo defecto que lo tapaba todo:** el marcador `ya no` no tenía límite de palabra, así que *«ya **no**mbran»* valía como glosa y excusaba la lección entera. **Arreglar uno sin el otro no sirve de nada.** Hoy: patrón ampliado, marcador con `\b`, y ventana de **600 sobre la prosa concatenada de la lección**. Calibrado sobre los 34 cursos de las 5 líneas: ruido cero, y **se comprobó que dispara** quitando la glosa a propósito.
+
+### Al probar una compuerta, usar **la compuerta**, no una reimplementación
+Para calibrar el patrón escribí un banco que reproducía la extracción de prosa del test… y no la reproducía: incluía los quizzes, que `prosaDelCurso()` **excluye**. El banco decía que el patrón actual fallaba en dos sitios de un curso publicado, con la suite en verde. **Una reimplementación que discrepa del original miente en la dirección más cara: la que te hace «arreglar» lo que no está roto.** Medir con el banco para explorar, **confirmar corriendo el test**.
+
+### Las rutas de `TRAZABILIDAD.csv` se escriben **con tildes**
+`manifiesto-oficiales.py` resuelve cada `ruta_local` contra el disco. Escribirlas sin acentos —`Informacion para CRAM`, `Evaluacion de grupo`— hace que **no resuelvan**, y con ellas se cae la cadena que dispara la re-auditoría del ADR-037 cuando una fuente cambia. Al cerrar el Curso 06 había **42 filas** así. **Correr el manifiesto después de añadir filas: dice exactamente cuáles no resuelven.**
+
+### El **recuento de palabras** no mide un curso que es sobre todo actividad
+La duración de esta línea se calcula con `cuerpo ÷ 102,7 + ~4 min`. En el Curso 06 eso daba **25 minutos** y el real son **50**: sus 2.522 palabras incluyen 17 ítems que hay que **contestar**, un instrumento que fotografiar y un plan que llenar. **El «+4» de la fórmula cubre el trabajo del alumno cuando el curso es leer; cuando el trabajo del alumno ES el curso, la fórmula no vale.** Modelar por actividad: leer + contestar + escribir, lección a lección.
+
 ### Un **cero de búsqueda** no es una ausencia — y la tilde basta para producirlo
 Al diseñar el Curso 06 di por **inexistente su fuente rectora**. Busqué el semáforo de grupo con `*valuacion*grupo*` y con `grep "evaluacion de grupo"` — **las dos veces sin tildes** — y las dos dieron **cero**. Llegué a escribir que el curso estaba bloqueado y que había que pedirle el documento a la DNDI. **Estaba en el corpus todo el tiempo**, como `23-Evalu**a**ción de grupo SFH (A salvo del peligro).pdf`. Lo encontró un barrido **por frase literal del contenido**, que normaliza acentos y espacios antes de comparar.
 

@@ -2531,11 +2531,11 @@ function renderBrujulaDisplays() {
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
         if (!txt || !txt.trim()) {
-            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, define tu brújula como reflexión en el curso que la alimenta. Si ya lo hiciste en otro dispositivo, pulsa "Recuperar mi avance" en la pantalla de inicio.</div>';
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aquí todavía no hay nada guardado.</strong><br>Si hiciste ese curso en otro dispositivo, pulsa "Recuperar mi avance" en la pantalla de registro y vuelve a esta lección.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-display-content">' +
-            '<div class="brujula-display-label">🧭 Tu brújula personal:</div>' +
+            '<div class="brujula-display-label">🧭 Lo que escribiste:</div>' +
             '<blockquote class="brujula-display-text">' + escapeHtml(txt) + '</blockquote>' +
         '</div>';
     });

@@ -6,8 +6,8 @@
   "terminosSuperados": {
     "_porQue": "La Politica Nacional a Salvo del Peligro (dic-2025) no solo renombro: en dos casos cambio el MODELO. Escribir el termino de 2023 en un curso de 2026 manda al adulto a una puerta que ya no existe -y la puerta es por donde se reporta que a un chico le esta pasando algo-. Ver ADR-035 y GLOSARIO-ASC.md seccion C-bis.",
     "_comoFunciona": "El termino superado PUEDE aparecer -la doctrina de la linea exige glosarlo expresamente como termino de 2021-2023-, pero solo si cerca hay una marca de que esta superado. Lo que falla es usarlo COMO VIGENTE, a secas.",
-    "marcadoresDeGlosa": "(ya no|superad|no es el nombre|se llamaba|aprendiste a|202[0-3]|antes se|todav[ií]a|cambi[oó]|pas[oó] a|obsolet|de entonces|en su p[aá]gina|si te formaron|la edici[oó]n anterior|versi[oó]n anterior|qued[oó] atr[aá]s)",
-    "ventanaDeContexto": 260,
+    "marcadoresDeGlosa": "(\\bya no\\b|superad|no es el nombre|se llamaba|aprendiste a|202[0-3]|antes se|todav[ií]a|cambi[oó]|pas[oó] a|obsolet|de entonces|en su p[aá]gina|si te formaron|la edici[oó]n anterior|versi[oó]n anterior|qued[oó] atr[aá]s)",
+    "ventanaDeContexto": 600,
     "prohibidoSinGlosa": [
       {
         "patron": "\\bEscuchadero\\b",
@@ -15,9 +15,9 @@
         "porQue": "No es un renombre: cambio el modelo. El Escuchadero tenia psicologo/a; los espacios ¡Oyeme! los dinamizan adultos formados y la Politica dice expresamente que NO representan atencion en salud mental."
       },
       {
-        "patron": "referente(s)? (ASP\\b|regional(es)? (de |del )?(A Salvo del Peligro|Safe From Harm))",
+        "patron": "referente(s)?\\s*[«\\\"“']?\\s*(ASP\\b|Safe\\s*Fr[oa]m\\s*Harm|A Salvo del Peligro)",
         "vigente": "Comite de Gestion de Incidentes",
-        "porQue": "Lo que hacia el referente ASP lo hace hoy el Comite de Gestion de Incidentes y el Coordinador Nacional (Politica 2025, pp. 39-42); los Referentes Regionales de Promocion hacen campanas, no reciben casos. ⚠️ OJO: «superado» no es «inexistente». El cargo 2.2.30 «Coordinador Regional del Safe From Harm» SIGUE en el Manual de Cargos (p. 385) y se define como «el referente regional» de la politica; lo superado son sus funciones de gestion de casos. Este campo afirmaba lo contrario hasta el 17-sep-2026. ⚠️ El patron se amplio ese dia: decia solo «referente ASP» y el Curso 03 escribia «referente regional de A Salvo del Peligro», con el nombre desplegado — cuatro apariciones pasaron limpias. Una compuerta de vocabulario vale lo que valga su lista de variantes."
+        "porQue": "Lo que hacia el referente ASP lo hace hoy el Comite de Gestion de Incidentes y el Coordinador Nacional (Politica 2025, pp. 39-42); los Referentes Regionales de Promocion hacen campanas, no reciben casos. ⚠️ OJO: «superado» no es «inexistente». El cargo 2.2.30 «Coordinador Regional del Safe From Harm» SIGUE en el Manual de Cargos (p. 385) y se define como «el referente regional» de la politica; lo superado son sus funciones de gestion de casos. Este campo afirmaba lo contrario hasta el 17-sep-2026. ⚠️ El patron se amplio ese dia: decia solo «referente ASP» y el Curso 03 escribia «referente regional de A Salvo del Peligro», con el nombre desplegado — cuatro apariciones pasaron limpias. Una compuerta de vocabulario vale lo que valga su lista de variantes. ⚠️ AMPLIADO POR TERCERA VEZ el 19-sep-2026: exigia la palabra «regional» o la sigla «ASP», y el formato oficial de autoevaluacion de grupo escribe «el referente \"Safe From Harm\"» a secas — que es la forma mas probable de todas, porque es la que esta impresa. Una compuerta de vocabulario vale lo que valga su lista de variantes, y esta lista ya fallo en 2023, en 2025 y aqui."
       },
       {
         "patron": "Bot[oó]n de Denuncias",
@@ -34,7 +34,9 @@
         "vigente": "DURASLID",
         "porQue": "DURAS-I tenia 6 rasgos; DURASLID tiene 8 (anade Ludicas y Diversas)."
       }
-    ]
+    ],
+    "_ambitoDeLaVentana": "LECCION, no fragmento. Hasta el 19-sep-2026 la ventana se evaluaba dentro de CADA cadena del JSON por separado, asi que una glosa en un info-box nunca podia salvar un termino escrito en un item de lista tres secciones antes. El Curso 06 reproduce el item 4 del semaforo oficial -«el referente \"Safe From Harm\"»- y lo glosa en la caja siguiente: con el ambito por fragmento eso era imposible de aprobar sin trocear una cita literal. Ahora se concatena la prosa de la leccion y la ventana se mide sobre ella.",
+    "_porQueSeisCientos": "Calibrado el 19-sep-2026 sobre los 34 cursos de las 5 lineas: con 260 sobre la leccion, la glosa del Curso 06 cae a ~270 caracteres del item y fallaba; con 600, RUIDO CERO en todo el corpus, el Curso 06 pasa, y quitandole la glosa a proposito la compuerta DISPARA. Medido, no estimado."
   },
   "lineaRoja": {
     "_porQue": "Es la regla 2 de 'Lo que no es negociable' del CLAUDE.md de la linea: «el adulto reporta y deriva; nunca investiga ni atiende» -«en ningun caso su funcion sera de caracter investigativo y de gestion del reporte» (Politica 2025, p. 29)-. Y la consecuencia operativa que ningun otro control mira: NINGUN quiz puede tener como respuesta correcta «averiguar», «confrontar» o «resolver internamente».",
