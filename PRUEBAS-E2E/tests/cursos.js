@@ -48,6 +48,11 @@ const FALLBACK = [
     file: 'gestion-para-la-motivacion.html',
     tituloIncluye: 'Motivaci',
   },
+  {
+    courseId: 'mi-compromiso-entornos-seguros',
+    file: 'mi-compromiso-entornos-seguros.html',
+    tituloIncluye: 'Compromiso',
+  },
 ];
 
 let CURSOS = FALLBACK;

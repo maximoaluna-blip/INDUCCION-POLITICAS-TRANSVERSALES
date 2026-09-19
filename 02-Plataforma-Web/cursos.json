@@ -54,5 +54,19 @@
     "status": "active",
     "file": "gestion-para-la-motivacion.html",
     "folder": "gestion-para-la-motivacion"
+  },
+  {
+    "courseId": "mi-compromiso-entornos-seguros",
+    "title": "Mi Compromiso con los Entornos Seguros",
+    "description": "Aquí no se aprende nada nuevo: se cobra lo aprendido. Vas a mirar tu grupo con el semáforo oficial de la Asociación —17 preguntas, cinco áreas, tres colores—, a recoger lo que fuiste escribiendo curso a curso, y a salir con dos o tres compromisos con fecha que puedas llevar al próximo consejo. Es el curso que cierra la ruta y el único que mira a tu grupo entero.",
+    "icon": "🗺️",
+    "duration": "por medir",
+    "level": 1,
+    "levelName": "Ruta de Fundamentación",
+    "order": 6,
+    "modules": 6,
+    "status": "draft",
+    "file": "mi-compromiso-entornos-seguros.html",
+    "folder": "mi-compromiso-entornos-seguros"
   }
 ]

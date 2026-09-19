@@ -344,6 +344,29 @@ function renderSection(section) {
                     <blockquote class="policy-quote-text">${section.text}</blockquote>
                     ${pqSource}
                 </details>`;
+        case 'brujula-display':
+            // Devuelve al estudiante una reflexion que escribio en OTRO curso de la linea.
+            // El renderizado real lo hace renderBrujulaDisplays() en engine.linea.js, que
+            // busca elementos .brujula-display y lee sus data-*; aqui solo se emite el hueco.
+            //
+            // ⚠️ 19-sep-2026: este caso NO EXISTIA. El course-schema.json aceptaba el tipo
+            // -y seis mas- pero el build los dejaba caer al `default`, que imprime un <p>
+            // vacio. Asi vive hoy en DESARROLLO INSTITUCIONAL: su curso publicado
+            // `mi-aporte-al-desarrollo-institucional` declara una seccion brujula-display
+            // que NO IMPRIME NADA. Que el esquema acepte un tipo no significa que el build
+            // sepa dibujarlo.
+            //
+            // ⚠️ El motor cae a 'modulo 6' si no se le dice otro, y en esta linea las
+            // reflexiones de cierre estan en los modulos 7, 7, 8 y 7: declarar SIEMPRE
+            // sourceModule, o la caja sale vacia sin avisar.
+            const bdCurso = section.sourceCourse || '';
+            const bdModulo = section.sourceModule !== undefined ? String(section.sourceModule) : '';
+            if (!bdCurso || !bdModulo) {
+                console.error('❌ brujula-display necesita "sourceCourse" y "sourceModule".');
+                console.error('   Sin ellos el motor lee el modulo 6 por defecto y la caja sale vacia.');
+                process.exit(1);
+            }
+            return `<div class="brujula-display" data-source-course="${bdCurso}" data-source-module="${bdModulo}"></div>`;
         case 'photo-upload':
             const phId = section.photoId || 'photo-' + Math.random().toString(36).slice(2, 8);
             const phPrompt = section.prompt || 'Sube tu imagen';
