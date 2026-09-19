@@ -140,6 +140,21 @@ El Plan estimó 25 y 35 min. Medidos tras las auditorías: **35 y 45**. La medid
 ### El `build-course.js` de la línea imprime texto propio — revisarlo
 Su cuadro de compromiso decía *«tu compromiso como **adulto certificado**»* **en el curso de A Salvo del Peligro**, que es exactamente lo que esta línea **no acredita**. Lo que el build imprime también es doctrina.
 
+### El offset del **índice** de un documento puede **derivar** — el del folio impreso, no
+*Gestión para la Motivación* tiene tres numeraciones. El diseño del Curso 05 declaró **«índice = folio − 2»** tras comprobarlo en **los 26 epígrafes de §6**… y es falso fuera de §6: el índice da **17** para §3 —que está en el folio **17**— y **25** para §6.1 —folio **27**—. **Se comprobó dentro de una sección y se generalizó al documento entero.** Es el `[:1600]` otra vez, con otra ropa: **una muestra no es el documento**. Comprobar en **dos puntos lejanos**, y citar siempre por **folio impreso**.
+
+### Una fuente oficial puede **empezar a media frase**, y eso no es una extracción rota
+El §3.3 de esa misma cartilla —el apartado que **define «motivar»**, de donde sale el hook del curso— arranca así en la página: *«motivación. Por una parte, requiere un comportamiento activo…»*. Antes de concluir nada se descartó que fuera cosa de la extracción: **se inspeccionaron los XObject de la página** (por si el texto estuviera vectorizado) **y se miró la página renderizada**. Las primeras palabras **se perdieron en la maquetación del documento oficial**. Se cita **con elipsis inicial**, se declara en el `source` y **no se reconstruye lo que falta**. *El §4-bis ya decía «comprueba que la extracción es legible»; esto es el caso contrario — la extracción era fiel y el que está roto es el documento.*
+
+### El **glosario** vuelve a ser la raíz del peor hallazgo — por segunda vez en esta línea
+El único crítico de la auditoría doctrinal del Curso 05 **no estaba en el curso**: `GLOSARIO-ASC.md` afirmaba *«Los 26 «dar»: catálogo en cuatro familias»*, que es exactamente lo que el curso existe para desmentir — las familias contienen **25**. Un auditor que hubiera cotejado el curso contra el glosario **habría marcado el curso como erróneo y el glosario como bueno**. La primera vez fue el Curso 03 (dos filas del §C-bis contradiciéndose). **Al escribir una afirmación numérica en un curso, buscar si el glosario ya dice otra cosa sobre lo mismo.**
+
+### Hay una tercera forma de acertar sin leer: la **fuga de conjunto**
+Las dos compuertas de quiz miden **forma** —longitud (`checkExtremoLongitud`) y primera palabra (`checkOvejaNegra`)—. Esta es de **pertenencia**: el enunciado nombra un conjunto cerrado —*«de las tres»*, *«de las razones que da la cartilla»*— y **solo la opción correcta pertenece a él**, así que quien memorizó la lista acierta **sin leer el caso**. Pasa limpia por las dos compuertas. **El arreglo es que los tres distractores sean miembros del conjunto**, no que se cambie la correcta. Si automatizarlo es decisión abierta; mientras tanto, **es comprobación humana**.
+
+### La duración se mide contra el ritmo de **esta** línea, no contra el del corpus
+El §4-bis daba 126–134 pal/min «en todo lo medido tras el ADR-047». Los tres cursos publicados de esta línea van a **97,0 – 105,7**, media **102,7**: aquí se lee más despacio, y tiene sentido —las seis reflexiones piden escribir—. **Recalcular el ritmo con los cursos ya medidos de la propia línea** antes de declarar una duración, y contrastar contra un curso de tamaño parecido: el Curso 05 (3.409 palabras) y el Curso 01 (3.395) declaran los mismos **35 min**.
+
 ### Poner `title`/`description` en la **sección** en vez de en el **item**
 Un `method-grid` aceptó claves que no le tocaban, no aplicó el cambio y **no falló**. Si una corrección «no se ve», comprobar que se escribió en el nivel correcto del JSON.
 

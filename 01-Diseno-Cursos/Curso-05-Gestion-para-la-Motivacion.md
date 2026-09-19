@@ -311,4 +311,31 @@ La cartilla es de **2020** y usa términos que no son los vigentes. **Cita liter
 
 ---
 
+
+---
+
+## ⚠️ Lo que las auditorías cambiaron (19-sep-2026) — este diseño NO se reescribió
+
+> **El diseño es fuente histórica** (ADR-057). Lo que vale hoy es el JSON.
+
+| Dónde | Decía | Dice hoy |
+|---|---|---|
+| **§0-bis** | «**índice = folio − 2**», comprobado en los 26 epígrafes de §6 | ⚠️ **Falso fuera de §6: el offset DERIVA.** El índice da **17** para §3 —folio 17, offset **0**— y **25** para §6.1 —folio 27, offset **2**—. Se comprobó dentro de una sección y se generalizó al documento. **Solo «folio impreso = PDF − 4» se sostiene** |
+| **§0-bis** | El §3.3 arranca a media frase | **Confirmado, y ampliado:** no es extracción rota — se descartó inspeccionando los XObject de la página y mirándola renderizada. Es la **maquetación del documento oficial**. La cita lleva elipsis inicial y lo declara |
+| **§0-bis** | «Las familias contienen 25; §6 desarrolla 26» | **Ampliado a lo que de verdad enseña:** las 25 corresponden **1:1 y en el mismo orden** con las 26 menos «Dar formación» (6.2). El curso ya no solo advierte del error: **da el mapa** |
+| **§1 y §9** | «Duración: por medir» | **35 min medidos** contra el ritmo real de la línea (**102,7 pal/min**, sobre sus tres publicados), no contra el corpus |
+| **§2, OA 2** | «…con un ejemplo tuyo de cada una» | El curso **nunca pide cuatro ejemplos**, y su propio `mission-box` dice lo contrario: *«no te preocupes por encajar cada gesto en su familia»*. El OA prometía un ejercicio que la lección desaconseja |
+| **§2, OA 3** | «Elegir **tres** maneras… y justificar» | El curso pide **una**, dos veces, y nunca pide justificar. **Se corrigió el objetivo, no la reflexión**: pedir tres rompería el compromiso pequeño, que es su mejor pieza |
+| **§4.1** | «Los **cuatro** cursos anteriores hablan de cuidar a los jóvenes» | ⚠️ Contaba el Curso 04 **dos párrafos después de declarar que no existe**, y borraba el hito del Curso 02, **que ya enseña que la política protege también al adulto**. Reescrito nombrando al 02 y al 03 |
+| **§4.4** | Las cuatro familias con su número | Las tarjetas desfilaban **25 ítems** contra el antídoto del propio §8 («volverse un listado»). Aligeradas, y con **una escena de consejo de grupo cada una**, que el §4.4 pedía y la construcción omitió |
+| **§4.4** | La afirmación del 25/26, sin referencia | ⚠️ Era **la única afirmación del curso que contradice una lectura extendida** —y que contradecía al glosario— **y no tenía dónde comprobarse**: la lección no tenía un solo `policy-quote`. Ahora lleva la cita de la fuente y los folios |
+| **§4.5** | «las tres que más se fallan» | **No es dato de la cartilla:** no jerarquiza las 26. Se presenta como **elección del curso**, con su criterio — y así consta en trazabilidad y en el certificado |
+| **§4.7** | La cita del folio 44 empezaba en «Al igual que…» | La fuente dice «**Igual** que». En el JSON la cita arranca con elipsis en *«…debes hacer lo mismo»* y **lleva su fuente visible**: los tres `mission-box` mostraban cita literal **sin atribución** |
+| **§4.7** | «la persona de mañana — solo mañana» | **El JSON se apartó del diseño a propósito, y bien:** el cuadro del certificado que imprime el motor pide *«la de esta semana»*, y su `placeholder` es *«Esta semana voy a…»*. Las tres piezas coinciden hoy |
+| **Todas** | Reflexión en las seis lecciones | Se cumplió, pero **dos eran de opinión, no de caso**. La L1 ahora ancla en *«el último sábado que te levantaste temprano»* y la L4 pide **el nombre** de a quién se lo estás dejando de dar |
+| **Quizzes** | 12 preguntas, sesgo medido | **0 extremos y 0 ovejas negras**, sí — pero apareció una tercera fuga que el diseño no contemplaba: **la de conjunto** (*«de las tres»* con un solo miembro entre las opciones). **Dos preguntas rehechas** |
+
+**Lo que este diseño acertó y no se tocó:** el gancho de apertura, el hallazgo del 26 ≠ 25 (que resultó estar mal **en el glosario**, no en el curso), las cinco decisiones de frontera —no reproducir el ejemplo bélico de §7, no mencionar a Maslow/Herzberg/Vroom, traducir el vocabulario de 2020 en flujo y citarlo literal, declarar el hueco del 04, y dejar juntas las dos mitades de «nadie es responsable de tu motivación»—, y el andamiaje del 25/26, que hace **sumar al lector** en vez de imponerle la corrección.
+
+
 _Diseño escrito el 18-sep-2026. Las páginas se leyeron del PDF con la longitud impresa antes de citarlas, y aun así una frase se escapó por un corte a 2.100 caracteres: está anotado en el §0-bis. Fuente: Gestión para la Motivación (DNAM, agosto 2020), folios 4, 17–19, 25, 26, 27–42, 43, 44, 57._

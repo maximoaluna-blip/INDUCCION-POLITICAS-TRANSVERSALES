@@ -2,27 +2,62 @@
   "courseId": "gestion-para-la-motivacion",
   "title": "Gestión para la Motivación: motivar es dar",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
-  "description": "Motivar no es dar ánimo: es dar algo, y distinto a cada uno. Aquí vas a saber qué separa un motivo de una motivación, las veintiséis maneras concretas de dar que propone la ASC, cuáles son las tres que más se fallan, cuándo hacerlo y —lo que casi nadie se plantea— de dónde sacas la tuya. Es el curso de cuidar a los adultos que cuidan.",
+  "description": "Motivar no es dar ánimo: es dar algo, y distinto a cada uno. Aquí vas a saber qué separa un motivo de una motivación, las veintiséis maneras concretas de dar que propone la ASC, en cuáles tres conviene detenerse porque no cuestan nada, cuándo hacerlo y —lo que casi nadie se plantea— de dónde sacas la tuya. Es el curso de cuidar a los adultos que cuidan.",
   "contentVersion": "2026-09-19",
   "icon": "💪",
-  "duration": "por medir",
+  "duration": "35 minutos",
   "status": "draft",
   "level": 1,
   "levelName": "Ruta de Fundamentación",
   "order": 5,
   "totalContentModules": 6,
   "achievements": [
-    { "id": "achievement-1", "name": "Sé por qué", "emoji": "🎯", "unlockOnModule": 2 },
-    { "id": "achievement-2", "name": "Motivar es un verbo transitivo", "emoji": "🔤", "unlockOnModule": 3 },
-    { "id": "achievement-3", "name": "Veintiséis maneras", "emoji": "🎁", "unlockOnModule": 4 },
-    { "id": "achievement-4", "name": "Las tres que se fallan", "emoji": "🔧", "unlockOnModule": 5 },
-    { "id": "achievement-5", "name": "El día que va a costar", "emoji": "⏰", "unlockOnModule": 6 },
-    { "id": "achievement-6", "name": "Mi propia gasolina", "emoji": "⛽", "unlockOnModule": 7 },
-    { "id": "achievement-7", "name": "Gestión para la Motivación", "emoji": "💪", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "name": "Sé por qué",
+      "emoji": "🎯",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Motivar es un verbo transitivo",
+      "emoji": "🔤",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "A cada quien lo que necesita",
+      "emoji": "🎁",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Las tres que se fallan",
+      "emoji": "🔧",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "El día que va a costar",
+      "emoji": "⏰",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Mi propia gasolina",
+      "emoji": "⛽",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Gestión para la Motivación",
+      "emoji": "💪",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "GESTIÓN PARA LA MOTIVACIÓN: MOTIVAR ES DAR",
-    "description": "ha completado el Curso 05 de la Línea Políticas Transversales — Gestión para la Motivación, distinguiendo motivo, motivación y motivar tal como los define la cartilla oficial «Gestión para la Motivación» de la Dirección Nacional de Adultos en el Movimiento (agosto de 2020), reconociendo las cuatro familias en que esa cartilla agrupa las maneras de dar y las veintiséis que desarrolla una por una, las tres que más se fallan en la vida de un grupo —información, reconocimiento y confianza—, los cuatro momentos que señala para motivar y el lugar que ocupa la automotivación, en desarrollo de la Política Nacional de Adultos en el Movimiento, cuyo numeral 6 sostiene que contar con adultos motivados registra mayores niveles de desempeño y compromiso. Este certificado acredita haber cursado esta formación"
+    "description": "ha completado el Curso 05 de la Línea Políticas Transversales — Gestión para la Motivación, distinguiendo motivo, motivación y motivar tal como los define la cartilla oficial «Gestión para la Motivación» de la Dirección Nacional de Adultos en el Movimiento (agosto de 2020), y sosteniendo con ella que motivar no es animar sino dar, y dar a cada persona lo que esa persona necesita y no lo que a uno le motivaría recibir; reconociendo las cuatro familias en que esa cartilla agrupa las maneras de dar y las veintiséis que desarrolla una por una, las tres en que este curso se detiene porque no cuestan dinero —información, reconocimiento y confianza—, los cuatro momentos que señala para motivar y el lugar que ocupa la automotivación, y habiendo elegido a una persona concreta de su equipo y una cosa concreta que darle esta semana, en desarrollo de la Política Nacional de Adultos en el Movimiento, cuyo numeral 6 sostiene que contar con adultos motivados registra mayores niveles de desempeño y compromiso. Este certificado acredita haber cursado esta formación"
   },
   "modules": [
     {
@@ -38,25 +73,25 @@
         },
         {
           "type": "info-box",
-          "text": "⏱️ <strong>Unos 30 minutos de lectura y quizzes.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. Puedes reintentarlo las veces que quieras y no cuenta para nada. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
+          "text": "⏱️ <strong>Unos 35 minutos de lectura y quizzes.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y fallar es parte de aprender esto — cuando te equivocas, el sistema te marca cuál era la buena. Tu avance se guarda, así que no hace falta hacerlo de una sentada."
         },
         {
           "type": "course-objectives",
           "items": [
             "<strong>Distinguir</strong> motivo, motivación y motivar según la cartilla.",
-            "<strong>Nombrar</strong> las cuatro familias en que la cartilla agrupa las maneras de dar, con un ejemplo tuyo de cada una.",
-            "<strong>Elegir</strong>, para un adulto concreto de tu equipo, tres maneras de dar de las veintiséis — y justificar por qué esas.",
+            "<strong>Nombrar</strong> las cuatro familias en que la cartilla agrupa las maneras de dar, y saber por qué son veinticinco y no veintiséis.",
+            "<strong>Elegir</strong>, para un adulto concreto de tu equipo, <strong>una</strong> manera de dar de las veintiséis que puedas entregarle esta semana — y saber por qué esa y no la que te gustaría recibir a ti.",
             "<strong>Reconocer</strong> los cuatro momentos que la cartilla señala para motivar.",
             "<strong>Explicar</strong> por qué «nadie es responsable de tu motivación» y qué haces tú con eso."
           ]
         },
         {
-          "type": "info-box",
-          "text": "📍 <strong>Este es el tercero de tres, y falta el de en medio.</strong> El Curso 01 promete una tríada: <em>cuidar</em> (Cursos 02 y 03), <em>incluir</em> (Curso 04) y <em>sostener</em> (este). <strong>El de incluir todavía no existe:</strong> está esperando el texto de un acuerdo que la Asociación no ha publicado. Te lo decimos para que no lo busques. Ninguno bloquea a otro: puedes entrar por donde quieras."
+          "type": "paragraph",
+          "text": "Y un aviso sobre el objeto. Los cursos anteriores de esta ruta miran al adulto como <strong>quien cuida</strong>: el 02 te dio el lenguaje de A Salvo del Peligro —y ya te dijo allí que la política <strong>te protege a ti también</strong>— y el 03 te dio la conducta. Este da el paso siguiente: <strong>cuidar a los adultos que cuidan</strong>. Es el mismo trabajo mirado desde el otro lado."
         },
         {
-          "type": "paragraph",
-          "text": "Y un aviso sobre el objeto. Los cuatro cursos anteriores de esta ruta hablan de <strong>cuidar a los jóvenes</strong>. Este habla de <strong>cuidar a los adultos que cuidan</strong>. Es el mismo trabajo mirado desde el otro lado."
+          "type": "info-box",
+          "text": "📍 <strong>Este es el tercero de la tríada que promete el Curso 01 — y falta el de en medio.</strong> El Curso 01 promete una tríada: <em>cuidar</em> (Cursos 02 y 03), <em>incluir</em> (Curso 04) y <em>sostener</em> (este). <strong>El de incluir todavía no existe:</strong> está esperando el texto de un acuerdo que la Asociación no ha publicado. Te lo decimos para que no lo busques. Ninguno bloquea a otro: puedes entrar por donde quieras."
         }
       ]
     },
@@ -76,7 +111,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La cartilla le dedica un apartado entero. Y conviene mirar cómo lo ordena: da <strong>tres razones numeradas</strong> y, después, <strong>una cuarta que no numera</strong>. No es un descuido de maquetación — es la que cambia de registro."
+          "text": "La ASC tiene un documento entero sobre esto: se llama <strong>Gestión para la Motivación</strong>, lo escribió la Dirección Nacional de Adultos en el Movimiento en 2020, y le dedica un apartado entero a esa pregunta (§5, folio 25). Conviene mirar cómo lo ordena: da <strong>tres razones numeradas</strong> y, después, <strong>una cuarta que no numera</strong>. No es un descuido de maquetación — es la que cambia de registro."
         },
         {
           "type": "method-grid",
@@ -107,7 +142,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>«Finalmente, y no por ello menos importante, porque nos deben interesar las personas que trabajan con nosotros. Interesarnos por las personas, sus problemas, sus dificultades, sus éxitos, es trabajar por el ser humano y dejar este mundo un poco mejor que lo encontramos.»</strong>"
+          "text": "<strong>«Finalmente, y no por ello menos importante, porque nos deben interesar las personas que trabajan con nosotros. Interesarnos por las personas, sus problemas, sus dificultades, sus éxitos, es trabajar por el ser humano y dejar este mundo un poco mejor que lo encontramos.»</strong><br><br><em>— Gestión para la Motivación, §5, folio 25</em>"
         },
         {
           "type": "paragraph",
@@ -129,11 +164,11 @@
         "nextLabel": "Continuar: tres palabras 🔤",
         "questions": [
           {
-            "text": "Un jefe de grupo te dice que no tiene tiempo para «andar motivando». De las razones que da la cartilla, ¿cuál le responde sin apelar a los sentimientos?",
+            "text": "Un jefe de grupo te dice que no tiene tiempo para «andar motivando». Las cuatro razones de la cartilla son buenas, pero solo una responde a una objeción de tiempo. ¿Cuál?",
             "options": [
-              "Que una persona motivada hace la tarea mejor y más rápido.",
-              "Que un grupo motivado retiene mejor a sus dirigentes jóvenes.",
-              "Que la motivación es parte del carácter de todo buen scout."
+              "Que quien está motivado saca la misma tarea en menos tiempo.",
+              "Que la gente motivada contagia esa forma de trabajar al resto.",
+              "Que nos deben interesar las personas que trabajan con nosotros."
             ],
             "correctIndex": 0
           },
@@ -141,7 +176,7 @@
             "text": "La tercera razón de la cartilla es «de coherencia educativa». ¿Qué le exige eso a un equipo de adultos?",
             "options": [
               "Darse entre adultos lo mismo que les pide a los jóvenes.",
-              "Dejar la motivación de los adultos para el final del ciclo.",
+              "Dejar que el equipo de adultos se motive por su cuenta.",
               "Dar a los jóvenes más vivencias de las que se dan los adultos."
             ],
             "correctIndex": 0
@@ -149,7 +184,7 @@
         ]
       },
       "reflection": {
-        "prompt": "De las cuatro razones, ¿cuál es la que <strong>a ti</strong> te mueve? No la que suena mejor en un consejo de grupo: la que de verdad te hace levantarte un sábado. Escríbela en una línea. Y si ninguna de las cuatro te mueve, escribe cuál sería la tuya — eso también es un dato, y de los buenos."
+        "prompt": "De las cuatro razones, ¿cuál te mueve <strong>a ti</strong>? No la que suena mejor en un consejo de grupo: piensa en <strong>el último sábado que te levantaste temprano para el grupo</strong> teniendo excusas de sobra para no hacerlo. ¿Por cuál de las cuatro fuiste ese día? Escríbelo en una línea. Y si ninguna de las cuatro lo explica, escribe la tuya — eso también es un dato, y de los buenos."
       }
     },
     {
@@ -192,7 +227,7 @@
         {
           "type": "policy-quote",
           "label": "📋 Ver la frase que sostiene este curso",
-          "source": "Gestión para la Motivación (DNAM, agosto de 2020), §3.3, folio 18. ⚠️ El párrafo arranca así en el documento oficial: sus primeras palabras se perdieron en la maquetación, y no las reconstruimos.",
+          "source": "Gestión para la Motivación (DNAM, agosto de 2020), §3.3, folio 18. ⚠️ En el documento oficial este párrafo empieza a media frase —«motivación. Por una parte, requiere…»—: sus primeras palabras se perdieron en la maquetación. Citamos desde «requiere» y no las reconstruimos.",
           "text": "…requiere un comportamiento activo. Dar algo. El que no esté dando, no está motivando. Si además no estamos dando aquello que se supone que deberíamos de dar, estamos desmotivando (quitando motivos). Por ejemplo: peleas, malos modos"
         },
         {
@@ -217,7 +252,7 @@
             "options": [
               "Se quitaron motivos: eso es desmotivar, no dejar de motivar.",
               "Se perdió una idea, pero la motivación del grupo sigue igual.",
-              "Se falló en dar información, que es la primera de las 26."
+              "No hubo pelea ni malos modos, así que no se quitó nada."
             ],
             "correctIndex": 0
           },
@@ -248,20 +283,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Si motivar es dar, la pregunta siguiente es obvia: <strong>¿dar qué?</strong> La cartilla la hace con esas dos palabras —<em>«Pero ¿qué dar?»</em>— y responde con una lista, agrupada en cuatro familias."
+          "text": "Si motivar es dar, la pregunta siguiente es obvia: <strong>¿dar qué?</strong> La cartilla la hace con esas mismas palabras —<em>«Pero ¿qué dar?»</em>— y responde con una lista, agrupada en cuatro familias."
         },
         {
           "type": "method-grid",
           "items": [
             {
               "title": "🎒 Extrínseca · 9",
-              "description": "Lo que alguien te entrega desde fuera: información, evaluación de tu desempeño, objetivos, evaluación grupal, reconocimiento, recompensas, soluciones y herramientas, contactos, medios y recursos.",
+              "description": "Lo que alguien te entrega desde fuera. Son <strong>nueve</strong>, y las tres que más se notan son información, reconocimiento y recompensas; las otras van por ahí: objetivos, las dos evaluaciones, medios, contactos, herramientas. <em>En un consejo:</em> el acta en el grupo de WhatsApp el mismo domingo.",
               "color": "#e3f2fd",
               "borderColor": "#1e88e5"
             },
             {
               "title": "🔥 Intrínseca · 9",
-              "description": "La que la cartilla identifica con «el gusto por hacer un buen trabajo»: confianza, autonomía, responsabilidad, capacidad de decisión, espacios de participación, amistad y comunidad, apoyo en problemas personales, conciencia de los problemas, retos y desafíos.",
+              "description": "La que la cartilla identifica con «el gusto por hacer un buen trabajo». Son <strong>nueve</strong>, y las tres grandes son confianza, autonomía y responsabilidad; después vienen la capacidad de decisión, los espacios de participación, los retos. <em>En un consejo:</em> que el jefe de tropa elija el lugar del campamento sin pedir permiso.",
               "color": "#fff3e0",
               "borderColor": "#fb8c00"
             },
@@ -273,15 +308,21 @@
             },
             {
               "title": "🫶 Ayudas · 5",
-              "description": "«Elementos que por sí mismos no provocan la motivación, pero potencian el resto»: respeto, afecto y cariño, humor y alegría, sorpresa y curiosidad, ilusión y pasión. No sustituyen a nada — multiplican lo demás.",
+              "description": "«…elementos que por sí mismos no provocan la motivación, pero potencian el resto de motivaciones»: respeto, afecto y cariño, humor y alegría, sorpresa y curiosidad, ilusión y pasión. <strong>Cinco.</strong> No sustituyen a nada — multiplican lo demás.",
               "color": "#e8f5e9",
               "borderColor": "#43a047"
             }
           ]
         },
         {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo agrupa la cartilla las maneras de dar",
+          "source": "Gestión para la Motivación (DNAM, agosto de 2020), §3.3–3.4, folios 18–19.",
+          "text": "Vamos a hacer una clasificación o enumeración de cosas que podemos dar para motivar en general a los seres humanos y que aplica perfectamente para nuestros grupos Scouts, teniendo en cuenta que estamos hablando en general y no para una persona en concreto"
+        },
+        {
           "type": "info-box",
-          "text": "🔢 <strong>Cuatro familias, veinticinco maneras clasificadas… y veintiséis desarrolladas.</strong> Suma las de arriba: 9 + 9 + 2 + 5 = <strong>25</strong>. Pero después la cartilla dedica su apartado más largo a desarrollarlas una por una, con ejemplos, y ahí son <strong>26</strong>. La que sobra tiene nombre: <strong>«dar formación»</strong>, que se desarrolla y no aparece clasificada en ninguna familia. <strong>Por eso no se puede decir «las 26 en cuatro familias»:</strong> son las 25 de las familias, en el mismo orden, más una."
+          "text": "🔢 <strong>Cuatro familias, veinticinco maneras clasificadas… y veintiséis desarrolladas.</strong> Suma las de arriba: 9 + 9 + 2 + 5 = <strong>25</strong>. Pero después la cartilla dedica su apartado más largo a desarrollarlas una por una, con ejemplos, y ahí son <strong>26</strong>. La que sobra tiene nombre: <strong>«dar formación»</strong>, que se desarrolla y no aparece clasificada en ninguna familia. <strong>Por eso no se puede decir «las 26 en cuatro familias»:</strong> son las 25 de las familias, en el mismo orden, más una. (Las familias están en los <strong>folios 18 y 19</strong>; las veintiséis, en los <strong>folios 27 a 42</strong>. Si quieres contarlas, ahí están.)"
         },
         {
           "type": "paragraph",
@@ -295,7 +336,7 @@
           "type": "list",
           "ordered": false,
           "items": [
-            "<strong>Dar información</strong> (6.1) — la primera de todas, y la que más se falla.",
+            "<strong>Dar información</strong> (6.1) — la primera de todas, y en la que este curso se detiene.",
             "<strong>Dar formación</strong> (6.2) — la que no está en ninguna familia.",
             "<strong>Dar reconocimiento</strong> (6.6) — y la cartilla avisa de que tiene momento.",
             "<strong>Dar confianza</strong> (6.11) — «uno de los mayores motivadores que existen».",
@@ -305,7 +346,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>No te preocupes por encajar cada gesto en su familia.</strong> Preocúpate por lo otro: que lo que des sea <strong>lo que esa persona necesita</strong>, y no lo que a ti te motivaría recibir. La cartilla lo dice en su primera página: <em>«lo que motiva a unas personas puede desmotivar a otras… Qué tal si les doy a cada uno lo que necesita»</em>."
+          "text": "<strong>No te preocupes por encajar cada gesto en su familia.</strong> Preocúpate por lo otro: que lo que des sea <strong>lo que esa persona necesita</strong>, y no lo que a ti te motivaría recibir. La cartilla lo dice en su página de apertura, antes de empezar: <em>«lo que motiva a unas personas puede desmotivar a otras… Qué tal si les doy a cada uno lo que necesita»</em>.<br><br><em>— Gestión para la Motivación, «Hola,», folio 4</em>"
         }
       ],
       "quiz": {
@@ -322,11 +363,11 @@
             "correctIndex": 0
           },
           {
-            "text": "Vas a elegir qué darle a una persona de tu equipo. Según la cartilla, ¿qué debería guiar esa elección?",
+            "text": "A ti lo que te levanta el sábado es que te feliciten delante del grupo. Tu tesorera lleva tres meses pidiendo por WhatsApp que le pasen las facturas a tiempo y nadie contesta. En la próxima reunión, ¿qué le das?",
             "options": [
-              "Lo que esa persona necesita, aunque a ti no te motivaría.",
-              "Lo que mejor funcionó con el resto del equipo este año.",
-              "Lo que la cartilla pone primero, porque va de más a menos."
+              "Las facturas al día, que es lo que ella lleva meses pidiendo.",
+              "Un reconocimiento público, que es lo que a ti te levantaría.",
+              "Una charla sobre lo importante que es el trabajo que hace."
             ],
             "correctIndex": 0
           }
@@ -344,11 +385,11 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> tres de las veintiséis no cuestan dinero, no necesitan permiso de nadie — y se fallan igual."
+          "text": "<strong>Idea central:</strong> tres de las veintiséis no cuestan dinero y no necesitan permiso de nadie — y se fallan igual."
         },
         {
           "type": "paragraph",
-          "text": "De las veintiséis, hay tres que aparecen una y otra vez cuando un equipo de adultos se desinfla. Las tres son gratis. Las tres están en tus manos. Y las tres se fallan en grupos que funcionan bien en todo lo demás."
+          "text": "De las veintiséis, este curso se detiene en tres. No porque la cartilla las destaque —las trata igual que a las otras veintitrés—, sino por algo que sí se puede comprobar leyéndolas: <strong>las tres son gratis, ninguna necesita permiso de nadie, y las tres se fallan en grupos que funcionan bien en todo lo demás</strong>."
         },
         {
           "type": "heading",
@@ -389,7 +430,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<em>«Uno de los mayores motivadores que existen»</em>, dice la cartilla — y acto seguido aclara que no habla de confianza ciega. Pone dos caricaturas que duelen porque se reconocen: el <em>«confío en ti»</em> seguido de soltarle un problema encima, y el <em>«tú confía en mí»</em> seguido de un silencio."
+          "text": "<em>«Uno de los mayores motivadores que existen»</em>, dice la cartilla — y acto seguido aclara que no habla de confianza ciega. Pone dos caricaturas que duelen porque se reconocen: el <em>«confío en ti»</em> seguido de soltarle un problema encima, y el <em>«Tú confía en mi»</em> seguido de un silencio."
         },
         {
           "type": "paragraph",
@@ -397,7 +438,7 @@
         },
         {
           "type": "info-box",
-          "text": "⏳ <strong>Y una advertencia sobre el tiempo:</strong> la confianza <em>«se construye muy despacio con el día a día y sin embargo bastan unos segundos para que se quiebre para siempre»</em>. Es la única de las tres que no se repone."
+          "text": "⏳ <strong>Y una advertencia sobre el tiempo:</strong> la confianza <em>«se construye muy despacio con el día a día y sin embargo bastan unos segundos para que se quiebre para siempre»</em>. Es la que más caro cuesta romper."
         }
       ],
       "quiz": {
@@ -405,11 +446,11 @@
         "nextLabel": "Continuar: cuándo ⏰",
         "questions": [
           {
-            "text": "Un dirigente sacó adelante el campamento y nadie le dijo nada. ¿Qué le faltó, de las tres?",
+            "text": "Un dirigente sacó adelante el campamento y nadie le dijo nada. Tres meses después sigue sin oír una palabra. De las tres, ¿cuál le falló?",
             "options": [
-              "Reconocimiento, y la cartilla avisa que el momento se pasa.",
-              "Recompensas, que es lo que la cartilla pide tras un logro.",
-              "Responsabilidad, que se da encargando la próxima actividad."
+              "Reconocimiento, y el momento oportuno es el que ya se pasó.",
+              "Información, porque nadie le contó cómo salió la evaluación.",
+              "Confianza, porque le encargaron el campamento y lo dejaron solo."
             ],
             "correctIndex": 0
           },
@@ -425,7 +466,7 @@
         ]
       },
       "reflection": {
-        "prompt": "De las tres —información, reconocimiento, confianza—, ¿cuál te falta <strong>a ti</strong> ahora mismo en tu grupo? Y ahora la incómoda, que es la que sirve: <strong>¿cuál estás dejando de dar tú?</strong> Escribe las dos."
+        "prompt": "De las tres —información, reconocimiento, confianza—, ¿cuál te falta <strong>a ti</strong> ahora mismo en tu grupo? Y ahora la incómoda, que es la que sirve: <strong>¿cuál estás dejando de dar tú, y a quién?</strong> Escribe las dos con el nombre puesto, aunque solo lo leas tú."
       }
     },
     {
@@ -447,7 +488,7 @@
           "items": [
             {
               "title": "1 · Al principio",
-              "description": "De la actividad, de la reunión o del ciclo. La cartilla lo dice sin rodeos: para «que las tareas comiencen con ilusión y ganas». Una reflexión, un juego, una dinámica — lo que encaje con lo que va a pasar después."
+              "description": "De la actividad, de la reunión o del ciclo. La cartilla lo dice sin rodeos: para «que las tareas comiencen con ilusión y ganas». Una reflexión corta, una dinámica, un café distinto — con el <strong>equipo de adultos</strong>, no solo con la unidad."
             },
             {
               "title": "2 · Al terminar",
@@ -490,7 +531,7 @@
             "options": [
               "Que el final también motiva si prepara lo que viene después.",
               "Que el final conviene cerrarlo del todo para descansar bien.",
-              "Que el final solo cuenta si la evaluación fue por escrito."
+              "Que el final es para evaluar, y motivar toca al arrancar."
             ],
             "correctIndex": 0
           }
@@ -530,7 +571,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>«Debes hacer lo mismo con tus motivaciones. Nadie es responsable de tu motivación. Los demás pueden ayudar, pero tú eliges lo que haces, cuanto lo haces y por qué lo haces.»</strong><br><br>La cartilla lo dice comparándolo con algo que ya haces: <strong>igual que se actualiza y se renueva la Promesa</strong> para adaptarla a tu situación, toca actualizar los motivos."
+          "text": "<strong>«…debes hacer lo mismo con tus motivaciones. Nadie es responsable de tu motivación. Los demás pueden ayudar, pero tú eliges lo que haces, cuanto lo haces y por qué lo haces…»</strong><br><br><em>— Gestión para la Motivación, §7.1, folio 44</em><br><br>La cartilla lo dice comparándolo con algo que ya haces: <strong>igual que se actualiza y se renueva la Promesa</strong> para adaptarla a tu situación, toca actualizar los motivos."
         },
         {
           "type": "info-box",
@@ -549,6 +590,10 @@
         {
           "type": "paragraph",
           "text": "No propone otra cosa además de la buena acción diaria: propone <strong>que la buena acción sea esa</strong>. Una persona al día, y algo concreto que le dé motivos para seguir. Dentro y fuera del grupo scout."
+        },
+        {
+          "type": "mission-box",
+          "text": "Y así vuelve la frase con la que empezó todo esto, la que tiene filo: <strong>«El que no esté dando, no está motivando.»</strong> Entraste pensando quizá que motivar era dar ánimo. Sales sabiendo que es <strong>una entrega concreta, y distinta para cada persona</strong>. Aquí abajo le pones nombre y fecha a la primera."
         }
       ],
       "quiz": {
@@ -565,11 +610,11 @@
             "correctIndex": 0
           },
           {
-            "text": "La cartilla cierra proponiendo un propósito que cambia la buena acción diaria. ¿Cuál es?",
+            "text": "Aplicas el propósito con que cierra la cartilla: una persona al día. El lunes te toca la jefa de manada, que lleva un mes enterándose de todo tarde. ¿Qué le das?",
             "options": [
-              "Cada día, elegir a una persona y darle motivos para seguir.",
-              "Cada día, revisar si tu propia motivación sigue en su sitio.",
-              "Cada día, hacer una buena acción dentro y fuera del grupo."
+              "Lo que le falta: que le llegue lo que se decidió en el consejo.",
+              "Lo que más se agradece: un mensaje diciéndole que lo hace bien.",
+              "Lo que te sirvió a ti: contarle por qué entraste al Movimiento."
             ],
             "correctIndex": 0
           }
