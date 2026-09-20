@@ -1681,7 +1681,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
                 <div class="info-box">✅ <strong>Qué hace bueno a un compromiso.</strong> Tres cosas: <strong>tiene fecha</strong>, <strong>se nota desde fuera</strong> y <strong>no depende de que otro cambie primero</strong>. Las tres se escriben en la casilla de la meta y en la del plazo. <em>«Que el consejo se tome en serio la protección»</em> no es un compromiso — es un deseo sobre terceros: falla la tercera. <em>«Estar más pendiente de los baños»</em> tampoco — falla la segunda, porque nadie puede verlo. <em>«Llevar el ítem 4 al consejo del 6 de octubre y pedir que se decida quién explica la ruta»</em> sí lo es: tiene día, se ve en el acta, y depende de ti.</div>
 
                 <div class="plan-builder" id="pb-pt-compromisos-entornos-seguros" data-minimo="2">
-                    <script type="application/json" id="pb-labels-pt-compromisos-entornos-seguros">{"minimo":2,"avisoMinimo":"⚠️ Faltan políticas por elegir. Te pedimos \u003cstrong>dos\u003c/strong> porque la ruta te enseñó dos, y cada una se nota en un sitio distinto del grupo. Elígelas y completa sus campos.","avisoCampos":"⚠️ Hay campos vacíos. Completa la meta, el plazo y los recursos en todas las políticas que marcaste.","titulo":"🗺️ Mi compromiso con los entornos seguros","subtituloPrioridades":"Las políticas en las que me enfoco, y lo que me comprometo a hacer","cierre":"Imprime esto, ponle la fecha del próximo consejo y llévalo. Un compromiso que alguien más conoce se cumple mucho más."}</script>
+                    <script type="application/json" id="pb-labels-pt-compromisos-entornos-seguros">{"minimo":2,"avisoMinimo":"⚠️ Faltan políticas por elegir. Te pedimos \u003cstrong>dos\u003c/strong> porque la ruta te enseñó dos, y cada una se nota en un sitio distinto del grupo. Elígelas y completa sus campos.","avisoCampos":"⚠️ Hay campos vacíos. Completa la meta, el plazo y los recursos en todas las políticas que marcaste.","titulo":"🗺️ Mi compromiso con los entornos seguros","subtituloPrioridades":"Las políticas en las que me enfoco, y lo que me comprometo a hacer","cierre":"Imprime esto, ponle la fecha del próximo consejo y llévalo. Un compromiso que alguien más conoce se cumple mucho más.","campoMeta":"🎯 Meta concreta (qué vas a hacer, y en qué se va a notar)","campoPlazo":"⏰ Plazo (ponle fecha, no «pronto»)","campoRecursos":"📚 Recursos (con qué cuentas para hacerlo)"}</script>
                     <p class="pb-intro">Abajo no eliges <strong>áreas del semáforo</strong> otra vez: eliges <strong>de qué política</strong> es cada compromiso. Te pedimos <strong>dos</strong>, y es a propósito: el semáforo solo te mira por el lado de <strong>A Salvo del Peligro</strong>, y esta ruta te enseñó también <strong>Gestión para la Motivación</strong> — que no sale en ninguna hoja y se nota en tu equipo. <strong>Diversidad e Inclusión</strong> la dejamos disponible pero no te la exigimos: su curso todavía no existe. Si ya conoces la política por otra vía, comprométete; si no, déjala y volveremos a por ella.</p>
                     <div class="pb-competences"><div class="pb-competence" data-competence="asp">
                     <label class="pb-comp-header">
@@ -3429,13 +3429,16 @@ function generatePlan(builderId) {
         var d = plan.competences[compId];
         var name = nameByCompId[compId] || compId;
         var sufijo = (typeof planPrioritySuffix === 'function') ? (planPrioritySuffix(compId) || '') : '';
+        // Los rotulos salen del curso si el curso los declaro (viajan en pb-labels): lo
+        // que se imprime tiene que decir lo mismo que la pantalla donde se escribio.
+        // Si el curso no los declara, el rotulo generico corto de siempre.
         return '<div class="pb-priority"><h3>' + (idx + 1) + '. ' + name + sufijo + '</h3>' +
-            '<dt>🎯 Meta concreta</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
-            '<dt>⏰ Plazo</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
-            '<dt>📚 Recursos</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';
+            '<dt>' + (L.campoMeta || '🎯 Meta concreta') + '</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
+            '<dt>' + (L.campoPlazo || '⏰ Plazo') + '</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
+            '<dt>' + (L.campoRecursos || '📚 Recursos') + '</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';
     }).join('');
     var commitmentHtml = (plan.commitment || '').trim() ?
-        '<div class="pb-final-commitment"><h3>💚 Mi compromiso</h3><p style="margin:0;white-space:pre-wrap;">' + escapeHtml(plan.commitment) + '</p></div>' : '';
+        '<div class="pb-final-commitment"><h3>' + (L.campoCompromiso || '💚 Mi compromiso') + '</h3><p style="margin:0;white-space:pre-wrap;">' + escapeHtml(plan.commitment) + '</p></div>' : '';
     var output = document.getElementById('pb-output-' + builderId);
     if (output) {
         output.innerHTML =
