@@ -54,6 +54,10 @@ conducta y el límite.**
 
 ## Estado
 
+> **La página que verifica los certificados vive en la RAÍZ del repo** (`verificar-certificado.html`) y se enlaza desde el pie del `index.html` — **ADR-070, 20-sep-2026**. El certificado le dice al adulto *«verifica este certificado ingresando el código en la plataforma web»*, así que la página es la otra mitad de esa promesa. ⚠️ Hasta ese día **apuntaba al backend de Rover** (1 certificado) en vez de al de la plataforma (21), así que **ningún certificado real se podía validar**; y **nadie la enlazaba desde ningún sitio**. Al tocar esa página, comprobar las dos cosas: el `SCRIPT_URL` y que siga enlazada.
+
+> **20-sep-2026 — la línea estrena `PRUEBAS-E2E/tests/e2e-plan-builder.spec.js` y su `PRUEBAS-E2E/README.md`.** Tenía un `plan-builder` en producción —el del **Curso 06**, justo el componente que el ADR-067 arregló por ese curso y que se verificó **a mano en el navegador**— y era la **única de las cuatro líneas sin esa prueba**. La suite pasa de 88 a **89**: la spec **corre, no se salta**. Y era también la única sin README de pruebas, que es el mapa de la suite.
+
 - **PUBLICADA el 18-sep-2026** (**ADR-062**), y con **5 cursos `active`** desde el 19-sep de los 22
   planeados —**todo el Nivel 1 salvo el 04, que sigue bloqueado**—: **Curso 01** `bienvenida-politicas-transversales` (35 min), **Curso 02**
   `entornos-seguros-politica-asp` (30 min), **Curso 03** `adulto-garante-entorno-seguro` (45 min) —el
