@@ -44,6 +44,11 @@ const FALLBACK = [
     tituloIncluye: 'Entornos Seguros',
   },
   {
+    courseId: 'diversidad-e-inclusion-movimiento',
+    file: 'diversidad-e-inclusion-movimiento.html',
+    tituloIncluye: 'Diversidad',
+  },
+  {
     courseId: 'gestion-para-la-motivacion',
     file: 'gestion-para-la-motivacion.html',
     tituloIncluye: 'Motivaci',

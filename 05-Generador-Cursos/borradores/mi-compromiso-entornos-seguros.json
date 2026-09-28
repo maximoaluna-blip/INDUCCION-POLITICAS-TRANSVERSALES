@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con los Entornos Seguros",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Aquí no se aprende nada nuevo: se cobra lo aprendido. Vas a mirar tu grupo con el semáforo oficial de la Asociación —17 preguntas, cinco áreas, tres colores—, a recoger lo que fuiste escribiendo curso a curso, y a salir con dos compromisos con fecha (tres si te animas con el de Inclusión) que puedas llevar al próximo consejo. Es el último curso publicado de la ruta, y el único que mira a tu grupo entero.",
-  "contentVersion": "2026-09-19",
+  "contentVersion": "2026-09-27",
   "icon": "🗺️",
   "duration": "60 minutos",
   "status": "active",
@@ -95,7 +95,7 @@
         },
         {
           "type": "info-box",
-          "text": "📍 <strong>Dos cosas que faltan, dichas antes de empezar.</strong> La primera: la ruta prometía cinco cursos antes de este y hay <strong>cuatro</strong> — el de <em>Diversidad e Inclusión</em> está esperando el texto de un acuerdo que la Asociación no ha publicado. La segunda: <strong>el semáforo que vas a usar es un formato oficial, pero no está publicado en la biblioteca virtual</strong>. Por eso lo traemos entero aquí dentro, en vez de mandarte a descargar algo que no vas a encontrar."
+          "text": "📍 <strong>Una cosa que conviene saber antes de empezar:</strong> <strong>el semáforo que vas a usar es un formato oficial, pero no está publicado en la biblioteca virtual</strong>. Por eso lo traemos entero aquí dentro, en vez de mandarte a descargar algo que no vas a encontrar."
         },
         {
           "type": "paragraph",
@@ -111,15 +111,15 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>Idea central:</strong> no empiezas de cero. Llevas cuatro frases escritas y todavía no las has visto juntas."
+          "text": "<strong>Idea central:</strong> no empiezas de cero. Llevas cinco frases escritas y todavía no las has visto juntas."
         },
         {
           "type": "paragraph",
-          "text": "Cada curso de esta ruta terminó pidiéndote algo por escrito. No eran ejercicios de relleno: eran <strong>cuatro pedazos del mismo compromiso</strong>, repartidos en cuatro semanas distintas. Aquí están otra vez."
+          "text": "Cada curso de esta ruta terminó pidiéndote algo por escrito. No eran ejercicios de relleno: eran <strong>cinco pedazos del mismo compromiso</strong>, repartidos en cinco cursos distintos. Aquí están otra vez."
         },
         {
           "type": "info-box",
-          "text": "📭 <strong>Si entraste directo a este curso, aquí abajo vas a ver cuatro cajas vacías — y no pasa nada.</strong> Ninguno de los cursos de esta ruta bloquea a otro: se puede empezar por donde se quiera. Mira las cajas primero; justo debajo te digo qué escribir si alguna sale en blanco."
+          "text": "📭 <strong>Si entraste directo a este curso, aquí abajo vas a ver cinco cajas vacías — y no pasa nada.</strong> Ninguno de los cursos de esta ruta bloquea a otro: se puede empezar por donde se quiera. Mira las cajas primero; justo debajo te digo qué escribir si alguna sale en blanco."
         },
         {
           "type": "heading",
@@ -154,6 +154,16 @@
         {
           "type": "heading",
           "level": 3,
+          "text": "Curso 04 — el ajuste para que tu grupo sea más abierto"
+        },
+        {
+          "type": "brujula-display",
+          "sourceCourse": "diversidad-e-inclusion-movimiento",
+          "sourceModule": 7
+        },
+        {
+          "type": "heading",
+          "level": 3,
           "text": "Curso 05 — la persona de esta semana"
         },
         {
@@ -163,7 +173,7 @@
         },
         {
           "type": "info-box",
-          "text": "📭 <strong>¿Alguna caja salió vacía?</strong> Si te falta algún curso, <strong>escribe tú ahora lo que ese curso te habría pedido</strong> — no te va a costar, porque son cosas que ya sabes de tu grupo: una palabra que describa lo que te preocupa (Curso 01), una cosa que vas a hacer distinto desde mañana (Curso 02), tres frases sobre qué haces si alguien te cuenta algo (Curso 03) y una persona de tu equipo a la que le vas a dar algo esta semana (Curso 05). Con eso tienes tu hilo, y la Lección 4 ya te funciona. <strong>También sale vacía si hiciste el curso y dejaste esa reflexión en blanco</strong>, o si lo hiciste <strong>en otro dispositivo</strong>: para eso, pulsa «Recuperar mi avance» en la pantalla de registro y vuelve aquí."
+          "text": "📭 <strong>¿Alguna caja salió vacía?</strong> Si te falta algún curso, <strong>escribe tú ahora lo que ese curso te habría pedido</strong> — no te va a costar, porque son cosas que ya sabes de tu grupo: una palabra que describa lo que te preocupa (Curso 01), una cosa que vas a hacer distinto desde mañana (Curso 02), tres frases sobre qué haces si alguien te cuenta algo (Curso 03), un ajuste para que tu grupo sea más abierto (Curso 04) y una persona de tu equipo a la que le vas a dar algo esta semana (Curso 05). Con eso tienes tu hilo, y la Lección 4 ya te funciona. <strong>También sale vacía si hiciste el curso y dejaste esa reflexión en blanco</strong>, o si lo hiciste <strong>en otro dispositivo</strong>: para eso, pulsa «Recuperar mi avance» en la pantalla de registro y vuelve aquí."
         },
         {
           "type": "mission-box",
@@ -175,16 +185,16 @@
         "nextLabel": "Continuar: el semáforo 🚦",
         "questions": [
           {
-            "text": "Vuelves a leer las cuatro frases que escribiste al cerrar cada curso. ¿Para qué sirve verlas juntas?",
+            "text": "Vuelves a leer las cinco frases que escribiste al cerrar cada curso. ¿Para qué sirve verlas juntas?",
             "options": [
               "Para ver que juntas ya son un plan al que solo le falta fecha.",
-              "Para elegir la mejor de las cuatro y descartar las otras tres.",
-              "Para comprobar que hiciste los cuatro cursos en el orden bueno."
+              "Para elegir la mejor de las cinco y descartar las otras cuatro.",
+              "Para comprobar que hiciste los cinco cursos en el orden bueno."
             ],
             "correctIndex": 0
           },
           {
-            "text": "Una de esas cuatro frases quedó sin cumplir. ¿Qué hace este curso con ella?",
+            "text": "Una de esas cinco frases quedó sin cumplir. ¿Qué hace este curso con ella?",
             "options": [
               "La usa como dato: es la que más dice sobre qué se te atraviesa.",
               "La descarta, porque un compromiso incumplido ya no sirve de nada.",
@@ -195,7 +205,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Léelas seguidas. ¿Cuál de las cuatro <strong>no</strong> cumpliste? Escríbela otra vez, tal cual, y debajo por qué se quedó sin hacer. No es un reproche: es el dato que más te va a servir en la Lección 4, cuando toque escribir los compromisos nuevos."
+        "prompt": "Léelas seguidas. ¿Cuál de las cinco <strong>no</strong> cumpliste? Escríbela otra vez, tal cual, y debajo por qué se quedó sin hacer. No es un reproche: es el dato que más te va a servir en la Lección 4, cuando toque escribir los compromisos nuevos."
       }
     },
     {
@@ -411,18 +421,18 @@
             },
             {
               "id": "inclusion",
-              "name": "🤝 Diversidad e Inclusión (aún sin curso)"
+              "name": "🤝 Diversidad e Inclusión"
             }
           ],
           "labels": {
-            "intro": "Abajo no eliges <strong>áreas del semáforo</strong> otra vez: eliges <strong>de qué política</strong> es cada compromiso. Te pedimos <strong>dos</strong>, y es a propósito: el semáforo solo te mira por el lado de <strong>A Salvo del Peligro</strong>, y esta ruta te enseñó también <strong>Gestión para la Motivación</strong> — que no sale en ninguna hoja y se nota en tu equipo. <strong>Diversidad e Inclusión</strong> la dejamos disponible pero no te la exigimos: su curso todavía no existe. Si ya conoces la política por otra vía, comprométete; si no, déjala y volveremos a por ella.",
+            "intro": "Abajo no eliges <strong>áreas del semáforo</strong> otra vez: eliges <strong>de qué política</strong> es cada compromiso. Te pedimos <strong>dos</strong>, y es a propósito: el semáforo solo te mira por el lado de <strong>A Salvo del Peligro</strong>, y esta ruta te enseñó también <strong>Gestión para la Motivación</strong> — que no sale en ninguna hoja y se nota en tu equipo. Y <strong>Diversidad e Inclusión</strong> está ahí para que la elijas cuando el ajuste que escribiste en el Curso 04 sea lo más urgente de tu grupo: dos es el mínimo, no el máximo.",
             "placeholderMeta": "Ej: llevar el ítem 4 al consejo y acordar quién explica la ruta de reporte a la unidad — se notará porque quedará escrito en el acta...",
             "placeholderPlazo": "Ej: antes del 6 de octubre",
             "placeholderRecursos": "Ej: los 17 ítems de este curso, el Curso 03 para la ruta de reporte, diez minutos del orden del día...",
             "placeholderCompromiso": "Ej: Me comprometo a llevar esto al consejo con fecha, a decir en voz alta de qué me hago cargo yo, y a volver a mirar el semáforo antes de que acabe el año...",
             "botonGenerar": "📄 Armar mi compromiso con los entornos seguros",
             "minimo": 2,
-            "avisoMinimo": "⚠️ Faltan políticas por elegir. Te pedimos <strong>dos</strong> porque la ruta te enseñó dos, y cada una se nota en un sitio distinto del grupo. Elígelas y completa sus campos.",
+            "avisoMinimo": "⚠️ Faltan políticas por elegir. Te pedimos al menos <strong>dos</strong>, y cada una se nota en un sitio distinto del grupo. Elígelas y completa sus campos.",
             "avisoCampos": "⚠️ Hay campos vacíos. Completa la meta, el plazo y los recursos en todas las políticas que marcaste.",
             "titulo": "🗺️ Mi compromiso con los entornos seguros",
             "subtituloPrioridades": "Las políticas en las que me enfoco, y lo que me comprometo a hacer",
@@ -504,7 +514,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Y con esto se cierra la ruta. Empezó prometiéndote tres palabras —<strong>cuidar, incluir, sostener</strong>— y te entrega dos y media: el curso de <em>incluir</em> sigue esperando un acuerdo que no se ha publicado, y esta línea prefiere decírtelo a fingir que está completa. <strong>Lo que sí llevas es esto: sabes qué mirar, sabes qué hacer cuando algo pasa, sabes que a ti también hay que cuidarte, y ahora tienes una fecha escrita.</strong> Y llevas una hoja con algún rojo, que es lo que vale: <strong>un semáforo en el que todo sale verde a la primera es un semáforo que no se miró</strong>. El tuyo se miró. Guárdala y vuelve a ella antes de que acabe el año — <em>«Un compromiso que solo conoces tú no es un compromiso: es una intención.» Dilo en el consejo y ponle fecha.</em>"
+          "text": "Y con esto se cierra la ruta. Empezó prometiéndote tres palabras —<strong>cuidar, incluir, sostener</strong>— y te las entrega las tres. <strong>Lo que sí llevas es esto: sabes qué mirar, sabes qué hacer cuando algo pasa, sabes que a ti también hay que cuidarte, y ahora tienes una fecha escrita.</strong> Y llevas una hoja con algún rojo, que es lo que vale: <strong>un semáforo en el que todo sale verde a la primera es un semáforo que no se miró</strong>. El tuyo se miró. Guárdala y vuelve a ella antes de que acabe el año — <em>«Un compromiso que solo conoces tú no es un compromiso: es una intención.» Dilo en el consejo y ponle fecha.</em>"
         }
       ],
       "quiz": {

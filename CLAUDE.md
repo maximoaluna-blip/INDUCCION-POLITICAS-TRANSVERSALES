@@ -54,44 +54,15 @@ conducta y el límite.**
 
 ## Estado
 
-> **La página que verifica los certificados vive en la RAÍZ del repo** (`verificar-certificado.html`) y se enlaza desde el pie del `index.html` — **ADR-070, 20-sep-2026**. El certificado le dice al adulto *«verifica este certificado ingresando el código en la plataforma web»*, así que la página es la otra mitad de esa promesa. ⚠️ Hasta ese día **apuntaba al backend de Rover** (1 certificado) en vez de al de la plataforma (21), así que **ningún certificado real se podía validar**; y **nadie la enlazaba desde ningún sitio**. Al tocar esa página, comprobar las dos cosas: el `SCRIPT_URL` y que siga enlazada.
+**Dónde va la línea: `../ESTADO.md`**, que genera `python ../generar-estado.py` y no se escribe a mano. Qué pasó y por qué: `../docs/BITACORA.md` y los ADR 062 (publicación), 064, 066 y **097** (Nivel 1 cerrado, 6 de 6). Cómo se construye el siguiente: [`CREAR-CURSO.md`](CREAR-CURSO.md), empezando por su **§4-bis**.
 
-> **20-sep-2026 — la línea estrena `PRUEBAS-E2E/tests/e2e-plan-builder.spec.js` y su `PRUEBAS-E2E/README.md`.** Tenía un `plan-builder` en producción —el del **Curso 06**, justo el componente que el ADR-067 arregló por ese curso y que se verificó **a mano en el navegador**— y era la **única de las cuatro líneas sin esa prueba**. La suite pasa de 88 a **89**: la spec **corre, no se salta**. Y era también la única sin README de pruebas, que es el mapa de la suite.
-
-- **PUBLICADA el 18-sep-2026** (**ADR-062**), y con **5 cursos `active`** desde el 19-sep de los 22
-  planeados —**todo el Nivel 1 salvo el 04, que sigue bloqueado**—: **Curso 01** `bienvenida-politicas-transversales` (35 min), **Curso 02**
-  `entornos-seguros-politica-asp` (30 min), **Curso 03** `adulto-garante-entorno-seguro` (45 min) —el
-  de mayor riesgo doctrinal de la plataforma— **Curso 05** `gestion-para-la-motivacion` (35 min) y **Curso 06** `mi-compromiso-entornos-seguros` (**60 min**), el que cierra la ruta **cobrando** lo que enseñaron los otros.
-  **Los cinco pasan las tres auditorías**, y la línea está dada de alta en el portal y en el panel admin.
-  ⚠️ El **06 además se RE-AUDITÓ**, porque su veredicto pedagógico fue *REQUIERE MEJORA* y las
-  correcciones lo habían cambiado estructuralmente. Valió la pena: **los tres altos de la re-auditoría
-  eran defectos introducidos AL CORREGIR** — un párrafo que afirmaba una elección que el curso nunca
-  pidió, los criterios de un buen compromiso colocados **después** del formulario que debían sostener,
-  y una pregunta cuyas tres opciones eran los tres ejemplos trabajados del recuadro inmediato.
-  ***Una auditoría corrige; re-auditar comprueba que la corrección no trajo nada nuevo.***
-  **Con el 06 el Nivel 1 queda en 5 de 6**: solo falta el **04**, bloqueado por el Acuerdo 405.
-  ⚠️ El **Curso 05 cambia de objeto**: los cuatro anteriores hablan de cuidar a los jóvenes; ese habla
-  de **cuidar a los adultos que cuidan**. Su único crítico doctrinal **no estaba en el curso sino en
-  `../GLOSARIO-ASC.md`** (**ADR-064**), que afirmaba *«los 26 "dar" en cuatro familias»* cuando las
-  familias clasifican **25**. **Segunda vez en esta línea** que la raíz del peor hallazgo está en el
-  glosario.
-  ⚠️ Al reconstruir sus cursos apareció que el **Curso 01 seguía imprimiendo** en su cuadro de
-  compromiso *«tu compromiso como **adulto certificado**»* — lo que esta línea **no acredita**—: el
-  texto se había corregido en `build-course.js` al construir el Curso 02, pero **el Curso 01 nunca se
-  recompiló**. ***Lo que no se recompila, no se corrige.*** Hoy el cuadro **lo declara cada curso** en
-  `commitmentBox` (patrón del ADR-034), porque los cuatro piden cosas distintas en su última lección.
-  ⚠️ El **02 se publicó un día después que el 03**, y el 01 le dice al adulto que *«sin el Curso 02, el
-  03 se lee como una lista de prohibiciones»*. **Al planear un nivel, mirar qué curso sostiene a cuál:**
-  el orden de construcción no tiene por qué ser el de numeración, pero el hueco se lee.
-  ⚠️ La auditoría del Curso 03 encontró que **la raíz del peor error estaba en `../GLOSARIO-ASC.md`**, no
-  en el curso: dos filas del §C-bis se contradecían sobre el mismo rol, el ancla de esta línea copió la
-  más rotunda y el curso copió el ancla. **Corregido de arriba abajo** (glosario v1.27, esta ficha,
-  `doctrina.json` y el curso). *Corregir solo el curso habría dejado la fuente del error en pie.*
-- **Cómo se construye el siguiente:** [`CREAR-CURSO.md`](CREAR-CURSO.md), y su **§4-bis** antes que nada:
-  recoge lo que costó construir estos dos **sin** ese documento.
-- **Bloqueado aparte:** el **Curso 04** (`diversidad-e-inclusion-movimiento`) no se diseña hasta
-  tener el texto del **Acuerdo C.S.N. 405** — las fuentes discrepan sobre si la política de D&I
-  adoptada es la Mundial o la Interamericana, y **no está publicado en la biblioteca**.
+Reglas que dejó construir el Nivel 1:
+- **`verificar-certificado.html` vive en la raíz del repo**, enlazada desde el pie del `index.html` (ADR-070). Al tocarla, comprobar el `SCRIPT_URL` (el backend de la plataforma, no el de Rover) y que siga enlazada.
+- **Re-auditar** cuando el veredicto fue *REQUIERE MEJORA* o las correcciones cambiaron el curso. En los Cursos 06 y 04, **los altos de la re-auditoría eran defectos traídos al corregir**.
+- **Lo que no se recompila, no se corrige:** si se toca texto que imprime `build-course.js`, hay que recompilar todos los cursos.
+- **El glosario fue tres veces la raíz del peor hallazgo** (Cursos 03, 05 y 04). Antes de escribir una afirmación, mirar qué dice `../GLOSARIO-ASC.md` sobre lo mismo, y corregir arriba, no solo el curso.
+- **Al planear un nivel, mirar qué curso sostiene a cuál:** el orden de construcción no tiene por qué seguir la numeración, pero el hueco se nota.
+- **Acuerdo 405:** ningún curso afirma qué política de D&I adoptó, y no se desempata por fecha (ADR-097). El Curso 04 trabaja con la Política Interamericana **como la de la Región**.
 
 ## Las tres reglas «no negociables» ya son compuerta (ADR-060, 17-sep-2026)
 
@@ -121,8 +92,8 @@ una compuerta no se hereda de otra: depende de si el término tiene una acepció
 cargo, tomadas de los créditos de la Política. Está en el repo privado **`DOCS-MAESTRAS-ASC`**, en su
 raíz, y **se borró también de la historia de este repo** — que nunca fue público y no tenía forks.
 
-**La pregunta que sí bloquea trabajo sigue viva:** sin el texto del **Acuerdo C.S.N. 405** no se diseña
-el **Curso 04**. Lo demás de esa consulta es verificación del ADR-035, no un bloqueo.
+**Ya no bloquea nada** (ADR-097): el Curso 04 se publicó sin el texto del **Acuerdo C.S.N. 405**. Pedirlo a la
+Cancillería permitiría afirmar el título de la política de D&I en el 01 y el 04. Lo demás de esa consulta es verificación del ADR-035.
 
 ⚠️ **Regla que deja:** antes de abrir un repo, mirar qué documentos internos arrastra — y sobre todo si
 alguno **nombra a personas**. El proyecto ya publica sus planes y sus auditorías sin problema; la

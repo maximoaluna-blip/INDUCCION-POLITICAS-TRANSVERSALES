@@ -51,7 +51,7 @@ Los nueve provienen de `https://biblioteca.cdnscout.org/` (los enlaces reales de
 
 | Título exacto | Dónde está | Por qué importa | Estado |
 |---|---|---|---|
-| **Política de Diversidad e Inclusión de la OMMS – Región Interamericana** (así la nombra el Acuerdo C.S.N. 405 de 2020 según el Manual Operativo, p. 4; en el sitio aparece como *"Política Interamericana de Diversidad e Inclusión"*) | `https://scout.org.co/wp-content/uploads/2019/11/Politica-Interamericana-Diversidad-e-Inclusion.pdf` — responde **403**; no está en la biblioteca virtual | Es el documento rector de la segunda política de la línea | `[SIN FUENTE LOCAL — verificar en scout.org.co/biblioteca]`. Ruta de respaldo: que el dueño lo arrastre a `DOCUMENTOS BASE/SCOUTS/EXTERNOS/` |
+| **Política de Diversidad e Inclusión de la OMMS – Región Interamericana** (así la nombra el Acuerdo C.S.N. 405 de 2020 según el Manual Operativo, p. 4; en el sitio aparece como *"Política Interamericana de Diversidad e Inclusión"*) | `https://scout.org.co/wp-content/uploads/2019/11/Politica-Interamericana-Diversidad-e-Inclusion.pdf` — responde **403**; no está en la biblioteca virtual | Texto de referencia del Curso 04: la política de la Región (no consta que sea la adoptada) | ✅ **EN LOCAL desde el 27-sep-2026**: `DOCUMENTOS BASE/SCOUTS/EXTERNOS/Politica Interamericana de Diversidad e Inclusion (2016).pdf`, recuperada del Internet Archive (captura del 10-jun-2024 de esta misma URL; 16 pp., oct-2016, Res. 4/16). ⚠️ **No consta que sea la adoptada por el Acuerdo 405** (ADR-097) |
 | **Diversidad e Inclusión – Guía Uno** | No aparece en la biblioteca (solo Dos y Tres) | Probable capítulo introductorio de la misma guía interamericana | `[SIN FUENTE LOCAL]` |
 | **Código de Honor, Disciplinario y de Conducta** (CSN, Resolución C.S.N. 004-22) | `scout.org.co/biblioteca/csn` (listado el 14-sep-2026) | Instrumento nacional vinculante de conducta; el Curso 22 y la duda 6 de la §10 del plan dependen de él | En la biblioteca, **no descargado** (fuera del alcance de esta sesión) |
 | **Manual de Referentes A Salvo del Peligro** | Citado en el Manual Operativo (p. 28); no está en la biblioteca | Detalla el rol de referente | `[SIN FUENTE LOCAL]` |
@@ -73,7 +73,7 @@ Los nueve provienen de `https://biblioteca.cdnscout.org/` (los enlaces reales de
 | 4 | `../DECISIONES.md`: ADR con la decisión de vigencia. | ✅ **CERRADO — ADR-035 aceptado el 15-sep-2026.** La Política 2025 prevalece; Manual 2023 y Guía 2021 se citan solo para lo que ella no regula. Fundamento: p. 31 de la Política. **Bloqueo levantado** |
 | 5 | `TRAZABILIDAD.csv` fila 17: apuntar a la ruta local de la Política 2025 y dejar de decir «Habilitante». | ✅ **Hecho** (14-sep-2026: ruta local + «no habilitante - ADR-019») |
 | 6 | Regenerar `DOCUMENTOS BASE/_manifiesto-oficiales.json` antes de la próxima auditoría. | ✅ **Hecho (15-sep-2026).** **El manifiesto se regeneró el 15-sep-2026** (`_GOBERNANZA/skills/auditar-curso/manifiesto-oficiales.py`, desde `APP APRENDIZAJE/`): **22 documentos registrados, 22 resueltos, 0 ausentes, 0 rutas a corregir, sin cambios de hash**. Lo que el informe leyó como «el manifiesto no tiene los documentos nuevos» es otra cosa: **el manifiesto se construye desde la columna `ruta_local` de `TRAZABILIDAD.csv`, no barriendo `DOCUMENTOS BASE/`**. La Política 2025 sí entró —porque la fila 17 se actualizó el 14-sep—; el Manual Operativo 2023, la Guía 2021, los 5 documentos OMMS y el resto de la serie PNAM no están **porque todavía ninguna afirmación de un curso los cita**. Esa brecha se cierra sola al diseñar los cursos de Transversales: cada afirmación añade su fila a `TRAZABILIDAD.csv` y el documento entra al manifiesto. |
-| 7 | Conseguir el **texto del Acuerdo C.S.N. 405**: zanja si la política de D&I adoptada es la Mundial o la Interamericana. | ⬜ **Pendiente — bloquea el Curso 04.** ⚠️ **No está en la biblioteca** (verificado el 15-sep-2026: las 6 categorías no incluyen «acuerdos»; la sección del CSN son 8 documentos y ninguno lo es; «Transparencia» son papeles de permanencia ESAL). **Hay que pedirlo a la Cancillería Nacional**, que custodia las actas — va en `CONSULTA-DNDI-ASP.md` |
+| 7 | Conseguir el **texto del Acuerdo C.S.N. 405**: zanja si la política de D&I adoptada es la Mundial o la Interamericana. | ⬜ **Pendiente, pero ya no bloquea** — el Curso 04 se publicó sin él (ADR-097). ⚠️ **No está en la biblioteca** (verificado el 15-sep-2026: las 6 categorías no incluyen «acuerdos»; la sección del CSN son 8 documentos y ninguno lo es; «Transparencia» son papeles de permanencia ESAL). **Hay que pedirlo a la Cancillería Nacional**, que custodia las actas — va en `CONSULTA-DNDI-ASP.md` |
 
 ---
 
@@ -85,7 +85,7 @@ Hecho al cerrar el ADR-035. Corrige dos `[SIN FUENTE LOCAL]` de la §3 y descart
 |---|---|---|
 | **Código de Honor, Disciplinario y de Conducta** | ✅ **Sí está** — biblioteca › Consejo Scout Nacional (PDF, 499 KB). La §3 lo daba por no descargado | **Desbloquea el Curso 22** (Nivel 4) |
 | **Protocolo Nacional de Transporte** | ✅ **Sí está** — biblioteca › DNDI › Gestión del Riesgo (PDF, 396 KB) | **Desbloquea el Curso 09** (Nivel 2), que lo marcaba `[SIN FUENTE LOCAL]` |
-| **Acuerdo C.S.N. 405** | ❌ **No está.** La biblioteca no tiene categoría de acuerdos | Sigue bloqueando el **Curso 04**; pedirlo a la Cancillería Nacional |
+| **Acuerdo C.S.N. 405** | ❌ **No está.** La biblioteca no tiene categoría de acuerdos | Ya **no** bloquea el Curso 04 (ADR-097); pedirlo a la Cancillería Nacional permitiría afirmar el título en el 01 y el 04 |
 | **Manual Operativo V2** | ❌ **No existe publicado.** Un solo Manual Operativo (5.5 MB), sin marcador de versión ni etiqueta «NUEVO» | Confirma el ADR-035 |
 | **Manual de Cargos actualizado** | ❌ **No.** Sigue el mismo (7.6 MB), sin etiqueta «NUEVO», pese a que la Política (p. 28) ordena actualizarlo | Confirma que las funciones de casos del cargo 2.2.30 están superadas de hecho, no de derecho |
 | **Manual de Referentes ASP** · **Instructivo Institucional de Gestión de la Crisis** | ❌ No están, como ya decía la §3 | — |
@@ -95,5 +95,7 @@ Hecho al cerrar el ADR-035. Corrige dos `[SIN FUENTE LOCAL]` de la §3 y descart
 > **Cómo se hizo:** la biblioteca carga su índice por JavaScript, así que un `WebFetch` ve cero resultados. Hay que abrirla con navegador. Rutas útiles: `scout.org.co/biblioteca`, `/biblioteca/csn`, `/biblioteca/dndi`, `/biblioteca/dnam`. Las fichas de detalle **no muestran versión ni fecha**: solo título y tamaño.
 
 ---
+
+_Versión 0.4 — 27-sep-2026 (la Política Interamericana de D&I entra al corpus; el Acuerdo 405 deja de bloquear el Curso 04 — ADR-097)._
 
 _Versión 0.3 — 15-sep-2026 (nueva §5 con el barrido de la biblioteca al cerrar el ADR-035; §4 actualizada). Versión 0.2 — 15-sep-2026 (aplicados M7 y m6 de `AUDITORIA-PLAN-v0.1.md`; §4 pasa a tabla con estado). Parte del BORRADOR v0.2 del Plan de Formación de la Línea Políticas Transversales._

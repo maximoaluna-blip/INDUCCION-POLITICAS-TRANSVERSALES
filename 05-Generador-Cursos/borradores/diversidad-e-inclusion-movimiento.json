@@ -1,0 +1,621 @@
+{
+  "courseId": "diversidad-e-inclusion-movimiento",
+  "title": "Diversidad e Inclusión: un Movimiento abierto a todos",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "«Abierta a todos» está en el Estatuto. Que sea verdad depende de cómo recibes al que llega distinto. Aquí vas a ver dónde escribió la ASC su compromiso con la inclusión, por qué lo adoptó en el mismo acto que A Salvo del Peligro, cómo se llama lo que excluye sin querer —y lo que excluye cuidando de más— y qué ajuste concreto puedes hacer tú esta semana.",
+  "contentVersion": "2026-09-27",
+  "icon": "🌈",
+  "duration": "35 minutos",
+  "status": "active",
+  "level": 1,
+  "levelName": "Ruta de Fundamentación",
+  "order": 4,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Abierta a todos",
+      "emoji": "📜",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Dos políticas, un acuerdo",
+      "emoji": "🤝",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Las palabras que ordenan",
+      "emoji": "🔤",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Reconocer para proteger",
+      "emoji": "🧭",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Sin barreras y sin cuidar de más",
+      "emoji": "🚧",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Empieza entre adultos",
+      "emoji": "🏕️",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Diversidad e Inclusión",
+      "emoji": "🌈",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "DIVERSIDAD E INCLUSIÓN: UN MOVIMIENTO ABIERTO A TODOS",
+    "description": "ha completado el Curso 04 de la Línea Políticas Transversales — Diversidad e Inclusión, reconociendo que el Estatuto Nacional de 2025 declara a la Asociación Scouts de Colombia abierta a todos, sin distinción de nacionalidad, género, etnia, credo o condición social, y cuenta la equidad y la inclusión entre sus principios de buena gobernanza; que por el Acuerdo C.S.N. 405 de 2020 la Asociación adoptó en un mismo acto la política A Salvo del Peligro y una política de Diversidad e Inclusión de la Organización Mundial del Movimiento Scout; distinguiendo, con la Política Interamericana de Diversidad e Inclusión de la Región Scout Interamericana, la diversidad, la inclusión, el estigma, la discriminación —también la que ocurre por omisión y sin intención— y el asistencialismo; aplicando el enfoque diferencial y de derechos humanos del Manual Operativo de la Política A Salvo del Peligro; reconociendo las barreras físicas, comunicativas y culturales y la trampa de la sobreprotección, y habiendo fijado un ajuste concreto y con fecha para que su grupo sea más abierto. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el ajuste que fijaste en la última lección: <strong>uno</strong>, concreto y con fecha, para que tu grupo sea más abierto.",
+    "placeholder": "Antes del ... voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "<strong>«Abierta a todos» está escrito en el Estatuto de la Asociación.</strong> Que sea verdad no depende del Estatuto: depende de lo que pasa el sábado cuando llega a tu grupo alguien distinto — y de lo que pasa con los que nunca llegan porque algo, sin que nadie lo decidiera, les cerró la puerta."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 35 minutos de lectura y quizzes.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y cuando te equivocas el sistema te marca cuál era la buena. Tu avance se guarda."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Responder</strong>, con el documento en la mano, a quien diga que la inclusión es opcional: el Estatuto, la Política de Adultos y el Acuerdo 405 de 2020.",
+            "<strong>Explicar</strong> por qué la protección y la inclusión se adoptaron <strong>en el mismo acto</strong>, y qué significa eso para un entorno seguro.",
+            "<strong>Distinguir</strong> diversidad, inclusión, estigma, discriminación y asistencialismo — y reconocer una discriminación que nadie quiso hacer.",
+            "<strong>Aplicar</strong> el enfoque diferencial sin convertirlo en ponerle etiquetas a nadie.",
+            "<strong>Identificar</strong> las barreras de tu grupo —y la trampa de cuidar de más— y fijar <strong>un ajuste</strong> con fecha."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Lo que este curso no te va a decir, dicho antes de empezar.</strong> Si hiciste el Curso 01, ya lo sabes: la ASC adoptó una política de Diversidad e Inclusión por el <strong>Acuerdo C.S.N. 405 de 2020</strong>, ese acuerdo <strong>no está publicado</strong> y las fuentes que lo citan <strong>no coinciden</strong> sobre cuál adoptó. Este curso <strong>tampoco</strong> te dirá cuál. Lo que sí hace es trabajar con un texto que ahora tenemos: la <strong>política de la Región Scout Interamericana</strong>, a la que pertenece la ASC. En la Lección 2 verás exactamente qué se puede afirmar y qué no."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y un aviso de plano. Este curso habla del <strong>adulto</strong>: de cómo recibe, de cómo decide, de cómo se organiza el consejo. Cómo se vive la diversidad <strong>dentro del programa de los jóvenes</strong> —coeducación, progresión, actividades de la unidad— es materia del Programa de Jóvenes, y aquí solo se nombra. Tampoco sustituye ni certifica ningún módulo oficial de la Asociación: te prepara para vivir lo que esos módulos piden."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "📜 «Abierta a todos»",
+      "emoji": "📜",
+      "navLabel": "Abierta a todos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el compromiso de la ASC con la inclusión no es una campaña. Está escrito en sus documentos rectores, y el primero es el Estatuto."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando alguien en un consejo dice <em>«eso de la inclusión es una moda»</em>, la respuesta más corta no es un argumento: es una página. El <strong>Artículo 4</strong> del Estatuto, el que dice qué clase de organización es la Asociación, lo pone en su primera frase."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice el Estatuto",
+          "source": "Estatuto Nacional de la Asociación Scouts de Colombia (2025), Art. 4, p. 4.",
+          "text": "La Asociación Scouts de Colombia es una entidad sin ánimo de lucro, de derecho privado, de utilidad común, abierta a todos, sin vinculación partidista, sin distinción de nacionalidad, género, etnia, credo o condición social; de voluntariado…"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cinco distinciones que la Asociación <strong>no hace</strong>: nacionalidad, género, etnia, credo, condición social. Y en el artículo siguiente, el 5, la condición de fondo que sí pone: los programas se fundamentan en la Promesa y la Ley Scout, <em>«que todos sus miembros aceptan libremente»</em>. <strong>Abierta a todos no quiere decir sin valores.</strong> Quiere decir que lo que se le pide a quien llega son los valores, no un origen, una fe o un bolsillo."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📜 Estatuto, Art. 4",
+              "description": "Abierta a todos, sin distinción de nacionalidad, género, etnia, credo o condición social. Es la definición de la organización, no un anexo.",
+              "color": "#e8f5e9",
+              "borderColor": "#2E7D32"
+            },
+            {
+              "title": "⚖️ Estatuto, Art. 9",
+              "description": "Entre los ocho principios de <strong>buena gobernanza</strong> está <strong>«Equidad e inclusión»</strong>. No habla de a quién recibe la Asociación: habla de <strong>cómo se gobierna</strong>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565C0"
+            },
+            {
+              "title": "🧑‍🤝‍🧑 Política de Adultos, §5.1.3",
+              "description": "Al buscar y seleccionar adultos, el proceso debe <em>«fomentar la equidad de género en su contexto social y cultural, y promover la diversidad, para llegar con el Movimiento Scout a todos los segmentos de la sociedad»</em> (p. 12).",
+              "color": "#fff8e1",
+              "borderColor": "#ffb300"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el segundo. Un principio de gobernanza pesa sobre el <strong>consejo de grupo</strong>, sobre quién se sienta en la mesa y sobre cómo se toman las decisiones — no solo sobre si la unidad recibe a un chico nuevo. Y el tercero pone la diversidad en el momento en que <strong>se busca a los adultos</strong>: un grupo que solo invita a gente como la que ya tiene no está incumpliendo una recomendación, está haciendo al revés un paso de su propia política."
+        },
+        {
+          "type": "info-box",
+          "text": "📍 <strong>Y uno más, que ya conoces.</strong> La Cartilla Metodológica de la Política de Adultos pone <strong>Inclusión y Diversidad</strong> en la <em>Zona de Cascada</em> de tu inducción, al lado de A Salvo del Peligro (§2.4, p. 11), y dice que su módulo de Diversidad e Inclusión quiere que el adulto reconozca desde el principio que somos un Movimiento <em>«con apertura para todos los jóvenes y adultos que acepten nuestros valores fundamentales»</em> (§2.6, p. 14)."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué haces con esto el sábado:</strong> cuando en tu consejo alguien diga «eso de la inclusión es una moda» o «aquí recibimos a los de siempre», no hace falta discutir. El Art. 4 y el Art. 9 se leen en voz alta en treinta segundos, y la conversación cambia de tema: ya no es <em>si</em> incluir, sino <em>cómo</em>."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: el acuerdo de 2020 🤝",
+        "questions": [
+          {
+            "text": "Una dirigente quiere asumir la jefatura de la tropa, que siempre ha tenido jefes hombres; alguien dice que «los muchachos respetan más a un hombre». ¿Qué responde el Estatuto?",
+            "options": [
+              "Que no distingue por género: ser mujer no es motivo para descartarla.",
+              "Que el grupo puede decidirlo según a qué jefe está acostumbrada la tropa.",
+              "Que lo decidan los padres de familia de la tropa, que son quienes la aceptarán."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En tu consejo las decisiones las toman siempre los tres adultos más antiguos; a los que llegaron después se les informa cuando ya está decidido. Alguien dice: «la inclusión es con los chicos, esto es otra cosa». ¿Qué le recuerda el Artículo 9 del Estatuto?",
+            "options": [
+              "Que «equidad e inclusión» es un principio de cómo se gobierna, consejo incluido.",
+              "Que «equidad e inclusión» rige el programa de las unidades, no el consejo.",
+              "Que «equidad e inclusión» obliga a los grupos que atienden población especial."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Vuelve a la lista del Estatuto: nacionalidad, género, etnia, credo, condición social. ¿Cuál de las cinco es la que tu grupo tiene <strong>menos trabajada</strong> — la que, si mañana llegara alguien, los encontraría sin saber qué hacer? Escribe cuál y una línea de por qué, sin nombres."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🤝 Dos políticas en un solo acuerdo",
+      "emoji": "🤝",
+      "navLabel": "Dos políticas, un acuerdo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la ASC no adoptó la inclusión y la protección por separado. Las adoptó <strong>en el mismo acto</strong>. Y eso dice algo sobre qué es un entorno seguro."
+        },
+        {
+          "type": "paragraph",
+          "text": "El 4 de septiembre de 2020 el Consejo Scout Nacional firmó el <strong>Acuerdo 405</strong>. El Manual Operativo de A Salvo del Peligro lo pone entre los documentos que son <em>«la base rectora»</em> de la protección, y lo describe así:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo describe el Manual Operativo el Acuerdo 405",
+          "source": "Manual Operativo de la Política A Salvo del Peligro (V1.0, febrero de 2023), §2 Antecedentes, p. 4.",
+          "text": "Acuerdo 405 del 04 de septiembre de 2020, (Acta 214) mediante el cual el Consejo Scout Nacional de la Asociación Scouts de Colombia adopta la Política de Diversidad e Inclusión de la Organización Mundial del Movimiento Scout - Región Interamericana y la Política A Salvo del Peligro (Safe From Harm) de la Organización Mundial del Movimiento Scout…"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un solo acuerdo, dos políticas. En el Curso 01 viste que la Cartilla las pone juntas en la Zona de Cascada; esto va un paso más allá: <strong>no las junta un manual, las adoptó juntas el Consejo Scout Nacional, el mismo día y en el mismo papel</strong>. Si la Asociación hubiera entendido la inclusión como «un tema aparte para grupos especiales», la habría adoptado otro día. Traducido a tu grupo: cuando el consejo revisa si una salida es segura, <strong>la pregunta «¿quién no va a poder venir, y por qué?» es parte de esa misma revisión</strong>, no un punto aparte del orden del día."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>Un entorno es seguro cuando lo es para todos.</strong> Esa es la frase con la que el Curso 03 te mandó hasta aquí, y el Acuerdo 405 es la razón por la que no es una metáfora."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Y aquí el hueco, dicho en voz alta"
+        },
+        {
+          "type": "paragraph",
+          "text": "El texto del Acuerdo 405 <strong>no está publicado</strong> en la biblioteca virtual de la ASC. Lo conocemos por lo que dicen de él otros dos documentos, y <strong>no dicen lo mismo</strong>:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "El <strong>Manual Operativo</strong> (2023, p. 4) dice que adoptó la política de la <strong>Región Interamericana</strong>.",
+            "La <strong>Política Nacional A Salvo del Peligro</strong> (2025, p. 5) dice que adoptó <em>«la Política Mundial de Diversidad e Inclusión»</em>, con <em>«una aplicación ajustada al contexto nacional»</em>."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Así que no te vamos a decir cuál adoptó el acuerdo. Y no vale desempatar por fecha: que un documento de 2025 cuente qué hizo un acuerdo de 2020 no cambia lo que ese acuerdo dijo. Lo que sí podemos decirte <strong>sin riesgo de equivocarnos</strong> es lo que los dos afirman a la vez: <strong>en 2020 la ASC adoptó, en el mismo acto, A Salvo del Peligro y una política de Diversidad e Inclusión de la Organización Mundial del Movimiento Scout (OMMS).</strong>"
+        },
+        {
+          "type": "info-box",
+          "text": "📘 <strong>Con qué texto trabaja este curso.</strong> Con la <strong>Política Interamericana de Diversidad e Inclusión</strong> (2016): la de la <strong>Región Scout a la que pertenece la ASC</strong>, que pide a cada organización nacional aplicar sus disposiciones, y con la que el Modelo de Aplicación del Programa de Jóvenes (2026) dice ir en coherencia. Cuando leas «la política interamericana», es eso. <strong>No te estamos diciendo que sea la que adoptó el acuerdo.</strong>"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pidió la Conferencia Interamericana a las organizaciones nacionales",
+          "source": "Política Interamericana de Diversidad e Inclusión (Oficina Scout Mundial – Centro de Apoyo Interamérica, octubre de 2016), Resolución 4/16 de la 26ª Conferencia Scout Interamericana, p. 4.",
+          "text": "Invitar a las Organizaciones Scouts Nacionales a implementar las disposiciones de la Política Interamericana de Diversidad e Inclusión. Instar a las Organizaciones Scout Nacionales a desarrollar e implementar su Política Nacional de Diversidad e Inclusión en consonancia con la Política Interamericana."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: las palabras 🔤",
+        "questions": [
+          {
+            "text": "El consejo prepara un campamento. Alguien dice: «A Salvo del Peligro ya lo cumplimos: autorizaciones, adultos suficientes, botiquín. Lo del chico en silla de ruedas es tema de inclusión, eso lo vemos otro día». ¿Qué le responde que las dos políticas se adoptaran en el mismo acto?",
+            "options": [
+              "Que el campamento no es un entorno seguro si no lo es también para él.",
+              "Que tiene razón: ASP se cumple con los requisitos y la inclusión va aparte.",
+              "Que basta con ofrecerle a él una actividad aparte en la sede ese fin de semana."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente prepara una charla y quiere decir: «la ASC adoptó la Política Interamericana de Diversidad e Inclusión». ¿Qué le sugieres?",
+            "options": [
+              "Que lo cambie: lo seguro es que en 2020 se adoptó una de la OMMS, pero no cuál.",
+              "Que lo deje así: el Modelo 2026 de la ASC se declara coherente con la Interamericana.",
+              "Que lo cambie por «la Mundial», porque es lo que dice el documento más reciente."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "En tu grupo, ¿A Salvo del Peligro y la inclusión se tratan como <strong>un mismo asunto o como dos</strong>? Imagina una salida típica de tu grupo a la que <strong>alguien podría no poder ir</strong> —inventada o armada con varias, nunca la de una persona concreta—. Escribe qué lo dejaría fuera y qué haría falta para que fuera <strong>sin que la salida dejara de ser segura</strong>. Sin nombres y sin describir a nadie."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🔤 Las palabras que ordenan",
+      "emoji": "🔤",
+      "navLabel": "Las palabras",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> casi toda la exclusión que ocurre en un grupo scout no es hostil. Por eso hace falta nombrarla bien: si solo buscas mala intención, no la vas a ver."
+        },
+        {
+          "type": "paragraph",
+          "text": "Empecemos por un caso. En el grupo hay un dirigente sordo. Cada vez que el consejo reparte una tarea de responsabilidad —coordinar la salida, llevar las cuentas, hablar con los padres—, nadie piensa en él: se da por hecho que «no podría». Nadie lo ha dicho nunca en voz alta, y nadie lo decidió. Al cabo de dos años sigue haciendo lo mismo que el primer día. <strong>¿Alguien lo excluyó?</strong>"
+        },
+        {
+          "type": "paragraph",
+          "text": "La política interamericana tiene una respuesta, y para llegar a ella define primero sus palabras. Son cinco: <strong>dos que ya usas</strong> —diversidad e inclusión— y <strong>tres incómodas</strong>, que son las que te van a servir para leer el caso:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌈 Diversidad",
+              "description": "<em>«La variedad y diferencia de las personas entre sí»</em>. Para el Movimiento, reconocerla es valorar a quienes tienen <em>«diferentes habilidades, orígenes, creencias, conocimientos, […] necesidades y experiencias»</em> — y usar esas diferencias para crear comunidades unidas.",
+              "color": "#e8f5e9",
+              "borderColor": "#2E7D32"
+            },
+            {
+              "title": "🚪 Inclusión",
+              "description": "<em>«El proceso de identificar y responder a las distintas necesidades y características de los miembros»</em>. Es un proceso, no un estado, y la política insiste: también <strong>para los adultos</strong>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565C0"
+            },
+            {
+              "title": "🏷️ Estigma",
+              "description": "Un rasgo, real o imaginario, que <em>«causa descrédito»</em> y hace creer que quien lo tiene es inferior. Algunas de sus causas, según la política: falta de información, falsas creencias, miedos y juicios morales.",
+              "color": "#fff8e1",
+              "borderColor": "#ffb300"
+            },
+            {
+              "title": "🚫 Discriminación",
+              "description": "Dar un trato desfavorable, excluir o marginar a alguien por un estigma. Y aquí está la clave del caso: puede ser <strong>por acción u omisión</strong>, sutil u hostil, directa o indirecta, <strong>intencional o no intencional</strong>.",
+              "color": "#fce4ec",
+              "borderColor": "#c2185b"
+            },
+            {
+              "title": "🎁 Asistencialismo",
+              "description": "<em>«Una práctica de ayuda que ve a las personas como objetos pasivos de la acción de otros»</em>. La política lo dice sin rodeos: desde ahí <strong>no se puede lograr la plena inclusión</strong>.",
+              "color": "#ede7f6",
+              "borderColor": "#7e57c2"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición completa de discriminación",
+          "source": "Política Interamericana de Diversidad e Inclusión (2016), §5.5, p. 9.",
+          "text": "Es dar un trato desfavorable, excluir o marginar a determinada persona o grupo de personas en función de un estigma real o imaginario. La discriminación puede ser por acción u omisión, sutil o abiertamente hostil, directa o indirecta, intencional o no intencional."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vuelve al dirigente del caso. Nadie lo trató mal, pero lo dejaron fuera de algo <strong>en función de un rasgo</strong> —la sordera— y de una creencia falsa sobre ella: que lo hace menos capaz. Eso es lo que la política llama estigma, y dejar a alguien al margen por un estigma es discriminar, <strong>aunque sea por omisión y sin intención</strong>. La buena noticia es que se arregla con algo tan poco heroico como preguntarle qué quiere asumir."
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>¿Y si no es sin querer?</strong> Casi todo lo de esta lección se arregla con una pregunta a tiempo. Pero si ves que a alguien —joven o adulto— se le humilla, se le acosa o se le aparta a propósito por lo que es, eso ya no es un ajuste pendiente: puede ser un incidente de A Salvo del Peligro, y va por la ruta que viste en el Curso 03, el botón <strong>«Me Pongo A Salvo del Peligro»</strong>. No se arregla en una conversación del consejo."
+        },
+        {
+          "type": "info-box",
+          "text": "🎁 <strong>Y la palabra más incómoda es la última.</strong> El asistencialismo es la forma de excluir <strong>ayudando</strong>: decidir por el otro qué necesita, darle sin preguntarle, convertirlo en «el caso» del grupo. Se siente generoso y deja a la persona exactamente donde estaba: como alguien a quien se le hace algo, no como alguien que hace. La inclusión pregunta primero <strong>a la persona</strong> qué necesita."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: reconocer para proteger 🧭",
+        "questions": [
+          {
+            "text": "En el consejo nadie le propone a la dirigente que llegó hace poco de otro país que coordine algo: «seguro no se queda mucho tiempo», se comenta sin mala intención, y así pasan los meses. Según la definición de la política interamericana, ¿puede ser discriminación?",
+            "options": [
+              "Sí: cuenta la que es por omisión y sin intención, si nace de un estigma.",
+              "No: nadie la trató mal, y sin intención de excluirla no hay discriminación.",
+              "Sí, pero solo cuando ella lo haya pedido y el consejo se lo haya negado."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Para «incluir» a un joven de una familia con pocos recursos, el consejo decide pagarle todo y organizarle cada cosa, sin preguntarle a él ni a su familia qué necesitan. ¿Cómo llama la política a esa práctica?",
+            "options": [
+              "Asistencialismo: lo trata como objeto pasivo de la ayuda de otros.",
+              "Estigma: le atribuye un rasgo que lo hace ver inferior a los demás.",
+              "Discriminación: le da un trato desfavorable por su condición social."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De las tres palabras incómodas —<strong>estigma, discriminación, asistencialismo</strong>—, ¿cuál reconoces más en cómo funcionan los grupos scouts, aunque nadie la llamara así? Descríbela como <strong>un patrón que se repite</strong> —qué se dice, qué se da por hecho, qué se decide—, <strong>sin nombres, sin cargos y sin la condición de nadie</strong>. Y debajo, una línea: ¿qué pregunta, hecha a tiempo, lo habría cortado?"
+      }
+    },
+    {
+      "id": 5,
+      "title": "🧭 Reconocer para proteger",
+      "emoji": "🧭",
+      "navLabel": "Reconocer para proteger",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> tratar a todos exactamente igual no es lo mismo que tratarlos con equidad. El Manual Operativo de A Salvo del Peligro pide otra cosa, y tiene nombre: <strong>enfoque diferencial</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una frase que se oye mucho en los grupos y suena a justicia: <em>«yo trato a todos igual, así nadie se queja»</em>. El problema es que el mismo campamento, con la misma caminata y la misma comida, no expone a todos al mismo riesgo. El Manual Operativo de A Salvo del Peligro (2023) trae entre sus enfoques uno que responde a esa frase."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el enfoque diferencial del Manual Operativo",
+          "source": "Manual Operativo de la Política A Salvo del Peligro (V1.0, febrero de 2023), §5.6, p. 9.",
+          "text": "El principio de enfoque diferencial reconoce que hay poblaciones con características particulares debido a su edad, género (mujeres), identidad de género u orientación sexual, situación de discapacidad, estatus migratorio, condición de refugiado/a, componente étnico víctimas de conflictos armado, brindando especiales garantías y medidas de protección a estos grupos poblacionales que han sido expuestos a mayor riesgo y vulneraciones."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lee el final: <em>«especiales garantías y medidas de protección»</em>. El enfoque diferencial no pide tratar distinto por simpatía, sino porque esas poblaciones <strong>han estado más expuestas</strong>. Por eso vive en el manual de la protección: es la misma política de A Salvo del Peligro, mirada desde quien corre más riesgo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Justo después, el Manual pone el <strong>enfoque de derechos humanos</strong> (§5.7): el reconocimiento de la dignidad y la igualdad <em>«a partir de la no discriminación por razones de sexo, género, orientación sexual, edad, pertenencia étnica, discapacidad, ideología política, estatus migratorio o procedencia geográfica»</em>. Y añade una frase que va con lo que viste en el Curso 03 —escuchar sin juzgar ni interrogar—: <em>«en toda circunstancia las víctimas merecen credibilidad»</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Nadie es invulnerable"
+        },
+        {
+          "type": "paragraph",
+          "text": "La política interamericana completa el cuadro con una idea que desarma otra frase de consejo — <em>«aquí no tenemos población vulnerable»</em>. Define la vulnerabilidad como <em>«un concepto relativo y dinámico»</em> que <em>«no se refiere únicamente a la pobreza, sino también a los vínculos sociales, las relaciones de género y poder, el entorno ambiental»</em> (p. 8), y más adelante lo remata: <em>«no existe quien pueda considerarse invulnerable»</em> (p. 12). Una familia que ayer estaba bien puede no estarlo hoy; un joven sin ninguna dificultad visible puede estar pasando por una."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Reconocer no es etiquetar, ni diagnosticar, ni averiguar.</strong> El enfoque diferencial te pide <strong>ver</strong> que alguien puede estar más expuesto y <strong>darle una garantía más</strong>: un acompañante, una alternativa, una pregunta a tiempo. No te pide clasificar a nadie, ni investigar la vida de una familia, ni anunciar en el consejo la condición de alguien. Lo que sepas de una persona por su situación <strong>se cuida con la misma confidencialidad</strong> que aprendiste en el Curso 03."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: barreras 🚧",
+        "questions": [
+          {
+            "text": "Se prepara una caminata larga. Un joven de la tropa tiene una discapacidad que lo expone más al esfuerzo. Un dirigente propone la misma ruta y el mismo ritmo para todos, «para no hacer diferencias». ¿Qué pide el enfoque diferencial del Manual Operativo?",
+            "options": [
+              "Acordar con él y su familia una garantía más, sin contarlo a todo el grupo.",
+              "Mantener la misma ruta para todos: tratarlo distinto ya sería discriminarlo.",
+              "Contarle al consejo su condición, para que todos estén pendientes de él."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "A mitad de año un joven deja de ir a las salidas; se sabe que en su casa cambió la situación económica. En el consejo alguien dice: «aquí no tenemos población vulnerable, eso se arregla solo». ¿Qué pide lo que viste en esta lección?",
+            "options": [
+              "Preguntarle a la familia, con discreción, qué necesitan para que siga yendo.",
+              "Esperar a que la familia lo pida: si no lo dicen, el grupo no debe meterse.",
+              "Averiguar con otros padres qué pasa en esa casa, para saber cómo ayudar."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en una actividad normal de tu grupo. ¿Qué <strong>situación</strong> —por edad, por una condición, por cómo llega alguien— quedaría más expuesta si algo saliera mal? Descríbela como situación, <strong>sin nada que permita saber de quién se trata</strong>, y escribe una garantía concreta que podrías añadir."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🚧 Barreras, y la trampa de cuidar de más",
+      "emoji": "🚧",
+      "navLabel": "Barreras",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> a veces lo que deja a alguien fuera es una escalera. Otras veces, una nota de voz. Y otras, las ganas de cuidarlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Modelo de Aplicación de 2026, pensando en las actividades de los jóvenes, pide diseñarlas <em>«eliminando barreras físicas, comunicativas o culturales»</em> (p. 92 de su índice; en otra página suma las sensoriales). Las mismas tres lentes sirven para revisar una reunión de adultos, y cada una ve cosas que las otras no ven:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🦽 Física",
+              "description": "El lugar, el recorrido, el transporte, el costo de llegar. La sede en un segundo piso sin ascensor; la salida que exige comprar equipo; el sitio al que solo se llega en carro propio.",
+              "color": "#e8f5e9",
+              "borderColor": "#2E7D32"
+            },
+            {
+              "title": "💬 Comunicativa",
+              "description": "Cómo circula la información. Todo se decide en notas de voz; la convocatoria llega por un canal que no todos leen; se habla con siglas que el recién llegado no conoce.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565C0"
+            },
+            {
+              "title": "🎭 Cultural",
+              "description": "Lo que se da por hecho. La comida que no todos pueden comer, el ritual de un solo credo, el chiste que siempre cae sobre los mismos, la costumbre que nadie explica porque «siempre ha sido así».",
+              "color": "#fff8e1",
+              "borderColor": "#ffb300"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "La barrera que se levanta cuidando"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una cuarta forma de dejar a alguien fuera que no está en esa lista, y la política interamericana le dedica un apartado con un nombre claro: el <strong>estigma de la sobreprotección</strong>."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la política sobre la sobreprotección",
+          "source": "Política Interamericana de Diversidad e Inclusión (2016), §6.2, p. 11.",
+          "text": "Uno de los paradigmas que se requiere romper es la sobreprotección. La sobreprotección de las personas con discapacidad se genera al pensar que ellos no son capaces de aprender determinadas actitudes o acciones, y tiene el objetivo de proporcionarle lo que no puede hacer por sí mismo y “cuidarlo” del medio ambiente que le rodea, debido a que frecuentemente el entorno es visto como amenazante. Esto muchas veces genera mayores limitaciones que la discapacidad por sí misma, llegando a niveles de marginación."
+        },
+        {
+          "type": "paragraph",
+          "text": "<em>«Mayores limitaciones que la discapacidad por sí misma.»</em> Es la frase más dura del documento. Y vale sobre todo entre adultos: la misma política recuerda que, ante un adulto con discapacidad, <strong>«estamos frente a adultos»</strong> — personas <em>«con capacidades para decidir acerca de qué quisieran hacer y dónde quisieran estar»</em>. Decidir por ellos lo que pueden decidir, aunque sea para cuidarlos, es excluirlos."
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ <strong>La otra mitad, que la política pone en la página siguiente.</strong> Con cualquier adulto que se sume como voluntario —con discapacidad o sin ella— <em>«será preponderante garantizar la seguridad y la integridad de los jóvenes»</em> al seleccionar a quien anime el programa (p. 12). La inclusión no suspende la protección: van juntas, y se adoptaron en el mismo acto. Lo que no vale es usar la palabra «seguridad» para no preguntarle a la persona qué puede hacer."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar: entre adultos 🏕️",
+        "questions": [
+          {
+            "text": "Una dirigente con movilidad reducida se apunta al campamento. En una reunión a la que ella no fue, el consejo decide «por seguridad» que se quede coordinando desde la ciudad, y se lo comunican al día siguiente. ¿Cómo se llama lo que hizo el consejo?",
+            "options": [
+              "Sobreprotección: deciden por ella lo que ella misma podía decidir.",
+              "Prudencia: primero va la seguridad del grupo y después la inclusión.",
+              "Enfoque diferencial: le dan una garantía especial por su condición."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En el consejo, el orden del día y las cuentas se reparten impresos en letra pequeña, y un dirigente con baja visión vota sin haberlos podido leer. De las tres barreras de esa lista del Modelo, ¿cuál es esta?",
+            "options": [
+              "Comunicativa: el formato en que circula la información no le permite leerla.",
+              "Física: es su condición visual, no el papel, la que lo deja por fuera.",
+              "Cultural: es él quien no se ha adaptado a la forma en que trabaja el grupo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Revisa la última reunión o actividad de adultos de tu grupo con las tres lentes: <strong>física, comunicativa, cultural</strong>. ¿Dónde había una barrera que nadie nombró? Escríbela, y el ajuste que la quitaría. Sin describir a ninguna persona concreta."
+      }
+    },
+    {
+      "id": 7,
+      "title": "🏕️ La inclusión empieza entre adultos",
+      "emoji": "🏕️",
+      "navLabel": "Entre adultos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un grupo no recibe mejor a los jóvenes de lo que se recibe entre sus adultos. La inclusión empieza en el consejo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es fácil pensar la inclusión como algo que los adultos hacen <strong>por</strong> los jóvenes. La política interamericana lo pone también del otro lado: la inclusión <em>«necesita ser considerada para todos los adultos en el Movimiento Scout, y ser reflejada a través de la forma en que reclutamos, capacitamos, apoyamos y retenemos a nuestros miembros adultos»</em> (p. 8)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Reclutar:</strong> ¿a quién invitas? Si solo invitas a gente como la que ya está, el grupo se parece cada año más a sí mismo.",
+            "<strong>Capacitar:</strong> ¿la formación llega a quien no tiene carro, o a quien trabaja los fines de semana?",
+            "<strong>Apoyar:</strong> ¿el adulto nuevo tiene a quién preguntar, o aprende a fuerza de equivocarse delante de todos?",
+            "<strong>Retener:</strong> ¿sabes por qué se fue el último adulto que se fue?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Cartilla Metodológica de la Política de Adultos dice lo mismo con sus palabras: celebrar y respetar la diversidad de adultos y jóvenes son <em>«elementos que están presentes a lo largo de todo el ciclo de vida del adulto»</em> (§2.6, p. 14). No es un módulo que se aprueba el primer día: es cómo se sostiene al adulto todos los días siguientes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Credos distintos en el mismo grupo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una diversidad que el reglamento de los grupos regula expresamente, y es de las que más se tropiezan en una actividad: la espiritual. El Artículo 7.7 del Reglamento Nacional de Grupos Scouts pide a dirigentes y asesores espirituales y religiosos, donde haya miembros de distintos credos, actuar <em>«con discreción y sin prejuicios»</em> para que cada uno pueda <em>«pensar y obrar libremente de acuerdo con el dictado de sus conciencias y el credo que profesan»</em>, y en los encuentros interconfesionales evitar <em>«actividades, manifestaciones y/o expresiones proselitistas de alguna confesión específica»</em> (p. 34)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en lo que <strong>no</strong> pide: no pide borrar la dimensión espiritual para no incomodar. El mismo artículo manda promover <em>«el reconocimiento de la diversidad espiritual y religiosa, la apertura y el diálogo interconfesional»</em>. Incluir aquí no es callar: es que quepan todos."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver por qué esto se aprende y no se impone",
+          "source": "Política Interamericana de Diversidad e Inclusión (2016), §6.3, p. 13.",
+          "text": "Dada la relevancia que el tema representa, este debe ser un contenido dentro del esquema de formación en los diferentes niveles de capacitación para los adultos en el Movimiento Scout, obteniendo así, desde el inicio, una formación integral con un enfoque incluyente, de tal forma que la práctica de la inclusión, más allá de una imposición, fluya naturalmente facilitando así la convivencia entre los miembros de la OSN."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>«Abierta a todos» se cumple —o no— en cómo recibes al que llega distinto, y en cosas pequeñas.</strong> Una hora de reunión que cambia de día. Una convocatoria que también se escribe. Una rampa prestada. Una pregunta —<em>«¿qué necesitas para poder venir?»</em>— hecha a la persona y no sobre ella. Aquí abajo eliges <strong>una</strong> y le pones fecha; al final, junto al certificado, te pedimos que la pegues para tenerla a la vista."
+        },
+        {
+          "type": "info-box",
+          "text": "➡️ <strong>Lo que sigue.</strong> Acabas de ver que la inclusión se juega también en cómo apoyas y retienes a los adultos. El <strong>Curso 05</strong> da el paso siguiente: qué puedes <strong>dar</strong> para que un adulto quiera quedarse — <strong>cuidar a los adultos que cuidan</strong>. Y si quieres ir más a fondo en lo que viste aquí, la biblioteca de la ASC tiene, en <em>Externos</em>, las guías de Diversidad e Inclusión sobre <strong>personas con discapacidad</strong> (Guía Dos) y sobre <strong>grupos minoritarios</strong> (Guía Tres)."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "En una actividad con miembros de varios credos, un dirigente propone cerrar todos con la oración de su propia iglesia. ¿Qué pide el Reglamento Nacional de Grupos Scouts?",
+            "options": [
+              "Evitar el proselitismo y respetar que cada uno obre según su credo.",
+              "Rezar la oración del credo que comparte la mayoría de los presentes.",
+              "Omitir toda expresión espiritual para que nadie se sienta incómodo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un adulto cuya lengua materna no es el español lleva tres meses en tu grupo; casi no habla en el consejo y todavía no ha asumido nada. ¿Qué ajuste va en la línea de lo que la política interamericana pide para los adultos?",
+            "options": [
+              "Preguntarle qué le ayudaría y mandarle por escrito lo que se decide.",
+              "Esperar a que domine el idioma antes de encargarle algo, para no exponerlo.",
+              "Encargarle, sin preguntarle, traducir los documentos: ahí es donde más aporta."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Elige <strong>un</strong> ajuste que puedas hacer esta semana para que tu grupo sea más abierto: una barrera que quitar, una hora que cambiar, un canal que añadir, una pregunta que hacer a quien corresponde. Escríbelo en una línea, <strong>con fecha</strong>, sin nombres. Es tu compromiso de este curso."
+      }
+    }
+  ]
+}

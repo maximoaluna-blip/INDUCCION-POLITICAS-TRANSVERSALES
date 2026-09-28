@@ -68,5 +68,19 @@
     "status": "active",
     "file": "mi-compromiso-entornos-seguros.html",
     "folder": "mi-compromiso-entornos-seguros"
+  },
+  {
+    "courseId": "diversidad-e-inclusion-movimiento",
+    "title": "Diversidad e Inclusión: un Movimiento abierto a todos",
+    "description": "«Abierta a todos» está en el Estatuto. Que sea verdad depende de cómo recibes al que llega distinto. Aquí vas a ver dónde escribió la ASC su compromiso con la inclusión, por qué lo adoptó en el mismo acto que A Salvo del Peligro, cómo se llama lo que excluye sin querer —y lo que excluye cuidando de más— y qué ajuste concreto puedes hacer tú esta semana.",
+    "icon": "🌈",
+    "duration": "35 minutos",
+    "level": 1,
+    "levelName": "Ruta de Fundamentación",
+    "order": 4,
+    "modules": 7,
+    "status": "active",
+    "file": "diversidad-e-inclusion-movimiento.html",
+    "folder": "diversidad-e-inclusion-movimiento"
   }
 ]

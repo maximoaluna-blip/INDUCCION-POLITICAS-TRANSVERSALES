@@ -3,7 +3,7 @@
   "title": "Bienvenida a las Políticas Transversales",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Hay tres cosas que la Asociación le pide a todo adulto antes de pedirle cualquier otra: cuidar, incluir y sostener. Aquí vas a saber cuáles son las tres políticas que lo sostienen, dónde las puso la ASC dentro de tu propia inducción, y —sobre todo— qué te exige la Asociación por fuera de esta plataforma, que no es lo mismo y son nueve pasos, no los seis del correo.",
-  "contentVersion": "2026-09-17",
+  "contentVersion": "2026-09-27",
   "icon": "🛡️",
   "duration": "35 minutos",
   "level": 1,
@@ -388,7 +388,7 @@
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>Lo que este curso NO te va a decir, y por qué.</strong> No te vamos a decir <strong>cómo se titula</strong> la política de Diversidad e Inclusión que adoptó la ASC. El instrumento que la adopta es el <strong>Acuerdo C.S.N. 405</strong>, <strong>su texto no está publicado en la biblioteca</strong> —los acuerdos del Consejo Scout Nacional no lo están— y las fuentes que tenemos <strong>discrepan</strong> sobre qué adoptó exactamente. Sabemos <em>que</em> la ASC la adoptó; no podemos probar <em>cuál</em>."
+          "text": "⚠️ <strong>Lo que este curso NO te va a decir, y por qué.</strong> No te vamos a decir <strong>cómo se titula</strong> la política de Diversidad e Inclusión que adoptó la ASC. El instrumento que la adopta es el <strong>Acuerdo C.S.N. 405</strong>, <strong>su texto no está publicado en la biblioteca virtual</strong> y las fuentes que tenemos <strong>discrepan</strong> sobre qué adoptó exactamente. Sabemos <em>que</em> la ASC la adoptó; no podemos probar <em>cuál</em>."
         },
         {
           "type": "paragraph",
@@ -400,7 +400,7 @@
         },
         {
           "type": "info-box",
-          "text": "➡️ <strong>El Curso 04</strong> trabaja la inclusión a fondo. Y arrastra el mismo límite: <strong>está esperando el texto del Acuerdo 405</strong>. Cuando llegue, ese curso podrá afirmar lo que este no afirma — y te lo diremos."
+          "text": "➡️ <strong>El Curso 04</strong> trabaja la inclusión a fondo, con la política de Diversidad e Inclusión de la <strong>Región Scout Interamericana</strong>, a la que pertenece la ASC. Y respeta el mismo límite: <strong>tampoco te dirá cuál adoptó el Acuerdo 405</strong>, porque su texto sigue sin publicarse."
         }
       ],
       "quiz": {
@@ -428,7 +428,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Mira la última actividad grande de tu unidad o de tu grupo. <strong>¿Quién no pudo ir, o no pudo participar igual?</strong> Escribe un caso concreto — una persona, una razón. Y debajo, una cosa que habría hecho falta para que sí. Si la respuesta es «nadie, todos participaron», pregúntate quién no está en tu grupo <em>desde antes</em> de la actividad."
+        "prompt": "Piensa en una actividad típica de tu unidad o de tu grupo. <strong>¿Qué podría dejar a alguien sin ir, o sin participar igual</strong> —el costo, el transporte, la forma de explicar, cómo se siente quien llega—? Escribe una razón, sin nombres y sin describir a nadie, y debajo una cosa que habría hecho falta para que sí. Si crees que «nadie», pregúntate quién no está en tu grupo <em>desde antes</em> de la actividad."
       }
     },
     {
@@ -559,7 +559,7 @@
             },
             {
               "title": "🌈 Incluir — Curso 04",
-              "description": "Un entorno es seguro cuando lo es para todos. Espera el texto del Acuerdo 405 para poder afirmar lo que este curso no afirmó.",
+              "description": "Un entorno es seguro cuando lo es para todos. Barreras, estigma, sobreprotección — y un ajuste concreto para tu grupo.",
               "color": "#f3e5f5",
               "borderColor": "#8e24aa"
             },

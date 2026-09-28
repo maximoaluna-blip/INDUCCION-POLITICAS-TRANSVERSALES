@@ -39,7 +39,7 @@ Cada ficha explicita audiencia primaria y secundaria.
 
 | Nivel | Nombre | Cursos | Audiencia primaria | Estado |
 |---|---|---|---|---|
-| 1 | **Ruta de Fundamentación** | 6 | Todo adulto que ingresa | **2 publicados** (01 y 03), 1 bloqueado (04) |
+| 1 | **Ruta de Fundamentación** | 6 | Todo adulto que ingresa | **Completo** (6 de 6, ADR-097) |
 | 2 | Profundización por política | 7 | Dirigentes de unidad, jefes de grupo, consejos | Por planear |
 | 3 | Especialización por cargo | 5 | Cargos ASP y comisionados | Por planear |
 | 4 | Transversales | 4 | Familias, partes interesadas | Por planear |
@@ -79,11 +79,11 @@ Kebab-case, sin tildes ni ñ, máximo 5 palabras significativas.
 | Nivel | Curso | `courseId` | Estado |
 |---|---|---|---|
 | 1 | 01 Bienvenida a las Políticas Transversales | `bienvenida-politicas-transversales` | **publicado** · 35 min |
-| 1 | 02 Entornos Seguros: la Política ASP | `entornos-seguros-politica-asp` | por construir |
+| 1 | 02 Entornos Seguros: la Política ASP | `entornos-seguros-politica-asp` | **publicado** · 30 min |
 | 1 | 03 El Adulto como Garante | `adulto-garante-entorno-seguro` | **publicado** · 45 min |
-| 1 | 04 Diversidad e Inclusión | `diversidad-e-inclusion-movimiento` | 🔒 **bloqueado** (Acuerdo C.S.N. 405) |
-| 1 | 05 Gestión para la Motivación | `gestion-para-la-motivacion` | por construir |
-| 1 | 06 Mi Compromiso con los Entornos Seguros | `mi-compromiso-entornos-seguros` | por construir |
+| 1 | 04 Diversidad e Inclusión | `diversidad-e-inclusion-movimiento` | **publicado** · 35 min (ADR-097) |
+| 1 | 05 Gestión para la Motivación | `gestion-para-la-motivacion` | **publicado** · 35 min |
+| 1 | 06 Mi Compromiso con los Entornos Seguros | `mi-compromiso-entornos-seguros` | **publicado** · 60 min |
 
 Niveles 2–4: ver el Plan §4–§6.
 
@@ -96,7 +96,7 @@ Niveles 2–4: ver el Plan §4–§6.
 | **01 Bienvenida** | Leerse como trámite; y **prometer algo que no se cobra** | Decir qué exige la ASC **fuera** de esta plataforma, con el número exacto de pasos; si el hook promete «dos de estas casillas no son papeleo», **decir cuáles** |
 | **02 Entornos Seguros** | Instalar el lenguaje con términos de 2021-2023 | Vocabulario de la Política 2025; el término superado **solo con marca de superación cerca** |
 | **03 El Adulto como Garante** | Que un quiz premie investigar; revictimización | La línea roja como compuerta; señales y tipologías **reservadas al Nivel 2** |
-| **04 Diversidad e Inclusión** | Construir sobre una política que no sabemos cuál es | **No se diseña** hasta tener el texto del Acuerdo 405 |
+| **04 Diversidad e Inclusión** | Construir sobre una política que no sabemos cuál es | **No afirmar cuál adoptó el Acuerdo 405**; la Interamericana, como la de la Región (ADR-097). Y **discriminación exige estigma**: sin él, es una barrera |
 | **05 Motivación** | Vocabulario no vigente de la cartilla | Traducción en flujo, cita literal en `policy-quote` |
 | **06 Mi Compromiso** | Recoger reflexiones que los cursos no pidieron | Verificar **abriendo cada curso origen** que la reflexión existe y se guarda con esa clave |
 
@@ -234,7 +234,7 @@ Claves con apellido de línea (ADR-025/034), declaradas en `PRUEBAS-E2E/claves-l
 ### 7.3 Verificación
 Antes de publicar: **barrer toda la línea contra la biblioteca**, no solo la fuente del curso de turno (**ADR-056**). Correr `python ../verificar-corpus.py`. Un documento **CAMBIADO** obliga a re-auditar lo que lo cita (`TRAZABILIDAD.csv`, columna `documento_fuente`).
 
-> ⚠️ **Los Acuerdos del CSN no están publicados en la biblioteca.** Ni el 657 ni el 405. Se conocen por lo que dicen de ellos terceros documentos — y por eso el **Curso 04 está bloqueado**. La consulta redactada para la DNDI vive en el repo privado `DOCS-MAESTRAS-ASC` (ver §«Dónde está la consulta» del `CLAUDE.md` de la línea).
+> ⚠️ **Los Acuerdos del CSN no están publicados en la biblioteca.** Ni el 657 ni el 405. Se conocen por lo que dicen de ellos terceros documentos — y por eso **ningún curso afirma qué política de D&I adoptó el 405** (ADR-097). ⚠️ **Una URL que da 403 no es una fuente perdida:** la Política Interamericana se recuperó del Internet Archive. La consulta redactada para la DNDI vive en el repo privado `DOCS-MAESTRAS-ASC` (ver §«Dónde está la consulta» del `CLAUDE.md` de la línea).
 
 ---
 

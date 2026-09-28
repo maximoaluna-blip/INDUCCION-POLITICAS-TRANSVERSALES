@@ -3,7 +3,7 @@
   "title": "Gestión para la Motivación: motivar es dar",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Motivar no es dar ánimo: es dar algo, y distinto a cada uno. Aquí vas a saber qué separa un motivo de una motivación, las veintiséis maneras concretas de dar que propone la ASC, en cuáles tres conviene detenerse porque no cuestan nada, cuándo hacerlo y —lo que casi nadie se plantea— de dónde sacas la tuya. Es el curso de cuidar a los adultos que cuidan.",
-  "contentVersion": "2026-09-19",
+  "contentVersion": "2026-09-27",
   "icon": "💪",
   "duration": "35 minutos",
   "status": "active",
@@ -95,7 +95,7 @@
         },
         {
           "type": "info-box",
-          "text": "📍 <strong>Este es el tercero de la tríada que promete el Curso 01 — y falta el de en medio.</strong> El Curso 01 promete una tríada: <em>cuidar</em> (Cursos 02 y 03), <em>incluir</em> (Curso 04) y <em>sostener</em> (este). <strong>El de incluir todavía no existe:</strong> está esperando el texto de un acuerdo que la Asociación no ha publicado. Te lo decimos para que no lo busques. Ninguno bloquea a otro: puedes entrar por donde quieras."
+          "text": "📍 <strong>Este es el tercero de la tríada que promete el Curso 01.</strong> <em>Cuidar</em> (Cursos 02 y 03), <em>incluir</em> (Curso 04) y <em>sostener</em> (este). Ninguno bloquea a otro: puedes entrar por donde quieras."
         }
       ]
     },
