@@ -3,7 +3,7 @@
   "title": "El Adulto como Garante: reportar, no investigar",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Tu trabajo no es descubrir qué pasó. En 45 minutos vas a saber qué significa ser garante, cómo funciona la práctica 2+1 en tu día a día, qué decir exactamente cuando alguien te revela algo, por dónde entra un reporte y qué pasa después, dónde termina tu rol y por qué cuidarte a ti también es parte de la política. No hay listas de señales: hay conducta.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-09-28",
   "icon": "🤝",
   "duration": "45 minutos",
   "status": "active",
@@ -222,7 +222,7 @@
         },
         {
           "type": "info-box",
-          "text": "🔗 <strong>Si diriges una unidad, hay una segunda parte.</strong> Cómo se aplica 2+1 al <strong>planear</strong> una actividad —la Hoja de Ruta de Reunión, la pernocta, el transporte, la actividad acuática— no es de este curso: le toca a la Línea Programa de Jóvenes, y está en su plan de formación. Aquí trabajamos la medida como norma que te aplica a ti, seas quien seas; allá se convertirá en planeación. El día que ese curso exista, lo verás anunciado en el portal."
+          "text": "🔗 <strong>Si diriges una unidad, hay una segunda parte.</strong> Cómo se aplica 2+1 al <strong>planear</strong> una actividad —la reunión, la salida, la pernocta, el traslado— no es de este curso: le toca a la Línea Programa de Jóvenes, en su curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/02-Plataforma-Web/a-salvo-del-peligro-programa.html\" target=\"_blank\" rel=\"noopener\">«A Salvo del Peligro aplicado al Programa»</a>. Aquí trabajamos la medida como norma que te aplica a ti, seas quien seas; allá se convierte en planeación."
         }
       ],
       "reflection": {
