@@ -77,17 +77,11 @@ de escribirse: las versiones ingenuas daban 5 falsos positivos y 0 verdaderos.
 > `verificar-certificado.html` (**ADR-070**), y por eso esta línea estrenó su
 > `e2e-plan-builder.spec.js`: tenía el componente en producción y era la única sin su prueba.
 
-## Cursos cubiertos hoy (5 activos)
+## Cursos cubiertos hoy
 
-Nivel 1: `bienvenida-politicas-transversales` (35 min), `entornos-seguros-politica-asp` (30 min),
-`adulto-garante-entorno-seguro` (45 min), `gestion-para-la-motivacion` (35 min) y
-`mi-compromiso-entornos-seguros` (60 min).
+Los del catálogo con `status` `active` o `new` — hoy, el **Nivel 1 completo** (ver `../../ESTADO.md`; no se copian aquí las cifras).
 
-**Falta el Curso 04** (*Diversidad e Inclusión*): bloqueado a la espera del texto del Acuerdo
-C.S.N. 405, que no está publicado en la biblioteca.
-
-Con los 5, la suite da **89 passed / 0 failed** (medido el 20-sep-2026, ya con
-`e2e-plan-builder.spec.js`; eran 88 antes de añadirla).
+Última medida: **109 = 107 passed + 2 skipped, 0 failed**, en local y contra producción (27/28-sep-2026, con el Curso 04, ADR-097). **Leer el total, no solo el «passed»**: un curso que falta no hace fallar nada, solo baja el total.
 
 ## Dos trampas de esta suite (verde no siempre significa probado)
 

@@ -179,6 +179,15 @@ El §4-bis daba 126–134 pal/min «en todo lo medido tras el ADR-047». Los tre
 ### Poner `title`/`description` en la **sección** en vez de en el **item**
 Un `method-grid` aceptó claves que no le tocaban, no aplicó el cambio y **no falló**. Si una corrección «no se ve», comprobar que se escribió en el nivel correcto del JSON.
 
+### Una URL que da 403 no es una fuente perdida (Curso 04, ADR-097)
+La Política Interamericana de D&I figuró como «faltante» desde el 14-sep porque su PDF en `scout.org.co/wp-content/` responde 403. **Estaba en el Internet Archive** (`web.archive.org/web/2020id_/<url>` baja el archivo original). Antes de declarar que una fuente no se puede conseguir, **probar la captura archivada**, y comprobar su sha256.
+
+### Una clave puede contradecir otra lección del mismo curso
+En el Curso 04, la clave del enfoque diferencial premiaba **garantizar sin preguntar**, que es justo lo que el mismo curso llama asistencialismo y sobreprotección dos lecciones después. Se veía solo **leyendo las claves juntas**, no pregunta por pregunta. Lo cazó la re-auditoría, y era un defecto **traído al corregir**.
+
+### «Discriminación» exige estigma
+La definición interamericana (p. 9) incluye la discriminación por omisión y sin intención, pero siempre *«en función de un estigma»*. Una exclusión sin estigma —un horario que deja fuera a quien trabaja por turnos— es una **barrera**. Llamarla discriminación estira la fuente.
+
 ---
 
 ## 5. Hilos cross-course
@@ -310,5 +319,7 @@ No repetir; queda como acta de lo que costó:
 - [`../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md`](../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md) — referencia viva del proyecto.
 
 ---
+
+_Versión 1.1 — 28-sep-2026: Nivel 1 completo (ADR-097); §3 y §4 al día, y tres lecciones nuevas en §4-bis._
 
 _Versión 1.0 — 18-sep-2026. Escrito **después** de publicar los Cursos 01 y 03, no antes: la §4-bis recoge lo que costó no tenerlo._
