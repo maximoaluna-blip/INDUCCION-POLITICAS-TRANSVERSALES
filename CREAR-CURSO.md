@@ -189,8 +189,6 @@ En el Curso 04, la clave del enfoque diferencial premiaba **garantizar sin pregu
 ### «Discriminación» exige estigma
 La definición interamericana (p. 9) incluye la discriminación por omisión y sin intención, pero siempre *«en función de un estigma»*. Una exclusión sin estigma —un horario que deja fuera a quien trabaja por turnos— es una **barrera**. Llamarla discriminación estira la fuente.
 
----
-
 ### Una fuente escrita para otra asociación trae **falsos amigos** (Curso 12, ADR-110)
 *Gestión para la Motivación* usa vocabulario de ASDE, y su «Consejo de Grupo» (10–20 dirigentes con las secciones dentro) **no es el Consejo de Grupo de la ASC** —órgano de administración, del que los jefes de rama no pueden ser parte—: para motivar, es el **equipo de dirigentes** (RG 1.19.3 y 6.2; *Manual* 2.1.10 F4). El título del Plan lo arrastró, y el Curso 05 ya publicado lo tenía **nueve veces**. **Ante cada órgano o cargo que nombre una fuente, comprobarlo contra el Reglamento y el *Manual* antes de escribirlo** — el glosario (§C) ya lo registra.
 
