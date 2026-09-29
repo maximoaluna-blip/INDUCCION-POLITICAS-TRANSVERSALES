@@ -81,7 +81,7 @@ de escribirse: las versiones ingenuas daban 5 falsos positivos y 0 verdaderos.
 
 Los del catálogo con `status` `active` o `new` — hoy, el **Nivel 1 completo** (ver `../../ESTADO.md`; no se copian aquí las cifras).
 
-Última medida: **109 = 107 passed + 2 skipped, 0 failed**, en local y contra producción (27/28-sep-2026, con el Curso 04, ADR-097). **Leer el total, no solo el «passed»**: un curso que falta no hace fallar nada, solo baja el total.
+Última medida: **120 = 118 passed + 2 skipped, 0 failed** contra producción (28-sep-2026, con el Curso 12, ADR-110). **Leer el total, no solo el «passed»**: un curso que falta no hace fallar nada, solo baja el total.
 
 ## Dos trampas de esta suite (verde no siempre significa probado)
 

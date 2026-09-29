@@ -40,7 +40,7 @@ Cada ficha explicita audiencia primaria y secundaria.
 | Nivel | Nombre | Cursos | Audiencia primaria | Estado |
 |---|---|---|---|---|
 | 1 | **Ruta de Fundamentación** | 6 | Todo adulto que ingresa | **Completo** (6 de 6, ADR-097) |
-| 2 | Profundización por política | 7 | Dirigentes de unidad, jefes de grupo, consejos | Por planear |
+| 2 | Profundización por política | 7 | Dirigentes de unidad, jefes de grupo, equipos de dirigentes | **En curso** (1 de 7, ADR-110) |
 | 3 | Especialización por cargo | 5 | Cargos ASP y comisionados | Por planear |
 | 4 | Transversales | 4 | Familias, partes interesadas | Por planear |
 
@@ -84,6 +84,7 @@ Kebab-case, sin tildes ni ñ, máximo 5 palabras significativas.
 | 1 | 04 Diversidad e Inclusión | `diversidad-e-inclusion-movimiento` | **publicado** · 35 min (ADR-097) |
 | 1 | 05 Gestión para la Motivación | `gestion-para-la-motivacion` | **publicado** · 35 min |
 | 1 | 06 Mi Compromiso con los Entornos Seguros | `mi-compromiso-entornos-seguros` | **publicado** · 60 min |
+| 2 | 12 Motivar al equipo de dirigentes | `motivar-al-equipo-de-dirigentes` | **publicado** · 45 min (ADR-110; el Plan lo llamaba `motivar-al-consejo-de-grupo`) |
 
 Niveles 2–4: ver el Plan §4–§6.
 
@@ -187,6 +188,17 @@ En el Curso 04, la clave del enfoque diferencial premiaba **garantizar sin pregu
 
 ### «Discriminación» exige estigma
 La definición interamericana (p. 9) incluye la discriminación por omisión y sin intención, pero siempre *«en función de un estigma»*. Una exclusión sin estigma —un horario que deja fuera a quien trabaja por turnos— es una **barrera**. Llamarla discriminación estira la fuente.
+
+---
+
+### Una fuente escrita para otra asociación trae **falsos amigos** (Curso 12, ADR-110)
+*Gestión para la Motivación* usa vocabulario de ASDE, y su «Consejo de Grupo» (10–20 dirigentes con las secciones dentro) **no es el Consejo de Grupo de la ASC** —órgano de administración, del que los jefes de rama no pueden ser parte—: para motivar, es el **equipo de dirigentes** (RG 1.19.3 y 6.2; *Manual* 2.1.10 F4). El título del Plan lo arrastró, y el Curso 05 ya publicado lo tenía **nueve veces**. **Ante cada órgano o cargo que nombre una fuente, comprobarlo contra el Reglamento y el *Manual* antes de escribirlo** — el glosario (§C) ya lo registra.
+
+### Una regla que se barre línea por línea deja fuera a la que no se barrió
+El ADR-087 (ninguna reflexión pide nombres) se barrió en PJ y DI. **Transversales tenía tres reflexiones publicadas que pedían nombre** y nadie las vio hasta el Curso 12. Y «por rol» no basta: un cargo que tiene una sola persona la identifica. **Al adoptar una regla de la raíz, barrer esta línea también.**
+
+### Una línea con un solo nivel no dibuja sus chips de nivel
+La landing solo pinta la navegación por nivel cuando hay **dos**. Al publicarse el Nivel 2 apareció por primera vez, y su contador llevaba `opacity: 0.8`, que baja el verde de marca de 4,5:1: **la suite de a11y lo cazó el día que el curso lo hizo visible**, no antes.
 
 ---
 
@@ -319,6 +331,8 @@ No repetir; queda como acta de lo que costó:
 - [`../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md`](../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md) — referencia viva del proyecto.
 
 ---
+
+_Versión 1.2 — 28-sep-2026: Nivel 2 abierto con el Curso 12 (ADR-110); tres lecciones nuevas en §4-bis (falsos amigos de una fuente extranjera, barrer aquí las reglas de la raíz, chips de nivel)._
 
 _Versión 1.1 — 28-sep-2026: Nivel 1 completo (ADR-097); §3 y §4 al día, y tres lecciones nuevas en §4-bis._
 
