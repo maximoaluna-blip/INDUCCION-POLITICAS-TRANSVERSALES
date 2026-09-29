@@ -1,0 +1,711 @@
+{
+  "courseId": "motivar-al-equipo-de-dirigentes",
+  "title": "Motivar al equipo de dirigentes: diagnóstico y acción",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Motivar a una persona se aprende en el Curso 05. Motivar a un equipo de quince es otra cosa: ahí la motivación se diluye, se la quedan los de siempre y se vuelve trámite. Este curso te da el instrumento que la ASC propone para eso —un diagnóstico de veintiséis preguntas— y te enseña a pasarlo, a leerlo sin buscar culpables, a devolver los resultados y a convertir cada déficit en una acción concreta, decidida con tu equipo.",
+  "contentVersion": "2026-09-28",
+  "icon": "🔋",
+  "duration": "45 minutos",
+  "status": "active",
+  "level": 2,
+  "levelName": "Profundización por política",
+  "order": 12,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Dos equipos",
+      "emoji": "🧩",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "A través de otros",
+      "emoji": "🧭",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Veintiséis preguntas",
+      "emoji": "📋",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Sin culpables",
+      "emoji": "🔎",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Del déficit a la acción",
+      "emoji": "🛠️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Devolver y volver a medir",
+      "emoji": "🔁",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Motivar al equipo de dirigentes",
+      "emoji": "🔋",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "MOTIVAR AL EQUIPO DE DIRIGENTES: DIAGNÓSTICO Y ACCIÓN",
+    "description": "ha completado el Curso 12 de la Línea Políticas Transversales — Motivar al equipo de dirigentes, situando el equipo que se motiva en la estructura de la Asociación —el equipo de dirigentes del grupo o de la rama, y no el Consejo de Grupo, que es su órgano de administración— y reconociendo con el Manual de Cargos que garantizar la integración y motivación de ese equipo es tarea del Jefe de Grupo, y con la cartilla, que para eso se apoya en sus dirigentes; distinguiendo, con la cartilla oficial «Gestión para la Motivación» de la Dirección Nacional de Adultos en el Movimiento (agosto de 2020), por qué la motivación se diluye en un equipo numeroso, qué son la mentorización y la motivación delegada, cómo se prepara y se aplica su Herramienta de Diagnóstico de Motivación de veintiséis ítems, cómo se leen sus resultados sin buscar culpables y cómo se convierte cada déficit en una acción de su catálogo, decidida con el equipo y devuelta a él; y habiendo trazado un plan con fecha para medir, devolver y volver a medir. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí la frase con la que cerraste la última lección: <strong>cuándo y con qué equipo</strong> vas a pasar el diagnóstico, o qué vas a hacer con uno que ya se pasó y nadie devolvió.",
+    "placeholder": "Antes de [mes], voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "En el Curso 05 aprendiste a darle a <strong>una persona</strong> lo que necesita. Aquí el problema es otro: tienes quince personas, cada una con lo suyo, que se ven una vez al mes. <strong>Nadie puede adivinar qué le falta a cada una.</strong> Hay que preguntarlo — y la Asociación tiene una herramienta para eso, escondida al final de una cartilla que casi nadie lee hasta el final."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y dos ideas que conviene poner sobre la mesa desde ya, porque vamos a volver a ellas al final: que <strong>motivar al equipo es algo que el jefe hace solo</strong>, y que <strong>un diagnóstico sirve para saber quién falla</strong>. Si alguna de las dos te suena razonable, este curso es para ti."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 45 minutos entre lectura, quizzes y un plan que vas a armar al final.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y cuando te equivocas el sistema te marca cuál era la buena. Tu avance se guarda."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Situar</strong> el equipo que vas a motivar en la estructura de la ASC —el equipo de dirigentes, no el Consejo de Grupo— y saber quién responde por su motivación.",
+            "<strong>Reconocer</strong> por qué la motivación se diluye en un equipo grande que se ve de vez en cuando, y qué la sostiene.",
+            "<strong>Distinguir</strong> la mentorización de la motivación delegada, y crear las condiciones para una de las dos en tu grupo.",
+            "<strong>Preparar</strong> la aplicación del diagnóstico de veintiséis ítems: a quién, en qué formato, anónimo o con nombre, y con qué compromiso de devolución.",
+            "<strong>Leer</strong> unos resultados sin buscar culpables: lo fuerte que no hay que perder, lo débil que hay que trabajar, y la diferencia entre percepciones.",
+            "<strong>Convertir</strong> un déficit en una acción del catálogo de la cartilla, decidida con tu equipo y con fecha para volver a medir."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>Una palabra que la cartilla usa distinto, y conviene saberlo antes de empezar.</strong> <em>Gestión para la Motivación</em> usa el vocabulario de una asociación scout española, y llama «Consejo de Grupo» a la reunión de todos los dirigentes del grupo. <strong>En la ASC, el Consejo de Grupo es otro órgano</strong>: el de administración, y los jefes de rama ni siquiera pueden formar parte de él. Para lo que aquí nos importa —motivar—, lo que la cartilla llama así es, en la ASC, el <strong>Equipo de Jefatura de Grupo</strong> o, como dice el <em>Manual de Cargos</em>, el <strong>equipo de dirigentes</strong>. Este curso va a ese equipo — y cuando citemos a la cartilla literal, verás su palabra entre comillas."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Recomendado antes:</strong> el Curso 05, <em>Gestión para la Motivación: motivar es dar</em>. Aquí se da por sabido qué es motivar y que hay veintiséis maneras de dar: veinticinco en cuatro familias, y la formación aparte; si no lo has hecho, vas a entender igual, pero las veintiséis te van a sonar a lista. No es requisito: ningún curso de esta plataforma bloquea a otro."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🧩 Dos equipos",
+      "emoji": "🧩",
+      "navLabel": "Dos equipos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> no es lo mismo motivar a los tres dirigentes de una rama que a los quince del grupo. En el equipo grande la motivación se diluye sola — y alguien responde por ella."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cartilla distingue varias situaciones de trabajo, y dos son las del día a día de un grupo scout. Se diferencian en el tamaño y en <strong>cada cuánto se ve la gente</strong>:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏕️ Convivencia íntima — el equipo de rama",
+              "description": "«Un pequeño equipo de trabajo que trabaja unido con objetivos claros y con mucha convivencia»: los dos o tres dirigentes que llevan una rama. Se ven cada sábado y saben qué hace cada uno. Lo coordina el Jefe de Rama, que según el <em>Manual de Cargos</em> tiene por función «apoyar la gestión de los adultos de su equipo de rama» (ficha del Jefe de Manada, p. 85; igual en las demás ramas).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🏛️ Convivencia periódica — el equipo de dirigentes del grupo",
+              "description": "«Un equipo numeroso de trabajo con objetivos claros, tareas comunes y repartidas y una convivencia periódica»: «generalmente suelen ser entre 10 y 20 personas», con experiencia muy variada, que «pueden no conocer exactamente las tareas que desempeñan los demás». En la ASC es el Equipo de Jefatura de Grupo.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El equipo de rama tiene sus problemas, pero la motivación circula porque la gente se ve. En el grande, no. La cartilla nombra lo que pasa ahí sin adornarlo:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que diluye la motivación en el equipo grande",
+          "source": "Gestión para la Motivación (DNAM, agosto de 2020), §7.3, folio 45. En la cartilla, «Scouts» son aquí los dirigentes.",
+          "text": "Además, al ser numerosos, se diluye la participación, la responsabilidad, etc. Si tienen un carácter muy administrativo o burocrático, generan aburrimiento y desmotivación, especialmente en los Scouts que están comenzando. Además, pueden ser monopolizados por los Scouts con más experiencia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres cosas, entonces: <strong>la participación se reparte hasta desaparecer</strong>, <strong>el trámite se come la reunión</strong> —y a quien más aburre es a quien acaba de llegar— y <strong>los veteranos se quedan con la palabra</strong>. Ninguna necesita mala fe. Pasan solas cuando el equipo es grande y se ve poco."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "¿Y quién responde?"
+        },
+        {
+          "type": "paragraph",
+          "text": "La cartilla lo dice sin rodeos: <em>«El responsable de mantener motivado al Consejo de Grupo es el Jefe de Grupo y debe apoyarse, tanto en la detección de problemas y en las propuestas de solución en sus dirigentes»</em> (folio 46) — donde su «Consejo de Grupo» es, en la ASC, el equipo de dirigentes. Y el <em>Manual de Cargos</em> lo convierte en función del cargo:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la función del Jefe de Grupo",
+          "source": "Manual de cargos, perfiles y funciones por competencias (PNAM), ficha 2.1.10 Jefe de Grupo, Función 4, pp. 69–70.",
+          "text": "Apoya y motiva la gestión de los adultos en el Grupo Scout. […] Reconoce el desempeño de su equipo de dirigentes. Garantiza la integración y motivación de su equipo de dirigentes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Y no está solo: el mismo <em>Manual</em> dice que el Subjefe de Grupo <em>«anima la participación y vela por la cohesión del Equipo de Dirigentes del Grupo»</em> (ficha 2.1.11, p. 77). <strong>Responde uno, pero trabajan varios</strong> — y la cartilla insiste en que el jefe se apoye en los dirigentes para detectar y para proponer. Eso va a importar en la Lección 5."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Qué sostiene al equipo grande</strong>, según el mismo apartado (folios 45–46): los <strong>símbolos, las ceremonias, la vida en comunidad y las actividades del propio equipo</strong>, que son <em>«muy importantes para mantener la cohesión»</em>. Unas <strong>normas que no vayan contra el espíritu de motivación</strong> —hay que evaluar <em>«hasta que punto motivan o desmotivan»</em>—. Y un aviso que vale para cualquier reunión: <em>«cuidar que lo urgente no nos tape lo importante»</em>."
+        },
+        {
+          "type": "info-box",
+          "text": "📎 <strong>Si vas a la fuente:</strong> en este mismo apartado la cartilla intenta repartir las familias de motivación entre el jefe de grupo y los jefes de rama, y se enreda — llama «intrínsecas» a la información y al reconocimiento, que en el capítulo 3 clasificó como extrínsecas. Quédate con lo que no se contradice: <strong>quién responde, y cada cuánto se mira</strong> (lo verás en la Lección 5)."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: a través de otros 🧭",
+        "questions": [
+          {
+            "text": "En la reunión mensual de dirigentes todos opinan, pero al repartir las tareas del campamento nadie levanta la mano y el acta dice «responsable: el equipo». De lo que diluye la motivación en el equipo grande, ¿qué se ve ahí?",
+            "options": [
+              "La responsabilidad repartida entre tantos que no le queda a nadie.",
+              "La reunión convertida en trámite, que aburre a los que van llegando.",
+              "Los veteranos que se quedan con la palabra y con las decisiones."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un jefe de rama propone «motivar al Consejo de Grupo» pasándole el diagnóstico de la cartilla en su próxima sesión. ¿Qué conviene aclararle?",
+            "options": [
+              "Que ese es el órgano de administración, y esto va al de dirigentes.",
+              "Que el Consejo solo se reúne una vez al año y no alcanza a medir.",
+              "Que motivar al Consejo es tarea del Subjefe de Grupo, no de un jefe de rama."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en la última reunión de tu equipo de dirigentes —la del grupo o la de tu rama—. De las tres cosas que diluyen la motivación —la participación repartida hasta desaparecer, el trámite, los de siempre con la palabra—, ¿cuál se notó más? Descríbelo en una línea: <strong>lo que pasó, no quién</strong> — sin nombres y sin cargos que tenga una sola persona."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🧭 Motivar a través de otros",
+      "emoji": "🧭",
+      "navLabel": "A través de otros",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en un equipo grande, no todo lo puedes dar tú. Hay dos maneras de motivar sin ser quien da: el mentor, y crear las condiciones para que otros den."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cartilla dedica dos apartados cortos a algo que casi nunca se nombra en un grupo scout, y que sin embargo todos hemos vivido: <strong>que alguien nos motivó sin ser nuestro jefe</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🌳 El mentor"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la cartilla al mentor",
+          "source": "Gestión para la Motivación (DNAM, agosto de 2020), §7.4, folio 46.",
+          "text": "Denominamos mentor a aquella persona que de forma altruista ayuda, promociona, aconseja a otro con menor formación. El mentor es alguien de reconocida autoridad (moral y scout, que no política). Que, por su trayectoria, ayuda a los más jóvenes a adquirir la experiencia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos detalles que separan al mentor de un consejero cualquiera. Primero, que <strong>no solo aconseja</strong>: <em>«también proporcionan contactos, orientaciones, libros»</em>. Segundo, que la relación <strong>no tiene agenda</strong>: <em>«No existe calendario, ni guion y los contactos se realizan a demanda»</em>. Y que su autoridad es <strong>moral y scout, no política</strong>: no hace falta un cargo para serlo, y tener un cargo no te convierte en uno."
+        },
+        {
+          "type": "info-box",
+          "text": "🔄 <strong>Motiva en las dos direcciones.</strong> Al que aprende, claro. Pero la cartilla subraya también al otro lado: el mentor es <em>«altamente motivante para personas que, con gran experiencia, conocimientos y autoridad»</em>, ayudan a otros a implicarse — y piensa en concreto en los dirigentes más experimentados, <strong>que muchas veces se quedan sin saber qué hacer cuando ya no están en primera línea</strong>. Su queja es que esta relación <em>«no está reconocida, ni promocionada, ni valorada»</em>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧩 Motivación delegada"
+        },
+        {
+          "type": "paragraph",
+          "text": "La segunda forma es la que más se malentiende. Motivación delegada <strong>no es encargarle a alguien que motive</strong>: la propia cartilla pone el contraejemplo — <em>«no estamos hablando de decir: “Oye, Natalia, ve y motiva a ese equipo”»</em> —. Es <em>«crear las condiciones para que se dé con la mayor frecuencia posible»</em>. No das tú: <strong>montas algo para que otros den</strong>, y lo montas a propósito."
+        },
+        {
+          "type": "info-box",
+          "text": "📭 <strong>Un hueco del documento oficial.</strong> Aquí la cartilla anuncia un resumen de formas de motivación delegada… y las dos páginas siguientes son solo ilustraciones: <strong>el resumen no está</strong>, y no lo inventamos. Como <strong>lectura de este curso</strong> —no como el resumen perdido— proponemos dos acciones de su propio catálogo: <strong>potenciar la figura del tutor de formación</strong> (§8.2) y <strong>tutorizar a los nuevos</strong> (§8.8)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en que las dos son lo mismo visto desde el grupo: <strong>una relación de mentor, pero a propósito</strong>. La cartilla lo sugiere ella misma: iniciativas como poner tutores a los más nuevos <em>«pueden ser de utilidad para conseguir que crezcan los mentores y sean más valorados»</em>."
+        },
+        {
+          "type": "info-box",
+          "text": "➡️ <strong>Lo que este curso no toca.</strong> Acompañar a cada dirigente en su ciclo de vida —desde que entra hasta que se retira— es otra tarea de la misma función del Jefe de Grupo, y la trabaja la línea de <strong>Política de Adultos en el Movimiento</strong>. Aquí nos quedamos con el equipo."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: veintiséis preguntas 📋",
+        "questions": [
+          {
+            "text": "Un antiguo jefe de grupo, con veinte años de trayectoria, ya no tiene cargo y dejó de venir. Según la cartilla, ¿qué se está perdiendo el grupo?",
+            "options": [
+              "Un mentor posible, que además se motivaría él mismo ayudando.",
+              "Nada que dependa del grupo: si dejó de venir, es que ya no tenía motivos.",
+              "Un dirigente que podría volver a llevar una rama si se le pide."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Quieres que los dirigentes nuevos de tu grupo se sientan acompañados, pero no alcanzas a estar con todos. ¿Cuál de estas crea las condiciones para que otros motiven, como vimos en esta lección?",
+            "options": [
+              "Que cada nuevo tenga asignado un veterano a quien llevarle sus dudas.",
+              "Pedirle a un dirigente veterano que vaya y les dé ánimo a los nuevos.",
+              "Abrir un chat de los nuevos donde la jefatura les mande ánimo cada semana."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Hay en tu grupo una relación de mentor que funciona sin que nadie la llame así? Descríbela <strong>sin decir quién es —ni nombre ni cargo—</strong>: qué hace esa persona por otros, y una forma concreta de reconocérselo, o de crear las condiciones para que haya una más."
+      }
+    },
+    {
+      "id": 4,
+      "title": "📋 Veintiséis preguntas",
+      "emoji": "📋",
+      "navLabel": "El diagnóstico",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la cartilla trae una herramienta para dejar de adivinar. Es una sola pregunta, hecha veintiséis veces — y cómo se pasa importa tanto como qué pregunta."
+        },
+        {
+          "type": "paragraph",
+          "text": "Se llama <strong>Herramienta de Diagnóstico de Motivación</strong> y está en el Anexo II de la cartilla (folio 60). La pregunta es una sola: <strong>«¿Crees que en el grupo se da suficiente?»</strong>. Y para cada ítem, cinco respuestas: <strong>Mucha · Bastante · Normal · Poca · Ninguna</strong>. <strong>No es para memorizarla: esta lista, con esa pregunta y esa escala, ya es la herramienta.</strong> Puedes copiarla en una hoja o en un formulario tal cual. Estos son los veintiséis, numerados como en la fuente:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Información",
+            "Formación",
+            "Evaluación personal",
+            "Objetivos",
+            "Evaluación grupal",
+            "Reconocimiento",
+            "Recompensas",
+            "Soluciones / herramientas",
+            "Contactos",
+            "Medios / recursos",
+            "Confianza",
+            "Autonomía",
+            "Responsabilidad",
+            "Capacidad de decisión",
+            "Espacios de participación",
+            "Amistad / comunidad",
+            "Apoyo en problemas personales",
+            "Conciencia de los problemas",
+            "Retos y desafíos",
+            "Sentido a lo que se hace",
+            "Orgullo de pertenencia",
+            "Respeto",
+            "Afecto / cariño",
+            "Humor y alegría",
+            "Sorpresa / curiosidad",
+            "Ilusión"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>Si hiciste el Curso 05, ya las viste agrupadas:</strong> son las mismas veintiséis maneras de dar, en el mismo orden. Léelas en bloques y no como lista: la 1 (información) y de la 3 (evaluación personal) a la 10 (medios), <strong>extrínsecas</strong>; la 2, <strong>formación</strong>, que no está en ninguna familia; de la 11 (confianza) a la 19 (retos), <strong>intrínsecas</strong>; la 20 y la 21 (sentido y orgullo), <strong>trascendentes</strong>; de la 22 (respeto) a la 26 (ilusión), <strong>ayudas</strong>. Vas a usar esos bloques en el plan de la Lección 6."
+        },
+        {
+          "type": "info-box",
+          "text": "📎 La cartilla dice que la herramienta está «en el anexo 1»: es el <strong>Anexo II</strong>. La explicación de cada ítem está en el <strong>capítulo 6</strong> (folios 27 a 42), en el mismo orden. Tenlo a mano cuando la pases."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo se pasa"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1 · A quién",
+              "description": "Lo primero es decidirlo, porque cambia todo lo demás: <em>«No es lo mismo aplicarla en un grupo pequeño como un Equipo de Sección»</em> —tu equipo de rama— que en un colectivo amplio."
+            },
+            {
+              "title": "2 · En qué formato",
+              "description": "En un equipo pequeño, la cartilla sugiere presentarla como un test de revista, casi un juego. En uno grande, <em>«sí será necesario explicar el fin que tenemos y para que lo hacemos»</em>."
+            },
+            {
+              "title": "3 · Qué más preguntar",
+              "description": "Algunos datos para poder cruzar los resultados —años como dirigente, función en el grupo, formación—. <strong>Solo los que vayas a usar.</strong>"
+            },
+            {
+              "title": "4 · Explicar cada punto",
+              "description": "Que nadie conteste «confianza» pensando en otra cosa. Para eso está el capítulo 6. Lo que importa, dice la cartilla, es <em>«asegurarnos que la información que se obtiene es fiable»</em>."
+            },
+            {
+              "title": "5 · Anónima o con nombre",
+              "description": "Las dos valen. Pero si quieres saber qué le pasa a cada uno y no solo al promedio, <em>«es necesario conocer de quién es cada opinión»</em>."
+            },
+            {
+              "title": "6 · Agradecer y comprometerse",
+              "description": "<em>«No se nos debe olvidar agradecer la participación y la sinceridad»</em>, y comprometerse a devolverles los resultados — <em>«y por supuesto cumplirlo»</em>."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Dos cuidados que pone este curso, no la cartilla.</strong> <strong>Disfrazarla de juego</strong> funciona con un equipo de confianza; en uno donde hay tensión, se puede leer como una trampa — en la duda, <strong>di para qué es</strong>. Y <strong>con nombre, es información personal</strong>: dice cómo se siente cada dirigente con su grupo. Se guarda con cuidado, la ve quien la va a trabajar, y <strong>no circula por el chat del grupo</strong>. Si no vas a hacer seguimiento persona a persona, mejor anónima."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: leer los resultados 🔎",
+        "questions": [
+          {
+            "text": "Vas a pasar el diagnóstico a los catorce dirigentes de tu grupo, y hay dos que llevan meses en tensión con la jefatura. ¿Qué formato conviene?",
+            "options": [
+              "Explicar para qué es, porque en ese clima el juego se lee como trampa.",
+              "Presentarlo como un test de revista, para bajar la tensión del grupo.",
+              "Explicar que es obligatorio y pasarlo en la reunión, para que nadie falte."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Te gustaría saber qué le pasa a cada jefe de rama, pero sabes que después no vas a tener tiempo de sentarte con cada uno. ¿Cómo pasas el diagnóstico, y por qué?",
+            "options": [
+              "Anónimo: con nombre son datos personales, y sin hablar con cada uno no los usarías.",
+              "Anónimo, porque en un equipo tan grande la cartilla pide que siempre sea así.",
+              "Con nombre, y ya decidirás después qué haces con cada una de las respuestas."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Si mañana pasaras el diagnóstico en tu equipo, ¿lo harías <strong>anónimo o con nombre</strong>? Escribe cuál y por qué, en dos líneas, pensando en dos cosas: si de verdad vas a poder sentarte después con cada uno, y cómo está hoy la confianza en tu equipo."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🔎 Leer sin buscar culpables",
+      "emoji": "🔎",
+      "navLabel": "Leer",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un diagnóstico no dice quién falla. Dice qué da el grupo y qué no — y la parte más útil suele ser la que ya funciona."
+        },
+        {
+          "type": "paragraph",
+          "text": "Con las respuestas en la mano, la tentación es buscar el promedio más bajo y preguntarse de quién es la culpa. La cartilla propone leerlas de otra manera, con tres miradas:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "💪 Lo fuerte",
+              "description": "Lo que sale alto no es para felicitarse y olvidarlo: <em>«si es un valor de nuestro grupo, no debemos perderlo o nos arriesgamos a disminuir la motivación de los componentes»</em>. Los puntos fuertes sirven sobre todo <strong>cuando vas a cambiar algo</strong>: son lo que no hay que romper.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🩹 Lo débil",
+              "description": "Lo que sale bajo: los puntos débiles <em>«nos hacen conscientes de las deficiencias que tenemos y nos permiten mejorar»</em>. Es el punto de partida de la Lección 5 — no una acusación.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🧍 Persona a persona",
+              "description": "Si la pasaste con nombre, puedes mirar las respuestas de cada uno. La cartilla avisa para qué <strong>no</strong> es eso: <em>«no necesariamente para ver quien está “equivocado”»</em>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver por qué dos respuestas distintas pueden ser verdad",
+          "source": "Gestión para la Motivación (DNAM, agosto de 2020), §8, folio 49.",
+          "text": "La información, la confianza o el respeto que recibe cada persona dependen de su propia percepción, pero es indudable, que también son distintos los que el grupo en general y cada uno en particular damos"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esa frase tiene dos mitades y hay que leer las dos. La primera: <strong>cada uno contesta desde su percepción</strong>. La segunda, la incómoda: <strong>no a todos se les da lo mismo</strong>. Si un dirigente marca «confianza: ninguna» y el resto marca «bastante», no hay que decidir quién tiene razón. Hay que preguntarse si a él, en concreto, se le está dando lo que a los demás."
+        },
+        {
+          "type": "info-box",
+          "text": "📊 <strong>Cómo mirar una columna — un ejemplo inventado.</strong> Quince respuestas. «Reconocimiento» sale con mayoría de <em>Mucha</em> y <em>Bastante</em>; «autonomía», con mayoría de <em>Poca</em>. La media de cada ítem sirve; la del grupo entero, que sale «normal», no dice nada. <strong>Lo que habla son los extremos</strong>: la cartilla propone <em>«hallar medias o al menos destacar aquellos puntos que sobresalen (bien por arriba o bien por abajo)»</em>. Empieza por los extremos."
+        },
+        {
+          "type": "info-box",
+          "text": "🤝 <strong>Y si la pasan varios grupos a la vez</strong> —en un distrito, en una región—, la tentación es el ranking. La cartilla lo corta: la comparación <em>«no es para ver “quién es o está mejor”, sino para aprender unos de otros y mejorar colectivamente»</em>."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: del déficit a la acción 🛠️",
+        "questions": [
+          {
+            "text": "El diagnóstico sale con «reconocimiento» alto y «autonomía» baja. Para ganar tiempo, la jefatura propone suprimir el momento en que se agradece a los dirigentes al final de cada campamento. ¿Qué conviene, según la cartilla?",
+            "options": [
+              "Que no lo toque: lo fuerte es lo que no hay que romper al cambiar algo.",
+              "Que lo cambie: lo débil es lo que hay que mejorar, y lo fuerte ya está.",
+              "Que lo pase a una vez al año: así se conserva sin quitar tanto tiempo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un jefe de rama marca «confianza: ninguna» y el resto del equipo marca «bastante». ¿Qué lectura propone la cartilla?",
+            "options": [
+              "Que es su percepción, y quizá a él no se le da lo que a los demás.",
+              "Que es un caso aislado, y conviene esperar a la próxima medición del equipo.",
+              "Que alguien está equivocado, y hay que aclararlo en la reunión."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Sin haberlo medido todavía, ¿cuál crees que saldría como <strong>el punto más fuerte</strong> de tu equipo —ese que no habría que perder— y cuál, siendo honesto, <strong>el más débil</strong>? Escribe los dos, y una línea de por qué lo crees. Sin señalar a nadie: habla del equipo, no de una persona."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🛠️ Del déficit a la acción",
+      "emoji": "🛠️",
+      "navLabel": "Actuar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> medir no motiva. Lo que motiva es lo que el equipo decide hacer con lo que midió — y que lo decida el equipo, no el jefe."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la frase que sostiene este curso",
+          "source": "Gestión para la Motivación (DNAM, agosto de 2020), §8, folio 50.",
+          "text": "Finalmente, la información solamente nos proporcionará eso mismo: información. Que no es poco. Pero de nada sirve, si tras descubrir déficits no somos capaces de idear soluciones y llevarlos a cabo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Y la frase siguiente es la que cambia quién hace el trabajo. No dice que el jefe de grupo tenga que idear las soluciones. Dice lo contrario:"
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>«Esto no debe ser idea de un responsable, sino que todo el grupo, tiene que tener conciencia de los problemas y participar en las posibles soluciones. Sólo así, conseguiremos que el propio proceso de mejora se convierta en motivacional…»</strong><br><br><em>— Gestión para la Motivación, §8, folio 50</em><br><br>Si llevas a la reunión un plan de cinco medidas ya decidido, habrás resuelto el déficit y te habrás saltado lo único que motivaba: que el equipo lo decidiera."
+        },
+        {
+          "type": "paragraph",
+          "text": "Para decidir no hace falta partir de cero. El capítulo 8 de la cartilla trae un <strong>catálogo de acciones</strong>, un epígrafe por cada uno de los veintiséis ítems (§8.1 a §8.26, folios 50 a 56). No lo vamos a desfilar entero; van cuatro, elegidas porque atacan justo lo que diluye la motivación en el equipo grande (Lección 1):"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🗣️ 8.15 · Espacios de participación",
+              "description": "«Comenzar las opiniones sobre un tema con las personas menos participativas.» Contra el monopolio de los veteranos: cambia el orden y cambia quién habla.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🧩 8.12 · Autonomía",
+              "description": "«Comprobar que el reparto de tareas sea a todos y no a unos pocos.» Contra la participación diluida: nadie se motiva con una tarea que siempre hace otro.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🤝 8.11 · Confianza",
+              "description": "«No permitir el cuestionamiento de alguien, ni en público, ni en “corrillos”.» Lo que se dice de un dirigente a sus espaldas desmotiva a todo el equipo, no solo a él.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "👏 8.6 · Reconocimiento",
+              "description": "«Agradecer el trabajo cuando la gente deja su labor.» El que se va también mira: cómo despide el grupo a los que salen le dice al resto cuánto vale lo que hace.",
+              "color": "#ede7f6",
+              "borderColor": "#7e57c2"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🧰 <strong>Adaptar, no copiar.</strong> El catálogo es de 2020 y usa el vocabulario de otra asociación: habla de CD, de un «Rincón Scout», de «secciones». Quédate con la idea y tradúcela a tu grupo. Y una remisión: el §8.14 propone revisar <em>«los temas de mayorías y quórum»</em>; cómo decide un órgano del grupo es otro tema, que trabajará un curso de Desarrollo Institucional para presidentes y vicepresidentes de consejo, todavía no publicado. Aquí no lo tocamos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Y cada cuánto se vuelve a mirar"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una acción no se evalúa el mismo día que se decide. Con la cartilla en la mano, hay tres momentos para volver a mirar:"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "Cada trimestre",
+              "description": "La cartilla pide revisar la motivación del equipo a partir de las evaluaciones trimestrales de las ramas: <em>«sobre todo debería hacerse trimestralmente»</em> (§7.3, folio 45)."
+            },
+            {
+              "title": "En cualquier momento",
+              "description": "Nadie tiene que esperar al trimestre: <em>«alguien puede proponer trabajar sobre un déficit motivacional en cualquier momento»</em> (mismo folio). No solo el jefe: cualquiera."
+            },
+            {
+              "title": "Una vez al año",
+              "description": "Y una mirada grande: <em>«Realizar una evaluación grupal anual, destacando los aspectos positivos y siendo realista»</em> (§8.5, folio 51). Es un buen momento para volver a pasar el diagnóstico entero y comparar."
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar: devolver y volver a medir 🔁",
+        "questions": [
+          {
+            "text": "Tras el diagnóstico, el equipo ya acordó para «autonomía» que cada rama elija sola su salida de fin de mes. Al jefe de grupo le parece más floja que la acción que trae el catálogo. ¿Qué conviene?",
+            "options": [
+              "Arrancar con la del equipo, y ver en el trimestre si movió la autonomía.",
+              "Arrancar con la del catálogo y pedirle al equipo que la adapte al grupo.",
+              "Fundir las dos en una propuesta mejor y llevarla lista a la reunión."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En tu grupo, en las reuniones hablan todos; pero cuando llega el campamento, lo organizan siempre los mismos cuatro, y los demás dicen que «no los dejan». De las cuatro acciones de esta lección, ¿cuál ataca eso?",
+            "options": [
+              "Que el reparto de tareas llegue a todos y no a unos pocos.",
+              "Que la ronda de opiniones empiece por los menos participativos.",
+              "Que no se cuestione a nadie, ni en público ni en corrillos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Vuelve al punto débil que escribiste en la lección anterior. Busca una acción que lo ataque —en las cuatro de esta lección o en el catálogo de la cartilla— y escríbela <strong>adaptada a tu grupo</strong>, en una línea. Y debajo: ¿cómo harías para que la propuesta saliera del equipo y no de ti?"
+      }
+    },
+    {
+      "id": 7,
+      "title": "🔁 Devolver y volver a medir",
+      "emoji": "🔁",
+      "navLabel": "Devolver",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un diagnóstico que no se devuelve desmotiva. Y uno que se pasa una sola vez es una foto, no una gestión.<br>⏱️ Esta lección es la más larga: aquí armas tu plan, unos diez minutos."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cartilla pone la devolución <strong>dentro</strong> de la herramienta, no como un extra: hay que comprometerse a dar a las personas información sobre los resultados <em>«y por supuesto cumplirlo»</em>, <em>«de manera que tengan conciencia y colaboren para superar los déficits motivacionales»</em> (folio 50)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si hiciste el Curso 05, ya sabes por qué no es un detalle: <strong>desmotivar no es no motivar, es quitar motivos</strong>. Pedirle a quince personas su opinión sincera y no volver a hablar de ella es exactamente eso. Sale peor que no haber preguntado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ahora arma tu plan. Empieza por lo que ya escribiste: el punto débil de la Lección 4 y la acción de la Lección 5. Búscale su familia —las del Curso 05, o la formación, que va aparte— y, para cada una, escribe el déficit, la acción que llevarías como semilla y cuándo se devuelve y se vuelve a medir. Acuérdate de los tres momentos de la Lección 5: <strong>cada trimestre</strong>, <strong>una vez al año</strong> con el diagnóstico entero, y <strong>en cualquier momento</strong> en que alguien —quien sea, no solo el jefe— vea un déficit."
+        },
+        {
+          "type": "plan-builder",
+          "builderId": "pt-plan-motivacion-equipo",
+          "competences": [
+            {
+              "id": "extrinseca",
+              "name": "🎒 Extrínseca — información, objetivos, reconocimiento, medios…"
+            },
+            {
+              "id": "formacion",
+              "name": "📚 Formación — la que no está en ninguna familia"
+            },
+            {
+              "id": "intrinseca",
+              "name": "🔥 Intrínseca — confianza, autonomía, participación, retos…"
+            },
+            {
+              "id": "trascendente",
+              "name": "✨ Trascendente — sentido y orgullo de pertenencia"
+            },
+            {
+              "id": "ayudas",
+              "name": "🫶 Ayudas — respeto, afecto, humor, sorpresa, ilusión"
+            }
+          ],
+          "labels": {
+            "intro": "Marca la familia de tu punto débil —el que escribiste en la Lección 4— y copia la acción de la Lección 5. <strong>Una basta</strong>; si sospechas otro déficit, marca una segunda. No hace falta haber pasado el diagnóstico: escribe lo que <strong>crees</strong> que saldría, y el plan te sirve para comprobarlo. Es una <strong>semilla para abrir la conversación con el equipo</strong>, no una decisión tomada. Escríbelo <strong>por roles, sin nombres</strong>.",
+            "titulo": "🔋 Mi plan para motivar al equipo de dirigentes",
+            "subtituloPrioridades": "Las familias de motivación en las que me enfoco, y lo que voy a proponerle al equipo",
+            "campoMeta": "🎯 El déficit que sospecho, y la acción que llevo como semilla (del catálogo, adaptada)",
+            "campoPlazo": "⏰ Cuándo lo paso, cuándo lo devuelvo y cuándo lo vuelvo a medir",
+            "campoRecursos": "🤝 Con quién lo llevo (por rol) y qué necesito",
+            "placeholderMeta": "Ej: espacios de participación bajo — como semilla, abrir cada ronda de opiniones por quien menos ha hablado; la decisión, del equipo...",
+            "placeholderPlazo": "Ej: lo paso en septiembre, lo devuelvo en la reunión de octubre y lo volvemos a medir en la evaluación del trimestre",
+            "placeholderRecursos": "Ej: alguien del equipo que modere las rondas; el capítulo 6 de la cartilla para explicar los ítems...",
+            "placeholderCompromiso": "Ej: Me comprometo a pasar el diagnóstico, a devolver los resultados al equipo antes de un mes y a que las acciones las decidamos entre todos...",
+            "botonGenerar": "📄 Armar mi plan",
+            "minimo": 1,
+            "avisoMinimo": "⚠️ Marca al menos <strong>una familia</strong>: la de tu punto débil. Luego completa sus campos.",
+            "avisoCampos": "⚠️ Hay campos vacíos. Completa el déficit y la acción, las fechas y con quién lo llevas en todas las familias que marcaste.",
+            "cierre": "Imprime esto y llévalo a tu próxima reunión de dirigentes como propuesta, no como decisión. Si el equipo propone otra acción, arranca con la suya: lo que motiva es que el equipo lo haga suyo."
+          }
+        },
+        {
+          "type": "mission-box",
+          "text": "Entraste quizá pensando que motivar al equipo era algo que el jefe hacía solo, y que un diagnóstico servía para saber quién fallaba. El jefe responde, sí —el <em>Manual de Cargos</em> se lo pone como tarea—, pero la cartilla le pide lo contrario de hacerlo solo: <strong>que el propio proceso de mejora sea el que motive</strong>, porque se hace <em>«con respeto, confianza, dando información y conciencia de los problemas, creando espacios de participación»</em>. Y un diagnóstico no dice quién falla: dice qué da el grupo y qué no. Medir no motiva. <strong>Lo que motiva es que el equipo vea sus resultados y decida qué hacer con ellos.</strong>"
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "El grupo pasó el diagnóstico en marzo, todos contestaron con sinceridad y nadie volvió a hablar de él. ¿Qué ocurrió, a la luz de la cartilla?",
+            "options": [
+              "Que se desmotivó: se pidió la opinión del equipo y no se le devolvió.",
+              "Que se perdió la ocasión, pero el equipo quedó igual que estaba antes.",
+              "Que se cumplió con la herramienta, y los resultados quedan para el año."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En junio, un subjefe de rama nota que desde el último campamento el equipo de dirigentes del grupo llega tarde y sin ganas. La evaluación trimestral es en septiembre. ¿Qué propone la cartilla?",
+            "options": [
+              "Que lo proponga ya: cualquiera puede plantear un déficit en todo momento.",
+              "Que lo anote para septiembre: la motivación se revisa en la del trimestre.",
+              "Que espere a que el jefe de grupo lo note: plantearlo le toca a él."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Pasa a una sola frase el compromiso de tu plan —o escríbelo ahora si lo dejaste vacío— en esta forma: <strong>«Antes de [mes], voy a…»</strong>: cuándo y con qué equipo pasarías el diagnóstico, o qué harías con uno que ya se pasó y nadie devolvió. <strong>Sin nombres ni cargos que tenga una sola persona.</strong> Esa frase es la que vas a pegar al final, en el certificado."
+      }
+    }
+  ]
+}

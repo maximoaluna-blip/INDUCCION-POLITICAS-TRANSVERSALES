@@ -82,5 +82,19 @@
     "status": "active",
     "file": "diversidad-e-inclusion-movimiento.html",
     "folder": "diversidad-e-inclusion-movimiento"
+  },
+  {
+    "courseId": "motivar-al-equipo-de-dirigentes",
+    "title": "Motivar al equipo de dirigentes: diagnóstico y acción",
+    "description": "Motivar a una persona se aprende en el Curso 05. Motivar a un equipo de quince es otra cosa: ahí la motivación se diluye, se la quedan los de siempre y se vuelve trámite. Este curso te da el instrumento que la ASC propone para eso —un diagnóstico de veintiséis preguntas— y te enseña a pasarlo, a leerlo sin buscar culpables, a devolver los resultados y a convertir cada déficit en una acción concreta, decidida con tu equipo.",
+    "icon": "🔋",
+    "duration": "45 minutos",
+    "level": 2,
+    "levelName": "Profundización por política",
+    "order": 12,
+    "modules": 7,
+    "status": "active",
+    "file": "motivar-al-equipo-de-dirigentes.html",
+    "folder": "motivar-al-equipo-de-dirigentes"
   }
 ]

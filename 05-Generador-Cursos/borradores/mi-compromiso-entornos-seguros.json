@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con los Entornos Seguros",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Aquí no se aprende nada nuevo: se cobra lo aprendido. Vas a mirar tu grupo con el semáforo oficial de la Asociación —17 preguntas, cinco áreas, tres colores—, a recoger lo que fuiste escribiendo curso a curso, y a salir con dos compromisos con fecha (tres si te animas con el de Inclusión) que puedas llevar al próximo consejo. Es el último curso publicado de la ruta, y el único que mira a tu grupo entero.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-09-28",
   "icon": "🗺️",
   "duration": "60 minutos",
   "status": "active",
@@ -468,7 +468,7 @@
         ]
       },
       "reflection": {
-        "prompt": "De los compromisos que acabas de escribir, elige <strong>el que más pereza te da</strong>. Ese. Escribe <strong>quién más se va a enterar</strong> de que lo asumiste — con nombre, aunque solo lo leas tú. Un compromiso que solo conoces tú no es un compromiso: es una intención."
+        "prompt": "De los compromisos que acabas de escribir, elige <strong>el que más pereza te da</strong>. Ese. Escribe <strong>quién más se va a enterar</strong> de que lo asumiste — piénsalo con nombre, pero aquí escribe solo su rol (tu jefe de grupo, la subjefa de tu rama…). Un compromiso que solo conoces tú no es un compromiso: es una intención."
       }
     },
     {
