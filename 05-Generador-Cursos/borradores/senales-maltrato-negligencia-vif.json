@@ -1,0 +1,644 @@
+{
+  "courseId": "senales-maltrato-negligencia-vif",
+  "title": "Reconocer señales: maltrato, negligencia y violencia intrafamiliar",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Una señal no es una prueba: es una razón para reportar. En este curso vas a reconocer lo que se puede ver desde la unidad —en el maltrato, la negligencia, la violencia en casa y la violencia sexual—, a no confundir pobreza con descuido, a saber qué no se hace nunca ante una sospecha, y a reportar a tiempo. Sin imágenes y sin detalles: aquí se aprende a mirar, no a diagnosticar.",
+  "contentVersion": "2026-10-02",
+  "icon": "🔎",
+  "duration": "45 minutos",
+  "status": "active",
+  "level": 2,
+  "levelName": "Profundización por política",
+  "order": 8,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Señal, no prueba",
+      "emoji": "🔎",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Lo que se ve en la unidad",
+      "emoji": "👀",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Descuido no es pobreza",
+      "emoji": "🍽️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Sin mitos",
+      "emoji": "🏠",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Lo que no se hace",
+      "emoji": "🛑",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "A tiempo",
+      "emoji": "⏱️",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Reconocer señales",
+      "emoji": "🔎",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "RECONOCER SEÑALES: MALTRATO, NEGLIGENCIA Y VIOLENCIA INTRAFAMILIAR",
+    "description": "ha completado el Curso 08 de la Línea Políticas Transversales — Reconocer señales, comprendiendo con la Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657 de 2025) que reconocer señales de abuso es parte de la formación del adulto y que su papel no es investigar ni diagnosticar sino reportar; reconociendo, con la Guía de Prevención y Atención del Daño (2020-2021), señales observables de maltrato, negligencia y violencia intrafamiliar sin confundir la pobreza con el descuido, lo que nunca se hace ante una sospecha de violencia sexual, los mitos que callan la violencia en casa y la diferencia entre trabajar una situación en la unidad y reportarla; y asumiendo con el Compromiso de Acuerdo Mutuo el deber de reportar oportunamente cualquier situación de riesgo de la que tenga conocimiento. Este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>qué vas a hacer distinto en tu unidad</strong> para que una señal no se quede sin reportar. Se queda solo en tu navegador.",
+    "placeholder": "En mi unidad voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Un lobato que se encoge cuando alguien levanta la voz. Una scout a la que nadie recoge, sábado tras sábado. Un caminante que dejó de hablar con todos. Ninguna de esas cosas prueba nada. Pero cada una es <strong>una razón para que un adulto mire con más cuidado y, si hace falta, reporte</strong>. Este curso es para eso: aprender a ver lo que se puede ver desde la unidad, sin convertirte en investigador."
+        },
+        {
+          "type": "info-box",
+          "text": "💛 <strong>Aviso de contenido.</strong> Este curso habla de maltrato, negligencia, violencia en la familia, violencia sexual contra niños, niñas y jóvenes, e ideas de muerte en un chico. <strong>No hay imágenes ni descripciones de lesiones o de actos</strong>: hablamos de conductas que se observan y de lo que hace el adulto. Aun así, si algo te toca de cerca, para cuando lo necesites; tu avance se guarda. Y si te remueve algo propio, buscar a alguien de confianza o a un profesional de la salud es exactamente lo que este curso enseña a hacer por otros."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 45 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir —el sistema dice 70 %, y con dos preguntas eso son las dos—. Puedes reintentar, y cuando te equivocas el sistema te marca cuál era la buena."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> por qué una señal es una razón para reportar y no una prueba, y qué no te toca a ti.",
+            "<strong>Reconocer</strong> señales de maltrato y de negligencia en lo que se ve en la unidad, sin confundir pobreza con descuido.",
+            "<strong>Reconocer</strong> señales de violencia intrafamiliar y responder a los mitos que la callan.",
+            "<strong>Evitar</strong> las cuatro reacciones que la Guía prohíbe ante una sospecha de violencia sexual.",
+            "<strong>Distinguir</strong> cuándo una situación se trabaja en la unidad y además se reporta, y reportar a tiempo."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 <strong>Antes de seguir.</strong> Este curso <strong>no sustituye ni certifica el módulo oficial de A Salvo del Peligro</strong> que exige la Asociación. Y se apoya en dos de esta ruta: el <strong>Curso 03</strong>, para lo que haces si un chico te cuenta algo, y el <strong>Curso 07</strong>, para a qué puertas tocar. Si no los has hecho, este se entiende igual; ninguno es requisito."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🔎 Una señal no es una prueba",
+      "emoji": "🔎",
+      "navLabel": "Señal, no prueba",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> reconocer señales es parte de tu formación, y tu parte termina en reportar. Confirmar, diagnosticar o investigar es de otros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puede sorprender que un curso para dirigentes hable de señales de abuso. No es una idea de esta plataforma: la Política de 2025 lo <strong>exige</strong> en la formación de los adultos — y en la misma frase pone el límite."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que la Política pide en la formación",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 29.",
+          "text": "Incluir como componente básico de los programas nacionales de formación: mecanismos de protección de jóvenes contra el peligro, creación de conciencia de la situación, signos y síntomas de abuso, tratamiento de diferentes formas de abuso, información sobre los mecanismos y procedimientos existentes en Scouts de Colombia y a nivel jurídico en el país, alcance de rol como adulto con énfasis en la clarificación de no tener funciones investigativas ni de atención en salud mental"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Lo que una señal es",
+              "description": "Algo que <strong>ves u oyes</strong> en la unidad y que te hace pensar «esto no está bien para este chico». No necesitas juntar varias: si una sola te hizo pensarlo, basta. Lo que no haces es vigilarlo para coleccionar más.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "❌ Lo que una señal no es",
+              "description": "Una prueba, un diagnóstico ni una acusación. No necesitas estar seguro para reportar, y no te toca confirmar nada: <strong>quien valora es el Comité de Gestión de Incidentes</strong> de la Asociación, y quien investiga, la autoridad.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el compromiso que firmas al aceptar un cargo",
+          "source": "Compromiso de Acuerdo Mutuo, versión 4.0 (Dirección Nacional de Adultos en el Movimiento, 21 de septiembre de 2026), compromiso 11, pp. 2–3.",
+          "text": "…asumiendo la responsabilidad de contribuir a la construcción y mantenimiento de entornos seguros, actuar de conformidad con los principios y normas de conducta establecidos por la Asociación, reportar oportunamente cualquier situación de riesgo de la que tenga conocimiento y ejercer la corresponsabilidad en el autocuidado y la protección de toda la membresía de la Asociación Scouts de Colombia"
+        },
+        {
+          "type": "info-box",
+          "text": "✍️ <strong>Un consejo de este curso.</strong> Cuando reportes, escribe lo que <strong>viste u oíste</strong>, cuándo y cuántas veces —si el chico dijo algo, con sus palabras—. No hace falta que le pongas nombre («creo que lo maltratan»): eso lo valora el Comité con lo que tú le cuentes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que este curso no te va a enseñar, a propósito"
+        },
+        {
+          "type": "info-box",
+          "text": "🚫 <strong>Factores de riesgo de las familias.</strong> La Guía de Prevención trae una lista de factores que pueden aumentar el riesgo de maltrato. Algunos son condiciones de la familia —padres no biológicos, pobreza, un hijo con discapacidad—. <strong>Un factor de riesgo no es una señal</strong>: usarlos como pistas te llevaría a sospechar de una familia adoptiva, de una familia pobre o de una familia con un hijo con discapacidad, que es justo el estigma que el Curso 04 enseña a reconocer. Aquí solo trabajamos <strong>señales que se observan</strong> en la conducta y en el cuidado del chico."
+        },
+        {
+          "type": "info-box",
+          "text": "👂 <strong>Y una regla para todo el curso.</strong> Algunas señales de la Guía empiezan con «cuando se le pregunta…». Tú no preguntas para averiguar: si un chico te cuenta algo por su cuenta, eso es una <strong>revelación</strong>, y lo que haces está en el Curso 03 — escuchar, no prometer secreto, que no quede solo, reportar. <strong>Y otra:</strong> si mientras haces este curso te viene a la mente un chico concreto, no lo escribas en las reflexiones —viajan a la hoja de la Asociación—. Si lo que viste u oíste de él es una señal, va por el botón."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: el maltrato 🩹",
+        "questions": [
+          {
+            "text": "El sábado pasado notaste que un scout llegó callado, se apartó y se sobresaltó cuando alguien gritó; pensaste que era un mal día. Hoy está igual. Vas a llenar el formulario del botón. ¿Qué escribes?",
+            "options": [
+              "Lo que viste y cuándo: que llega callado, se aparta y se sobresalta, el sábado pasado y hoy.",
+              "Lo que crees que le pasa: que puede haber maltrato en casa, para que vean la gravedad.",
+              "Lo que te contó su patrulla: se lo preguntaste a ellos, para saber qué le pasaba."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la reunión de dirigentes alguien propone vigilar más a los chicos que viven con padrastros o en familias de pocos recursos, «porque ahí hay más riesgo». ¿Qué responde este curso?",
+            "options": [
+              "Que eso es estigma: se observa lo que le pasa al chico, no su tipo de familia.",
+              "Que es razonable: siempre que nadie fuera de la jefatura se entere de quiénes están.",
+              "Que tiene sentido: la Guía sí trae esos factores entre los de mayor riesgo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Qué te frenaría más a reportar una señal: no estar seguro, el miedo a equivocarte con una familia que conoces, o no saber cómo? Escribe solo cuál y una línea de por qué. Sin nombres ni casos reales."
+      }
+    },
+    {
+      "id": 3,
+      "title": "👀 Maltrato: lo que se ve en la unidad",
+      "emoji": "👀",
+      "navLabel": "Maltrato",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el maltrato casi nunca se ve en la piel. Se ve en cómo un chico reacciona, cambia o se cuida."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la Guía el maltrato",
+          "source": "Guía de Prevención y Atención del Daño (Scouts de Colombia, 2020-2021), p. 22.",
+          "text": "Entenderemos el maltrato físico como toda aquella acción u omisión no accidental que provoque daño físico o psicológico a una niña, niño, adolescente o joven por parte de sus padres o cuidadores. Existen varios tipos de maltrato infantil dentro de los que se pueden mencionar: maltrato físico, maltrato psicológico, negligencia, abandono y abuso sexual"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en dos palabras: <strong>«u omisión»</strong> —no hacer lo que hay que hacer también daña— y <strong>«no accidental»</strong>. Un raspón de un partido no es una señal. Lo que la Guía describe son marcas <strong>repetidas, sin una explicación coherente</strong> por parte de quien cuida al chico. No vamos a describirlas: si las ves, no tienes que saber qué son; tienes que reportar. Y no te toca pedir esa explicación a nadie: anotas lo que viste y reportas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que sí se ve desde la unidad"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "😨 Miedo",
+              "description": "Es cuidadoso o temeroso al contacto físico con adultos. Parece tener miedo a sus padres o a volver a su casa. Se agita cuando quien lo cuida está cerca.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🔁 Cambios",
+              "description": "No duerme o duerme muy poco por pesadillas. Pierde o gana apetito de golpe. Vuelve a mojar la cama o a perder control que ya tenía.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🎭 Extremos",
+              "description": "Excesivamente complaciente y pasivo, o agresivo y rabioso. Actúa como papá o mamá de los demás, o como mucho más pequeño de lo que es. Una falta extrema de confianza en sí mismo.",
+              "color": "#ede7f6",
+              "borderColor": "#7e57c2"
+            },
+            {
+              "title": "🌑 Lo que más importa no dejar pasar",
+              "description": "Frases o ideas de muerte, o que expresan poco gusto por la vida. Si escuchas algo así, no esperes a ver más.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🆘 <strong>Si un chico habla de no querer vivir.</strong> Quédate con él y escúchalo sin minimizar («eso se te pasa») y sin prometer secreto; que <strong>no quede solo</strong> —con otro adulto, la práctica 2+1 del Curso 03—. Si crees que el riesgo es de ahora, se aplica la misma regla que la Guía da para el riesgo inmediato: el primer aviso va <strong>de palabra a la Policía o al centro de salud</strong> más cercano (Curso 07). Y además, el botón."
+        },
+        {
+          "type": "info-box",
+          "text": "🧩 <strong>Ninguna de estas te dice qué pasa</strong>, y no te toca saberlo: un chico puede tener pesadillas por mil razones. Lo que la Guía pide es que sepas que pueden ser señal de maltrato, para que no las leas como «es tímido» o «es mal portado». Con una sola que te haga pensar «esto no está bien», basta para reportar."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: negligencia y abandono 🍽️",
+        "questions": [
+          {
+            "text": "En la reunión, un lobato se raspa la rodilla jugando fútbol; tú lo viste caer. Un dirigente nuevo propone reportarlo «por si acaso». ¿Qué le dices, con esta lección?",
+            "options": [
+              "Que no es una señal: lo viste pasar, fue el juego; nadie le hizo nada ni dejó de cuidarlo.",
+              "Que se reporta igual: aquí no hace falta estar seguro, y si no era nada, lo dirá el Comité.",
+              "Que primero le preguntes a la familia: si no lo explican bien, entonces reportas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En una salida, un caminante dice en voz baja que «a veces sería mejor no despertar». ¿Qué te pide la lección?",
+            "options": [
+              "Que no se deja pasar: no lo dejas solo, y lo reportas ya, sin esperar a otra señal.",
+              "Que es una frase típica de adolescente: conviene ver si la repite otro sábado.",
+              "Que le pides que te explique a fondo por qué lo dijo, y decides después si reportar."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De las cuatro familias de señales, ¿cuál crees que más fácil se lee como «mal portado» o «es tímido»? Escribe solo cuál y por qué, en una línea. Sin nombres: si pensaste en un chico concreto, eso no va aquí."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🍽️ Negligencia y abandono",
+      "emoji": "🍽️",
+      "navLabel": "Negligencia",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la negligencia es no darle a un chico lo que se le puede dar. Ser pobre no es ser negligente."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política de 2025 define la negligencia como no cumplir con los deberes básicos de cuidado, supervisión o protección, exponiendo a alguien a riesgo o daño (p. 15). La Guía precisa algo que importa:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la Guía la negligencia",
+          "source": "Guía de Prevención y Atención del Daño (2020-2021), p. 24.",
+          "text": "…la negligencia se define como la privación de las necesidades biológicas, afectivas, intelectuales, sociales, morales, éticas, de valores y espirituales de la niña, niño, adolescentes o joven cuando se les pueden brindar"
+        },
+        {
+          "type": "paragraph",
+          "text": "Las últimas cinco palabras son las que más importan: <strong>«cuando se les pueden brindar»</strong>. Un chico que llega con los zapatos rotos porque en su casa no alcanza no está siendo descuidado: está siendo pobre. La negligencia es otra cosa — que se le pudiera dar y no se le dé. Si confundes las dos, terminas sospechando de las familias que menos tienen. Y si con lo que ves no sabes en cuál de los dos casos estás, no lo decides tú: reportas lo que ves, sin ponerle la etiqueta. Lo que no haces es convertir la pobreza en la señal."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía llama <strong>abandono</strong> al grado más grave de negligencia, y trae una lista de señales. Varias son justo las que ve un dirigente:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Se le ve constantemente sucio, hambriento o vestido de forma inapropiada.",
+            "Sufre accidentes repetidos en casa por descuido de quienes lo cuidan.",
+            "Pasa largos ratos sin un adulto; lo cuida otro menor de edad.",
+            "Tiene problemas de salud que nadie atiende.",
+            "Falta seguido al colegio o al grupo scout, sin justificación.",
+            "<strong>Nadie lo recoge</strong>: se queda largos ratos esperando después de la reunión.",
+            "Él u otros cuentan que no tiene quién lo cuide.",
+            "Cuando se cita a su acudiente, casi nunca viene."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⏳ <strong>Qué hacer, según la Guía</strong> (vale también para el maltrato de la lección anterior): el adulto que conoce la situación la pone en conocimiento de <strong>la Policía, la Defensoría de Familia o la Comisaría de Familia</strong> (p. 25) —las puertas del Curso 07—. La Guía añade que puede contactar al «referente ASP»: ese papel ya no gestiona casos; hoy se reporta, además, por el botón «Me Pongo A Salvo del Peligro»."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: violencia en casa 🏠",
+        "questions": [
+          {
+            "text": "Un scout llega casi siempre con la misma ropa gastada y sin merienda. Sabes que en su casa los ingresos no alcanzan, y su mamá viene a todas las reuniones. ¿Cómo lo lees, según esta lección?",
+            "options": [
+              "Que la pobreza no es la señal: negligencia es no darle lo que sí se le puede dar.",
+              "Que no lo reportas aún, pero lo vigilas de cerca: la pobreza es uno de los factores de riesgo.",
+              "Que es negligencia, porque al chico le faltan cosas básicas sábado tras sábado."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una scout se queda casi todos los sábados una hora esperando a que la recojan. Hoy ya se hizo de noche y sigue ahí. ¿Qué haces?",
+            "options": [
+              "Esperas con ella junto con otro adulto, y además reportas: lo de cada sábado es una señal.",
+              "La llevas tú a su casa para que no espere más, y si sigue pasando, hablas con la familia.",
+              "Esperas con ella junto con otro adulto, y lo hablas con la familia: si mejora, no se reporta."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Hay en tu grupo alguna costumbre —una cuota, una lista de materiales, un comentario— que, sin querer, trate como descuidada a una familia que solo es pobre? Escribe cuál, en una línea y sin señalar a nadie."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🏠 Violencia intrafamiliar y sus mitos",
+      "emoji": "🏠",
+      "navLabel": "Violencia en casa",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la violencia en casa no deja de ser violencia por quedar dentro de la casa. Y los niños la sufren aunque no vaya dirigida a ellos."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la Guía la violencia intrafamiliar",
+          "source": "Guía de Prevención y Atención del Daño (2020-2021), p. 26.",
+          "text": "Es la acción u omisión que el integrante de un grupo familiar ejerce contra otro y que produce un daño no accidental en el aspecto físico o psíquico"
+        },
+        {
+          "type": "paragraph",
+          "text": "En simple: el daño que alguien de la familia le causa a otro de la familia —con golpes o sin ellos, haciendo algo o dejando de hacerlo—. Lo que cuenta es el lazo de familia, no el lugar. Y estas son señales que la Guía describe; se ven, o se oyen cuando alguien las cuenta por su cuenta — <strong>no se buscan preguntando</strong>:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "El chico muestra temor constante por su papá o su mamá.",
+            "Él o alguien de la casa pide que no se le cuente algo al papá o a la mamá, por miedo a su respuesta.",
+            "Se dice una y otra vez que el adulto que lo cuida es impulsivo.",
+            "Se asusta cuando alguien habla fuerte cerca, o cuando se le dice que hizo algo mal.",
+            "La mamá o el papá tienen golpes o moretones seguido, sin explicación clara, o la mamá cuenta que teme lo que diga el otro si se demora."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Los mitos que la callan"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "❌ «Si no deja marca, no es violencia»",
+              "description": "Falso, dice la Guía: también hay abuso psicológico, control sobre las decisiones, el dinero o los espacios, acoso y violencia sexual.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "❌ «Es entre adultos; los niños están bien»",
+              "description": "Falso: quienes presencian violencia en casa contra otros miembros también sufren afectaciones psicológicas.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "❌ «Es un asunto privado»",
+              "description": "Falso: buscar atención frente a la violencia intrafamiliar <em>«es necesario y puede salvar vidas»</em>.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "❌ «Estaba borracho; hay que entenderlo»",
+              "description": "Falso: el alcohol o un trastorno pueden precipitar la violencia, pero ningún hecho debe minimizarse, porque se corre el riesgo de que se repita peor.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🚨 <strong>Qué hacer.</strong> Si hay <strong>riesgo inmediato</strong> para la vida o la integridad del chico, la Guía manda el primer aviso <strong>de palabra a la Policía o al centro de salud</strong> más cercano (p. 26). Si no, la puerta del Estado para la violencia en casa es la <strong>Comisaría de Familia</strong> (Curso 07). Y en los dos casos, el botón."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: violencia sexual 🛑",
+        "questions": [
+          {
+            "text": "En la reunión, un dirigente dice: «aunque al niño nunca le han hecho nada, que vea al papá golpear a la mamá ya lo daña». Otro responde: «eso no es asunto nuestro». ¿Quién tiene razón, según la Guía?",
+            "options": [
+              "El primero: verlo ya lo daña aunque no vaya contra él, y por eso es asunto del grupo: se reporta.",
+              "El segundo: mientras el niño no muestre marcas, lo de la pareja es un asunto privado.",
+              "Ninguno del todo: lo daña, pero se reporta cuando el niño mismo muestre temor por su papá."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una scout te pide que no le cuentes a su papá que se le perdió la pañoleta, «porque se pone muy bravo». Lo ha dicho otras veces, con miedo. ¿Qué haces con eso?",
+            "options": [
+              "Lo reportas tal como lo oíste, sin ponerle nombre a lo que pasa en su casa.",
+              "Lo reportas como maltrato físico, para que vean que el papá la castiga.",
+              "Le preguntas a solas, con calma, qué pasa cuando su papá se pone bravo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De los cuatro mitos, ¿cuál has escuchado más en ambientes scouts —en reuniones, en chats, en conversaciones de adultos—? Escribe solo cuál, y la frase con la que le responderías a quien lo diga."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🛑 Sospecha de violencia sexual: lo que no se hace",
+      "emoji": "🛑",
+      "navLabel": "Violencia sexual",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ante una sospecha de violencia sexual, lo que más daño hace son las reacciones bienintencionadas. Hay cuatro que la Guía prohíbe."
+        },
+        {
+          "type": "info-box",
+          "text": "💛 Esta es la lección más difícil del curso. No hay descripciones; si necesitas parar, tu avance se guarda."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo la define la Guía",
+          "source": "Guía de Prevención y Atención del Daño (2020-2021), p. 27.",
+          "text": "El abuso sexual infantil es una forma de maltrato y como tal supone y se basa en un abuso de poder. Se entiende como abuso sexual cualquier clase de práctica sexual por parte de un adulto, que tenga una posición de autoridad sobre este. Puede abarcar desde la exhibición de los genitales hasta la violación"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía trae una lista de conductas y de signos físicos que este curso <strong>no reproduce</strong>: no hace falta que los memorices para reportar, y están en el documento oficial para quien los necesite. Lo que sí sirve en la unidad son las señales de conducta que pueden aparecer: <strong>aislamiento, ansiedad, mutismo</strong> —no querer hablar ni integrarse—, <strong>conductas regresivas</strong> —dejar de hacer cosas que ya hacía— y un conocimiento o un interés sobre lo sexual que no corresponde a su edad. Fíjate en que varias se parecen a las de la Lección 2: por eso no te toca adivinar de qué tipo es. Te toca no dejarla pasar. Y aunque la Guía la define desde el adulto, si viene de otro joven también se reporta (p. 28)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que nunca se hace"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dos de estas ya las viste en el Curso 03 —creerle y seguir siendo su dirigente—; las nuevas son la primera y la tercera."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "❌ Confrontarlo con el posible agresor",
+              "description": "La Guía lo pone primero: nunca reunir al chico con la persona sospechosa <em>«con el fin de corroborar la información»</em>. Corroborar no es tu trabajo, y ese encuentro es otro daño.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "❌ Culparlo o no creerle",
+              "description": "<em>«Es importante no negar lo sucedido y creer lo que dicen ya que es improbable que estos creen historias de este tipo y con detalles sexuales.»</em>",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "❌ Alarmarte delante de él",
+              "description": "Expresar angustia o alarma delante del chico puede hacerle sentir que contar fue un error, o que el problema lo causó él.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "❌ Tratarlo distinto",
+              "description": "Ni apartarte de él ni sobreprotegerlo: sigue siendo su dirigente, con el trato de siempre.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🚨 <strong>Qué hacer.</strong> Si hay riesgo inmediato, la Guía manda el aviso <strong>de palabra a la Policía y acompañar al hospital más cercano</strong>, con primeros auxilios psicológicos (p. 28; Curso 07). <strong>Y en todo caso</strong> —también cuando viene de dentro de la familia, de un adulto del grupo o de otro joven— el reporte en <strong>24 horas</strong>. La Guía lo mandaba al referente ASP regional; ese papel ya no gestiona casos: hoy va por el botón «Me Pongo A Salvo del Peligro»."
+        },
+        {
+          "type": "info-box",
+          "text": "🫂 Si algo de este curso te removió algo propio, no lo cargues solo: habla con alguien de confianza o con un profesional. Y si lo que te pasa ocurre dentro del Movimiento, el botón también es tuyo."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar: diversidad y el plazo 🌈",
+        "questions": [
+          {
+            "text": "Un dirigente sospecha que algo pasó entre un chico y otro adulto del grupo. Para no acusar en falso, propone sentarlos juntos y escuchar a los dos. ¿Qué dice la Guía?",
+            "options": [
+              "Que eso es lo primero que no se hace: reunirlos para corroborar es otro daño.",
+              "Que es lo más justo: con un tercer adulto presente, nadie queda acusado sin ser oído.",
+              "Que conviene hacerlo antes del botón: así se corrobora la información."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una scout cuenta algo de su casa que podría ser violencia sexual. Tú dudas: «¿y si lo inventó?». ¿Qué dice la Guía sobre eso?",
+            "options": [
+              "Que se le cree: es improbable que invente historias así, con esos detalles.",
+              "Que se le cree si hay un signo físico: la Guía trae una lista de signos para eso.",
+              "Que conviene esperar a que lo repita: si lo cuenta igual dos veces, es más creíble."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Imagina que un compañero propone «sentarlos juntos para aclarar las cosas». Escribe la frase con la que lo frenarías, sin acusar a nadie. Sin nombres ni casos reales."
+      }
+    },
+    {
+      "id": 7,
+      "title": "🌈 Violencia por ser quien se es, y el plazo",
+      "emoji": "🌈",
+      "navLabel": "Diversidad y plazo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> trabajar algo en la unidad no reemplaza el reporte. Entre protagonistas se hacen las dos cosas; lo que daña el cuerpo o viene de un adulto se reporta sin rodeos. Y todo, por la regla de este curso, en menos de 24 horas; si hay riesgo inmediato, el primer aviso va de palabra."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía dedica dos apartados a violencias que se dirigen a alguien por <strong>lo que es</strong>. La primera es la violencia contra la mujer, que define como <em>«cualquier acción u omisión, que le cause muerte, daño o sufrimiento físico, sexual, psicológico, económico o patrimonial por su condición de mujer»</em> (p. 29), y que puede darse <em>«en el hogar, el espacio público, el trabajo, colegio y en el entorno scout»</em>. Si es contra una joven o una adulta del grupo, entre miembros del Movimiento, la Guía pide reportarla en 24 horas (p. 31): no es algo que se arregle solo en la unidad. La segunda, la discriminación o violencia por <strong>diversidad de género u orientación sexual</strong> (pp. 31–33), para la que la Guía usa una escala tomada de la ley de convivencia escolar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cuándo se trabaja en la unidad, y cuándo además se reporta"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧩 Entre protagonistas, sin daño al cuerpo",
+              "description": "Burlas o agresiones entre protagonistas por ser quien es, aunque no haya daño al cuerpo: <strong>se trabajan en la unidad</strong>, con sus órganos y herramientas de programa, <strong>y además se reportan</strong>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "📣 Lo que daña o puede ser delito",
+              "description": "Lo que causa daño al cuerpo o a la salud, o puede ser delito: <strong>se reporta</strong>, con aviso de palabra a la Policía y acompañamiento al hospital según el caso.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🛑 De un adulto hacia un protagonista",
+              "description": "<strong>Siempre se reporta</strong>, sea cual sea su gravedad. La Guía no hace ahí ninguna distinción.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ <strong>Por qué «además».</strong> La Guía de 2021 dejaba estas burlas solo en la unidad, aunque se repitieran. La Política de 2025, que prevalece, obliga a informar o reportar cualquier acción que <em>«vulnere la dignidad»</em> de un miembro (p. 21), y una burla repetida por la orientación sexual de un chico la vulnera. Si dudas de dónde cae, reporta."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el plazo que fija la Guía",
+          "source": "Guía de Prevención y Atención del Daño (2020-2021), p. 31. El destino que nombra —el referente ASP regional— está superado: hoy el reporte va por el botón «Me Pongo A Salvo del Peligro» (Política 2025, pp. 39 y 44).",
+          "text": "En todo caso (entre menores de edad, de un mayor de edad sujeto de programa hacia un menor de edad, de un adulto a un sujeto de programa y entre adultos) la víctima o la adulta o el adulto voluntario que tenga conocimiento de la situación debe remitir reporte SFH dentro de las 24 horas siguientes a los hechos…"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>¿Y cuándo?</strong> La Guía pone <strong>24 horas</strong> para la violencia sexual, la de género y la discriminación que daña o viene de un adulto. Para lo demás no pone plazo, y la Política de 2025 tampoco: pide <em>«reporte oportuno»</em>, igual que tu Acuerdo Mutuo (<em>«reportar oportunamente»</em>). <strong>La regla que te propone este curso:</strong> como no te toca decidir si es grave, repórtalo <strong>en menos de 24 horas, y si puedes, ese mismo día</strong>; no «cuando estés seguro»."
+        },
+        {
+          "type": "mission-box",
+          "text": "El lobato que se encoge, la scout a la que nadie recoge, el caminante que dejó de hablar: ninguno te pide que adivines qué le pasa. Te piden que lo veas, que no conviertas a su familia en sospechosa por ser pobre o distinta, que no hagas lo que más daña y que <strong>reportes a tiempo, contando lo que viste</strong>. Lo demás —confirmar, investigar, decidir— lo hacen otros. Tu parte es que la señal no se quede contigo."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Dos scouts se burlan semana tras semana de un compañero por su orientación sexual. El jefe de tropa lo trabaja con la Corte de Honor y dice: «ya está manejado en la unidad». ¿Qué le respondes, según el curso?",
+            "options": [
+              "Que hizo bien en trabajarlo en la tropa, y que además hay que reportarlo.",
+              "Que tiene razón: entre protagonistas y sin daño al cuerpo, la Guía lo deja a la unidad.",
+              "Que lo saque de la Corte de Honor: si se reporta, la unidad ya no debe trabajarlo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un viernes a las ocho de la noche, al final de la reunión, una lobata vuelve a decir que le da miedo volver a su casa. No cuenta nada sexual ni nada que haga pensar en un peligro para esta noche, y la recoge su abuela, como siempre. Según la regla de este curso, ¿cuándo va el reporte por el botón?",
+            "options": [
+              "En menos de 24 horas, ojalá esta noche: no te toca decidir si es grave, así que no esperas.",
+              "El lunes a primera hora: sin las 24 horas de la Guía, el reporte oportuno lo permite.",
+              "Cuando hables con su familia el sábado, para contar en el reporte qué explicación dieron."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Cuál de las seis lecciones de este curso te cambió más la forma de mirar a tu unidad? Escribe solo el número de la lección. Tu compromiso completo no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}
