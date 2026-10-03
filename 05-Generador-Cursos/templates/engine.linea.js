@@ -492,9 +492,16 @@ function renderCatalogDisplays() {
 // de 17 items, tres compromisos) o se borra la maquinaria que no se use.
 var META_TIPO_CATALOG = [];
 
-// --- Brujula display (lee reflexion del Curso 2 L6 desde localStorage cross-curso) ---
+// --- Brujula display (devuelve el compromiso de cierre de otro curso de la linea) ---
+// 02-oct-2026 (ADR-115): lee PRIMERO el Compromiso Personal (commitment_<courseId>),
+// que se queda solo en este navegador. Hasta hoy leia la reflexion de cierre, y para
+// eso esas reflexiones pedian la frase del compromiso: la reflexion viaja a la hoja de
+// la Asociacion y el aviso de registro promete que el compromiso no. La reflexion queda
+// solo como respaldo para quien curso con la version anterior.
 function getBrujulaText(sourceCourseId, sourceModule) {
     try {
+        var compromiso = localStorage.getItem('commitment_' + sourceCourseId);
+        if (compromiso && compromiso.trim()) return compromiso;
         var raw = localStorage.getItem('courseProgress_' + sourceCourseId);
         if (!raw) return null;
         var p = JSON.parse(raw);
@@ -509,12 +516,15 @@ function renderBrujulaDisplays() {
         var srcCourse = el.getAttribute('data-source-course') || '';
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
+        var compromisoGuardado = null;
+        try { compromisoGuardado = localStorage.getItem('commitment_' + srcCourse); } catch (e) {}
+        var esCompromiso = !!(compromisoGuardado && compromisoGuardado.trim());
         if (!txt || !txt.trim()) {
-            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aquí todavía no hay nada guardado.</strong><br>Si hiciste ese curso en otro dispositivo, pulsa "Recuperar mi avance" en la pantalla de registro y vuelve a esta lección.</div>';
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aquí todavía no hay nada guardado.</strong><br>El «Compromiso Personal» de cada curso se queda en el navegador donde lo escribiste; si hiciste ese curso en otro dispositivo, ábrelo allá y cópialo en tu hoja.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-display-content">' +
-            '<div class="brujula-display-label">🧭 Lo que escribiste:</div>' +
+            '<div class="brujula-display-label">' + (esCompromiso ? '🧭 Lo que escribiste:' : '🧭 Lo que anotaste al cierre (tu compromiso completo no está en este navegador):') + '</div>' +
             '<blockquote class="brujula-display-text">' + escapeHtml(txt) + '</blockquote>' +
         '</div>';
     });

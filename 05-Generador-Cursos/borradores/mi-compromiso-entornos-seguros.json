@@ -3,7 +3,7 @@
   "title": "Mi Compromiso con los Entornos Seguros",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Aquí no se aprende nada nuevo: se cobra lo aprendido. Vas a mirar tu grupo con el semáforo oficial de la Asociación —17 preguntas, cinco áreas, tres colores—, a recoger lo que fuiste escribiendo curso a curso, y a salir con dos compromisos con fecha (tres si te animas con el de Inclusión) que puedas llevar al próximo consejo. Es el último curso publicado de la ruta, y el único que mira a tu grupo entero.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-02",
   "icon": "🗺️",
   "duration": "60 minutos",
   "status": "active",
@@ -54,7 +54,7 @@
     "description": "ha completado el Curso 06 de la Línea Políticas Transversales — Mi Compromiso con los Entornos Seguros, el último curso publicado de la Ruta de Fundamentación, habiendo valorado su Grupo Scout con los diecisiete ítems de la «Autoevaluación de grupo en relación a la Política A salvo del peligro» —formato de la serie documental de la Política Nacional de Adultos en el Movimiento— en sus cinco áreas: política, liderazgo, programa, compromiso juvenil y compromiso de los padres; habiendo reconocido que ese instrumento recomienda enfocarse en una o dos áreas y volver a aplicarlo a lo largo del año; habiendo vuelto sobre los compromisos que haya escrito en los cursos anteriores; y habiendo formulado compromisos propios, fechados y observables, para presentar ante su consejo de grupo. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
   },
   "commitmentBox": {
-    "prompt": "Pega aquí lo último que escribiste: <strong>la fecha del próximo consejo de grupo y la primera frase que vas a decir</strong>.",
+    "prompt": "Escribe aquí <strong>la fecha del próximo consejo de grupo y la primera frase que vas a decir</strong>. Se queda solo en tu navegador.",
     "placeholder": "En el consejo del __ de ______ voy a decir: ..."
   },
   "modules": [
@@ -173,7 +173,7 @@
         },
         {
           "type": "info-box",
-          "text": "📭 <strong>¿Alguna caja salió vacía?</strong> Si te falta algún curso, <strong>escribe tú ahora lo que ese curso te habría pedido</strong> — no te va a costar, porque son cosas que ya sabes de tu grupo: una palabra que describa lo que te preocupa (Curso 01), una cosa que vas a hacer distinto desde mañana (Curso 02), tres frases sobre qué haces si alguien te cuenta algo (Curso 03), un ajuste para que tu grupo sea más abierto (Curso 04) y una persona de tu equipo a la que le vas a dar algo esta semana (Curso 05). Con eso tienes tu hilo, y la Lección 4 ya te funciona. <strong>También sale vacía si hiciste el curso y dejaste esa reflexión en blanco</strong>, o si lo hiciste <strong>en otro dispositivo</strong>: para eso, pulsa «Recuperar mi avance» en la pantalla de registro y vuelve aquí."
+          "text": "📭 <strong>¿Alguna caja salió vacía, o con solo un número, una palabra o un mes?</strong> Las cajas muestran el «Compromiso Personal» que escribiste al final de cada curso, y ese cuadro se queda en el navegador donde lo escribiste: «Recuperar mi avance» no lo trae. Si no lo llenaste, o cursaste en otro dispositivo, lo que ves es tu reflexión de cierre —el dato corto— o nada. Y del Curso 03 puede salirte solo la frase 1, si lo hiciste antes de octubre de 2026. En cualquiera de esos casos, <strong>escribe tú ahora en tu hoja</strong> —no en el cuadro de reflexión— lo que ese curso te habría pedido: una palabra que describa lo que te preocupa (Curso 01), una cosa que vas a hacer distinto desde mañana (Curso 02), tres frases sobre qué haces si alguien te cuenta algo (Curso 03), un ajuste para que tu grupo sea más abierto (Curso 04) y una persona de tu equipo a la que le vas a dar algo esta semana (Curso 05). Con eso tienes tu hilo, y la Lección 4 ya te funciona."
         },
         {
           "type": "mission-box",
@@ -205,7 +205,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Léelas seguidas. ¿Cuál de las cinco <strong>no</strong> cumpliste? Escríbela otra vez, tal cual, y debajo por qué se quedó sin hacer. No es un reproche: es el dato que más te va a servir en la Lección 4, cuando toque escribir los compromisos nuevos."
+        "prompt": "Léelas seguidas. ¿Cuál de las cinco <strong>no</strong> cumpliste? Escribe solo <strong>de qué curso era</strong> (del 01 al 05) y, en pocas palabras y sin nombres, qué se cruzó. No es un reproche: es el dato que más te va a servir en la Lección 4, cuando toque escribir los compromisos nuevos."
       }
     },
     {
@@ -286,7 +286,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Mira tus ocho primeros. <strong>Escribe aquí los números que te salieron rojos y los que te salieron amarillos</strong> — los dos, que los amarillos también cuentan: eso lo acabas de contestar. Y ahora elige uno solo: el más rojo. Escribe <strong>qué tendría que pasar para que ese pase a amarillo</strong>. No a verde — a amarillo. Un paso, no el salto entero."
+        "prompt": "Mira tus ocho primeros. <strong>Escribe solo cuántos rojos y cuántos amarillos</strong> te salieron en Política y cuántos en Liderazgo —los amarillos también cuentan—. El detalle se queda en tu hoja. Ahora elige allí uno solo, el más rojo, y escribe aquí, sin decir cuál es, <strong>qué tendría que pasar para que pase a amarillo</strong>. No a verde — a amarillo. Un paso, no el salto entero."
       }
     },
     {
@@ -386,7 +386,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Ahora los números del 9 al 17. <strong>Escribe los rojos y los amarillos</strong>, y al lado de cada uno el área a la que pertenece. Cuando termines tendrás una frase del tipo «tengo tres en Compromiso de los padres y uno suelto en Programa» — <strong>esa frase es tu diagnóstico</strong>, y es lo que la lección siguiente te va a pedir. Si alguna te da vergüenza escribirla, escríbela igual: nadie más lee esto."
+        "prompt": "Ahora los números del 9 al 17. Cuenta tus rojos y tus amarillos y <strong>escribe solo cuántos hay en cada área</strong> — algo como «3 en Compromiso de los padres y 1 en Programa». Ese conteo es tu diagnóstico, y es lo que la lección siguiente te va a pedir. El detalle de cada ítem se queda en tu hoja: lo que escribes aquí viaja a la hoja de la Asociación junto con tu nombre y tu grupo, y por eso te pedimos solo el conteo."
       }
     },
     {
@@ -542,7 +542,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Escribe <strong>la fecha del próximo consejo de grupo</strong> y, al lado, <strong>la primera frase que vas a decir</strong>. Una sola, la de arrancar. Esa frase es la que vas a pegar al final, en el certificado — y es la que convierte todo lo anterior en algo que pasó."
+        "prompt": "¿Ya sabes cuándo es el próximo consejo de grupo? <strong>Escribe solo el mes.</strong> La fecha exacta y la primera frase que vas a decir no van aquí: las escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador — y son las que convierten todo lo anterior en algo que pasó."
       }
     }
   ]

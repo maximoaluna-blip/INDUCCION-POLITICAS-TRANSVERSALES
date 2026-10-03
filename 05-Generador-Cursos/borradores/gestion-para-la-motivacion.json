@@ -3,7 +3,7 @@
   "title": "Gestión para la Motivación: motivar es dar",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Motivar no es dar ánimo: es dar algo, y distinto a cada uno. Aquí vas a saber qué separa un motivo de una motivación, las veintiséis maneras concretas de dar que propone la ASC, en cuáles tres conviene detenerse porque no cuestan nada, cuándo hacerlo y —lo que casi nadie se plantea— de dónde sacas la tuya. Es el curso de cuidar a los adultos que cuidan.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-02",
   "icon": "💪",
   "duration": "35 minutos",
   "status": "active",
@@ -60,7 +60,7 @@
     "description": "ha completado el Curso 05 de la Línea Políticas Transversales — Gestión para la Motivación, distinguiendo motivo, motivación y motivar tal como los define la cartilla oficial «Gestión para la Motivación» de la Dirección Nacional de Adultos en el Movimiento (agosto de 2020), y sosteniendo con ella que motivar no es animar sino dar, y dar a cada persona lo que esa persona necesita y no lo que a uno le motivaría recibir; reconociendo las cuatro familias en que esa cartilla agrupa las maneras de dar y las veintiséis que desarrolla una por una, las tres en que este curso se detiene porque no cuestan dinero —información, reconocimiento y confianza—, los cuatro momentos que señala para motivar y el lugar que ocupa la automotivación, y habiendo elegido a una persona concreta de su equipo y una cosa concreta que darle esta semana, en desarrollo de la Política Nacional de Adultos en el Movimiento, cuyo numeral 6 sostiene que contar con adultos motivados registra mayores niveles de desempeño y compromiso. Este certificado acredita haber cursado esta formación"
   },
   "commitmentBox": {
-    "prompt": "Pega aquí la frase con la que te comprometiste en la última lección: <strong>la de esta semana</strong> — una persona, y una cosa concreta que puedas darle.",
+    "prompt": "Escribe aquí tu compromiso de <strong>esta semana</strong>: una persona —sin su nombre: «a alguien de mi rama», «a uno de los nuevos»— y una cosa concreta que puedas darle. Se queda solo en tu navegador.",
     "placeholder": "Esta semana voy a..."
   },
   "modules": [
@@ -597,7 +597,7 @@
         },
         {
           "type": "mission-box",
-          "text": "Y así vuelve la frase con la que empezó todo esto, la que tiene filo: <strong>«El que no esté dando, no está motivando.»</strong> Entraste pensando quizá que motivar era dar ánimo. Sales sabiendo que es <strong>una entrega concreta, y distinta para cada persona</strong>. Aquí abajo le pones nombre y fecha a la primera."
+          "text": "Y así vuelve la frase con la que empezó todo esto, la que tiene filo: <strong>«El que no esté dando, no está motivando.»</strong> Entraste pensando quizá que motivar era dar ánimo. Sales sabiendo que es <strong>una entrega concreta, y distinta para cada persona</strong>. Aquí abajo eliges cuál de las veintiséis; a quién —sin su nombre— y cuándo, lo escribes al final, en el cuadro «Compromiso Personal»."
         }
       ],
       "quiz": {
@@ -625,7 +625,7 @@
         ]
       },
       "reflection": {
-        "prompt": "La cartilla propone cambiar la buena acción diaria por esto: cada día, una persona, y darle motivos. Empieza por una semana. Escribe tu compromiso en esta forma: <strong>«Esta semana voy a…»</strong>, con <strong>una</strong> cosa, de las veintiséis, que puedas hacer en cinco minutos, y a quién se la vas a dar: piensa en una persona concreta, pero escríbela sin nombre —«a alguien de mi rama», «a uno de los nuevos»—. Esa frase es la que vas a pegar al final, en el certificado."
+        "prompt": "La cartilla propone cambiar la buena acción diaria por esto: cada día, una persona, y darle motivos. Empieza por una semana. Elige <strong>una</strong> de las veintiséis maneras de dar que puedas hacer en cinco minutos, pensando en una persona concreta de tu equipo, y <strong>escribe aquí solo cuál escogiste</strong> (su número o su nombre). Tu frase completa no va aquí: la escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
       }
     }
   ]

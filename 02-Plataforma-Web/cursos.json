@@ -96,5 +96,19 @@
     "status": "active",
     "file": "motivar-al-equipo-de-dirigentes.html",
     "folder": "motivar-al-equipo-de-dirigentes"
+  },
+  {
+    "courseId": "rutas-de-atencion-primeros-auxilios",
+    "title": "Rutas de atención y primeros auxilios psicológicos",
+    "description": "El Curso 03 te enseñó los dos primeros minutos. Este es para lo que viene después: a qué puerta del Estado tocar —y cuál está abierta a las once de la noche—, por qué el botón y la autoridad se suman, qué son de verdad los primeros auxilios psicológicos y qué no son, hasta dónde llega tu papel, y qué pasa dentro de la Asociación cuando llenas el formulario.",
+    "icon": "🧭",
+    "duration": "50 minutos",
+    "level": 2,
+    "levelName": "Profundización por política",
+    "order": 7,
+    "modules": 7,
+    "status": "active",
+    "file": "rutas-de-atencion-primeros-auxilios.html",
+    "folder": "rutas-de-atencion-primeros-auxilios"
   }
 ]

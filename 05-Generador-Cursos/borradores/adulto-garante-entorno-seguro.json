@@ -3,7 +3,7 @@
   "title": "El Adulto como Garante: reportar, no investigar",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Tu trabajo no es descubrir qué pasó. En 45 minutos vas a saber qué significa ser garante, cómo funciona la práctica 2+1 en tu día a día, qué decir exactamente cuando alguien te revela algo, por dónde entra un reporte y qué pasa después, dónde termina tu rol y por qué cuidarte a ti también es parte de la política. No hay listas de señales: hay conducta.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-02",
   "icon": "🤝",
   "duration": "45 minutos",
   "status": "active",
@@ -351,7 +351,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Reportar</strong> tiene dos destinos que se suman, no se eligen: <strong>al Estado</strong> si hay riesgo o posible delito, y <strong>a la Asociación</strong> por el botón, siempre. Que primero se atienda lo urgente es sentido común, no letra de la política: ninguna fuente fija un orden, y es una pregunta que queda por hacerle a la Comisión Nacional."
+          "text": "<strong>Reportar</strong> tiene dos destinos que se suman, no se eligen: <strong>al Estado</strong> si hay riesgo o posible delito, y <strong>a la Asociación</strong> por el botón, siempre. Si hay <strong>riesgo inmediato para la vida o la integridad</strong>, la Guía sí fija el primer paso: el aviso <strong>de palabra a la Policía</strong>, y según el caso al centro de salud o al hospital más cercano —en violencia sexual, además, acompañarlo al hospital— (pp. 26, 28 y 30). Fuera de ese caso, ninguna fuente fija un orden general."
         },
         {
           "type": "info-box",
@@ -729,19 +729,19 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>Tus tres frases.</strong> Cópialas en el cuadro de abajo y complétalas con tus palabras.<br><br><strong>1.</strong> Esta semana voy a… para que mi unidad o mi equipo de adultos esté más cerca de la práctica 2+1.<br><strong>2.</strong> Guardé el acceso al botón «Me Pongo A Salvo del Peligro» en…<br><strong>3.</strong> Si mañana alguien me revelara algo, mi primera frase sería…"
+          "text": "<strong>Tus tres frases.</strong> Complétalas con tus palabras al final del curso, después del certificado, en el cuadro «Compromiso Personal», que se queda solo en tu navegador.<br><br><strong>1.</strong> Esta semana voy a… para que mi unidad o mi equipo de adultos esté más cerca de la práctica 2+1.<br><strong>2.</strong> Guardé el acceso al botón «Me Pongo A Salvo del Peligro» en…<br><strong>3.</strong> Si mañana alguien me revelara algo, mi primera frase sería…"
         },
         {
           "type": "paragraph",
-          "text": "Al final del curso, después del certificado, vas a encontrar un cuadro que dice «Compromiso Personal». Pega ahí tu frase 1 — la de esta semana. Es la que el sistema guarda aparte, y la que vas a querer volver a leer el domingo."
+          "text": "Escribe ahí las tres, numeradas: ese cuadro es el que el Curso 06 te va a devolver. Y la 1 —la de esta semana— es la que vas a querer volver a leer el domingo."
         },
         {
           "type": "paragraph",
-          "text": "Con esto cierras la parte de <strong>cuidar</strong> del arco que abrió el Curso 01: <em>cuidar, incluir, sostener</em>. Lo que sigue, en el Curso 04, es <strong>incluir</strong> — porque un entorno es seguro cuando lo es <strong>para todos</strong>, no solo para los que encajan fácil. Y al final de la ruta, el Curso 06 va a recoger lo que escribiste en estas siete lecciones para convertirlo en compromisos con fecha."
+          "text": "Con esto cierras la parte de <strong>cuidar</strong> del arco que abrió el Curso 01: <em>cuidar, incluir, sostener</em>. Lo que sigue, en el Curso 04, es <strong>incluir</strong> — porque un entorno es seguro cuando lo es <strong>para todos</strong>, no solo para los que encajan fácil. Y al final de la ruta, el Curso 06 te va a devolver las tres frases que escribas al final de este curso, en el cuadro «Compromiso Personal», para convertirlas en compromisos con fecha."
         }
       ],
       "reflection": {
-        "prompt": "Escribe aquí tus tres frases completas, numeradas. La 1 es una conducta que puedes revisar el domingo. La 2 es un hecho: o guardaste el acceso o no. La 3 no se verifica, se ensaya — si no te sale sola, vuelve a la Lección 3 y tómala prestada hasta que la hagas tuya. Cuando las tengas, cópialas y mándaselas a tu Jefe de Grupo o llévalas al próximo consejo: un compromiso que alguien más conoce se cumple mucho más."
+        "prompt": "Piensa tus tres frases: la 1, una conducta que puedes revisar el domingo; la 2, un hecho —o guardaste el acceso al botón o no—; la 3, la frase que se ensaya hasta que te salga sola. ¿Cuál de las tres te va a costar más cumplir? <strong>Escribe solo el número</strong> y, si quieres, por qué en una línea. Las tres frases completas las escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador — y de ahí puedes copiarlas para tu Jefe de Grupo."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7",
@@ -818,7 +818,7 @@
     "description": "ha completado el Curso 03 de la Línea Políticas Transversales — El Adulto como Garante, reconociendo la posición de garante que la ley le atribuye y el compromiso que la Promesa Scout le pide, la práctica 2+1 como medida que protege a menores y adultos, la conducta debida ante una revelación, la ruta oficial de reporte y el límite expreso de su rol, que en ningún caso es investigativo ni de gestión del reporte, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
   },
   "commitmentBox": {
-    "prompt": "Pega aquí <strong>tus tres frases, numeradas</strong>, tal como las escribiste en la última lección. Y si aún no se las has mandado a tu Jefe de Grupo, este es el momento: un compromiso que alguien más conoce se cumple mucho más.",
+    "prompt": "Escribe aquí <strong>tus tres frases, numeradas</strong>: la 1, una conducta que puedes revisar el domingo; la 2, un hecho —guardaste o no el acceso al botón—; la 3, la frase para cuando alguien te cuente algo. Se quedan solo en tu navegador. Y cópialas para tu Jefe de Grupo: un compromiso que alguien más conoce se cumple mucho más.",
     "placeholder": "1. ...  2. ...  3. ..."
   }
 }

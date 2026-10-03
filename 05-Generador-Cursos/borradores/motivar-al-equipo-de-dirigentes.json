@@ -3,7 +3,7 @@
   "title": "Motivar al equipo de dirigentes: diagnóstico y acción",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Motivar a una persona se aprende en el Curso 05. Motivar a un equipo de quince es otra cosa: ahí la motivación se diluye, se la quedan los de siempre y se vuelve trámite. Este curso te da el instrumento que la ASC propone para eso —un diagnóstico de veintiséis preguntas— y te enseña a pasarlo, a leerlo sin buscar culpables, a devolver los resultados y a convertir cada déficit en una acción concreta, decidida con tu equipo.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-02",
   "icon": "🔋",
   "duration": "45 minutos",
   "status": "active",
@@ -60,7 +60,7 @@
     "description": "ha completado el Curso 12 de la Línea Políticas Transversales — Motivar al equipo de dirigentes, situando el equipo que se motiva en la estructura de la Asociación —el equipo de dirigentes del grupo o de la rama, y no el Consejo de Grupo, que es su órgano de administración— y reconociendo con el Manual de Cargos que garantizar la integración y motivación de ese equipo es tarea del Jefe de Grupo, y con la cartilla, que para eso se apoya en sus dirigentes; distinguiendo, con la cartilla oficial «Gestión para la Motivación» de la Dirección Nacional de Adultos en el Movimiento (agosto de 2020), por qué la motivación se diluye en un equipo numeroso, qué son la mentorización y la motivación delegada, cómo se prepara y se aplica su Herramienta de Diagnóstico de Motivación de veintiséis ítems, cómo se leen sus resultados sin buscar culpables y cómo se convierte cada déficit en una acción de su catálogo, decidida con el equipo y devuelta a él; y habiendo trazado un plan con fecha para medir, devolver y volver a medir. Este certificado acredita haber cursado esta formación"
   },
   "commitmentBox": {
-    "prompt": "Pega aquí la frase con la que cerraste la última lección: <strong>cuándo y con qué equipo</strong> vas a pasar el diagnóstico, o qué vas a hacer con uno que ya se pasó y nadie devolvió.",
+    "prompt": "Escribe aquí tu compromiso, en una frase: <strong>«Antes de [mes], voy a…»</strong> — cuándo y con qué equipo vas a pasar el diagnóstico, o qué vas a hacer con uno que ya se pasó y nadie devolvió. Por roles, sin nombres. Se queda solo en tu navegador.",
     "placeholder": "Antes de [mes], voy a..."
   },
   "modules": [
@@ -704,7 +704,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Pasa a una sola frase el compromiso de tu plan —o escríbelo ahora si lo dejaste vacío— en esta forma: <strong>«Antes de [mes], voy a…»</strong>: cuándo y con qué equipo pasarías el diagnóstico, o qué harías con uno que ya se pasó y nadie devolvió. <strong>Sin nombres ni cargos que tenga una sola persona.</strong> Esa frase es la que vas a pegar al final, en el certificado."
+        "prompt": "Mira tu plan. ¿Cuándo piensas pasar el diagnóstico —o devolver uno que ya se pasó y nadie devolvió—? <strong>Escribe solo el mes.</strong> Tu frase completa no va aquí: la escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
       }
     }
   ]

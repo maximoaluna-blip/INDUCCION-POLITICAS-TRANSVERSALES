@@ -1909,11 +1909,11 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <p>No propone otra cosa además de la buena acción diaria: propone <strong>que la buena acción sea esa</strong>. Una persona al día, y algo concreto que le dé motivos para seguir. Dentro y fuera del grupo scout.</p>
 
-                <div class="mission-box">Y así vuelve la frase con la que empezó todo esto, la que tiene filo: <strong>«El que no esté dando, no está motivando.»</strong> Entraste pensando quizá que motivar era dar ánimo. Sales sabiendo que es <strong>una entrega concreta, y distinta para cada persona</strong>. Aquí abajo le pones nombre y fecha a la primera.</div>
+                <div class="mission-box">Y así vuelve la frase con la que empezó todo esto, la que tiene filo: <strong>«El que no esté dando, no está motivando.»</strong> Entraste pensando quizá que motivar era dar ánimo. Sales sabiendo que es <strong>una entrega concreta, y distinta para cada persona</strong>. Aquí abajo eliges cuál de las veintiséis; a quién —sin su nombre— y cuándo, lo escribes al final, en el cuadro «Compromiso Personal».</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>La cartilla propone cambiar la buena acción diaria por esto: cada día, una persona, y darle motivos. Empieza por una semana. Escribe tu compromiso en esta forma: <strong>«Esta semana voy a…»</strong>, con <strong>una</strong> cosa, de las veintiséis, que puedas hacer en cinco minutos, y a quién se la vas a dar: piensa en una persona concreta, pero escríbela sin nombre —«a alguien de mi rama», «a uno de los nuevos»—. Esa frase es la que vas a pegar al final, en el certificado.</p>
+                    <p>La cartilla propone cambiar la buena acción diaria por esto: cada día, una persona, y darle motivos. Empieza por una semana. Elige <strong>una</strong> de las veintiséis maneras de dar que puedas hacer en cinco minutos, pensando en una persona concreta de tu equipo, y <strong>escribe aquí solo cuál escogiste</strong> (su número o su nombre). Tu frase completa no va aquí: la escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador.</p>
                     <textarea id="reflection-7" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(7, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
@@ -2037,7 +2037,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <div class="reflection-area">
                     <h4>🎯 Compromiso Personal</h4>
-                    <p>Pega aquí la frase con la que te comprometiste en la última lección: <strong>la de esta semana</strong> — una persona, y una cosa concreta que puedas darle.</p>
+                    <p>Escribe aquí tu compromiso de <strong>esta semana</strong>: una persona —sin su nombre: «a alguien de mi rama», «a uno de los nuevos»— y una cosa concreta que puedas darle. Se queda solo en tu navegador.</p>
                     <textarea id="commitment" placeholder="Esta semana voy a..." onchange="saveCommitment(this.value)"></textarea>
                 </div>
             </div>
@@ -2558,9 +2558,16 @@ function renderCatalogDisplays() {
 // de 17 items, tres compromisos) o se borra la maquinaria que no se use.
 var META_TIPO_CATALOG = [];
 
-// --- Brujula display (lee reflexion del Curso 2 L6 desde localStorage cross-curso) ---
+// --- Brujula display (devuelve el compromiso de cierre de otro curso de la linea) ---
+// 02-oct-2026 (ADR-115): lee PRIMERO el Compromiso Personal (commitment_<courseId>),
+// que se queda solo en este navegador. Hasta hoy leia la reflexion de cierre, y para
+// eso esas reflexiones pedian la frase del compromiso: la reflexion viaja a la hoja de
+// la Asociacion y el aviso de registro promete que el compromiso no. La reflexion queda
+// solo como respaldo para quien curso con la version anterior.
 function getBrujulaText(sourceCourseId, sourceModule) {
     try {
+        var compromiso = localStorage.getItem('commitment_' + sourceCourseId);
+        if (compromiso && compromiso.trim()) return compromiso;
         var raw = localStorage.getItem('courseProgress_' + sourceCourseId);
         if (!raw) return null;
         var p = JSON.parse(raw);
@@ -2575,12 +2582,15 @@ function renderBrujulaDisplays() {
         var srcCourse = el.getAttribute('data-source-course') || '';
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
+        var compromisoGuardado = null;
+        try { compromisoGuardado = localStorage.getItem('commitment_' + srcCourse); } catch (e) {}
+        var esCompromiso = !!(compromisoGuardado && compromisoGuardado.trim());
         if (!txt || !txt.trim()) {
-            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aquí todavía no hay nada guardado.</strong><br>Si hiciste ese curso en otro dispositivo, pulsa "Recuperar mi avance" en la pantalla de registro y vuelve a esta lección.</div>';
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aquí todavía no hay nada guardado.</strong><br>El «Compromiso Personal» de cada curso se queda en el navegador donde lo escribiste; si hiciste ese curso en otro dispositivo, ábrelo allá y cópialo en tu hoja.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-display-content">' +
-            '<div class="brujula-display-label">🧭 Lo que escribiste:</div>' +
+            '<div class="brujula-display-label">' + (esCompromiso ? '🧭 Lo que escribiste:' : '🧭 Lo que anotaste al cierre (tu compromiso completo no está en este navegador):') + '</div>' +
             '<blockquote class="brujula-display-text">' + escapeHtml(txt) + '</blockquote>' +
         '</div>';
     });

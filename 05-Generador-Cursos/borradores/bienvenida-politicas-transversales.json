@@ -3,7 +3,7 @@
   "title": "Bienvenida a las Políticas Transversales",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Hay tres cosas que la Asociación le pide a todo adulto antes de pedirle cualquier otra: cuidar, incluir y sostener. Aquí vas a saber cuáles son las tres políticas que lo sostienen, dónde las puso la ASC dentro de tu propia inducción, y —sobre todo— qué te exige la Asociación por fuera de esta plataforma, que no es lo mismo y son nueve pasos, no los seis del correo.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🛡️",
   "duration": "35 minutos",
   "level": 1,
@@ -583,7 +583,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🧭 <strong>Tu primer compromiso.</strong> Una sola cosa, con fecha, para antes del próximo consejo de grupo. Que sea algo que <strong>alguien más pueda notar</strong> — no «ser más consciente», sino algo que ocurre o no ocurre. Preguntarle al jefe de grupo por dónde entra un reporte cuenta. Hacer el primero de los cuatro cursos SFH cuenta. «Estar más atento» no cuenta. <strong>Tres cosas te pide la Asociación antes de pedirte cualquier otra: cuidar, incluir y sostener. Acabas de escribir la primera.</strong>"
+          "text": "🧭 <strong>Tu primer compromiso.</strong> Una sola cosa, con fecha, para antes del próximo consejo de grupo. Que sea algo que <strong>alguien más pueda notar</strong> — no «ser más consciente», sino algo que ocurre o no ocurre. Preguntarle al jefe de grupo por dónde entra un reporte cuenta. Hacer el primero de los cuatro cursos SFH cuenta. «Estar más atento» no cuenta. <strong>Tres cosas te pide la Asociación antes de pedirte cualquier otra: cuidar, incluir y sostener. La primera la vas a escribir al final, en el cuadro «Compromiso Personal», junto a tu palabra.</strong>"
         }
       ],
       "quiz": {
@@ -611,7 +611,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Vuelve a la palabra que escribiste en la Lección 1 —<strong>cuidar</strong>, <strong>incluir</strong> o <strong>sostener</strong>—. ¿Sigue siendo la misma? Escribe la palabra otra vez, y debajo <strong>tu compromiso: una cosa concreta, con fecha</strong>, para antes del próximo consejo de grupo. Esto es tu brújula, y el Curso 06 te la va a devolver para que veas qué cumpliste. <em>(La palabra está en la <strong>Lección 1</strong>, en la barra de arriba: ábrela un momento o en otra pestaña. Verla escrita es el punto de todo esto.)</em>"
+        "prompt": "Vuelve a la palabra que escribiste en la Lección 1 —<strong>cuidar</strong>, <strong>incluir</strong> o <strong>sostener</strong>—. ¿Sigue siendo la misma? <strong>Escribe solo la palabra</strong> otra vez. <em>(Está en la <strong>Lección 1</strong>, en la barra de arriba: ábrela un momento o en otra pestaña. Verla escrita es el punto de todo esto.)</em> El compromiso concreto, con fecha, lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador — y el Curso 06 te lo va a devolver para que veas qué cumpliste."
       }
     }
   ]

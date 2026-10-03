@@ -63,6 +63,11 @@ const FALLBACK = [
     file: 'motivar-al-equipo-de-dirigentes.html',
     tituloIncluye: 'equipo de dirigentes',
   },
+  {
+    courseId: 'rutas-de-atencion-primeros-auxilios',
+    file: 'rutas-de-atencion-primeros-auxilios.html',
+    tituloIncluye: 'Rutas de atención',
+  },
 ];
 
 let CURSOS = FALLBACK;

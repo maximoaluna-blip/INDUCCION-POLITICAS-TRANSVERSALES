@@ -1897,13 +1897,13 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
                     <p class="policy-quote-source">— Política Interamericana de Diversidad e Inclusión (2016), §6.3, p. 13.</p>
                 </details>
 
-                <div class="mission-box"><strong>«Abierta a todos» se cumple —o no— en cómo recibes al que llega distinto, y en cosas pequeñas.</strong> Una hora de reunión que cambia de día. Una convocatoria que también se escribe. Una rampa prestada. Una pregunta —<em>«¿qué necesitas para poder venir?»</em>— hecha a la persona y no sobre ella. Aquí abajo eliges <strong>una</strong> y le pones fecha; al final, junto al certificado, te pedimos que la pegues para tenerla a la vista.</div>
+                <div class="mission-box"><strong>«Abierta a todos» se cumple —o no— en cómo recibes al que llega distinto, y en cosas pequeñas.</strong> Una hora de reunión que cambia de día. Una convocatoria que también se escribe. Una rampa prestada. Una pregunta —<em>«¿qué necesitas para poder venir?»</em>— hecha a la persona y no sobre ella. Aquí abajo nombras de qué tipo es la tuya; el ajuste concreto, con su fecha, lo escribes al final, junto al certificado, en el cuadro que se queda en tu navegador.</div>
 
                 <div class="info-box">➡️ <strong>Lo que sigue.</strong> Acabas de ver que la inclusión se juega también en cómo apoyas y retienes a los adultos. El <strong>Curso 05</strong> da el paso siguiente: qué puedes <strong>dar</strong> para que un adulto quiera quedarse — <strong>cuidar a los adultos que cuidan</strong>. Y si quieres ir más a fondo en lo que viste aquí, la biblioteca de la ASC tiene, en <em>Externos</em>, las guías de Diversidad e Inclusión sobre <strong>personas con discapacidad</strong> (Guía Dos) y sobre <strong>grupos minoritarios</strong> (Guía Tres).</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Elige <strong>un</strong> ajuste que puedas hacer esta semana para que tu grupo sea más abierto: una barrera que quitar, una hora que cambiar, un canal que añadir, una pregunta que hacer a quien corresponde. Escríbelo en una línea, <strong>con fecha</strong>, sin nombres. Es tu compromiso de este curso.</p>
+                    <p>Piensa en <strong>un</strong> ajuste que puedas hacer esta semana para que tu grupo sea más abierto. ¿De qué tipo es: una barrera que quitar, una hora que cambiar, un canal que añadir o una pregunta que hacer a quien corresponde? <strong>Escribe solo el tipo.</strong> El ajuste concreto, con su fecha, lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador.</p>
                     <textarea id="reflection-7" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(7, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
@@ -2027,7 +2027,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <div class="reflection-area">
                     <h4>🎯 Compromiso Personal</h4>
-                    <p>Pega aquí el ajuste que fijaste en la última lección: <strong>uno</strong>, concreto y con fecha, para que tu grupo sea más abierto.</p>
+                    <p>Escribe aquí <strong>el ajuste</strong> que vas a hacer para que tu grupo sea más abierto: uno, concreto y con fecha. Se queda solo en tu navegador.</p>
                     <textarea id="commitment" placeholder="Antes del ... voy a..." onchange="saveCommitment(this.value)"></textarea>
                 </div>
             </div>
@@ -2548,9 +2548,16 @@ function renderCatalogDisplays() {
 // de 17 items, tres compromisos) o se borra la maquinaria que no se use.
 var META_TIPO_CATALOG = [];
 
-// --- Brujula display (lee reflexion del Curso 2 L6 desde localStorage cross-curso) ---
+// --- Brujula display (devuelve el compromiso de cierre de otro curso de la linea) ---
+// 02-oct-2026 (ADR-115): lee PRIMERO el Compromiso Personal (commitment_<courseId>),
+// que se queda solo en este navegador. Hasta hoy leia la reflexion de cierre, y para
+// eso esas reflexiones pedian la frase del compromiso: la reflexion viaja a la hoja de
+// la Asociacion y el aviso de registro promete que el compromiso no. La reflexion queda
+// solo como respaldo para quien curso con la version anterior.
 function getBrujulaText(sourceCourseId, sourceModule) {
     try {
+        var compromiso = localStorage.getItem('commitment_' + sourceCourseId);
+        if (compromiso && compromiso.trim()) return compromiso;
         var raw = localStorage.getItem('courseProgress_' + sourceCourseId);
         if (!raw) return null;
         var p = JSON.parse(raw);
@@ -2565,12 +2572,15 @@ function renderBrujulaDisplays() {
         var srcCourse = el.getAttribute('data-source-course') || '';
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
+        var compromisoGuardado = null;
+        try { compromisoGuardado = localStorage.getItem('commitment_' + srcCourse); } catch (e) {}
+        var esCompromiso = !!(compromisoGuardado && compromisoGuardado.trim());
         if (!txt || !txt.trim()) {
-            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aquí todavía no hay nada guardado.</strong><br>Si hiciste ese curso en otro dispositivo, pulsa "Recuperar mi avance" en la pantalla de registro y vuelve a esta lección.</div>';
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aquí todavía no hay nada guardado.</strong><br>El «Compromiso Personal» de cada curso se queda en el navegador donde lo escribiste; si hiciste ese curso en otro dispositivo, ábrelo allá y cópialo en tu hoja.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-display-content">' +
-            '<div class="brujula-display-label">🧭 Lo que escribiste:</div>' +
+            '<div class="brujula-display-label">' + (esCompromiso ? '🧭 Lo que escribiste:' : '🧭 Lo que anotaste al cierre (tu compromiso completo no está en este navegador):') + '</div>' +
             '<blockquote class="brujula-display-text">' + escapeHtml(txt) + '</blockquote>' +
         '</div>';
     });

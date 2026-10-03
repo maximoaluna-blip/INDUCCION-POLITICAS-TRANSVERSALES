@@ -3,7 +3,7 @@
   "title": "Entornos Seguros: la Política A Salvo del Peligro",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "Cuatro palabras que usamos como sinónimos y no lo son: peligro, riesgo, abuso, violencia. Aquí vas a saber qué entiende la ASC por «entorno seguro», qué dice exactamente la política que se aprobó en diciembre de 2025, y por qué te protege a ti también. Sin esto, el Curso 03 se lee como una lista de prohibiciones.",
-  "contentVersion": "2026-09-18",
+  "contentVersion": "2026-10-02",
   "icon": "🏕️",
   "duration": "30 minutos",
   "status": "active",
@@ -553,7 +553,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Mira el último mes del grupo de WhatsApp de adultos de tu grupo, y míralo dos veces. La primera, buscando algo que tú no volverías a escribir. La segunda, buscando algo que a otro le dolió y nadie cortó. No cuentes ninguna de las dos cosas: escribe una sola frase con lo que vas a hacer distinto a partir de mañana — lo que vas a escribir, o lo que vas a cortar. Guárdala: al final del curso, después del certificado, te la van a pedir en el cuadro «Compromiso Personal»."
+        "prompt": "Mira el último mes del grupo de WhatsApp de adultos de tu grupo, y míralo dos veces. La primera, buscando algo que tú no volverías a escribir. La segunda, buscando algo que a otro le dolió y nadie cortó. No cuentes ninguna de las dos cosas. ¿Cuál de las dos miradas te costó más, y cuántos mensajes encontraste en ella? <strong>Escribe solo eso</strong> — por ejemplo, «la primera, 2». La frase con lo que vas a hacer distinto a partir de mañana la escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -630,7 +630,7 @@
     "description": "ha completado el Curso 02 de la Línea Políticas Transversales — Entornos Seguros, comprendiendo qué entiende la Asociación por A Salvo del Peligro y por entorno seguro, la diferencia entre peligro, riesgo, abuso y violencia, la protección que la Política extiende también a los propios adultos, los tres compromisos de la Declaración —incluida la imposibilidad de guardar secretos— y el alcance de la Política Nacional A Salvo del Peligro, aprobada por el Acuerdo C.S.N. 657 del 3 de diciembre de 2025, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
   },
   "commitmentBox": {
-    "prompt": "Pega aquí la frase de la última lección: <strong>lo que vas a hacer distinto a partir de mañana</strong> — lo que vas a escribir, o lo que vas a cortar.",
+    "prompt": "Escribe aquí <strong>lo que vas a hacer distinto a partir de mañana</strong> — lo que vas a escribir, o lo que vas a cortar. Se queda solo en tu navegador.",
     "placeholder": "A partir de mañana voy a..."
   }
 }

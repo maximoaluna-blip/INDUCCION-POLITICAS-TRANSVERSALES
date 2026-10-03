@@ -3,7 +3,7 @@
   "title": "Diversidad e Inclusión: un Movimiento abierto a todos",
   "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
   "description": "«Abierta a todos» está en el Estatuto. Que sea verdad depende de cómo recibes al que llega distinto. Aquí vas a ver dónde escribió la ASC su compromiso con la inclusión, por qué lo adoptó en el mismo acto que A Salvo del Peligro, cómo se llama lo que excluye sin querer —y lo que excluye cuidando de más— y qué ajuste concreto puedes hacer tú esta semana.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "icon": "🌈",
   "duration": "35 minutos",
   "status": "active",
@@ -60,7 +60,7 @@
     "description": "ha completado el Curso 04 de la Línea Políticas Transversales — Diversidad e Inclusión, reconociendo que el Estatuto Nacional de 2025 declara a la Asociación Scouts de Colombia abierta a todos, sin distinción de nacionalidad, género, etnia, credo o condición social, y cuenta la equidad y la inclusión entre sus principios de buena gobernanza; que por el Acuerdo C.S.N. 405 de 2020 la Asociación adoptó en un mismo acto la política A Salvo del Peligro y una política de Diversidad e Inclusión de la Organización Mundial del Movimiento Scout; distinguiendo, con la Política Interamericana de Diversidad e Inclusión de la Región Scout Interamericana, la diversidad, la inclusión, el estigma, la discriminación —también la que ocurre por omisión y sin intención— y el asistencialismo; aplicando el enfoque diferencial y de derechos humanos del Manual Operativo de la Política A Salvo del Peligro; reconociendo las barreras físicas, comunicativas y culturales y la trampa de la sobreprotección, y habiendo fijado un ajuste concreto y con fecha para que su grupo sea más abierto. Este certificado acredita haber cursado esta formación"
   },
   "commitmentBox": {
-    "prompt": "Pega aquí el ajuste que fijaste en la última lección: <strong>uno</strong>, concreto y con fecha, para que tu grupo sea más abierto.",
+    "prompt": "Escribe aquí <strong>el ajuste</strong> que vas a hacer para que tu grupo sea más abierto: uno, concreto y con fecha. Se queda solo en tu navegador.",
     "placeholder": "Antes del ... voy a..."
   },
   "modules": [
@@ -582,7 +582,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>«Abierta a todos» se cumple —o no— en cómo recibes al que llega distinto, y en cosas pequeñas.</strong> Una hora de reunión que cambia de día. Una convocatoria que también se escribe. Una rampa prestada. Una pregunta —<em>«¿qué necesitas para poder venir?»</em>— hecha a la persona y no sobre ella. Aquí abajo eliges <strong>una</strong> y le pones fecha; al final, junto al certificado, te pedimos que la pegues para tenerla a la vista."
+          "text": "<strong>«Abierta a todos» se cumple —o no— en cómo recibes al que llega distinto, y en cosas pequeñas.</strong> Una hora de reunión que cambia de día. Una convocatoria que también se escribe. Una rampa prestada. Una pregunta —<em>«¿qué necesitas para poder venir?»</em>— hecha a la persona y no sobre ella. Aquí abajo nombras de qué tipo es la tuya; el ajuste concreto, con su fecha, lo escribes al final, junto al certificado, en el cuadro que se queda en tu navegador."
         },
         {
           "type": "info-box",
@@ -614,7 +614,7 @@
         ]
       },
       "reflection": {
-        "prompt": "Elige <strong>un</strong> ajuste que puedas hacer esta semana para que tu grupo sea más abierto: una barrera que quitar, una hora que cambiar, un canal que añadir, una pregunta que hacer a quien corresponde. Escríbelo en una línea, <strong>con fecha</strong>, sin nombres. Es tu compromiso de este curso."
+        "prompt": "Piensa en <strong>un</strong> ajuste que puedas hacer esta semana para que tu grupo sea más abierto. ¿De qué tipo es: una barrera que quitar, una hora que cambiar, un canal que añadir o una pregunta que hacer a quien corresponde? <strong>Escribe solo el tipo.</strong> El ajuste concreto, con su fecha, lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
       }
     }
   ]
