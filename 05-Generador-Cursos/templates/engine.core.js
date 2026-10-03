@@ -332,7 +332,8 @@ function checkQuiz(moduleNum) {
         var cuales = falladas.length === 1
             ? 'Fallaste la pregunta ' + falladas[0]
             : 'Fallaste las preguntas ' + falladas.slice(0, -1).join(', ') + ' y ' + falladas[falladas.length - 1];
-        showNotification(cuales + '. Revisa esa parte de la lección y vuelve a intentarlo; puedes hacerlo las veces que quieras.', 'warning');
+        showNotification(cuales + '. Revisa ' + (falladas.length === 1 ? 'esa parte' : 'esas partes') +
+            ' de la lección y vuelve a intentarlo; puedes hacerlo las veces que quieras.', 'warning');
         // No auto-reset: en cuanto el usuario hace clic en una opcion, selectOption() limpia las marcas
         // de esa pregunta y vuelve a mostrar el boton "Verificar". Esto evita que un reset por tiempo
         // borrara la nueva seleccion del usuario antes de que pulsara verificar.
@@ -792,6 +793,21 @@ function _wrapText(pdf, text, maxWidth) {
     return pdf.splitTextToSize(text || '', maxWidth);
 }
 
+// Dirección de la página que verifica los certificados de ESTA línea (ADR-128). Se
+// deduce de la URL del curso: los cursos viven en <repo>/02-Plataforma-Web/ y la
+// página en la raíz del repo (ADR-070). Sin http(s) (curso abierto como archivo) no
+// hay dirección que imprimir y se devuelve null.
+function urlVerificacion(code) {
+    if (!/^https?:$/.test(location.protocol)) return null;
+    var base = location.pathname.replace(/\/02-Plataforma-Web\/[^\/]*$/, '/');
+    if (base === location.pathname) base = location.pathname.replace(/[^\/]*$/, '');
+    var pagina = location.host + base + 'verificar-certificado.html';
+    return {
+        visible: pagina,
+        enlace: location.protocol + '//' + pagina + (code ? '?codigo=' + encodeURIComponent(code) : '')
+    };
+}
+
 function downloadCertificatePDF() {
     var certModule = document.getElementById('module-' + (COURSE_CONFIG.totalModules - 1));
     var cert = certModule ? certModule.querySelector('.certificate') : null;
@@ -1005,7 +1021,15 @@ function downloadCertificatePDF() {
         pdf.setTextColor(150, 150, 150);
         pdf.text('Plataforma de Formación de Adultos ASC', pageW / 2, pageH - 16, { align: 'center' });
         pdf.setFontSize(6);
-        pdf.text('Verifica este certificado ingresando el código en la plataforma web', pageW / 2, pageH - 12, { align: 'center' });
+        // ADR-128: el pie dice DONDE se verifica y, en el PDF, se puede pulsar con el
+        // codigo ya puesto. Antes decia «en la plataforma web» sin decir cual.
+        var verif = urlVerificacion(code);
+        if (verif) {
+            var pie = 'Verifica este certificado en ' + verif.visible;
+            pdf.textWithLink(pie, (pageW - pdf.getTextWidth(pie)) / 2, pageH - 12, { url: verif.enlace });
+        } else {
+            pdf.text('Verifica este certificado con su código en la página de verificación de la plataforma', pageW / 2, pageH - 12, { align: 'center' });
+        }
 
         // --- Guardar ---
         if (mobile) {
