@@ -110,5 +110,19 @@
     "status": "active",
     "file": "rutas-de-atencion-primeros-auxilios.html",
     "folder": "rutas-de-atencion-primeros-auxilios"
+  },
+  {
+    "courseId": "senales-maltrato-negligencia-vif",
+    "title": "Reconocer señales: maltrato, negligencia y violencia intrafamiliar",
+    "description": "Una señal no es una prueba: es una razón para reportar. En este curso vas a reconocer lo que se puede ver desde la unidad —en el maltrato, la negligencia, la violencia en casa y la violencia sexual—, a no confundir pobreza con descuido, a saber qué no se hace nunca ante una sospecha, y a reportar a tiempo. Sin imágenes y sin detalles: aquí se aprende a mirar, no a diagnosticar.",
+    "icon": "🔎",
+    "duration": "45 minutos",
+    "level": 2,
+    "levelName": "Profundización por política",
+    "order": 8,
+    "modules": 7,
+    "status": "draft",
+    "file": "senales-maltrato-negligencia-vif.html",
+    "folder": "senales-maltrato-negligencia-vif"
   }
 ]

@@ -68,6 +68,11 @@ const FALLBACK = [
     file: 'rutas-de-atencion-primeros-auxilios.html',
     tituloIncluye: 'Rutas de atención',
   },
+  {
+    courseId: 'senales-maltrato-negligencia-vif',
+    file: 'senales-maltrato-negligencia-vif.html',
+    tituloIncluye: 'Reconocer señales',
+  },
 ];
 
 let CURSOS = FALLBACK;
