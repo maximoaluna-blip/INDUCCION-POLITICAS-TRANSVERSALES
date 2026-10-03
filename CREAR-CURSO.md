@@ -40,7 +40,7 @@ Cada ficha explicita audiencia primaria y secundaria.
 | Nivel | Nombre | Cursos | Audiencia primaria | Estado |
 |---|---|---|---|---|
 | 1 | **Ruta de Fundamentación** | 6 | Todo adulto que ingresa | **Completo** (6 de 6, ADR-097) |
-| 2 | Profundización por política | 7 | Dirigentes de unidad, jefes de grupo, equipos de dirigentes | **En curso** (2 de 7: 12 y 07; ADR-110 y 115) |
+| 2 | Profundización por política | 7 | Dirigentes de unidad, jefes de grupo, equipos de dirigentes | **En curso** (3 de 7: 12, 07 y 08; ADR-110, 115 y 121) |
 | 3 | Especialización por cargo | 5 | Cargos ASP y comisionados | Por planear |
 | 4 | Transversales | 4 | Familias, partes interesadas | Por planear |
 
@@ -84,6 +84,7 @@ Kebab-case, sin tildes ni ñ, máximo 5 palabras significativas.
 | 1 | 04 Diversidad e Inclusión | `diversidad-e-inclusion-movimiento` | **publicado** · 35 min (ADR-097) |
 | 1 | 05 Gestión para la Motivación | `gestion-para-la-motivacion` | **publicado** · 35 min |
 | 1 | 06 Mi Compromiso con los Entornos Seguros | `mi-compromiso-entornos-seguros` | **publicado** · 60 min |
+| 2 | 08 Reconocer señales: maltrato, negligencia y violencia intrafamiliar | `senales-maltrato-negligencia-vif` | **publicado** · 45 min (ADR-121) |
 | 2 | 07 Rutas de atención y primeros auxilios psicológicos | `rutas-de-atencion-primeros-auxilios` | **publicado** · 50 min (ADR-115) |
 | 2 | 12 Motivar al equipo de dirigentes | `motivar-al-equipo-de-dirigentes` | **publicado** · 45 min (ADR-110; el Plan lo llamaba `motivar-al-consejo-de-grupo`) |
 
@@ -201,6 +202,12 @@ La landing solo pinta la navegación por nivel cuando hay **dos**. Al publicarse
 
 ### Un «ninguna fuente lo dice» hay que buscarlo en TODO el documento (Curso 07, ADR-115)
 La duda 2 del Plan y el Curso 03 afirmaron desde septiembre que ninguna fuente fija el orden entre el Estado y el botón. **La Guía lo fija ante riesgo inmediato** (aviso verbal a la Policía; pp. 26, 28 y 30), pero en las secciones de **cada tipo de violencia**, no en la de rutas, que fue donde se buscó. Es el «cero de búsqueda» del §4-bis con otra ropa: **no se buscó mal la palabra, se buscó en el capítulo equivocado**.
+
+### Cuando la tesis del curso es la respuesta, el quiz se aprueba sin leer (Curso 08, ADR-121)
+El 08 enseña una sola conducta —«reporta ya, no investigues, no etiquetes»— y en las 12 preguntas la clave era esa conducta: **regla ciega 6 de 6 por tono**. Se arregló con claves que a veces **no** son «reportar» (un raspón visto no es señal; qué se escribe en el formulario) y distractores que son **la tesis leída por exceso** (reportar con etiqueta, reportar «por si acaso», el lunes). Y ojo con lo contrario: dos claves premiaban **clasificar** («eso no es negligencia»), justo lo que el curso dice que no le toca al adulto.
+
+### Un factor de riesgo no es una señal
+La Guía lista como factores de riesgo condiciones de la familia (padres no biológicos, pobreza, discapacidad). **No se enseñan como señales**: es el estigma del Curso 04. Ver el glosario.
 
 ### Lo que la reflexión pide viaja a la hoja (ADR-117)
 La reflexión de cierre de los ocho cursos pedía la frase del compromiso «para pegarla al final», y el aviso de registro promete que el compromiso no sale del navegador. **La reflexión pide lo mínimo; la frase, una vez, en «Compromiso Personal».** Y al cambiar una reflexión, **revisar el texto que la rodea** (los «cópialo abajo») y **quién la lee** (la brújula del 06).
@@ -336,6 +343,8 @@ No repetir; queda como acta de lo que costó:
 - [`../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md`](../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md) — referencia viva del proyecto.
 
 ---
+
+_Versión 1.4 — 02-oct-2026: Curso 08 publicado (ADR-121); dos lecciones en §4-bis (la tesis como respuesta a ciegas; factor ≠ señal)._
 
 _Versión 1.3 — 02-oct-2026: Curso 07 publicado (ADR-115); dos lecciones nuevas en §4-bis (el orden ante riesgo inmediato estaba en otro capítulo; privacidad de la reflexión de cierre)._
 
