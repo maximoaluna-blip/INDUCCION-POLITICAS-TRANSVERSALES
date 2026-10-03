@@ -78,6 +78,11 @@ const FALLBACK = [
     file: 'cuidado-del-adulto-salud-mental.html',
     tituloIncluye: 'Cuidar a los que cuidan',
   },
+  {
+    courseId: 'actividades-seguras-y-datos',
+    file: 'actividades-seguras-y-datos.html',
+    tituloIncluye: 'Actividades seguras',
+  },
 ];
 
 let CURSOS = FALLBACK;

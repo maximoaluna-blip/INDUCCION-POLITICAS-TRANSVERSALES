@@ -215,6 +215,9 @@ La reflexión de cierre de los ocho cursos pedía la frase del compromiso «para
 ### Quien escribe las opciones deja de ser lector ciego (Curso 13, ADR-126)
 El auditor que propuso las reescrituras se midió a sí mismo y dijo que la regla ciega bajaba. Un lector nuevo aprobó **6 de 6**. **La regla ciega la mide siempre alguien que no escribió las opciones.** Y cada ronda cierra fugas de forma y abre otras: la opción integradora («X, y además Y»), el par gemelo, el distractor que la lección critica de forma explícita, el término que ya trae la definición. **Pedir al lector que separe forma de sentido común**: lo segundo, en un curso de conducta, es estructural, y perseguirlo no tiene fin.
 
+### En un curso de protocolos, la clave es siempre la estricta (Curso 09, ADR-130)
+Las 12 claves eran «no se puede», frente a dos distractores «se puede si…». Se aprueba eligiendo la opción más restrictiva. **Dar claves permisivas donde la fuente las permite**: la EPS sí se pide; el seguimiento lo hace quien no va. Y **romper el «uno distinto contra dos iguales»**: que un distractor comparta el encabezado de la clave y falle solo en la condición. Ojo también con la fuente que **no dice a quién**: el plan del evento que pide la Política es de la Comisión Nacional, no del grupo.
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 
@@ -349,6 +352,8 @@ No repetir; queda como acta de lo que costó:
 - [`../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md`](../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md) — referencia viva del proyecto.
 
 ---
+
+_Versión 1.6 — 03-oct-2026: Curso 09 publicado (ADR-130) y los 11 cursos con el motor de los ADR-128/129; una lección en §4-bis (la clave estricta)._
 
 _Versión 1.5 — 03-oct-2026: Curso 13 publicado (ADR-126) y los 10 cursos con el motor del ADR-127; dos lecciones en §4-bis (el lector ciego no escribe las opciones; un curso de salud mental no pregunta cómo estás)._
 

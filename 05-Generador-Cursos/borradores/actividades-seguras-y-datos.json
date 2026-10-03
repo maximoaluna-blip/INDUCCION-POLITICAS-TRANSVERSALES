@@ -1,0 +1,650 @@
+{
+  "courseId": "actividades-seguras-y-datos",
+  "title": "Actividades seguras: transporte, comida, accidentes y datos",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "La Asociación tiene protocolos de obligatorio cumplimiento para lo que más se improvisa en una salida: el bus, la comida, el fuego y el accidente. Aquí los recorres con una salida de grupo de principio a fin, aprendes qué firma la familia y qué no reemplaza esa firma, qué se avisa a quién cuando alguien se lastima, y qué haces con los datos que todo eso te obliga a recoger.",
+  "contentVersion": "2026-10-03",
+  "icon": "🚌",
+  "duration": "40 minutos",
+  "status": "active",
+  "level": 2,
+  "levelName": "Profundización por política",
+  "order": 9,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Plan antes que salida",
+      "emoji": "🗺️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Un cinturón por puesto",
+      "emoji": "🚌",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "La firma no basta",
+      "emoji": "✍️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Comida y fuego en regla",
+      "emoji": "🍲",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Dos reportes distintos",
+      "emoji": "🩹",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Solo lo necesario",
+      "emoji": "🗂️",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Actividad segura",
+      "emoji": "🚌",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "ACTIVIDADES SEGURAS: TRANSPORTE, COMIDA, ACCIDENTES Y DATOS",
+    "description": "ha completado el Curso 09 de la Línea Políticas Transversales — Actividades seguras, conociendo el plan A Salvo del Peligro que la Política Nacional (Acuerdo C.S.N. 657 de 2025) pide para los eventos nacionales y regionales, y su versión en pequeño para las salidas de grupo; los protocolos de la Comisión Nacional de Gestión del Riesgo para el transporte (CNGR-022), la alimentación (CNGR-091), los combustibles (CNGR-092) y la atención de la póliza de accidentes (CNGR-093), con sus formatos de autorización y salida anticipada; la diferencia entre avisar un accidente y reportar un incidente de protección; y los principios con que la Asociación trata los datos personales que esas actividades recogen. Este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una cosa concreta que vas a hacer distinto en la próxima salida</strong> de tu grupo. Se queda solo en tu navegador.",
+    "placeholder": "En la próxima salida voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Un sábado, la tropa espera un bus que consiguió el tío de un dirigente «por un precio buenísimo». Llega una buseta con doce puestos para quince scouts. Nadie trae la lista de quiénes van, la comida la prepara la mamá de un scout en su casa, y alguien echa en el morral un galón de gasolina «para prender la fogata». Nada de eso es mala fe: es no conocer los protocolos que la Asociación ya tiene por escrito."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 40 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Armar</strong>, para una salida de tu unidad, un plan con la lógica del plan de eventos de la Política: rutas del lugar, riesgos del programa y canal de reporte.",
+            "<strong>Verificar</strong> un vehículo y un desplazamiento con el Protocolo Nacional de Transporte.",
+            "<strong>Distinguir</strong> qué cubre la firma de una autorización y qué no reemplaza.",
+            "<strong>Aplicar</strong> las reglas básicas de alimentación y combustibles en una salida.",
+            "<strong>Diferenciar</strong> el aviso de un accidente del reporte de un incidente de protección.",
+            "<strong>Tratar</strong> los datos que recoges con los principios de la Asociación: solo lo necesario, y por el canal que corresponde."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica el módulo oficial de A Salvo del Peligro</strong> que exige la Asociación. Tampoco reemplaza a tu Comisionado Regional de Gestión del Riesgo: los protocolos cambian, y el vigente es el que te confirme. Se recomiendan antes el Curso 14 de Desarrollo Institucional (<em>Gestión del Riesgo</em>) y el Curso 25 de Programa de Jóvenes (<em>A Salvo del Peligro aplicado al Programa</em>), sobre los que este se apoya."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🗺️ Antes de salir: el plan",
+      "emoji": "🗺️",
+      "navLabel": "El plan",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en los eventos nacionales y regionales, la Comisión Nacional de A Salvo del Peligro arma un plan escrito para antes, durante y después. Para la salida de tu grupo, este curso te propone la misma lógica en pequeño."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué lleva el plan de un evento nacional o regional",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Articulación con los eventos», p. 33.",
+          "text": "Desarrollar y adaptar a cada evento un plan de A Salvo del Peligro para ejecutarse previo, durante y posteriormente, en articulación con la Comisión Nacional de Gestión de Riesgos; este deberá incluir las rutas de atención en salud, protección y justicia del municipio, el programa planeado, la infraestructura a usar y otros elementos relevantes, incluyendo un código buenas prácticas y los mecanismos de reporte de incidentes con los que cuenta Scouts de Colombia"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📍 Las rutas del municipio",
+              "description": "Dónde queda el hospital, la estación de Policía y la Comisaría de Familia <strong>del lugar al que vas</strong>, no del de tu sede. El Curso 07 te enseñó a armar ese mapa.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏕️ El programa y el lugar",
+              "description": "Qué se va a hacer, en qué infraestructura, y qué riesgos trae cada cosa: el río, la cocina, la noche, el traslado.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🔴 Cómo se reporta",
+              "description": "Que todos sepan por dónde va un incidente: el botón «Me Pongo A Salvo del Peligro». En los eventos nacionales, con códigos QR a mano (p. 44).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Esa lista es de la <strong>Comisión Nacional de A Salvo del Peligro</strong>, para los eventos nacionales y regionales; en los masivos se designa además a una persona responsable de que el plan se cumpla. La Política pide que todos los eventos, de cualquier nivel, cumplan sus directrices. Para la salida de un sábado con tu unidad, <strong>la propuesta de este curso</strong> es la misma lógica en pequeño: antes de salir, las rutas del lugar, el programa con sus riesgos y por dónde se reporta, por escrito. No te enredes con los nombres: la Comisión Nacional de A Salvo del Peligro arma el plan de los eventos nacionales y regionales; la de <strong>Gestión del Riesgo</strong>, en la Región o en la Nación, es a la que tú le escribes por el bus y por los accidentes."
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>¿A quién le toca?</strong> Los protocolos de la Comisión Nacional de Gestión del Riesgo ponen la responsabilidad principal en la jefatura de cada nivel: <strong>en el grupo, el Jefe de Grupo</strong> o el responsable que él delegue (Protocolo de Transporte, p. 2). En la Región, el <strong>Comisionado Regional de Gestión del Riesgo</strong> recibe las notificaciones y avala los procedimientos. El Curso 14 de Desarrollo Institucional te cuenta qué hace cada cargo y te mandó a preguntar en tu Región por los protocolos: aquí están los nacionales."
+        },
+        {
+          "type": "info-box",
+          "text": "⏳ <strong>Un informe que quizá te mencionen.</strong> El Manual Operativo de 2023 pedía a los grupos un «Informe Periódico de Actividades Seguras» cada cuatro meses (p. 22). La Política de 2025, que prevalece, rehízo la lista de instrumentos de seguimiento y <strong>ese informe ya no aparece</strong>: ahora habla de un informe semestral de incidentes, general, que no pone en cabeza de los grupos (p. 36). Si en tu Región te lo piden, pregunta con qué formato y por qué norma."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: el transporte 🚌",
+        "questions": [
+          {
+            "text": "El plan del campamento en un municipio nuevo ya trae el programa, el lugar y cómo se reporta. En «rutas» anotaron el hospital y la Comisaría de Familia que quedan cerca de la sede del grupo. ¿Qué le dirías al equipo?",
+            "options": [
+              "Que esas sirven en la ciudad; para el campamento van las del municipio donde acampan.",
+              "Que está completo: las rutas del grupo son las mismas para cualquier salida que se haga.",
+              "Que sobra: con el botón de reporte a mano, las rutas del municipio ya no hacen falta."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "La Región le recuerda a tu grupo que debe entregar el «Informe Periódico de Actividades Seguras» de este cuatrimestre. ¿Qué te propone la lección?",
+            "options": [
+              "Que preguntes con qué norma lo piden: la Política de 2025 no lo incluye.",
+              "Que lo entregues: el Manual de 2023 lo pide y la Región es quien lo exige.",
+              "Que preguntes si ahora va a la Comisión Nacional, que lo recibe directo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe las tres líneas que llevarías anotadas en el plan de la próxima salida de un sábado: una de rutas del lugar, una de riesgos del programa y una de cómo se reporta. Sin direcciones ni nombres: solo qué anotarías (por ejemplo, «hospital más cercano al parque»)."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🚌 El transporte",
+      "emoji": "🚌",
+      "navLabel": "Transporte",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el vehículo más barato puede salir carísimo. El protocolo de transporte es obligatorio, se verifica por trayecto y tiene dos personas clave: una que va en el bus y otra que no."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si hiciste el Curso 25 de Programa de Jóvenes, ya viste un resumen de este protocolo. Aquí vas a ver cómo se verifica, paso a paso, y quién hace qué."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la advertencia con que abre el protocolo",
+          "source": "Protocolo Nacional de Transporte CNGR-022-1 (Comisión Nacional de Gestión del Riesgo, mayo de 2025), p. 1.",
+          "text": "La responsabilidad legal y moral por una negligencia en la elección del transporte recae sobre quien autoriza el desplazamiento. No ahorre en seguridad: invierta en un transporte confiable y legal"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "💺 Cupo = cinturones",
+              "description": "El número máximo de pasajeros lo fijan <strong>los cinturones que funcionan</strong>, no los asientos. Un puesto sin cinturón no cuenta. En buses y microbuses, la primera fila detrás del conductor debe tenerlo (p. 2).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🚫 Nunca en el platón",
+              "description": "Camiones, volquetas y vehículos con platón no son aptos para pasajeros, salvo en la cabina y con cinturón (p. 2).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🤝 Sin intermediarios",
+              "description": "Se contrata directo con la empresa o el dueño, con contrato escrito, y se verifica en el SIMIT al conductor y al vehículo. Si el viaje pasa de <strong>ocho horas</strong>, segundo conductor (pp. 2–3).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🔁 Si cambian el bus",
+              "description": "El vehículo nuevo debe cumplir <strong>exactamente</strong> las mismas condiciones y papeles que el que se verificó. Y la verificación se hace por trayecto: ida y regreso (pp. 1 y 11).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "Antes · la lista de chequeo",
+              "description": "El <strong>Dirigente Supervisor del Viaje</strong>, que nombra la jefatura, diligencia la «Lista de chequeo – aceptación de vehículo» (CNGR-023): documentos en original, SOAT, revisión técnico-mecánica, cinturones, frenos, extintor, botiquín… La envía con el listado de pasajeros y la foto del vehículo y del conductor al correo institucional de la Comisión Regional de Gestión del Riesgo, y el <strong>Comisionado Regional</strong> la avala —el nacional, si el evento es nacional— (pp. 4, 7 y 11)."
+            },
+            {
+              "title": "Durante · uno vigila, otro sigue",
+              "description": "En el bus, el supervisor vigila que el conductor no exceda la velocidad, no adelante en zonas prohibidas ni use el celular; si no corrige, pide detener el vehículo (p. 12). Hay paradas cada 2 o 3 horas, y en ellas nadie se aleja solo. Fuera del bus, un <strong>Dirigente Designado para Seguimiento, que no asiste a la actividad</strong>, recibe los avisos de salida, paradas y novedades, y sigue la ubicación compartida (pp. 4–5 y 8)."
+            },
+            {
+              "title": "Después · todos en casa",
+              "description": "Se confirma la llegada a las familias y a Gestión del Riesgo, se reportan las novedades y <strong>los menores se entregan solo a los responsables autorizados</strong>. El supervisor le avisa al de seguimiento que no hubo novedad cuando todos están en sus domicilios (pp. 5 y 13)."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Por qué el de seguimiento no va en el bus.</strong> Una razón fácil de ver: si hay un accidente, quienes van adentro están ocupados con los heridos. El protocolo pone a alguien afuera, con el teléfono libre, para que avise a la jefatura y esta <strong>asuma el control</strong> de la situación (pp. 7–8)."
+        },
+        {
+          "type": "info-box",
+          "text": "📌 <strong>Qué te llevas y qué consultas.</strong> No tienes que memorizar la lista de chequeo: el formato CNGR-023 la trae entera. Lo que sí te llevas puesto: el cupo lo dan los cinturones, nadie va en un platón, se contrata sin intermediarios y alguien sigue el viaje desde afuera."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: autorizaciones ✍️",
+        "questions": [
+          {
+            "text": "La buseta que consiguió el tío tiene 12 asientos, pero a dos se les dañó el cinturón. Viajan 10 scouts y 2 dirigentes: un asiento para cada uno. ¿Qué dice el protocolo?",
+            "options": [
+              "Que el cupo es de 10: dos personas tienen que irse en otro vehículo.",
+              "Que el cupo es de 12: los dos puestos sin cinturón los ocupan los dirigentes.",
+              "Que el cupo es de 10 en carretera; en un trayecto urbano y corto caben los 12."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Para el campamento de la Tropa, el Jefe de Grupo tiene que nombrar al Dirigente Designado para Seguimiento. ¿A quién le corresponde, según el protocolo?",
+            "options": [
+              "Al Jefe de Manada, que se queda en la ciudad y conoce a todas las familias.",
+              "Al subjefe de Tropa, que va en el bus y puede ver todo lo que pase en el camino.",
+              "Al Jefe de Grupo, que va al campamento y es quien responde por la actividad."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la primera pregunta que le harías al dueño de un bus antes de contratarlo, para saber si cumple el protocolo."
+      }
+    },
+    {
+      "id": 4,
+      "title": "✍️ Autorizaciones, documentos y salidas anticipadas",
+      "emoji": "✍️",
+      "navLabel": "Autorizaciones",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la autorización firmada por la familia es necesaria, pero no te exime de verificar. Y cuando alguien se va antes, la salida también se documenta."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📝 Autorización de participación (CNGR-025)",
+              "description": "La firman los representantes legales del menor. Autoriza el evento, al dirigente responsable y los desplazamientos, y a que reciba atención médica de inmediato en una emergencia si no es posible contactarlos a tiempo. Trae su EPS y sus alergias o condiciones médicas.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🪪 Documentos para viajar (CNGR-022, p. 11)",
+              "description": "Hasta 6 años, registro civil; de 7 a 17, tarjeta de identidad; adultos, cédula, pasaporte o permiso de permanencia. Si el menor viaja con un adulto que no es su padre, madre o tutor, el <strong>formato oficial de autorización de viaje</strong>, firmado y con sus anexos.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚪 Salida anticipada (CNGR-020 y 021)",
+              "description": "Si un scout se va antes, o sale un rato y vuelve, quien lo retira firma el reporte con la fecha y la hora. Para un menor, lo firma su madre, padre o tutor; para un adulto, él mismo. Desde ese momento, la supervisión de la Asociación sobre él cesa.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El formato de autorización trae una cláusula en la que la familia exime a la Asociación y a los dirigentes de responsabilidad por lo que pueda pasar en el evento, <em>«salvo que dicha eventualidad sea consecuencia de dolo o culpa grave»</em> (CNGR-025, p. 1). Y el Protocolo de Transporte termina con esta frase:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la frase con que cierra el protocolo",
+          "source": "Protocolo Nacional de Transporte CNGR-022-1, p. 13.",
+          "text": "Este protocolo es de obligatorio cumplimiento en todos los niveles de la Asociación Scouts de Colombia; el desconocimiento de este no exime de responsabilidad a los adultos involucrados"
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ <strong>En simple:</strong> la familia firma después de que le cuentan las medidas de seguridad y los protocolos de la Asociación (CNGR-025, numeral 5): firma contando con que se cumplen. Por eso <strong>la firma no reemplaza la lista de chequeo</strong>. Este curso no te da una interpretación jurídica de la cláusula: te dice que lo que el protocolo te pide verificar, lo verificas igual."
+        },
+        {
+          "type": "info-box",
+          "text": "👥 <strong>Y en la entrega.</strong> Al final del trayecto, los menores se entregan <strong>solo a los responsables autorizados</strong> (CNGR-022, p. 13). Que el último scout no quede esperando a solas con un adulto es la práctica 2+1 que trabaja el Curso 25 de Programa de Jóvenes."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: comida y fuego 🍲",
+        "questions": [
+          {
+            "text": "Antes del viaje, una mamá pregunta: «Si ya firmé la autorización que exime al grupo, ¿para qué tanta revisión del bus?». ¿Qué le respondes con la lección?",
+            "options": [
+              "Que la revisión va igual: firmó contando con que se cumplen los protocolos.",
+              "Que la revisión es solo para proteger al grupo de una posible demanda.",
+              "Que la revisión sobra: con la firma, el grupo ya quedó exento de responsabilidad."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "A la mitad de un campamento, un tío de una lobata llega a recogerla «porque la mamá no pudo venir». No trae nada firmado. ¿Qué pide la lección?",
+            "options": [
+              "Que la salida la firme la madre, padre o tutor en el reporte de salida anticipada.",
+              "Que se la entregas si la mamá lo autoriza por llamada o por mensaje al dirigente.",
+              "Que se la entregas si trae la autorización de participación firmada por la mamá."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Una familia te cuenta que su hija irá al campamento con la abuela, no con ellos. Escribe en una o dos frases qué le dirías para que no lleguen el sábado sin lo que hace falta."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🍲 Comida y fuego",
+      "emoji": "🍲",
+      "navLabel": "Comida y fuego",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> una intoxicación o un incendio en campamento casi siempre empiezan por un ahorro o una costumbre. Los protocolos de alimentación y de combustibles dicen dónde no se negocia."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo cierra el protocolo de alimentación",
+          "source": "Protocolo de acciones preventivas para la contratación de servicios de alimentación CNGR-091-1 (enero de 2026), p. 6.",
+          "text": "Todos los dirigentes son responsables de exigir cumplimiento estricto. La salud de nuestros scouts no está en negociación"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🚫 Ni contratada ni usada si…",
+              "description": "…viene de una vivienda familiar o de particulares sin dedicación profesional, si los papeles están vencidos, si no hay personal certificado o si no se sabe de dónde viene (CNGR-091, p. 3).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🧑‍🍳 Si el grupo cocina",
+              "description": "Una persona, de preferencia con curso de manipulación de alimentos vigente; <strong>al menos dos si son más de 30 jóvenes</strong>. Menú aprobado al planear, malla para el cabello, agua potable, cocción mínima de <strong>72 °C</strong>, y lo que genere duda, se descarta (p. 3).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🤢 Si varios se enferman",
+              "description": "Dos o más personas con síntomas parecidos entre 2 y 72 horas después de comer es un posible brote: aislar a los afectados, hidratar, remitir al centro de salud, anotar qué comieron, guardar muestras si se puede y reportar de inmediato a la autoridad de salud del lugar y a la Comisión Nacional de Gestión del Riesgo (p. 5).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El protocolo también pide <strong>registrar antes</strong> las alergias y restricciones médicas, y servir un menú diferenciado y bien identificado a quien lo necesite (p. 6). Cómo se cuida esa información en la unidad lo trabaja el Curso 25 de Programa de Jóvenes; en la Lección 6 vas a ver qué haces tú con ella."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "⛺ Nada de llama en la carpa",
+              "description": "Ni para calentarse un rato: <strong>ninguna llama ni equipo de combustión</strong> entra a una carpa o estructura cerrada (CNGR-092, p. 2).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🔥 Fogata sin gasolina",
+              "description": "La gasolina «para prender la fogata» del sábado no va: el protocolo restringe los combustibles líquidos para encender fogatas, y pone la gasolina y el alcohol líquido entre los <strong>no recomendados</strong> (p. 2).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🚌 Ni con los pasajeros",
+              "description": "Está <strong>prohibido transportar combustible junto con pasajeros</strong> (p. 3). Y se guarda en su envase original, vertical, lejos de cualquier fuente de calor.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: cuando hay un accidente 🩹",
+        "questions": [
+          {
+            "text": "El grupo le encarga el almuerzo del campamento a la mamá de un scout, que cocina para eventos en la cocina de su casa. ¿Qué dice el protocolo de alimentación?",
+            "options": [
+              "Que no se contrata: la comida no puede venir de una vivienda familiar.",
+              "Que se contrata si ella tiene curso vigente de manipulación de alimentos.",
+              "Que no se contrata: en campamento el grupo siempre cocina su propia comida."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Para la cocina del campamento, un dirigente sube al bus de los scouts la pipeta de gas de la estufa, bien cerrada. ¿Qué dice el protocolo de combustibles?",
+            "options": [
+              "Que la pipeta va en otro vehículo: el combustible no viaja con pasajeros.",
+              "Que la pipeta puede ir en la bodega del bus, lejos de los pasajeros.",
+              "Que la pipeta va en otro vehículo, salvo que sea pequeña, de las de camping."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una alternativa concreta a una de estas costumbres —la comida hecha en casa, la gasolina para la fogata o la estufa dentro de la carpa— que no le quite nada a la salida."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🩹 Cuando hay un accidente",
+      "emoji": "🩹",
+      "navLabel": "Accidentes",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un accidente y un incidente de protección se avisan por caminos distintos. Confundirlos tiene costo en los dos sentidos."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Asociación tiene una <strong>póliza de accidentes personales</strong> para sus miembros asegurados, que se renueva cada 1 de abril. Está activa todo el año, las 24 horas, <strong>solo para actividades scout</strong> de la Asociación. Aunque el carné diga que hay que llamar para activarla, ya está activa (CNGR-093, p. 1)."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1 · La familia, de inmediato",
+              "description": "Apenas ocurre el accidente, se avisa a los padres o representantes legales y se les cuenta lo que pasó (p. 1)."
+            },
+            {
+              "title": "2 · La línea de la aseguradora",
+              "description": "Se llama a la línea de atención que trae el protocolo vigente y se pide que indiquen <strong>a qué institución médica llevarlo</strong>. El protocolo es explícito: <strong>no se pide «activar la póliza»</strong> (p. 1)."
+            },
+            {
+              "title": "3 · La Comisión, de inmediato",
+              "description": "El responsable de la actividad notifica <strong>de inmediato</strong> —y a más tardar en 24 horas— a la <strong>Comisión Nacional de Gestión del Riesgo</strong>, por correo a <code>riesgo@scout.org.co</code>, con la fecha, la hora, el lugar, qué pasó y las lesiones. La Comisión dice cómo seguir con la póliza (pp. 1–2)."
+            },
+            {
+              "title": "4 · Los reembolsos",
+              "description": "Si la familia pagó copagos o atención particular, puede pedir el reembolso con los soportes que lista el protocolo (pp. 2–3)."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📬 <strong>Ojo con los dos correos.</strong> En eventos de grupo, distrito o región, la lista de chequeo del bus va a la Comisión <strong>Regional</strong> de Gestión del Riesgo; el accidente se notifica a la Comisión <strong>Nacional</strong>."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🩹 Un accidente",
+              "description": "Un scout se fractura un brazo en un juego. <strong>Se avisa a la familia de inmediato</strong>, se le atiende por la póliza y se notifica a Gestión del Riesgo de inmediato (máximo 24 horas).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🔴 Un incidente de protección",
+              "description": "Un scout revela que alguien le hace daño. <strong>Va por el botón</strong> «Me Pongo A Salvo del Peligro». A la familia se la orienta; <strong>no se le cuentan los detalles del reporte</strong>, y si el daño puede venir de casa, nada del reporte. Y si es un posible delito, también se avisa al Estado (Curso 07). Si hay riesgo inmediato, el primer aviso es de palabra a la Policía.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🔀 <strong>Y si es las dos cosas</strong> —una lesión que alguien causó a propósito, por ejemplo—, se hacen las dos: la atención y el aviso de Gestión del Riesgo por la lesión, y el botón por el daño. En el correo a Gestión del Riesgo cuentas la lesión; lo que el scout reveló va <strong>solo</strong> por el botón. Lo que no se hace es usar uno para no hacer el otro."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar: los datos que recoges 🗂️",
+        "questions": [
+          {
+            "text": "Un rover se cae en una caminata y se lesiona el tobillo. Llamas a la línea de la aseguradora. ¿Qué te pide el protocolo que solicites en esa llamada?",
+            "options": [
+              "Que te indiquen a qué institución médica llevarlo.",
+              "Que activen la póliza con el número que trae su carné.",
+              "Que te autoricen la atención en la clínica que tú elijas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En el campamento, una scout le cuenta a su dirigente que su padrastro le pega. ¿Qué hace el dirigente, según la lección?",
+            "options": [
+              "Reporta por el botón lo que ella contó, avisa también al Estado y no le anuncia el reporte a la familia.",
+              "Le pregunta los detalles para tener el relato completo, y luego lo reporta por el botón y al Estado.",
+              "Reporta por el botón lo que ella contó, avisa al Estado y llama a la mamá para que esté enterada."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe, en una frase y con tus palabras, cómo le explicarías a otro dirigente la diferencia entre avisar un accidente y reportar un incidente de protección."
+      }
+    },
+    {
+      "id": 7,
+      "title": "🗂️ Los datos que recoges",
+      "emoji": "🗂️",
+      "navLabel": "Los datos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> todo lo de esta ruta te hace recoger datos personales —y varios son sensibles—. Se recoge lo necesario, se manda por el canal institucional y no se queda regado en tu celular."
+        },
+        {
+          "type": "paragraph",
+          "text": "Repasa lo que juntaste: listados con nombres, documentos y contactos de emergencia; autorizaciones con la EPS y las alergias; el formato de viaje del Ministerio, que pregunta si el menor tiene una discapacidad o pertenece a una comunidad étnica. La Asociación tiene una política para tratar esa información, y estos son los principios que más te tocan:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎯 Finalidad y límite razonable",
+              "description": "Se recoge para algo concreto y solo lo <em>«esencialmente necesario»</em> para ese propósito. Si el campamento no necesita un dato, no se pide.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🔒 Acceso y circulación restringida",
+              "description": "Solo la ven las personas autorizadas. Quien cocina necesita saber de la alergia; el grupo de familias no necesita el listado con los documentos de todos.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🛡️ Seguridad",
+              "description": "Se maneja con las medidas necesarias para evitar su pérdida, su adulteración o que alguien la consulte sin autorización.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué son los datos sensibles",
+          "source": "Política y Procedimientos de Tratamiento de la Información Personal de la Asociación Scouts de Colombia (Acuerdo C.S.N. 369 de 2020), «Definiciones legales». Publicada en scout.org.co/politica-privacidad.",
+          "text": "Se entiende por datos sensibles aquellos que afectan la intimidad del Titular o cuyo uso indebido puede generar su discriminación, tales como aquellos que revelen el origen racial o étnico, la orientación política, las convicciones religiosas o filosóficas […], así como los datos relativos a la salud, a la vida sexual, y los datos biométricos"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📧 Al correo de la Comisión",
+              "description": "El protocolo manda la lista de chequeo y el <strong>listado de ocupantes con sus contactos de emergencia</strong> al correo institucional de la Comisión de Gestión del Riesgo (CNGR-022, pp. 4 y 11).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "💬 Al grupo de familias",
+              "description": "El protocolo pide un grupo de WhatsApp con los acudientes para la <strong>ubicación, las paradas y la llegada</strong> (p. 11). No dice que allí vaya el listado: las familias necesitan saber dónde va el bus, no el documento de los demás. Eso es lo «esencialmente necesario».",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "📱 Después del viaje",
+              "description": "El responsable del transporte lleva copia física o digital de los documentos (p. 11). <strong>La propuesta de este curso:</strong> cuando termina la actividad, esas copias vuelven al archivo del grupo y salen de tu celular personal.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🚑 <strong>Confidencial no es inaccesible.</strong> La política de la Asociación no exige autorización en los <em>«casos de urgencia médica o sanitaria»</em>. Si hay un accidente, le das al médico la EPS y las alergias sin dudarlo. Lo que no haces es tomarles foto a todas las fichas y pasarlas al chat de dirigentes «por si acaso»: el Curso 25 de Programa de Jóvenes trabaja ese caso."
+        },
+        {
+          "type": "mission-box",
+          "text": "La buseta del tío, el galón en el morral, la comida hecha en casa: ahora sabes qué hacer con cada uno. El bus con un cinturón por puesto y alguien que lo sigue desde afuera; la firma de la familia, que no reemplaza la lista de chequeo; el accidente, que se avisa a la familia, y el daño, que va por el botón; los datos, que se recogen para algo y no se quedan regados. Nada de esto quita la aventura de la salida. Hace que todos vuelvan."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Para que las familias estén tranquilas, un dirigente propone pasar al grupo de WhatsApp de acudientes el listado de pasajeros con documentos y contactos de emergencia. ¿Qué dicen el protocolo y la política de datos?",
+            "options": [
+              "Que el listado va a la Comisión; a las familias, la ubicación y la llegada.",
+              "Que el listado puede ir, siempre que se le quiten los números de documento.",
+              "Que el listado va a la Comisión y también a las familias, que lo piden."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al diseñar la ficha de inscripción del campamento, alguien duda de pedir la EPS y las alergias de cada scout, «porque son datos de salud». ¿Qué le respondes con la lección?",
+            "options": [
+              "Que se piden: hacen falta para atenderlos, y se guardan con acceso limitado.",
+              "Que no se piden: la salud es un dato sensible y la ley no deja recogerlo.",
+              "Que se piden, y se comparten en el chat de dirigentes para tenerlos a mano."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe en una frase la regla que usarías para decidir si un dato entra o no en la ficha de una salida. No describas lo que hace tu grupo hoy. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}
