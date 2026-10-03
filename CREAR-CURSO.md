@@ -212,6 +212,12 @@ La Guía lista como factores de riesgo condiciones de la familia (padres no biol
 ### Lo que la reflexión pide viaja a la hoja (ADR-117)
 La reflexión de cierre de los ocho cursos pedía la frase del compromiso «para pegarla al final», y el aviso de registro promete que el compromiso no sale del navegador. **La reflexión pide lo mínimo; la frase, una vez, en «Compromiso Personal».** Y al cambiar una reflexión, **revisar el texto que la rodea** (los «cópialo abajo») y **quién la lee** (la brújula del 06).
 
+### Quien escribe las opciones deja de ser lector ciego (Curso 13, ADR-126)
+El auditor que propuso las reescrituras se midió a sí mismo y dijo que la regla ciega bajaba. Un lector nuevo aprobó **6 de 6**. **La regla ciega la mide siempre alguien que no escribió las opciones.** Y cada ronda cierra fugas de forma y abre otras: la opción integradora («X, y además Y»), el par gemelo, el distractor que la lección critica de forma explícita, el término que ya trae la definición. **Pedir al lector que separe forma de sentido común**: lo segundo, en un curso de conducta, es estructural, y perseguirlo no tiene fin.
+
+### Un curso de salud mental no pregunta cómo estás (Curso 13)
+En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
+
 ---
 
 ## 5. Hilos cross-course
@@ -343,6 +349,8 @@ No repetir; queda como acta de lo que costó:
 - [`../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md`](../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md) — referencia viva del proyecto.
 
 ---
+
+_Versión 1.5 — 03-oct-2026: Curso 13 publicado (ADR-126) y los 10 cursos con el motor del ADR-127; dos lecciones en §4-bis (el lector ciego no escribe las opciones; un curso de salud mental no pregunta cómo estás)._
 
 _Versión 1.4 — 02-oct-2026: Curso 08 publicado (ADR-121); dos lecciones en §4-bis (la tesis como respuesta a ciegas; factor ≠ señal)._
 

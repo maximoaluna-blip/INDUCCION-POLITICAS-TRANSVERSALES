@@ -124,5 +124,19 @@
     "status": "active",
     "file": "senales-maltrato-negligencia-vif.html",
     "folder": "senales-maltrato-negligencia-vif"
+  },
+  {
+    "courseId": "cuidado-del-adulto-salud-mental",
+    "title": "Cuidar a los que cuidan: protección entre adultos y salud mental",
+    "description": "La Política de 2025 dice que el bienestar de quienes educan es responsabilidad de todos. Aquí vas a ver qué es la salud mental sin convertirte en terapeuta, cómo escuchar a un compañero que no está bien, cómo cuidar tu propio balde, qué son de verdad los espacios ¡Óyeme! —y qué no son—, y qué hacer cuando el daño viene de otro adulto del Movimiento.",
+    "icon": "🫂",
+    "duration": "30 minutos",
+    "level": 2,
+    "levelName": "Profundización por política",
+    "order": 13,
+    "modules": 7,
+    "status": "active",
+    "file": "cuidado-del-adulto-salud-mental.html",
+    "folder": "cuidado-del-adulto-salud-mental"
   }
 ]

@@ -1,0 +1,580 @@
+{
+  "courseId": "cuidado-del-adulto-salud-mental",
+  "title": "Cuidar a los que cuidan: protección entre adultos y salud mental",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "La Política de 2025 dice que el bienestar de quienes educan es responsabilidad de todos. Aquí vas a ver qué es la salud mental sin convertirte en terapeuta, cómo escuchar a un compañero que no está bien, cómo cuidar tu propio balde, qué son de verdad los espacios ¡Óyeme! —y qué no son—, y qué hacer cuando el daño viene de otro adulto del Movimiento.",
+  "contentVersion": "2026-10-03",
+  "icon": "🫂",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 2,
+  "levelName": "Profundización por política",
+  "order": 13,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Quien cuida también cuenta",
+      "emoji": "🫂",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Salud mental, sin diagnósticos",
+      "emoji": "🧠",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Escuchar sin arreglar",
+      "emoji": "👂",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Mi propio balde",
+      "emoji": "🪣",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "¡Óyeme!, bien entendido",
+      "emoji": "🎧",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Entre adultos también",
+      "emoji": "⚖️",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Cuidar a los que cuidan",
+      "emoji": "🫂",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "CUIDAR A LOS QUE CUIDAN: PROTECCIÓN ENTRE ADULTOS Y SALUD MENTAL",
+    "description": "ha completado el Curso 13 de la Línea Políticas Transversales — Cuidar a los que cuidan, reconociendo con la Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657 de 2025) que el bienestar de quienes educan es una responsabilidad colectiva y que el adulto no tiene funciones de atención en salud mental; comprendiendo, con el Safe from Harm Mental Health Toolkit de la Organización Mundial del Movimiento Scout (2022), qué es la salud mental, cuándo hace falta ayuda profesional y cómo escuchar a un compañero sin intentar resolverle la vida; sabiendo qué son los espacios ¡Óyeme! y qué no son; y que el abuso de poder o el acoso entre adultos también se reporta. Este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una cosa concreta que vas a hacer este mes</strong> para cuidar tu balde o el de tu equipo. Se queda solo en tu navegador.",
+    "placeholder": "Este mes voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Un dirigente que sostiene una unidad, un trabajo, una familia y, a veces, una revelación difícil. Una jefa de grupo que hace de todo y a la que nadie le pregunta cómo está. Esta línea entera habla de cuidar a los chicos; este curso habla de <strong>quién cuida a los que cuidan</strong> — y de que eso, según la Política de 2025, no es un favor: es una responsabilidad de todos."
+        },
+        {
+          "type": "info-box",
+          "text": "💛 <strong>Antes de seguir.</strong> Aquí se habla de salud mental y, en la última lección, de acoso y abuso de poder entre adultos. No vamos a describir enfermedades ni a pedirte que nos cuentes cómo estás tú: nada de eso va en las reflexiones, que viajan a la hoja de la Asociación. Si algo de lo que lees te toca de cerca, para cuando quieras —tu avance se guarda— y busca a alguien de confianza o a un profesional de la salud."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> por qué el bienestar de los adultos es responsabilidad colectiva, según la Política de 2025.",
+            "<strong>Distinguir</strong> salud mental de enfermedad mental, y reconocer cuándo hace falta ayuda profesional, sin diagnosticar a nadie.",
+            "<strong>Escuchar</strong> a un compañero que no está bien sin intentar resolverle la vida.",
+            "<strong>Aplicar</strong> el balde del estrés y la pausa STOPP a una situación de tensión.",
+            "<strong>Distinguir</strong> qué es y qué no es un espacio ¡Óyeme!, y <strong>elegir</strong> a qué puerta acudir cuando el daño viene de otro adulto."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica el módulo oficial de A Salvo del Peligro</strong> que exige la Asociación. Se recomienda haber hecho antes los Cursos 02, 03 y 07, aunque ninguno es requisito."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🫂 Quién cuida a los que cuidan",
+      "emoji": "🫂",
+      "navLabel": "Quién cuida",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Política no dice «cuídate tú solo». Dice que el bienestar de quienes educan es de todos, con la misma importancia que el de quienes aprenden."
+        },
+        {
+          "type": "paragraph",
+          "text": "En los Cursos 02 y 03 ya leíste que la política <em>«no solo protege a jóvenes, sino también a los adultos»</em>. La misma página dice dos cosas más, que son las que este curso desarrolla:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que la Política dice del bienestar de los adultos",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 30. «Ambas políticas» son la de Entornos Seguros y la de Adultos en el Movimiento.",
+          "text": "Reconocer y garantizar que las personas adultas dentro Scouts de Colombia sean cuidadas, acompañadas y protegidas. Esto implica asumir que el bienestar emocional, físico y relacional de quienes educan y acompañan, también es una responsabilidad colectiva. […] La articulación entre ambas políticas consolida una cultura organizacional del cuidado, en la que el bienestar de quienes educan tiene igual relevancia que el de quienes aprenden"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🤝 «Responsabilidad colectiva»",
+              "description": "No es solo «cada quien se cuida». Es que el equipo nota cuando alguien está cargado, y hace algo. Si en tu grupo nadie pregunta cómo está el que siempre resuelve, ahí hay un hueco.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "⚖️ «Igual relevancia»",
+              "description": "El bienestar del adulto no va después del de los chicos, como algo que se atiende si sobra tiempo. Va al mismo nivel — y es razonable: un adulto agotado cuida peor.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "↔️ «Cuidado horizontal entre pares»",
+              "description": "La misma página habla de un cuidado <strong>entre pares</strong>, donde se puedan expresar preocupaciones de manera segura y se eviten <em>«relaciones jerárquicas dañinas o punitivas»</em>. No espera a que el jefe se dé cuenta: lo hace el compañero.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En la práctica eso se ve en cosas pequeñas: preguntar en serio «¿cómo vas?» a quien llega cansado; repartir de verdad las tareas para que no sea siempre el mismo; que decir «esta semana no puedo» no se lea como falta de compromiso. El Curso 05 lo llamó <em>cuidar a los adultos que cuidan</em>; aquí la Política le pone nombre de obligación."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: salud mental 🧠",
+        "questions": [
+          {
+            "text": "Un grupo quiere cuidar mejor a sus dirigentes y tiene tres ideas. ¿Cuál es la que pide la página 30 de la Política, según la lección?",
+            "options": [
+              "Que un compañero note que otro está cargado y haga algo, sin esperar al jefe.",
+              "Que el jefe de grupo revise cada mes, uno por uno, cómo está cada dirigente.",
+              "Que el consejo nombre a un responsable fijo del bienestar de los adultos."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Para cuidar a una dirigente agotada, el equipo propone cancelar la salida de la tropa del sábado «porque primero está ella». ¿Qué responde la lección a esa lógica?",
+            "options": [
+              "Que no hay un «primero»: el equipo la cubre a ella sin dejar a los chicos sin salida.",
+              "Que no hay un «primero»: que ella decida si se cancela o no la salida del sábado.",
+              "Que se cancela, pero se repone otro sábado: así nadie se queda sin salida."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De las tres ideas —responsabilidad colectiva, igual relevancia, cuidado entre pares—, elige una y escribe una cosa pequeña que un equipo de dirigentes podría hacer en su próxima reunión para practicarla. Sin nombres."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🧠 Salud mental, lo básico",
+      "emoji": "🧠",
+      "navLabel": "Salud mental",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> todos tenemos salud mental, como todos tenemos salud física. No hace falta saber de enfermedades para cuidarla; sí hace falta saber cuándo pedir ayuda."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición que usa la OMMS",
+          "source": "Safe from Harm Mental Health Toolkit (Organización Mundial del Movimiento Scout, enero de 2022), p. 7, citando a la Organización Mundial de la Salud. Traducción nuestra.",
+          "text": "Un estado de bienestar en el que cada persona desarrolla su propio potencial, puede afrontar las tensiones normales de la vida, trabajar de forma productiva y fructífera, y hacer un aporte a su comunidad"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌗 Salud mental",
+              "description": "La tenemos todos, y cambia con el tiempo. El toolkit lo compara con la gripa: así como a veces nos enfermamos del cuerpo, a veces no estamos bien por dentro. <strong>Sentirse mal o preocupado de vez en cuando es normal</strong>; lo importante es reconocerlo y hacer algo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🩺 Enfermedad mental",
+              "description": "Una variedad de condiciones que afectan la salud mental y pueden cambiar mucho la vida de quien las tiene. <strong>No es debilidad</strong>, y se puede tratar. Reconocerla y tratarla es trabajo de profesionales, no de un compañero de grupo.",
+              "color": "#ede7f6",
+              "borderColor": "#7e57c2"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El toolkit describe algunas condiciones —la depresión, la ansiedad— para quienes trabajan con jóvenes. <strong>Este curso no las enseña a reconocer en un compañero</strong>, y no es un descuido: la Política de 2025 dice que el adulto ha de <em>«no tener funciones investigativas ni de atención en salud mental»</em> (p. 29). Lo que sí te llevas es la regla que el toolkit da para todos:"
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>Cuándo pedir ayuda.</strong> Es normal no sentirse bien a veces. Pero si el ánimo bajo <strong>dura semanas o meses</strong>, o empieza a <strong>afectar la vida diaria</strong>, hace falta buscar ayuda — de alguien de confianza y, sobre todo, de un profesional (Toolkit, pp. 28 y 30). Vale para ti y vale para el compañero que te lo cuenta."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: escuchar a un compañero 👂",
+        "questions": [
+          {
+            "text": "Después de un campamento que salió mal, una dirigente dice que lleva unos días desanimada. ¿Qué es lo coherente con la regla del toolkit?",
+            "options": [
+              "Que unos días así pueden ser normales: escúchala y fíjate si se alarga o le pesa más.",
+              "Que le propongas tomarse unas semanas fuera del grupo, hasta que se sienta mejor.",
+              "Que le preguntes cómo duerme y cómo come, para ver si tiene síntomas de ansiedad."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una compañera te cuenta que lleva dos meses durmiendo mal y sin ganas de nada, y que ya le está costando su trabajo. ¿Qué te pide el curso?",
+            "options": [
+              "Que le digas que eso ya merece ayuda profesional, y la acompañes a buscarla.",
+              "Que identifiques si es depresión o ansiedad, para orientarla mejor a buscar ayuda.",
+              "Que le propongas descansar del grupo un tiempo, y ver si con eso se le pasa."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la frase con la que le dirías a un compañero que busque a un profesional, sin que suene a diagnóstico. No escribas nada sobre ti ni sobre otra persona."
+      }
+    },
+    {
+      "id": 4,
+      "title": "👂 Escuchar a un compañero",
+      "emoji": "👂",
+      "navLabel": "Escuchar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> a veces lo único que alguien necesita es que lo escuchen. Escuchar no es arreglar."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice el toolkit sobre cuidar a otros",
+          "source": "Safe from Harm Mental Health Toolkit (OMMS, 2022), p. 43. Traducción nuestra.",
+          "text": "Todos en el Escultismo deberían entender que tienen el deber de cuidarse a sí mismos y a los demás. Recuerda que no siempre se trata de reaccionar o de dar consejos. A veces, todo lo que alguien necesita es que lo escuchen"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Pregunta cómo se siente",
+              "description": "Empieza por ahí, y escucha. No necesitas tener la respuesta: no te pidieron que resolvieras nada.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "✅ Acepta lo que dice como su verdad",
+              "description": "Aunque tú lo verías distinto. Discutirle cómo se siente le enseña a no volver a contártelo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "❌ No saltes con tus opiniones",
+              "description": "Ni con tu historia ni con lo que tú harías. Eso puede venir después, si te lo pide.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "❌ No lo vuelvas todo positivo",
+              "description": "«Míralo por el lado bueno» suele sonar a «no me cuentes eso». Aceptar que las cosas están difíciles ya acompaña.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Son las pautas de <em>Mental Health Matters</em>, una presentación que la Oficina Scout Mundial compartió en un evento virtual (f. 12). Si hiciste los Cursos 03 y 07, te van a sonar: son las mismas de los <strong>primeros auxilios psicológicos</strong> —escuchar sin presionar, no juzgar, no inventar— aplicadas a un compañero. Y no choca con el «no preguntes» del Curso 03: allí alguien te revela un daño y no te toca investigar; aquí preguntas cómo se siente, no qué pasó ni quién fue."
+        },
+        {
+          "type": "info-box",
+          "text": "🚧 <strong>Y el mismo límite.</strong> Escuchar a un compañero cabe en tu papel; <strong>atenderlo como terapeuta no</strong> (Política, p. 29). Si lo que te cuenta lleva semanas o afecta su vida, tu ayuda es que llegue a un profesional. Y si temes un riesgo inmediato para su vida o su integridad, no esperes ni lo dejes solo: avisa de palabra a la Policía y, según el caso, al centro de salud o al hospital más cercano. Es la misma conducta que el Curso 07 enseña ante el riesgo inmediato; aquí la propone este curso, porque la Guía la escribió para casos de violencia. Y si lo que le pasa viene de algo que ocurre dentro del Movimiento —un trato, un abuso de poder—, eso además es un incidente (Lección 6)."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: tu propio balde 🪣",
+        "questions": [
+          {
+            "text": "Un compañero te cuenta que está agotado con la tropa y tú le respondes: «bueno, tampoco es para tanto, ¿no?». ¿Qué pauta de la lección te saltaste?",
+            "options": [
+              "No discutirle cómo se siente.",
+              "No volverlo todo positivo.",
+              "No contarle tu propia historia."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una dirigente te dice: «ya no doy más con la tropa». ¿Cuál de estas respuestas sigue las pautas de la lección?",
+            "options": [
+              "«Suena a mucho peso. Cuéntame, te escucho.»",
+              "«Descansa: este fin de semana te reemplazo yo.»",
+              "«Te entiendo: a mí me pasó igual el año pasado.»"
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De las cuatro pautas para escuchar, ¿cuál te cuesta más cuando alguien te cuenta algo? Escribe solo cuál, y la frase que dirías en su lugar. Sin contar qué te contaron ni quién."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🪣 Tu propio balde",
+      "emoji": "🪣",
+      "navLabel": "Tu balde",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el estrés se acumula como agua en un balde. Cuidarte es saber qué lo llena y qué lo vacía — antes de que se rebose."
+        },
+        {
+          "type": "paragraph",
+          "text": "El toolkit trae una actividad para jóvenes, el <strong>balde del estrés</strong>, y recomienda a los dirigentes que prueben sus actividades <strong>primero con su propio equipo</strong> antes de llevarlas a los chicos (p. 5). Esta es buena para empezar por ti."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1 · Lo que llena",
+              "description": "Cada cosa que te estresa es un vaso de agua: el trabajo, una deuda, una revelación difícil que acompañaste, un consejo que salió mal. Ninguna sola rebosa el balde; juntas, sí."
+            },
+            {
+              "title": "2 · Cuando se rebosa",
+              "description": "El toolkit dice que el agua que se derrama representa el agotamiento, los estallidos emocionales u otra afectación de la salud mental (p. 36): cuando el estrés es demasiado, cuesta más sostenerse."
+            },
+            {
+              "title": "3 · Lo que vacía",
+              "description": "Leer, dormir una siesta, hacer ejercicio, estar con gente que quieres, hablar con alguien de confianza o con un profesional. Cada cosa que te hace bien saca un vaso."
+            }
+          ]
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "⏸️ S — Para",
+              "description": "Si te ves atrapado en preocupaciones que crecen, detente.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🌬️ T — Respira",
+              "description": "Unas cuantas respiraciones lentas, soltando el aire despacio.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "👁️ O — Observa",
+              "description": "¿A qué estoy reaccionando? ¿Estoy a salvo ahora mismo?",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🔭 P — Toma distancia",
+              "description": "¿Esto es importante? ¿Puedo hacer algo ya? ¿Hay otra forma de verlo? Este sentimiento va a pasar.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🛠️ P — Practica lo que te sirve",
+              "description": "Cuando me siento así, ¿qué me ayuda normalmente? ¿Qué es lo mejor que puedo hacer por mí ahora?",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Esa es la herramienta <strong>STOPP</strong> de <em>Mental Health Matters</em> (f. 14), en sus siglas en inglés. La misma presentación lo dice en una línea que esta línea de cursos suscribe: <em>como scouts podemos ayudar a otros, pero también necesitamos ayudarnos a nosotros mismos</em> (f. 9). Es la gasolina del Curso 05, dicha de otra manera."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: ¡Óyeme! 🎧",
+        "questions": [
+          {
+            "text": "Para tener más tiempo para el grupo, una jefa de manada dejó de salir a correr y de ver a sus amigos. Dice que así va a estar menos cargada. ¿Qué le muestra el balde del estrés?",
+            "options": [
+              "Que está quitando justo lo que vacía el balde, y se le va a llenar más rápido.",
+              "Que el balde se le va a vaciar, porque tendrá menos actividades en la semana.",
+              "Que da lo mismo mientras duerma bien: dormir es lo que más vacía el balde."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Antes de una reunión difícil, un jefe de tropa no para de imaginar lo peor. Ya se detuvo y respiró despacio. ¿Qué le propone el paso siguiente de STOPP?",
+            "options": [
+              "Preguntarse a qué está reaccionando y si está a salvo ahora mismo.",
+              "Preguntarse si esto es importante y si hay otra forma de verlo.",
+              "Preguntarse qué le ayuda normalmente cuando se siente de esta manera."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De las cosas que vacían el balde —leer, dormir, moverte, estar con gente que quieres, hablar con alguien—, ¿cuál es la más fácil de sostener en una semana de campamento o de evento? Escribe solo cuál, en una o dos palabras."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🎧 ¡Óyeme!: qué es y qué no",
+      "emoji": "🎧",
+      "navLabel": "¡Óyeme!",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ¡Óyeme! es un espacio de escucha en los eventos grandes, con personas certificadas. No es atención en salud mental, ni el reemplazo del botón."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la Política los espacios ¡Óyeme!",
+          "source": "Política Nacional a Salvo del Peligro (diciembre de 2025), p. 34.",
+          "text": "Incorporar el espacio de Óyeme (Listening Ears) dentro de los eventos regionales y nacionales. Quienes tendrán el rol de ser primeros respondientes, encauzando y fortaleciendo las habilidades socioemocionales de quién asista al espacio durante un momento de necesidad, ya sea que enfrente un desafío, un riesgo de daño o cuando experimente incomodidad"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Qué es",
+              "description": "Un espacio <strong>en eventos regionales y nacionales</strong>, atendido por <strong>dinamizadores certificados</strong>: un ambiente <em>«acogedor, seguro, no amenazante y sin ningún prejuicio»</em> para quien busque ayuda, <strong>para sí o para otras personas</strong>.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "❌ Qué no es",
+              "description": "No es atención en salud mental: la Política lo dice con esas palabras — <em>«dicha escucha no representa atención en salud mental»</em>. Los dinamizadores trabajan <em>«sin riesgo de extralimitación o desarrollo de competencias propias del Sistema de Salud»</em>.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🔗 Qué hace si hace falta más",
+              "description": "Enlaza con los coordinadores de ¡Óyeme! o los <strong>líderes de A Salvo del Peligro del evento</strong>, para evaluar necesidades y, si el caso lo pide, activar de inmediato las rutas que correspondan.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⏳ <strong>Un nombre que cambió de modelo.</strong> Si te formaron con el Manual Operativo de 2023, aprendiste del «Escuchadero» con psicólogo: ese modelo <strong>ya no es el vigente</strong>. En ¡Óyeme! nadie atiende como psicólogo: los dinamizadores escuchan y enlazan. No es un cambio de nombre, es otro modelo."
+        },
+        {
+          "type": "info-box",
+          "text": "🌍 <strong>Y no lo confundas con otra cosa del mismo nombre.</strong> El toolkit de la OMMS propone que cada grupo nombre entre sus dirigentes a un «Listening Ear» para los scouts (p. 44). <strong>En la ASC, ¡Óyeme! es el espacio de los eventos</strong>, con dinamizadores certificados que actúan a solicitud de la Coordinación Nacional de Espacios ¡Óyeme! (Política, p. 40). Prepararte para ser dinamizador será el <strong>Curso 16</strong> de esta línea, que no te certifica."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar: entre adultos ⚖️",
+        "questions": [
+          {
+            "text": "En un evento nacional, una dirigente pasa por el espacio ¡Óyeme! porque se siente desbordada. ¿Qué describe mejor lo que recibió allí?",
+            "options": [
+              "Una escucha de dinamizadores formados, que no es atención en salud mental.",
+              "Una primera atención breve del psicólogo del evento, sin necesidad de cita.",
+              "Una orientación de los líderes del evento, que abren de una vez un reporte."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En un evento nacional, un dirigente está preocupado por un compañero de su contingente que no quiere hablar con nadie. ¿Puede ir él al espacio ¡Óyeme! a pedir orientación?",
+            "options": [
+              "Sí: el espacio recibe también a quien busca ayuda para otra persona.",
+              "Sí, pero debe ir con su compañero: la escucha es para quien la necesita.",
+              "No directamente: primero debe hablarlo con el líder A Salvo del Peligro del evento."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Si mañana fueras a un evento nacional, ¿sabrías dónde queda el espacio ¡Óyeme! y para qué podrías usarlo? Escribe «sí» o «no», y qué te faltaría saber."
+      }
+    },
+    {
+      "id": 7,
+      "title": "⚖️ Cuando el daño viene de otro adulto",
+      "emoji": "⚖️",
+      "navLabel": "Entre adultos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el abuso de poder, el acoso o el maltrato entre adultos del Movimiento no tienes que aguantarlos en silencio: son incidentes, y se reportan como cualquier otro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya lo leíste en el Curso 03: la Política protege a los adultos <em>«frente a situaciones de riesgo, maltrato, abuso de poder o acoso»</em> y pide evitar <em>«relaciones jerárquicas dañinas o punitivas»</em> (p. 30). En un grupo scout eso tiene caras conocidas: el jefe que humilla delante de todos, el consejero que amenaza con «sacarte» si no haces lo que dice, el compañero que no deja de insinuar algo que te incomoda."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔴 Es un incidente",
+              "description": "Se reporta por el botón «Me Pongo A Salvo del Peligro», igual que lo que le pasa a un chico. El Curso 03 ya te lo dijo: <strong>el botón también es tuyo</strong>.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🏛️ El Estado también es tuyo",
+              "description": "Si lo que te pasó es violencia sexual o de género, la Guía de Prevención (2021) dice que puedes acudir directamente a la Policía o al centro de salud; si es violencia intrafamiliar, a la Comisaría de Familia. Eso se suma al botón, no lo reemplaza.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🤝 Para quien lo hizo",
+              "description": "La Política tiene un <strong>Equipo Nacional de Sensibilización</strong> que hace acompañamiento y <em>«prácticas de justicia restaurativa»</em> con quienes contravienen la política, cuando el Comité de Gestión de Incidentes lo pide (p. 40). Reportar no es solo castigar: también es que alguien deje de hacer daño.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "↔️ <strong>Y si te lo cuenta un compañero.</strong> Escúchalo como en la Lección 3, sin decidir tú si «es para tanto». Recuérdale que el botón también es para él. Y no te lo guardes: la Política dice que todas las personas tenemos la obligación de reportar lo que vulnere la dignidad de alguien del Movimiento, y que aquí no se guardan secretos (p. 21). Si él no lo reporta, lo reportas tú, y lo haces hoy; se lo dices —no le pides permiso—: no prometes secreto, pero tampoco actúas a sus espaldas."
+        },
+        {
+          "type": "mission-box",
+          "text": "Entraste a un curso de una línea que habla casi siempre de cuidar a los chicos. Sales sabiendo que la misma Política dice que <strong>el bienestar de quienes educan pesa lo mismo</strong>: que se cuida escuchando sin arreglar, vaciando tu balde a tiempo, sabiendo qué es y qué no es ¡Óyeme!, y sabiendo que lo que viene de otro adulto no tienes por qué aguantarlo en silencio. Cuidar a los que cuidan también es parte de la política."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Una dirigente recibe mensajes de acoso sexual de otro adulto del grupo y no sabe si puede ir a la Policía o si eso le toca a la Asociación. ¿Qué le dice la lección?",
+            "options": [
+              "Que puede ir directamente a la Policía, y que eso no le quita el botón.",
+              "Que use primero el botón, y vaya a la Policía solo si la Asociación no responde.",
+              "Que la Policía es para casos con menores; entre adultos, el camino es el botón."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un compañero duda de reportar a otro adulto porque «no quiere que lo echen, solo que deje de hacerlo». ¿Qué le puedes decir con la Política?",
+            "options": [
+              "Que reporte: la Política también prevé acompañamiento para quien hizo daño.",
+              "Que reporte: el Comité le pedirá a él que medie primero entre los dos adultos.",
+              "Que reporte: el caso lo llevará el consejo de su grupo, que conoce a los dos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la frase con la que le recordarías a un compañero que el botón también es para él. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

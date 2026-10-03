@@ -81,7 +81,7 @@
         },
         {
           "type": "info-box",
-          "text": "⏱️ <strong>Unos 45 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir —el sistema dice 70 %, y con dos preguntas eso son las dos—. Puedes reintentar, y cuando te equivocas el sistema te marca cuál era la buena."
+          "text": "⏱️ <strong>Unos 45 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar, y si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
         },
         {
           "type": "course-objectives",

@@ -73,6 +73,11 @@ const FALLBACK = [
     file: 'senales-maltrato-negligencia-vif.html',
     tituloIncluye: 'Reconocer señales',
   },
+  {
+    courseId: 'cuidado-del-adulto-salud-mental',
+    file: 'cuidado-del-adulto-salud-mental.html',
+    tituloIncluye: 'Cuidar a los que cuidan',
+  },
 ];
 
 let CURSOS = FALLBACK;

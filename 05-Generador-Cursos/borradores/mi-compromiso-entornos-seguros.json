@@ -71,7 +71,7 @@
         },
         {
           "type": "info-box",
-          "text": "⏱️ <strong>Unos 60 minutos, y la mayor parte no es leer: es contestar.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir — el sistema te va a decir que necesitas un 70 %, y con dos preguntas ese 70 % son las dos. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y cuando te equivocas el sistema te marca cuál era la buena. Tu avance se guarda, así que <strong>no lo hagas de una sentada</strong>: la Lección 4 te va a pedir pensar, y eso no se hace con prisa."
+          "text": "⏱️ <strong>Unos 60 minutos, y la mayor parte no es leer: es contestar.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. <strong>No es examen:</strong> puedes reintentarlo las veces que quieras, y si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar. Tu avance se guarda, así que <strong>no lo hagas de una sentada</strong>: la Lección 4 te va a pedir pensar, y eso no se hace con prisa."
         },
         {
           "type": "course-objectives",
