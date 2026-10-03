@@ -737,8 +737,10 @@
                     return response.json();
                 })
                 .then(function(data) {
-                    if (data.success) {
-                        resultArea.innerHTML = renderValid(data, code);
+                    // El backend responde {success:true, data:{valid:false}} a un codigo que no
+                    // existe: success solo dice que la consulta corrio, no que el certificado sea real.
+                    if (data.success && data.data && data.data.valid === true) {
+                        resultArea.innerHTML = renderValid(data.data, code);
                     } else {
                         resultArea.innerHTML = renderInvalid();
                     }
@@ -762,11 +764,11 @@
 
         function renderValid(data, code) {
             var fields = [
-                { label: 'Nombre del participante', value: data.nombre || '---', highlight: true },
-                { label: 'Curso completado', value: data.curso || '---', highlight: false },
-                { label: 'Fecha de emision', value: data.fecha || '---', highlight: false },
-                { label: 'Puntuacion', value: data.puntuacion || '---', highlight: false },
-                { label: 'Grupo Scout', value: data.grupo || '---', highlight: false },
+                { label: 'Nombre del participante', value: data.studentName || '---', highlight: true },
+                { label: 'Curso completado', value: data.course || '---', highlight: false },
+                { label: 'Fecha de emision', value: data.completionDate ? String(data.completionDate).slice(0, 10) : '---', highlight: false },
+                { label: 'Puntuacion', value: (data.score !== undefined && data.score !== '') ? data.score + ' %' : '---', highlight: false },
+                { label: 'Grupo Scout', value: data.group || '---', highlight: false },
                 { label: 'Region', value: data.region || '---', highlight: false }
             ];
 
