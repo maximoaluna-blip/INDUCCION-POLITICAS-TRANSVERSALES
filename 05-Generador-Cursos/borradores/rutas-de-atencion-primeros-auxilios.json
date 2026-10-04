@@ -57,7 +57,7 @@
   ],
   "certificate": {
     "courseName": "RUTAS DE ATENCIÓN Y PRIMEROS AUXILIOS PSICOLÓGICOS",
-    "description": "ha completado el Curso 07 de la Línea Políticas Transversales — Rutas de atención y primeros auxilios psicológicos, reconociendo con la Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657 de 2025) que la obligación de informar a los sistemas del Estado y la de reportar por el botón «Me Pongo A Salvo del Peligro» se suman y no se eligen, y que su papel nunca es investigativo, de gestión del reporte ni de atención en salud mental; distinguiendo, con la Guía de Prevención y Atención del Daño (2020-2021), qué autoridad del Estado atiende cada situación y cuál recibe a cualquier hora, qué son los primeros auxilios psicológicos y qué no son, sus tres principios —seguridad, dignidad y derechos— y el punto en que hace falta ayuda profesional; y sabiendo qué hace el Comité de Gestión de Incidentes después de un reporte. Este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+    "description": "ha completado el Curso 07 de la Línea Políticas Transversales — Rutas de atención y primeros auxilios psicológicos, reconociendo con la Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657 de 2025) que la obligación de informar a los sistemas del Estado y la de reportar por el botón «Me Pongo A Salvo del Peligro» se suman y no se eligen, y que su papel nunca es investigativo, de gestión del reporte ni de atención en salud mental; distinguiendo, con la Guía de Prevención y Atención del Daño (2020-2021), qué autoridad del Estado atiende cada situación y cuál recibe a cualquier hora, qué son los primeros auxilios psicológicos y qué no son, sus tres principios —seguridad, dignidad y derechos— y el punto en que hace falta ayuda profesional; y sabiendo qué hace el Comité de Gestión de Incidentes después de un reporte. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
   },
   "commitmentBox": {
     "prompt": "Escribe aquí tu compromiso: <strong>qué vas a dejar listo antes de tu próxima salida</strong> para saber a qué puerta tocar. Esta frase se queda solo en tu navegador.",
@@ -95,7 +95,7 @@
         },
         {
           "type": "info-box",
-          "text": "📌 <strong>Dos cosas claras desde el principio.</strong> Este curso <strong>no sustituye ni certifica el módulo oficial de A Salvo del Peligro</strong> que exige la Asociación: lo prepara y lo aterriza. Y <strong>recomendamos antes el Curso 03</strong>, <em>El Adulto como Garante</em>: aquí damos por sabidos sus dos primeros minutos y no los repetimos. No es requisito: ningún curso de esta plataforma bloquea a otro."
+          "text": "📌 <strong>Dos cosas claras desde el principio.</strong> Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación: los prepara y los aterriza. Si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Y <strong>recomendamos antes el Curso 03</strong>, <em>El Adulto como Garante</em>: aquí damos por sabidos sus dos primeros minutos y no los repetimos. No es requisito: ningún curso de esta plataforma bloquea a otro."
         }
       ]
     },

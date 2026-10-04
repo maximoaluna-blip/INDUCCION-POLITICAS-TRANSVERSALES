@@ -51,7 +51,7 @@
   ],
   "certificate": {
     "courseName": "MI COMPROMISO CON LOS ENTORNOS SEGUROS",
-    "description": "ha completado el Curso 06 de la Línea Políticas Transversales — Mi Compromiso con los Entornos Seguros, el último curso publicado de la Ruta de Fundamentación, habiendo valorado su Grupo Scout con los diecisiete ítems de la «Autoevaluación de grupo en relación a la Política A salvo del peligro» —formato de la serie documental de la Política Nacional de Adultos en el Movimiento— en sus cinco áreas: política, liderazgo, programa, compromiso juvenil y compromiso de los padres; habiendo reconocido que ese instrumento recomienda enfocarse en una o dos áreas y volver a aplicarlo a lo largo del año; habiendo vuelto sobre los compromisos que haya escrito en los cursos anteriores; y habiendo formulado compromisos propios, fechados y observables, para presentar ante su consejo de grupo. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
+    "description": "ha completado el Curso 06 de la Línea Políticas Transversales — Mi Compromiso con los Entornos Seguros, el último curso publicado de la Ruta de Fundamentación, habiendo valorado su Grupo Scout con los diecisiete ítems de la «Autoevaluación de grupo en relación a la Política A salvo del peligro» —formato de la serie documental de la Política Nacional de Adultos en el Movimiento— en sus cinco áreas: política, liderazgo, programa, compromiso juvenil y compromiso de los padres; habiendo reconocido que ese instrumento recomienda enfocarse en una o dos áreas y volver a aplicarlo a lo largo del año; habiendo vuelto sobre los compromisos que haya escrito en los cursos anteriores; y habiendo formulado compromisos propios, fechados y observables, para presentar ante su consejo de grupo. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza los módulos oficiales de A Salvo del Peligro que exige la Asociación"
   },
   "commitmentBox": {
     "prompt": "Escribe aquí <strong>la fecha del próximo consejo de grupo y la primera frase que vas a decir</strong>. Se queda solo en tu navegador.",
@@ -510,7 +510,7 @@
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>Lo que este curso NO acredita.</strong> Haber hecho esta formación <strong>no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro</strong> que exige la Asociación. Este curso te prepara, te explica y te ayuda a aterrizar; el certificado que la ASC exige lo emite la ASC."
+          "text": "⚠️ <strong>Lo que este curso NO acredita.</strong> Haber hecho esta formación <strong>no sustituye ni reemplaza los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación. Si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Este curso te prepara, te explica y te ayuda a aterrizar; el certificado que la ASC exige lo emite la ASC."
         },
         {
           "type": "mission-box",
@@ -533,8 +533,8 @@
           {
             "text": "Terminas este curso y descargas tu certificado. ¿Qué acredita exactamente?",
             "options": [
-              "Haber cursado esta formación; no sustituye el módulo oficial.",
-              "Haber cursado esta formación y el módulo oficial de la ASC.",
+              "Haber cursado esta formación; no sustituye los módulos oficiales.",
+              "Haber cursado esta formación y los módulos oficiales de la ASC.",
               "Haber cursado esta formación y quedar habilitado para reportar."
             ],
             "correctIndex": 0

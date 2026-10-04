@@ -100,8 +100,8 @@ for ln in LINEAS:
                 print(f"       correcta: {c.strip()}")
 
 # ══════════ REGLA 3 · el antídoto de no-sustitución
-MENCIONA = r"(m[oó]dulo (oficial |nacional )?de A Salvo del Peligro|curso o m[oó]dulo de A Salvo|cursos? SFH|cursos de A Salvo del Peligro)"
-ANTIDOTO = r"(no (lo )?(sustituye|reemplaza)|no sustituye|no reemplaza|esta plataforma no reemplaza|no certifica)"
+MENCIONA = r"(m[oó]dulos? (oficial(es)? |nacional(es)? )?de A Salvo del Peligro|curso o m[oó]dulo de A Salvo|cursos? SFH|cursos de A Salvo del Peligro)"
+ANTIDOTO = r"(no (los? )?(sustituye|reemplaza)|no sustituye|no reemplaza|esta plataforma no reemplaza|no certifica|ni (los? )?certifica)"
 print()
 print("═" * 78)
 print("REGLA 3 · cursos de PT que mencionan el módulo oficial sin el antídoto")

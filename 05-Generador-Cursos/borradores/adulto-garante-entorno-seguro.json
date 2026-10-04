@@ -53,7 +53,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>2. Este curso no reemplaza el módulo oficial.</strong> La Asociación exige realizar su propio curso o módulo de A Salvo del Peligro, y ese certificado lo emite la Asociación. Aquí preparamos, explicamos y aterrizamos. Si todavía no has hecho el módulo oficial, hazlo: este curso te va a servir para aprovecharlo mejor, no para saltártelo."
+          "text": "<strong>2. Este curso no reemplaza los módulos oficiales.</strong> La Asociación exige sus propios módulos de A Salvo del Peligro, y esos certificados los emite la Asociación. Aquí preparamos, explicamos y aterrizamos. Si todavía no los has hecho, hazlos —los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido»—: este curso te va a servir para aprovecharlos mejor, no para saltártelos."
         },
         {
           "type": "info-box",
@@ -815,7 +815,7 @@
   ],
   "certificate": {
     "courseName": "EL ADULTO COMO GARANTE: REPORTAR, NO INVESTIGAR",
-    "description": "ha completado el Curso 03 de la Línea Políticas Transversales — El Adulto como Garante, reconociendo la posición de garante que la ley le atribuye y el compromiso que la Promesa Scout le pide, la práctica 2+1 como medida que protege a menores y adultos, la conducta debida ante una revelación, la ruta oficial de reporte y el límite expreso de su rol, que en ningún caso es investigativo ni de gestión del reporte, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
+    "description": "ha completado el Curso 03 de la Línea Políticas Transversales — El Adulto como Garante, reconociendo la posición de garante que la ley le atribuye y el compromiso que la Promesa Scout le pide, la práctica 2+1 como medida que protege a menores y adultos, la conducta debida ante una revelación, la ruta oficial de reporte y el límite expreso de su rol, que en ningún caso es investigativo ni de gestión del reporte, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza los módulos oficiales de A Salvo del Peligro que exige la Asociación"
   },
   "commitmentBox": {
     "prompt": "Escribe aquí <strong>tus tres frases, numeradas</strong>: la 1, una conducta que puedes revisar el domingo; la 2, un hecho —guardaste o no el acceso al botón—; la 3, la frase para cuando alguien te cuente algo. Se quedan solo en tu navegador. Y cópialas para tu Jefe de Grupo: un compromiso que alguien más conoce se cumple mucho más.",

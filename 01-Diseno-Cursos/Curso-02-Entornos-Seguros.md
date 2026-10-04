@@ -36,7 +36,7 @@ Ese es el encargo de este curso, y explica sus decisiones: **el 03 entrega condu
 
 > Cuatro palabras que usamos como sinónimos y no lo son: peligro, riesgo, abuso, violencia. Aquí vas a saber qué entiende la ASC por «entorno seguro», qué dice exactamente la política que se aprobó en diciembre de 2025, y por qué te protege a ti también. Sin esto, el Curso 03 se lee como una lista de prohibiciones.
 
-⚠️ **El `info-box` del antídoto (exigencia propia n.º 1) va en la Lección 1**, con estas palabras: *este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la ASC*.
+⚠️ **El `info-box` del antídoto (exigencia propia n.º 1) va en la Lección 1**, con estas palabras: *este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la ASC*.
 
 ---
 

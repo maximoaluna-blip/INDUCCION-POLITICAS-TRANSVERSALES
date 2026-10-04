@@ -53,7 +53,7 @@ Lo que añade, y que el 03 deja a una línea:
 | **Módulos** | 7 (intro + 6) |
 | **Audiencia** | Dirigentes de unidad y jefes de grupo. Secundaria: todo adulto |
 | **Recomendado antes** | Curso 03 (recomendado, nunca exigido) |
-| **Antídoto** | No sustituye ni certifica el módulo oficial de A Salvo del Peligro |
+| **Antídoto** | No sustituye ni certifica los módulos oficiales de A Salvo del Peligro |
 
 ## 2. Objetivos
 

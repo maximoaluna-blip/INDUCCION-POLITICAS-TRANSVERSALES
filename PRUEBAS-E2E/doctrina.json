@@ -48,7 +48,7 @@
   "antidoto": {
     "_porQue": "Es la regla 1 de 'Lo que no es negociable': «ningun curso sustituye ni certifica el modulo oficial de A Salvo del Peligro que exige la ASC». Es el riesgo doctrinal numero uno del Plan de Linea, y es estructural: esta plataforma EMITE certificados y ensena sobre algo que NO puede acreditar. La Politica lo exige para la participacion en eventos (p. 33) y la Guia de induccion a todo adulto que entra (p. 2).",
     "_comoFunciona": "Si un curso de esta linea menciona el modulo oficial o los cursos SFH, en alguna parte del curso tiene que estar la frase de no-sustitucion. No se exige donde: se exige que este.",
-    "menciona": "(m[oó]dulo (oficial |nacional )?de A Salvo del Peligro|curso o m[oó]dulo de A Salvo|cursos? SFH|cursos de A Salvo del Peligro|m[oó]dulo Safe From Harm)",
-    "frase": "(no (lo )?(sustituye|reemplaza)|no sustituye|no reemplaza|no certifica|no acredita)"
+    "menciona": "(m[oó]dulos? (oficial(es)? |nacional(es)? )?de A Salvo del Peligro|curso o m[oó]dulo de A Salvo|cursos? SFH|cursos de A Salvo del Peligro|m[oó]dulo Safe From Harm)",
+    "frase": "(no (los? )?(sustituye|reemplaza)|no sustituye|no reemplaza|no certifica|ni (los? )?certifica|no acredita)"
   }
 }

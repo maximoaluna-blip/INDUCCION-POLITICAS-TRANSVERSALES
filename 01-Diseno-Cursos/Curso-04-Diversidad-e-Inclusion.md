@@ -53,7 +53,7 @@ El Plan decía *«no se diseña hasta tener el texto del Acuerdo C.S.N. 405»*. 
 | **Audiencia primaria** | Todo adulto. **Secundaria:** consejos de grupo y comisionados con la función de promover la inclusión |
 | **Recomendado antes** | Cursos 02 y 03 (recomendados, **nunca exigidos** — ADR-019) |
 
-**Este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la ASC, ni ningún módulo oficial de la Asociación.** Prepara, explica y aterriza (exigencia 1 del `CREAR-CURSO.md`).
+**Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la ASC, ni ningún módulo oficial de la Asociación.** Prepara, explica y aterriza (exigencia 1 del `CREAR-CURSO.md`).
 
 ---
 

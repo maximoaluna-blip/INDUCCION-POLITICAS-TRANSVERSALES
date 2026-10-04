@@ -61,7 +61,7 @@ se corrige: es **una instrucción de conducta equivocada ante la revelación de 
 1. **Ningún curso usa como vigente un término ASP superado** (ADR-035).
 2. **Ninguna respuesta correcta instruye al adulto a investigar** — la línea roja de la línea: mira
    la opción marcada como correcta y falla si arranca con un verbo prohibido.
-3. **Todo curso que menciona el módulo oficial dice que no lo sustituye.**
+3. **Todo curso que menciona los módulos oficiales dice que no los sustituye.**
 
 ⚠️ **Alcance, y es lo contrario de lo que decidió `lexico.json` a propósito:** estas tres **sí
 barren la prosa de los cursos**. En el léxico el término vigilado («competencia») tiene varias

@@ -18,7 +18,7 @@ La **cuarta** línea de la plataforma. Cubre las tres políticas que la ASC exig
 
 ## Lo que no es negociable en esta línea
 
-1. **Ningún curso sustituye ni certifica el módulo oficial de A Salvo del Peligro** que exige la ASC. Los cursos preparan, explican y aterrizan; el certificado que la ASC exige lo emite la ASC. Cada ficha lo dice con esas palabras.
+1. **Ningún curso sustituye ni certifica los módulos oficiales de A Salvo del Peligro** que exige la ASC (son cuatro; dónde se hacen, en el Curso 01, lección «📋 Lo exigido», y cada curso remite allí). Los cursos preparan, explican y aterrizan; el certificado que la ASC exige lo emite la ASC. Cada ficha lo dice con esas palabras.
 2. **El adulto reporta y deriva; nunca investiga ni atiende.** Es la línea roja: *"en ningún caso su función será de carácter investigativo y de gestión del reporte"* (Política 2025, p. 29). **Ningún quiz puede tener como respuesta correcta «averiguar», «confrontar» o «resolver internamente».**
 3. **Sin imágenes generadas por IA de personas ni escenas** (`../CLAUDE.md` §5.5, ADR-031), con rigor especial aquí: un curso sobre abuso, discapacidad o minorías ilustrado con rostros inventados es inaceptable. Solo emoji, diagramas, íconos y logos reales.
 4. **Casos anonimizados y no revictimizantes.** Sin nombres reales, sin detalles gráficos, sin culpabilizar a la víctima (Guía de Prevención, pp. 21–22).
@@ -73,7 +73,7 @@ leyendo. Hoy las declara **`PRUEBAS-E2E/doctrina.json`** y las vigilan tres prue
 |---|---|
 | **Términos ASP superados** | Usarlos **como vigentes**. Pueden aparecer —la doctrina exige glosarlos como términos de 2021-2023— pero solo con una marca de superación cerca. |
 | **La línea roja** | Que **la opción CORRECTA** de un quiz arranque con *investigar · averiguar · confrontar · indagar · interrogar*, o lo contenga sin negación ni consecuencia. **Es la única compuerta de la plataforma que mira la clave de respuestas.** |
-| **El antídoto** | Que un curso mencione el módulo oficial y **no diga en ninguna parte** que este curso no lo sustituye. |
+| **El antídoto** | Que un curso mencione los módulos oficiales y **no diga en ninguna parte** que este curso no los sustituye. La regex reconoce singular y plural: al cambiar la forma de decirlo, **recalibrar** (`calibrar-doctrina.py`). |
 
 ⚠️ **Estas tres barren la PROSA de los cursos, al revés que `lexico.json`** — y es deliberado: allí el término
 vigilado tiene cinco acepciones vivas y barrer prosa dio ruido; aquí los términos no son ambiguos. **El alcance de

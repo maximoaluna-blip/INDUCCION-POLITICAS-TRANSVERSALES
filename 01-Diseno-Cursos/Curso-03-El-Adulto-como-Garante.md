@@ -93,7 +93,7 @@ Es un hito contraintuitivo, y ahí está su valor. El instinto del adulto que qu
 Apertura con el hook. Luego, el `heading` **«Tres cosas antes de entrar»** y tres avisos que van en `info-box` y que **no se negocian**. **El orden es el de abajo** (hallazgo H8 de la auditoría pedagógica: el aviso de contenido va primero, porque llega tarde si el lector ya leyó los otros dos):
 
 1. **Aviso de contenido:** el curso habla de situaciones de daño a niñas, niños y jóvenes en términos sobrios, sin casos gráficos y sin detalles. Si en algún momento te remueve algo propio, para. La Lección 7 habla justamente de eso.
-2. **Este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro** que exige la ASC. Aquí se prepara, se explica y se aterriza; el certificado que la Asociación exige lo emite la Asociación. *(Política 2025, pp. 29 y 33.)*
+2. **Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro** que exige la ASC. Aquí se prepara, se explica y se aterriza; el certificado que la Asociación exige lo emite la Asociación. *(Política 2025, pp. 29 y 33.)*
 3. **No vas a encontrar listas de señales de abuso.** No por pudor: porque reconocer señales es otro oficio, y una lista sin acompañamiento invita justo a lo que la Política prohíbe — diagnosticar. Ese contenido **tendrá** su propio curso en el **Nivel 2 de esta línea**, con la advertencia y el cuidado que pide. Aquí se enseña **conducta**.
 
 > ⚠️ **Los punteros van en futuro** (hallazgo H4). Ninguno de los cursos que este curso anuncia existe todavía, así que el curso **no puede anunciarlos en presente**. Vale para este aviso y para el enlace a Programa de Jóvenes de la Lección 2.
@@ -641,7 +641,7 @@ El esquema exige mínimo dos preguntas por lección, y el build rechazó el prim
 | **Que un quiz tenga como correcta una conducta prohibida** | Regla de la línea: **ningún quiz puede tener como respuesta correcta «averiguar», «confrontar» o «resolver internamente»**. Las 14 preguntas se revisaron contra esa regla. |
 | **Presentar como norma el orden de la fórmula** | Va marcado como inferencia en §3 y en la L3, pendiente de la consulta a la Comisión Nacional ASP. |
 | **Revictimizar con los ejemplos** | Sin nombres, sin detalles, sin escenas. Los casos son de **conducta del adulto**, nunca de la experiencia de la víctima. |
-| **Sustituir el módulo oficial** | `info-box` fijo en la intro, con el texto de la exigencia n.º 1 del plan de línea. **Y desde la auditoría pedagógica (H13), también en el `certificate.description`:** *"Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación."* Importa porque **el certificado es lo único que sale del curso** — se descarga, se manda, se muestra; el aviso de la intro no viaja con él. |
+| **Sustituir el módulo oficial** | `info-box` fijo en la intro, con el texto de la exigencia n.º 1 del plan de línea. **Y desde la auditoría pedagógica (H13), también en el `certificate.description`:** *"Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza los módulos oficiales de A Salvo del Peligro que exige la Asociación."* Importa porque **el certificado es lo único que sale del curso** — se descarga, se manda, se muestra; el aviso de la intro no viaja con él. |
 | **La URL del botón cambia y el curso queda mintiendo** | Verificar en vivo antes de publicar; si falla, enseñar la ruta y no la URL. |
 
 ---

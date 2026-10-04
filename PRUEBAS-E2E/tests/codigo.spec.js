@@ -511,7 +511,7 @@ test.describe('Calidad de codigo (AUDITORIA.md mecanico)', () => {
   });
 
   // 3 -- El antidoto del riesgo numero uno del Plan de Linea.
-  test('todo curso que menciona el modulo oficial dice que no lo sustituye', () => {
+  test('todo curso que menciona los modulos oficiales dice que no los sustituye', () => {
     if (!hayDoctrina) test.skip();
     const { menciona, frase } = doctrina.antidoto;
     const reMenc = new RegExp(menciona, 'i');

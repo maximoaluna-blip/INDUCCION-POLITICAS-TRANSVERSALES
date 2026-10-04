@@ -240,7 +240,7 @@ Cada compromiso pide **qué**, **para cuándo** y **en qué se va a notar** — 
 - **Elegir una o dos áreas.** Literal de la hoja. Un plan con cinco áreas no se cumple.
 - **Volver a mirarlo a lo largo del año.** También literal. Lo respalda la Política, que se revisa cada cuatro años y pide seguimiento (Anexo 1).
 
-**Bloque 3** (`info-box`). **Lo que este curso NO acredita**, en las palabras de siempre de la línea: no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la ASC. ⚠️ **Obligatorio si se menciona el módulo** — lo vigila la compuerta del antídoto (ADR-060).
+**Bloque 3** (`info-box`). **Lo que este curso NO acredita**, en las palabras de siempre de la línea: no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la ASC. ⚠️ **Obligatorio si se menciona el módulo** — lo vigila la compuerta del antídoto (ADR-060).
 
 **Bloque 4** (`paragraph`). Y el cierre de la ruta entera: **cuidar, incluir, sostener** — con lo que falta dicho por su nombre.
 

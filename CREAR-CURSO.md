@@ -60,7 +60,7 @@ Todo curso las satisface o justifica explícitamente su ausencia.
 
 | # | Exigencia | ¿Compuerta? |
 |---|---|---|
-| 1 | **Ningún curso sustituye ni certifica el módulo oficial de A Salvo del Peligro.** Preparan, explican y aterrizan; el certificado que la ASC exige lo emite la ASC. **Cada ficha lo dice con esas palabras.** | ✅ `doctrina.json` → `antidoto` |
+| 1 | **Ningún curso sustituye ni certifica los módulos oficiales de A Salvo del Peligro.** Preparan, explican y aterrizan; el certificado que la ASC exige lo emite la ASC. **Cada ficha lo dice con esas palabras.** | ✅ `doctrina.json` → `antidoto` |
 | 2 | **El adulto reporta y deriva; nunca investiga ni atiende.** *«en ningún caso su función será de carácter investigativo y de gestión del reporte»* (Política 2025, p. 29). **Ningún quiz puede tener como correcta «averiguar», «confrontar» o «resolver internamente».** | ✅ `doctrina.json` → `lineaRoja` — **la única compuerta de la plataforma que mira la clave de respuestas** |
 | 3 | **Sin imágenes de IA de personas ni escenas** (rector §5.5, ADR-031), con rigor especial aquí: un curso sobre abuso, discapacidad o minorías con rostros inventados es inaceptable. Solo emoji, diagramas, íconos y logos reales. | ❌ humano |
 | 4 | **Casos anonimizados y no revictimizantes.** Sin nombres reales, sin detalles gráficos, sin culpabilizar (Guía de Prevención, pp. 21–22). | ❌ humano |
@@ -105,7 +105,7 @@ Niveles 2–4: ver el Plan §4–§6.
 
 ### 4.x Riesgos transversales del nivel
 
-- **Sustitución del módulo oficial** (01, 02, 03) — exigencia 1, ya con compuerta.
+- **Sustitución de los módulos oficiales** (01, 02, 03) — exigencia 1, ya con compuerta.
 - **Terminología 2023 vs 2025** (02, 03) — **ADR-035**: la Política 2025 prevalece.
 - **Roles sin heredero** (02, 03; Nivel 3) — ver el aviso del §8. **Superado ≠ inexistente.**
 - **Plano cruzado** (04, 06) — DURASLID y áreas de crecimiento **solo como enlace a PJ**, nunca como contenido propio.
@@ -254,7 +254,7 @@ Claves con apellido de línea (ADR-025/034), declaradas en `PRUEBAS-E2E/claves-l
 ## 6. Casos especiales de la línea
 
 - **6.1 Componentes.** `brujula-display` y `plan-builder` en el Curso 06. `policy-quote` es el componente más usado de esta línea: **toda cita lleva documento, año y página**.
-- **6.2 Cursos previos.** **No hay cursos habilitantes** (ADR-019). Ficha del Nivel 1: *«Recomendado antes: ninguno. Recomendado en paralelo: el módulo oficial de A Salvo del Peligro que exige la ASC.»* Niveles 2–4: *«Recomendado antes: Nivel 1 completo.»*
+- **6.2 Cursos previos.** **No hay cursos habilitantes** (ADR-019). Ficha del Nivel 1: *«Recomendado antes: ninguno. Recomendado en paralelo: los módulos oficiales de A Salvo del Peligro que exige la ASC.»* Niveles 2–4: *«Recomendado antes: Nivel 1 completo.»*
 - **6.3 Multimedia.** Sin video propio. Enlaces a la Zona de Aprendizaje Scout, **probados antes de publicar** — no se probaron para el Curso 01 y quedó dicho en el ledger.
 - **6.4 Sub-audiencia.** El Nivel 3 es por **cargo**. Cada curso declara el cargo exacto con su número de ficha del Manual de Cargos.
 - **6.5 Reemplazos.** Si un curso se sustituye, la ruta vieja queda como **redirección**, no se borra (ADR-063).
@@ -306,7 +306,7 @@ Hereda el del manual base §A.8. Propio de esta línea:
 
 ### 9.1 Cowork (pedagógico)
 - [ ] Cumple las **cinco exigencias** del §2, o justifica la ausencia.
-- [ ] La ficha dice **con esas palabras** que el curso no sustituye el módulo oficial.
+- [ ] La ficha dice **con esas palabras** que el curso no sustituye los módulos oficiales, y remite al Curso 01 para dónde se hacen.
 - [ ] **Ningún quiz** tiene como correcta averiguar / confrontar / resolver internamente.
 - [ ] Casos **anonimizados**, sin detalle gráfico, sin culpabilizar.
 - [ ] El curso deja al adulto sabiendo **qué haría mañana**, no solo sabiendo más.

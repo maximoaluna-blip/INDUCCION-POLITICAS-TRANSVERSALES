@@ -76,7 +76,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Aceptaste un cargo. A los dos días te llega un correo del jefe de grupo con una lista: <em>registra tu hoja de vida, firma el acuerdo mutuo, inscríbete en SISCOUT, lee el manual de cargos, haz el curso de inducción, haz los cuatro cursos de A Salvo del Peligro.</em> Seis casillas. Y una sensación razonable: <strong>esto parece papeleo</strong>."
+          "text": "Aceptaste un cargo. A los dos días te llega un correo del jefe de grupo con una lista: <em>registra tu hoja de vida, firma el acuerdo mutuo, inscríbete en SISCOUT, lee el manual de cargos, haz el curso de inducción, haz los cuatro módulos de A Salvo del Peligro.</em> Seis casillas. Y una sensación razonable: <strong>esto parece papeleo</strong>."
         },
         {
           "type": "paragraph",
@@ -439,7 +439,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "🚨 <strong>Lee esto entero, aunque te saltes el resto del curso.</strong> <strong>Esta plataforma no reemplaza nada.</strong> Lo que la Asociación te exige está en otro sitio, tiene certificado propio y se entrega a tu jefe inmediato. Terminar este curso —o los seis de esta línea— <strong>no cumple esa exigencia</strong>."
+          "text": "🚨 <strong>Lee esto entero, aunque te saltes el resto del curso.</strong> <strong>Esta plataforma no reemplaza nada.</strong> Lo que la Asociación te exige está en otro sitio, tiene certificado propio y se entrega a tu jefe inmediato. Terminar este curso —o cualquier otro de esta línea— <strong>no cumple esa exigencia</strong>."
         },
         {
           "type": "paragraph",
@@ -459,19 +459,38 @@
             "<strong>Inscribirte en <a href=\"https://colombia.siscout.org/login/\" target=\"_blank\" rel=\"noopener\">SISCOUT</a></strong> — registro completo.",
             "<strong>Leer el Manual de Cargos, Perfiles y Funciones por Competencias</strong> — el de tu cargo. La Cartilla dice que <em>«su contenido es de estricto cumplimiento»</em>.",
             "<strong>Hacer el curso de inducción general</strong> en <a href=\"https://colombia.universidadscout.org/\" target=\"_blank\" rel=\"noopener\">Universidad Scout</a> — el módulo nacional de inducción, el de las seis estaciones. <strong>Descargar el certificado y entregarlo a tu jefe inmediato.</strong>",
-            "<strong>Hacer los cuatro cursos de A Salvo del Peligro.</strong> ⚠️ <strong>Tres están en <a href=\"https://learn.scout.org\" target=\"_blank\" rel=\"noopener\">learn.scout.org</a> y el cuarto en otra plataforma distinta</strong> — los cuatro enlaces están en la guía, tómalos de ahí y no des por terminado con tres. <strong>Descargar los certificados y entregarlos a tu jefe inmediato.</strong>",
+            "<strong>Hacer los cuatro módulos oficiales de A Salvo del Peligro.</strong> ⚠️ Tres están en learn.scout.org y el cuarto en otra plataforma: los tienes enlazados justo debajo de esta lista. No des por terminado con tres. <strong>Descargar los certificados y entregarlos a tu jefe inmediato.</strong>",
             "<strong>Pedir tu asesor personal</strong> — alguien que te acompañe a desarrollar tus competencias. Se firma un <strong>aval de aceptación de asesoría</strong> y se lo mandas a tu jefe inmediato; después se agenda la primera reunión para revisar tu valoración e iniciar tu <strong>Plan Personal de Desarrollo</strong>.",
             "<strong>Hacer tu valoración inicial por competencias</strong> en Talento 360° — la <strong>Evaluación #1</strong>. Es la foto de dónde arrancas.",
             "<strong>Dejarte acompañar los tres primeros meses.</strong> Este no es un paso tuyo: es de tu jefe inmediato, que hace seguimiento, resuelve dudas y al final te da una <strong>retroalimentación</strong>."
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Mira los tres últimos y compáralos con los seis primeros. Los seis te <strong>vinculan</strong>: dicen quién eres, qué firmaste y qué cargo tienes. <strong>Los tres últimos te acompañan</strong> — una persona asignada, una foto de tus competencias y tres meses de seguimiento con retroalimentación al final. <strong>Son los únicos que necesitan a otro ser humano</strong>, y son justo los que se caen primero cuando el grupo va con prisa. Si tu jefe no te los mencionó, ya sabes qué pedirle."
+          "type": "heading",
+          "level": 3,
+          "text": "Los cuatro módulos oficiales de A Salvo del Peligro"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<a href=\"https://learn.scout.org/resource/sfh-1-safe-harm-essential-learnings\" target=\"_blank\" rel=\"noopener\">SfH 1 — Aprendizajes esenciales</a> (learn.scout.org)",
+            "<a href=\"https://learn.scout.org/resource/sfh-2b-wosm-safe-harm-procedures\" target=\"_blank\" rel=\"noopener\">SfH 2b — Procedimientos de A Salvo del Peligro de la OMMS</a> (learn.scout.org)",
+            "<a href=\"https://learn.scout.org/resource/sfh-3-being-safe-online\" target=\"_blank\" rel=\"noopener\">SfH 3 — Estar seguro en línea</a> (learn.scout.org)",
+            "El complementario de la Asociación, enlazado en la <a href=\"https://scout.org.co/biblioteca/dnam/fase-induccion-adultos-voluntarios-nuevos\" target=\"_blank\" rel=\"noopener\">Guía de inducción</a> (p. 2). Si ese enlace no te abre, pídeselo a tu jefe inmediato."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Ninguno de los cursos de esta plataforma los sustituye ni los certifica: esos cuatro certificados, como el del paso 5, solo los dan las plataformas oficiales."
         },
         {
           "type": "paragraph",
-          "text": "Y aquí se cierra lo que te prometimos al empezar. De las seis casillas de tu correo, cuatro te <strong>vinculan</strong>. <strong>Las dos últimas —la 5 y la 6— son las de la protección</strong>, y son las únicas dos del correo que son formación: dentro de la 5 está la estación que la Cartilla llama <em>de vital importancia</em>, y la 6 son los cuatro cursos de A Salvo del Peligro. <strong>Esas dos no son papeleo.</strong>"
+          "text": "Vuelve a los nueve pasos: mira los tres últimos y compáralos con los seis primeros. Los seis te <strong>vinculan</strong>: dicen quién eres, qué firmaste y qué cargo tienes. <strong>Los tres últimos te acompañan</strong> — una persona asignada, una foto de tus competencias y tres meses de seguimiento con retroalimentación al final. <strong>Son los únicos que necesitan a otro ser humano</strong>, y son justo los que se caen primero cuando el grupo va con prisa. Si tu jefe no te los mencionó, ya sabes qué pedirle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y aquí se cierra lo que te prometimos al empezar. De las seis casillas de tu correo, cuatro te <strong>vinculan</strong>. <strong>Las dos últimas —la 5 y la 6— son las de la protección</strong>, y son las únicas dos del correo que son formación: dentro de la 5 está la estación que la Cartilla llama <em>de vital importancia</em>, y la 6 son los cuatro módulos de A Salvo del Peligro. <strong>Esas dos no son papeleo.</strong>"
         },
         {
           "type": "info-box",
@@ -498,7 +517,7 @@
         },
         {
           "type": "info-box",
-          "text": "🤝 <strong>Entonces, ¿para qué sirve esta línea?</strong> El módulo oficial te da <strong>información y un certificado</strong>. Esta línea te da <strong>comprensión y práctica</strong>: qué significan esas políticas el sábado por la tarde, con tu unidad, cuando algo pasa. <strong>Van juntos, y en ese orden no importa.</strong> Lo que sí importa es que <strong>este curso no sustituye</strong> el certificado del módulo oficial."
+          "text": "🤝 <strong>Entonces, ¿para qué sirve esta línea?</strong> Los módulos oficiales te dan <strong>información y certificados</strong>. Esta línea te da <strong>comprensión y práctica</strong>: qué significan esas políticas el sábado por la tarde, con tu unidad, cuando algo pasa. <strong>Van juntos, y puedes hacerlos en el orden que quieras; los módulos, eso sí, no los dejes para después.</strong> Lo que sí importa es que <strong>este curso no sustituye</strong> los certificados de los módulos oficiales. Dónde se hacen: en la lista de arriba."
         }
       ],
       "quiz": {
@@ -541,7 +560,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Empezaste este curso con un correo que parecía papeleo. Ahora sabes cuáles de esas seis casillas no lo son —<strong>la del módulo de inducción y la de los cuatro cursos de A Salvo del Peligro</strong>—, que la lista oficial no tiene seis pasos sino <strong>nueve</strong>, que la política de cuidado te obliga y te protege, que hay un hueco documental en la de inclusión, y que el certificado que te exige la Asociación no es este."
+          "text": "Empezaste este curso con un correo que parecía papeleo. Ahora sabes cuáles de esas seis casillas no lo son —<strong>la del módulo de inducción y la de los cuatro módulos de A Salvo del Peligro</strong>—, que la lista oficial no tiene seis pasos sino <strong>nueve</strong>, que la política de cuidado te obliga y te protege, que hay un hueco documental en la de inclusión, y que el certificado que te exige la Asociación no es este."
         },
         {
           "type": "heading",
@@ -583,7 +602,7 @@
         },
         {
           "type": "mission-box",
-          "text": "🧭 <strong>Tu primer compromiso.</strong> Una sola cosa, con fecha, para antes del próximo consejo de grupo. Que sea algo que <strong>alguien más pueda notar</strong> — no «ser más consciente», sino algo que ocurre o no ocurre. Preguntarle al jefe de grupo por dónde entra un reporte cuenta. Hacer el primero de los cuatro cursos SFH cuenta. «Estar más atento» no cuenta. <strong>Tres cosas te pide la Asociación antes de pedirte cualquier otra: cuidar, incluir y sostener. La primera la vas a escribir al final, en el cuadro «Compromiso Personal», junto a tu palabra.</strong>"
+          "text": "🧭 <strong>Tu primer compromiso.</strong> Una sola cosa, con fecha, para antes del próximo consejo de grupo. Que sea algo que <strong>alguien más pueda notar</strong> — no «ser más consciente», sino algo que ocurre o no ocurre. Preguntarle al jefe de grupo por dónde entra un reporte cuenta. Hacer el primero de los cuatro módulos oficiales cuenta. «Estar más atento» no cuenta. <strong>Tres cosas te pide la Asociación antes de pedirte cualquier otra: cuidar, incluir y sostener. La primera la vas a escribir al final, en el cuadro «Compromiso Personal», junto a tu palabra.</strong>"
         }
       ],
       "quiz": {

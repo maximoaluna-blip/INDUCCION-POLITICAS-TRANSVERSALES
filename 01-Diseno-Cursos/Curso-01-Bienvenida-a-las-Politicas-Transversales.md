@@ -47,7 +47,7 @@ La Cartilla (**§2.4, pp. 15–17**) describe el módulo de inducción como *«u
 |---|---|
 | **Audiencia** | Todo adulto que ingresa a la ASC. Secundaria: adultos antiguos que nunca recorrieron el módulo de inducción. |
 | **Hook** | *«Hay tres cosas que la Asociación le pide a todo adulto antes de pedirle cualquier otra: cuidar, incluir y sostener.»* |
-| **Recomendado antes** | Ninguno. **Recomendado en paralelo:** el módulo oficial de A Salvo del Peligro que exige la ASC (L5). |
+| **Recomendado antes** | Ninguno. **Recomendado en paralelo:** los módulos oficiales de A Salvo del Peligro que exige la ASC (L5). |
 | **Módulos** | 7 — 1 de registro + 6 lecciones |
 | **Quizzes** | 12 (2 por lección) |
 | **Icono** | 🛡️ |

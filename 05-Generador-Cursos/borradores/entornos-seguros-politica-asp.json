@@ -103,7 +103,7 @@
         },
         {
           "type": "info-box",
-          "text": "🎓 <strong>Esto no es el curso oficial.</strong> La ASC exige un <strong>módulo oficial de A Salvo del Peligro</strong> con su propio certificado, y <strong>este curso no lo sustituye ni lo certifica</strong>. Aquí entiendes la política; el certificado que te van a pedir lo emite la ASC. Los dos hacen falta, y no son el mismo."
+          "text": "🎓 <strong>Esto no es uno de los módulos oficiales.</strong> La ASC exige los <strong>módulos oficiales de A Salvo del Peligro</strong>, con sus propios certificados, y <strong>este curso no los sustituye ni los certifica</strong>. Si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Aquí entiendes la política; el certificado que te van a pedir lo emite la ASC. Hacen falta este curso y los módulos, y no son lo mismo."
         }
       ],
       "quiz": {
@@ -627,7 +627,7 @@
   ],
   "certificate": {
     "courseName": "ENTORNOS SEGUROS: LA POLÍTICA A SALVO DEL PELIGRO",
-    "description": "ha completado el Curso 02 de la Línea Políticas Transversales — Entornos Seguros, comprendiendo qué entiende la Asociación por A Salvo del Peligro y por entorno seguro, la diferencia entre peligro, riesgo, abuso y violencia, la protección que la Política extiende también a los propios adultos, los tres compromisos de la Declaración —incluida la imposibilidad de guardar secretos— y el alcance de la Política Nacional A Salvo del Peligro, aprobada por el Acuerdo C.S.N. 657 del 3 de diciembre de 2025, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza el módulo oficial de A Salvo del Peligro que exige la Asociación"
+    "description": "ha completado el Curso 02 de la Línea Políticas Transversales — Entornos Seguros, comprendiendo qué entiende la Asociación por A Salvo del Peligro y por entorno seguro, la diferencia entre peligro, riesgo, abuso y violencia, la protección que la Política extiende también a los propios adultos, los tres compromisos de la Declaración —incluida la imposibilidad de guardar secretos— y el alcance de la Política Nacional A Salvo del Peligro, aprobada por el Acuerdo C.S.N. 657 del 3 de diciembre de 2025, al servicio de los entornos seguros de la Asociación Scouts de Colombia. Este certificado acredita haber cursado esta formación y no sustituye ni reemplaza los módulos oficiales de A Salvo del Peligro que exige la Asociación"
   },
   "commitmentBox": {
     "prompt": "Escribe aquí <strong>lo que vas a hacer distinto a partir de mañana</strong> — lo que vas a escribir, o lo que vas a cortar. Se queda solo en tu navegador.",
