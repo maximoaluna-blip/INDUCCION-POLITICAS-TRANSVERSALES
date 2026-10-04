@@ -152,5 +152,19 @@
     "status": "active",
     "file": "actividades-seguras-y-datos.html",
     "folder": "actividades-seguras-y-datos"
+  },
+  {
+    "courseId": "inclusion-personas-con-discapacidad",
+    "title": "Inclusión de personas con discapacidad en el Movimiento",
+    "description": "Cuando una familia llega a tu grupo con un hijo con discapacidad, o un adulto con discapacidad quiere servir como voluntario, lo que decide su inclusión no es su condición: son las barreras que el grupo pone o quita. Aquí aprendes el proceso que proponen la Política Interamericana y la Guía de la Oficina Scout Mundial: conocerse antes, decidir con la familia, adecuar la propuesta y dejar los acuerdos por escrito.",
+    "icon": "♿",
+    "duration": "35 minutos",
+    "level": 2,
+    "levelName": "Profundización por política",
+    "order": 10,
+    "modules": 7,
+    "status": "active",
+    "file": "inclusion-personas-con-discapacidad.html",
+    "folder": "inclusion-personas-con-discapacidad"
   }
 ]

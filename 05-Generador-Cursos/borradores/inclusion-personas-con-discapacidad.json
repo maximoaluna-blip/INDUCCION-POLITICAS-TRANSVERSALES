@@ -1,0 +1,604 @@
+{
+  "courseId": "inclusion-personas-con-discapacidad",
+  "title": "Inclusión de personas con discapacidad en el Movimiento",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Cuando una familia llega a tu grupo con un hijo con discapacidad, o un adulto con discapacidad quiere servir como voluntario, lo que decide su inclusión no es su condición: son las barreras que el grupo pone o quita. Aquí aprendes el proceso que proponen la Política Interamericana y la Guía de la Oficina Scout Mundial: conocerse antes, decidir con la familia, adecuar la propuesta y dejar los acuerdos por escrito.",
+  "contentVersion": "2026-10-04",
+  "icon": "♿",
+  "duration": "35 minutos",
+  "status": "active",
+  "level": 2,
+  "levelName": "Profundización por política",
+  "order": 10,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "La barrera, no la persona",
+      "emoji": "🚧",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Conocerse primero",
+      "emoji": "🤝",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Decidir con la familia",
+      "emoji": "⚖️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Propuesta flexible",
+      "emoji": "🧩",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Acuerdos por escrito",
+      "emoji": "👪",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Voluntario como cualquiera",
+      "emoji": "🙋",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Grupo accesible",
+      "emoji": "♿",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "INCLUSIÓN DE PERSONAS CON DISCAPACIDAD EN EL MOVIMIENTO",
+    "description": "ha completado el Curso 10 de la Línea Políticas Transversales — Inclusión de personas con discapacidad, comprendiendo con la Convención sobre los Derechos de las Personas con Discapacidad que la discapacidad aparece cuando una condición se encuentra con barreras; aplicando, con la Política Interamericana de Diversidad e Inclusión (2016) y la Guía Dos de la Oficina Scout Mundial – Centro de Apoyo Interamérica, el proceso para recibir a un protagonista o a un adulto con discapacidad: conocerse con la familia, decidir buscando su plena participación, adecuar la propuesta y dejar los acuerdos por escrito; y reconociendo que la inclusión no suspende la protección. Este curso no sustituye ni certifica el módulo oficial de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una barrera concreta de tu grupo</strong> —de la sede, de la forma de comunicar o de las actividades— que vas a proponer quitar. Se queda solo en tu navegador.",
+    "placeholder": "Voy a proponer que..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Un sábado llega a la sede una mamá con su hijo de nueve años, que usa silla de ruedas. Pregunta si puede entrar a la Manada. La sede tiene tres escalones, y la próxima salida es una caminata. Alguien del equipo dice, con buena intención, que «aquí no estamos preparados». Otro dice que sí, que «ya veremos cómo». Este curso trata de lo que pasa entre esas dos respuestas."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 35 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> la discapacidad como el encuentro de una condición con barreras, y usar un lenguaje que no la reduzca a esa condición.",
+            "<strong>Preparar</strong> el primer encuentro con la familia antes de que el protagonista entre a la unidad.",
+            "<strong>Aplicar</strong> las preguntas de la decisión, buscando primero la plena participación.",
+            "<strong>Adecuar</strong> una actividad para que sea accesible a toda la unidad.",
+            "<strong>Acordar</strong> con la familia, por escrito, los apoyos y los cuidados, sin confundir un factor de riesgo con una señal.",
+            "<strong>Recibir</strong> a un adulto con discapacidad como voluntario, con funciones y acuerdos claros."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica el módulo oficial de A Salvo del Peligro</strong> que exige la Asociación. Se apoya en el Curso 04 de esta línea (<em>Diversidad e inclusión en el Movimiento</em>), que ya enseña la trampa de la sobreprotección: aquí no se repite."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🚧 La barrera no está en la persona",
+      "emoji": "🚧",
+      "navLabel": "La barrera",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la discapacidad no es solo lo que una persona tiene. Aparece cuando su condición se encuentra con barreras. Y las barreras, a diferencia de la condición, el grupo sí las puede quitar."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición que la Guía toma de la Convención",
+          "source": "Diversidad e Inclusión – Guía Dos (Oficina Scout Mundial – Centro de Apoyo Interamérica), p. 28, que la toma de la Convención sobre los Derechos de las Personas con Discapacidad. El paréntesis «mayor a seis meses» lo agrega la Guía.",
+          "text": "Las personas con discapacidad incluyen a aquellas que tengan deficiencias físicas, mentales, intelectuales o sensoriales a largo plazo (mayor a seis meses) que, al interactuar con diversas barreras, puedan impedir su participación plena y efectiva en la sociedad, en igualdad de condiciones con las demás"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el verbo: <em>«al interactuar con diversas barreras»</em>. La Guía lo saca en limpio en la misma página: esas condiciones también son <em>«creadas y/o exacerbadas por el ambiente social»</em>, y por eso <strong>es responsabilidad colectiva</strong> hacer las adecuaciones necesarias. En la sede del caso, el niño no cambia. Lo que puede cambiar son los tres escalones."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 04 revisaste tu grupo con tres lentes: física, comunicativa y cultural. Con discapacidad, las dos primeras pesan mucho; la cultural sigue valiendo, y con discapacidad toma una forma que conviene nombrar aparte: la actitud, lo que se da por hecho sobre lo que la persona podrá hacer."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏛️ Física: el lugar",
+              "description": "Escalones, baños, caminos de tierra, la sede en un segundo piso.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "💬 Comunicativa",
+              "description": "Todo dicho en voz alta y rápido; nada escrito, nada visual, nada anticipado.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🧠 De actitud",
+              "description": "Decidir por la persona lo que ella puede decidir, o dar por hecho lo que no podrá hacer.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🗣️ <strong>Las palabras.</strong> Se dice <strong>«persona con discapacidad»</strong>: primero la persona. No «discapacitado», ni «normal» para los demás. La Política Interamericana llama a esto <em>lenguaje asertivo</em>: términos y actitudes que valoran la diversidad (p. 6). Algunos documentos de hace unos años, incluida la Guía, usan palabras que hoy se evitan; al citarlos, este curso se queda con su idea, no con esas palabras."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y no te toca clasificar. La Guía trae tipos de discapacidad con nombres clínicos; este curso <strong>no los enseña</strong>, por la misma razón que el Curso 08 no te pide clasificar el maltrato: lo que necesitas saber de una persona no es el nombre de su condición, sino <strong>qué apoyos le sirven</strong>. Eso te lo dicen ella y su familia."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: antes de que llegue 🤝",
+        "questions": [
+          {
+            "text": "La sede de un grupo está en un segundo piso sin ascensor. En una reunión del grupo alguien dice: «Si un scout que usa silla de ruedas no puede subir, eso es por su discapacidad, no por nosotros». ¿Qué le responde la lección?",
+            "options": [
+              "Que es por la escalera también, y eso el grupo sí lo puede cambiar: reunirse abajo.",
+              "Que es por su condición, y por eso lo justo es ofrecerle que lo suban cargado.",
+              "Que es por la escalera, y por eso no se le recibe hasta que la sede tenga ascensor."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Antes de recibir a una scout con discapacidad, un dirigente propone empezar por el diagnóstico exacto, «para saber qué tiene». ¿Qué te propone la lección?",
+            "options": [
+              "Preguntarle a ella y a su familia qué apoyos le sirven en las actividades.",
+              "Pedir el diagnóstico exacto a la familia, para planear según el tipo de discapacidad.",
+              "Leer sobre el diagnóstico que la familia mencione, para saber qué esperar de ella."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en el lugar donde se reúne un grupo scout cualquiera y recórrelo con los ojos de alguien que usa silla de ruedas o que no oye. Escribe la primera barrera con la que se toparía y cómo se podría quitar sin gastar plata. Sin nombrar grupos ni personas."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🤝 Antes de que llegue: conocerse",
+      "emoji": "🤝",
+      "navLabel": "Conocerse",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la inclusión empieza antes del primer sábado, con un encuentro con la familia y con el niño. Lo que no se pregunta ahí, se improvisa después."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía propone empezar por <em>«un primer encuentro con la familia y con el niño o joven»</em> para conocer cómo aprende, cómo se relaciona y qué le cuesta, y así <em>«generar las condiciones necesarias que minimicen las barreras y fortalezcan aquellos apoyos»</em> (p. 38). Luego viene una segunda parte que no se resuelve hablando: conocer sus fortalezas <em>«en el terreno, mediante la interacción y la convivencia»</em>, a veces poco a poco."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1 · Entrevista con la familia",
+              "description": "Qué apoyos necesita, qué le gusta, qué le cuesta, qué espera la familia del Movimiento. Y tú cuentas con claridad qué hace el grupo: lugar, horario, actividades, quiénes son los dirigentes (pp. 43–44)."
+            },
+            {
+              "title": "2 · Evaluación con el equipo de dirigentes",
+              "description": "¿Tenemos lo que hace falta, o podemos prepararnos? No lo deciden solo los dirigentes: se habla con el grupo y con quienes acompañarán (pp. 39 y 41)."
+            },
+            {
+              "title": "3 · El lugar y los recursos",
+              "description": "¿Qué adecuaciones necesita la sede? ¿Hace falta algún recurso o equipo? (p. 41)."
+            },
+            {
+              "title": "4 · Con el joven, en el terreno",
+              "description": "Compartir actividades para descubrir lo que puede y lo que necesita, que no siempre coincide con lo que se dijo en la entrevista (pp. 38 y 41)."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🎯 <strong>Para qué es esto.</strong> La Política Interamericana llama a este paso <strong>definir el alcance de la propuesta</strong>: después del diagnóstico inicial, se revisa si la organización está en condiciones y dispuesta a incluir a la persona, y se definen las acciones necesarias <em>«de manera de garantizar su plena participación»</em> (p. 11). No es un examen de admisión para el niño: es un diagnóstico de lo que el grupo tiene que ajustar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un cuidado con lo que se recoge en ese encuentro: lo que la familia te cuente sobre la salud de su hijo es un <strong>dato sensible</strong>. Se anota lo que sirve para darle apoyo, se guarda con acceso restringido y no circula por el chat de dirigentes. El Curso 09 te explica por qué."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: la decisión ⚖️",
+        "questions": [
+          {
+            "text": "Un grupo quiere recibir a un joven con discapacidad visual. El jefe de Tropa propone que empiece el sábado y «ya iremos viendo». ¿Qué falta según la Guía?",
+            "options": [
+              "El encuentro previo con la familia y el joven, y evaluarlo con el equipo.",
+              "Un informe de su médico que diga qué actividades puede hacer y cuáles no.",
+              "Lo inclusivo es recibirlo ya; el encuentro con la familia se hace en la primera semana, con él adentro."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la entrevista, la mamá cuenta que su hijo toma un medicamento a mediodía y que se desorienta si cambian los planes sin aviso. El subjefe que lo acompañará en las salidas no estuvo. ¿Qué hace el grupo con eso?",
+            "options": [
+              "Se lo cuenta al subjefe, que lo necesita para apoyarlo, y lo deja en la ficha guardada.",
+              "Lo pasa al chat de dirigentes, para que cualquiera que lo acompañe lo tenga a mano.",
+              "No se lo cuenta al subjefe: lo que dijo la mamá queda solo con quien la entrevistó."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe tres preguntas que le harías a una familia en ese primer encuentro, para saber qué apoyos necesita su hijo en las actividades. Sin nombres ni casos reales."
+      }
+    },
+    {
+      "id": 4,
+      "title": "⚖️ ¿Podemos? La decisión y sus dos salidas",
+      "emoji": "⚖️",
+      "navLabel": "La decisión",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la pregunta no es «¿puede este niño estar aquí?», sino «¿qué tenemos que cambiar para que pueda?». El «no podemos» existe, pero es la excepción, y tiene su propio procedimiento."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía hace tres preguntas para decidir; la de fondo es si el grupo puede ofrecerle un programa <em>«flexible y creativo»</em> sin desequilibrar el de los demás (pp. 38–39). Y añade algo importante: <em>«no se trata de una decisión que deban de tomar sólo los educadores»</em>. Para responderla sirven cuatro preguntas, en este orden:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏛️ ¿El lugar?",
+              "description": "¿Está adaptado y es seguro? Si no, <strong>¿se puede adaptar o conseguir el equipo?</strong>",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🧑‍🏫 ¿El equipo?",
+              "description": "¿Tiene las competencias, o <strong>las condiciones para prepararse</strong>?",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "👪 ¿Más manos?",
+              "description": "Si el equipo no alcanza, <strong>¿la familia o sus cuidadores pueden estar presentes</strong> y apoyar?",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🏕️ ¿Otro grupo?",
+              "description": "Solo si de verdad la unidad no puede ofrecer lo que la persona necesita: <strong>¿hay un grupo cercano mejor equipado?</strong>",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el orden: las tres primeras preguntas buscan cómo sí. La cuarta llega al final. Y cuando la Política Interamericana habla de este paso, pide definir las acciones <em>«de manera de garantizar su plena participación»</em> (p. 11), y antes recuerda que la organización debe asegurar que las personas con discapacidad accedan a la propuesta <em>«en igualdad de oportunidades»</em> (p. 6)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Si podemos",
+              "description": "Se le cuenta a la familia, se firman <strong>acuerdos de participación y colaboración</strong>, se avisa a las instancias que corresponden, se planean actividades accesibles y, si hace falta adecuar la sede, se hace <strong>antes</strong> de que llegue (pp. 40–41).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "⛔ Si de verdad no podemos",
+              "description": "Se le cuenta a la familia, se dejan <strong>por escrito las razones</strong>, se avisa a las instancias, se explica al resto de la unidad y se <strong>orienta a la familia hacia otro grupo</strong> que pueda recibirlo (pp. 39 y 41).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Lo que no es una razón.</strong> «Nunca hemos tenido a nadie así», «los otros papás se van a quejar» o «sería más cómodo sin él» no son límites del grupo: son barreras de actitud (Lección 1). Pensar en los demás scouts sí es parte de la decisión —la Guía lo pregunta—; lo que no vale es usarlo como excusa sin haber buscado cómo sí (arriba). El Curso 04 te enseñó que excluir a alguien por lo que es tiene otro nombre: discriminación."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: una propuesta flexible 🧩",
+        "questions": [
+          {
+            "text": "Una familia pide entrada para su hijo, que usa silla de ruedas. La sede tiene tres escalones, el equipo nunca ha tenido un caso así y la mamá ofrece venir a las salidas. ¿Qué decide bien el equipo?",
+            "options": [
+              "Que puede si adapta la entrada y se prepara, con la mamá como apoyo en las salidas.",
+              "Que puede si la mamá lo acompaña siempre, así el equipo no tiene que cambiar nada.",
+              "Que no puede: sin experiencia, lo orienta por escrito a un grupo mejor equipado."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El jefe de Manada habló con la familia, concluyó él solo que la unidad no puede recibir al niño y se lo dijo a la mamá a la salida de la reunión. ¿Qué faltó, según la lección?",
+            "options": [
+              "Decidirlo con el equipo y el grupo tras buscar apoyos, y dejar las razones por escrito.",
+              "Pedirle a la familia un informe médico antes de decidir, para que la decisión quede soportada.",
+              "Consultarlo con la Región, que es la instancia que decide si una unidad recibe a alguien."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe, en una frase, cómo le explicarías a otro dirigente la diferencia entre «no podemos» y «no queremos» cuando llega una familia con un hijo con discapacidad."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🧩 Una propuesta flexible",
+      "emoji": "🧩",
+      "navLabel": "Propuesta flexible",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> no se hace una actividad aparte para él. Se piensa la actividad para que la pueda hacer toda la unidad — y el Método Scout ya trae la herramienta: el trabajo en equipo."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la Guía del Método Scout",
+          "source": "Diversidad e Inclusión – Guía Dos, p. 42.",
+          "text": "El Método Scout, mediante el cual los niños, niñas y jóvenes trabajan juntos en equipos donde cada uno tiene un papel que desarrollar, constituye el lugar ideal de apoyo, tanto para aquellos que poseen una discapacidad como para los que no la tienen"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🗣️ Más de una forma de comunicar",
+              "description": "Oral, gestual y visual: lo que se explica también se muestra, y lo que se muestra también se dice (p. 40).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "📅 Anticipar",
+              "description": "Contar antes qué va a pasar, dónde y cuándo. A muchos protagonistas les ayuda saber qué viene; a todos les sirve (p. 40).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧭 El mismo reto, otro camino",
+              "description": "Si la caminata tiene un tramo imposible en silla, se elige otra ruta para todos, o la patrulla resuelve cómo llegar juntos. El objetivo educativo es el mismo.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "⚖️ Mismas obligaciones, adaptadas",
+              "description": "Tiene un rol en la patrulla, como todos. Y ante el mal comportamiento, <em>«se debe actuar igual que con el resto»</em> (p. 46).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía lo dice en una frase corta que conviene tener a mano: <em>«Eliminar barreras no es lo mismo que hacer las cosas por ellos; debemos favorecer la autonomía y la autogestión»</em> (p. 46). Es la otra cara de la sobreprotección que viste en el Curso 04: quitar el escalón sí; empujar la silla sin preguntar, no."
+        },
+        {
+          "type": "info-box",
+          "text": "🔗 <strong>Apoyos de afuera.</strong> La Guía recomienda tender una red con organizaciones y profesionales que trabajen en discapacidad: ayudan a diseñar actividades y a formar a los dirigentes, y esos apoyos pueden venir de dentro del Movimiento o de fuera (pp. 42–43). Y, en lo posible, involucrar a los terapeutas o profesionales cercanos a la persona (p. 40). No tienes que saberlo todo; tienes que saber a quién preguntar."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: con la familia 👪",
+        "questions": [
+          {
+            "text": "La Tropa planea un juego de pistas con instrucciones dichas en voz alta. Un scout tiene discapacidad auditiva. ¿Qué te propone la lección?",
+            "options": [
+              "Dar las instrucciones también por escrito o con dibujos, para toda la Tropa.",
+              "Hablar más despacio y vocalizar bien, para que él pueda leer los labios.",
+              "Darle a él las instrucciones por escrito, y a los demás de viva voz, como siempre."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un lobato con discapacidad motriz rompe a propósito el material de su seisena. Un dirigente dice que «no se le puede llamar la atención, por su condición». ¿Qué dice la Guía?",
+            "options": [
+              "Que se le llama la atención como a cualquiera de la seisena que rompiera el material.",
+              "Que se le llama la atención más fuerte que a los demás, para que no crea que tiene privilegios.",
+              "Que se le deja pasar esta vez, y se le pide a la familia que hable con él en casa."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Elige una actividad típica de una reunión scout y escribe un cambio que la haría accesible para toda la unidad, sin hacer una actividad aparte."
+      }
+    },
+    {
+      "id": 6,
+      "title": "👪 Con la familia, y con la protección",
+      "emoji": "👪",
+      "navLabel": "La familia",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la familia es quien más sabe de lo que su hijo necesita. Los acuerdos con ella se dejan por escrito, y la protección vale para él igual que para todos."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hacer con la familia las entrevistas que el equipo necesite.",
+            "Contar con claridad la propuesta del Movimiento: sus alcances y sus <strong>límites</strong>.",
+            "Anticipar actividades, tiempos y los apoyos que podrían hacer falta.",
+            "Conocer lo que la familia sabe y espera del Movimiento.",
+            "<strong>Dejar en actas</strong> los acuerdos y compromisos.",
+            "Mantener una comunicación fluida, con la inclusión plena como prioridad."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Es la lista que la Guía propone (p. 44). Tiene una razón práctica: las expectativas <em>«altas que posteriormente no puedan ser cumplidas»</em> (p. 43) rompen la confianza. Si el grupo no tiene cómo hacer algo, se dice al principio y se busca la alternativa juntos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🛡️ Un factor, no una señal",
+              "description": "La Guía de Prevención pone a los niños con discapacidad entre los <strong>factores de riesgo</strong> de maltrato (p. 22). Eso no te autoriza a sospechar de su familia: el Curso 08 te enseñó que un factor <strong>no es una señal</strong>.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "📣 Un reporte que pueda usar",
+              "description": "Lo que sí cambia es la puerta: el enfoque diferencial del Manual Operativo pide <em>«especiales garantías y medidas de protección»</em> para quienes están más expuestos (p. 9). En la práctica, que él sepa, a su manera, a quién contarle y que alguien lo escuche. Si tiene otra forma de comunicarse, la unidad la aprende.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "👥 El cuidado personal, también 2+1",
+              "description": "En el Curso 25 de Programa de Jóvenes viste que, en la Familia, al baño se acompaña hasta la puerta, y no más. Si un protagonista necesita ayuda adentro o para cambiarse, eso no se improvisa: se acuerda antes con la familia quién lo hace y cómo, sin que un adulto quede a solas con él — en el cuidado personal, dos adultos, no un adulto y otro niño.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ La Guía lo resume al hablar de sobreprotección: hay que velar por el bienestar de todos, protegiendo su integridad física, mental y emocional, y asegurarse de que todos estén bien informados de la protección de los niños <em>«y del derecho de las personas –niños o adultos– a la intimidad y a la dignidad»</em> (p. 44). Proteger no es quitarle oportunidades; es que la oportunidad sea segura."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar: el adulto voluntario 🙋",
+        "questions": [
+          {
+            "text": "En la primera reunión, la familia espera que el grupo le dé a su hijo terapia de lenguaje los sábados. El grupo no puede. ¿Qué te propone la lección?",
+            "options": [
+              "Decir desde el principio los límites y buscar juntos una alternativa.",
+              "No contradecirla al principio, para que el niño entre, y aclararlo luego.",
+              "Aceptar la terapia para no cerrarle la puerta, y buscar después quién del grupo la pueda dar."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Como la Guía de Prevención pone la discapacidad entre los factores de riesgo de maltrato, una dirigente propone que el equipo «esté más pendiente» de la familia de un lobato con discapacidad. ¿Qué le respondes?",
+            "options": [
+              "Que la familia se trata como cualquiera: las señales se miran igual en todos, y él necesita cómo contar algo.",
+              "Que la familia se vigila con discreción, anotando todo lo que se vea en ella por si algún día hace falta.",
+              "Que la familia se vigila preguntándole al lobato, con cariño y en privado, cómo lo tratan en su casa."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe un acuerdo que pondrías en el acta con cualquier familia antes de la primera salida de campamento —por ejemplo, quién acompaña los momentos de cuidado personal o cómo se avisa un cambio de planes—. Redáctalo para que sirva a cualquier niño: sin nombres, sin la condición de nadie y sin datos de salud."
+      }
+    },
+    {
+      "id": 7,
+      "title": "🙋 El adulto con discapacidad, voluntario",
+      "emoji": "🙋",
+      "navLabel": "El adulto",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un adulto con discapacidad que quiere servir es, ante todo, un voluntario. Se le comunican sus funciones y sus acuerdos como a cualquiera, y se ajusta lo que haga falta para que pueda cumplirlos."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Curso 04 te dejó la frase de la Política Interamericana: <em>«estamos frente a adultos»</em>, con capacidad para decidir qué quieren hacer y dónde quieren estar (p. 11). La misma página dice qué sigue: <em>«como se realiza con otros adultos»</em>, se le comunican:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📋 Las funciones",
+              "description": "Qué se espera de él en el cargo.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🧰 Las necesidades de trabajo",
+              "description": "<em>«que no siempre están relacionadas con animar el programa educativo»</em>.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🎓 Los acuerdos de formación",
+              "description": "Qué formación hará, como cualquier adulto que entra.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🏛️ Las áreas de gestión",
+              "description": "Dónde puede colaborar en la organización.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía agrega que la gestión, en todos sus niveles, es un espacio de voluntariado válido, <em>«en especial, para aquellos adultos que debido a sus capacidades funcionales no pueden animar actividades en programa educativo»</em> (p. 47). Fíjate en el «en especial»: no dice que la gestión sea el lugar de todos los adultos con discapacidad. Muchos pueden animar una unidad: la Guía contempla los dos caminos, educador en contacto con los niños o gestión (p. 47). Lo que se mira es qué puede hacer cada persona, como con cualquier voluntario."
+        },
+        {
+          "type": "info-box",
+          "text": "🎓 <strong>La formación también se ajusta.</strong> La Guía pide contemplar las necesidades funcionales de los adultos en la formación: sistemas alternativos de comunicación, braille, material adaptado (pp. 47–48). Y la Política Interamericana pide asegurar la participación de las personas con discapacidad <strong>en los órganos de toma de decisión</strong> de todos los niveles (p. 14). No solo como beneficiarios: también decidiendo."
+        },
+        {
+          "type": "info-box",
+          "text": "🛡️ <strong>Y la selección, igual para todos.</strong> El Curso 04 lo dejó dicho con la misma Política: al seleccionar a quien anime el programa, <em>«será preponderante garantizar la seguridad y la integridad de los jóvenes»</em> (p. 12). Esa regla vale para cualquier adulto, con discapacidad o sin ella — ni más estricta ni más laxa."
+        },
+        {
+          "type": "mission-box",
+          "text": "Volvamos a la sede de los tres escalones. Entre «aquí no estamos preparados» y «ya veremos cómo» hay un camino: conocerse con la familia, preguntar qué apoyos sirven, buscar primero cómo sí, quitar las barreras antes de que llegue, dejar los acuerdos por escrito y proteger sin sobreproteger. El niño no tiene que cambiar para entrar a la Manada. El grupo, a veces, sí."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Una joven que usa silla de ruedas termina su paso por el Clan y quiere ser dirigente de Manada. Alguien propone ofrecerle, mejor, «algo en la tesorería del grupo». ¿Qué dice la lección?",
+            "options": [
+              "Que se le pregunta qué quiere hacer y qué apoyos necesitaría para animar la Manada.",
+              "Que conviene empezar por la gestión, que es el espacio que la Guía recomienda para ella.",
+              "Que se le ofrece la tesorería, pero dejándole la puerta abierta para animar más adelante."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero de grupo perdió la audición hace un año y casi no participa en las reuniones del Consejo de Grupo, que siguen siendo solo habladas. Una consejera propone que alguien tome notas a la vista durante la reunión; otro dice que es más práctico mandarle el acta después. ¿Quién tiene razón, según la lección?",
+            "options": [
+              "La primera: él participa en la reunión, con los apoyos que necesite.",
+              "El segundo: con el acta después, participa sin que la reunión se demore.",
+              "Ninguno: lo justo es que delegue su voto mientras se consiguen los apoyos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De estos ajustes —en las funciones, en la formación, en cómo se reúne o se comunica un grupo—, ¿cuál crees que es el que más falta hace en los grupos scouts para que un adulto con discapacidad participe de igual a igual? <strong>Escribe solo cuál.</strong> El ajuste concreto para tu grupo no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

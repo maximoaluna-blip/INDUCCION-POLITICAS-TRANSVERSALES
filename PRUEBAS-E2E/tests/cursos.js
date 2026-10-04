@@ -83,6 +83,11 @@ const FALLBACK = [
     file: 'actividades-seguras-y-datos.html',
     tituloIncluye: 'Actividades seguras',
   },
+  {
+    courseId: 'inclusion-personas-con-discapacidad',
+    file: 'inclusion-personas-con-discapacidad.html',
+    tituloIncluye: 'Inclusión de personas con discapacidad',
+  },
 ];
 
 let CURSOS = FALLBACK;
