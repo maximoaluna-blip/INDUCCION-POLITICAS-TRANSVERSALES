@@ -180,5 +180,19 @@
     "status": "active",
     "file": "inclusion-grupos-minoritarios.html",
     "folder": "inclusion-grupos-minoritarios"
+  },
+  {
+    "courseId": "responsable-asp-de-evento",
+    "title": "Responsable de A Salvo del Peligro en un evento",
+    "description": "Un campamento distrital, un encuentro regional, un evento nacional: todos tienen que cumplir la Política A Salvo del Peligro. Aquí aprendes quién responde en cada escala, cómo se prepara el plan y el equipo antes, qué se vigila durante, qué haces cuando un dinamizador de ¡Óyeme! te enlaza un caso —y qué no te toca— y cómo se cierra el evento para que el siguiente sea mejor.",
+    "icon": "🎪",
+    "duration": "30 minutos",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 17,
+    "modules": 6,
+    "status": "active",
+    "file": "responsable-asp-de-evento.html",
+    "folder": "responsable-asp-de-evento"
   }
 ]

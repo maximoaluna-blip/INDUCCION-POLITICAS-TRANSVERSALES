@@ -224,6 +224,9 @@ Después de cerrar la tesis como clave, el lector ciego aprendió otra regla: **
 ### En un curso de protocolos, la clave es siempre la estricta (Curso 09, ADR-130)
 Las 12 claves eran «no se puede», frente a dos distractores «se puede si…». Se aprueba eligiendo la opción más restrictiva. **Dar claves permisivas donde la fuente las permite**: la EPS sí se pide; el seguimiento lo hace quien no va. Y **romper el «uno distinto contra dos iguales»**: que un distractor comparta el encabezado de la clave y falle solo en la condición. Ojo también con la fuente que **no dice a quién**: el plan del evento que pide la Política es de la Comisión Nacional, no del grupo.
 
+### Al arreglar «quien propone se equivoca», no hagas que siempre acierte el mismo rol (Curso 17, ADR-140)
+Se invirtieron los enunciados para que quien propone acertara a veces, y nació otra regla: **la Dirección siempre tenía razón y el del equipo siempre se equivocaba**. Esto enseñaba además lo contrario de la lección, porque la Dirección no es la responsable del plan. **Contar quién habla y quién acierta, por rol, en todo el curso.** En los cursos de conducta, la regla ciega se queda en 4 de 5 o más porque gana la opción proporcionada: la única pregunta que no salió a ciegas fue una **de dato** (quién arma el plan de un evento regional).
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 

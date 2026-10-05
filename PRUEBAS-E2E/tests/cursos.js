@@ -93,6 +93,11 @@ const FALLBACK = [
     file: 'inclusion-grupos-minoritarios.html',
     tituloIncluye: 'grupos minoritarios',
   },
+  {
+    courseId: 'responsable-asp-de-evento',
+    file: 'responsable-asp-de-evento.html',
+    tituloIncluye: 'Responsable de A Salvo del Peligro',
+  },
 ];
 
 let CURSOS = FALLBACK;

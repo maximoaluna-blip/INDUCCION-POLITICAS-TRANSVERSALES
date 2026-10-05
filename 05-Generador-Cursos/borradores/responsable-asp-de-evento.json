@@ -1,0 +1,489 @@
+{
+  "courseId": "responsable-asp-de-evento",
+  "title": "Responsable de A Salvo del Peligro en un evento",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Un campamento distrital, un encuentro regional, un evento nacional: todos tienen que cumplir la Política A Salvo del Peligro. Aquí aprendes quién responde en cada escala, cómo se prepara el plan y el equipo antes, qué se vigila durante, qué haces cuando un dinamizador de ¡Óyeme! te enlaza un caso —y qué no te toca— y cómo se cierra el evento para que el siguiente sea mejor.",
+  "contentVersion": "2026-10-04",
+  "icon": "🎪",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 17,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Cada escala, su responsable",
+      "emoji": "🎪",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "El equipo, antes",
+      "emoji": "📋",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "El plan, vivo",
+      "emoji": "👁️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Enlazar sin investigar",
+      "emoji": "🚨",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Cerrar y aprender",
+      "emoji": "🔁",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Un evento a salvo",
+      "emoji": "🏕️",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "RESPONSABLE DE A SALVO DEL PELIGRO EN UN EVENTO",
+    "description": "ha completado el Curso 17 de la Línea Políticas Transversales — Responsable de A Salvo del Peligro en un evento, reconociendo con la Política Nacional A Salvo del Peligro (2025) quién responde por la Política en cada escala de evento; preparando el plan del evento y la formación del equipo de servicio antes, vigilando su cumplimiento durante y evaluándolo después; protegiendo los datos médicos y dietéticos de los participantes; y, cuando un dinamizador de ¡Óyeme! enlaza un caso, evaluando necesidades, activando las rutas pertinentes y poniéndolo en conocimiento del Comité de Gestión de Incidentes, sin investigarlo. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación, ni designa a nadie como responsable de un evento. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una cosa concreta</strong> que vas a preparar, antes del próximo evento en el que sirvas, para que sea un entorno seguro. Se queda solo en tu navegador.",
+    "placeholder": "Antes del próximo evento voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Faltan tres semanas para el campamento. La lista de compras está, el transporte está, el programa está. Alguien pregunta en la reunión: «¿Y lo de A Salvo del Peligro quién lo lleva?». Silencio. Alguien dice que eso lo hace la Región; otro, que basta con que todos tengan el certificado. Este curso es para que, la próxima vez que se haga esa pregunta, haya una respuesta —y un plan."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Identificar</strong> quién responde por la Política en un evento de grupo o distrito, en uno regional o nacional, y en uno masivo.",
+            "<strong>Preparar</strong> antes del evento el plan, la formación del equipo de servicio y la información a los participantes.",
+            "<strong>Vigilar</strong> durante el evento que el plan se cumpla, incluidos los datos médicos y dietéticos.",
+            "<strong>Actuar</strong> cuando un dinamizador de ¡Óyeme! te enlaza un caso, sin investigarlo.",
+            "<strong>Cerrar</strong> el evento con una evaluación del plan, aunque no haya habido incidentes."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación —en los eventos nacionales y regionales se pide el curso o módulo ASP para participar—, ni te designa responsable de ningún evento. Si te falta algún módulo, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se apoya en el Curso 09, que ya enseña qué lleva el plan de un evento, los protocolos de Gestión del Riesgo y el cuidado de los datos, y en el 13, que enseña qué es un espacio ¡Óyeme!: aquí se dan por sabidos."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🎪 ¿Quién responde en cada evento?",
+      "emoji": "🎪",
+      "navLabel": "Quién responde",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> todos los eventos, de cualquier nivel, cumplen la Política. Lo que cambia con la escala es quién responde por el plan: en los nacionales y regionales, la Comisión Nacional de A Salvo del Peligro; en los masivos, además, una persona designada que trabaja con la Dirección del Evento."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 09 lo viste en una frase: la Comisión Nacional de A Salvo del Peligro arma el plan de los eventos nacionales y regionales. Aquí lo abrimos desde tu lado: qué le toca a quien dirige cualquier evento, y qué cambia cuando el evento es grande."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pide la Política a todos los eventos",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Articulación de la Política en los Eventos de la Organización», p. 33.",
+          "text": "Los eventos Scouts en todos los niveles y áreas de la Asociación Scouts de Colombia deben cumplir a cabalidad con las directrices establecidas por “Haré todo cuanto de mí dependa: Política Nacional de Entornos Seguros” para llevar a cabo su planeación, organización y ejecución, garantizando condiciones de seguridad e inclusión"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏕️ Todo evento",
+              "description": "Un campamento de grupo, un encuentro distrital: quien asume la responsabilidad del evento da prioridad a <strong>formar al equipo de servicio</strong> para una convivencia guiada por la Ley y la Promesa Scout y por el <strong>manual de convivencia</strong> del evento, y a <strong>medios de reporte confidenciales</strong> (p. 33).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🗺️ Nacional o regional",
+              "description": "La responsable es la <strong>Comisión Nacional de A Salvo del Peligro</strong>: exige el curso o módulo ASP, arma el plan del evento con la Comisión Nacional de Gestión del Riesgo —la Política la escribe «de Riesgos»— y diseña las herramientas para monitorearlo (p. 33). Ojo: también en los <strong>regionales</strong>, no la Región sola.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "👥 Masivo",
+              "description": "Además, se designa <strong>una persona responsable</strong> de que el plan se aplique en todas las etapas, que trabaja <strong>coordinada con la Dirección del Evento</strong> (p. 33). La Política habla también de los «líderes de A Salvo del Peligro del evento» (pp. 34 y 40): es el papel que este curso llama <strong>responsable ASP del evento</strong>.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en lo que dice esa última frase: la persona responsable del plan <strong>no es</strong> la Dirección del Evento, ni la reemplaza. Trabajan juntas. La Dirección, por lo general, decide el programa, los horarios, la logística; la persona responsable vela por que en cada una de esas decisiones el plan se aplique, y promueve acciones de cuidado."
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>Para no perderte entre nombres:</strong> el plan de un evento nacional o regional lo arma la Comisión Nacional de A Salvo del Peligro; en los masivos, lo aplica al lado de la Dirección la persona responsable; los casos los recibe y los analiza el Comité de Gestión de Incidentes; y en ¡Óyeme! escuchan los dinamizadores."
+        },
+        {
+          "type": "info-box",
+          "text": "❓ <strong>Dos cosas que la Política no dice.</strong> No define cuándo un evento es «masivo», ni quién designa a la persona responsable. Este curso no lo va a inventar. Si organizas un evento grande y no sabes si te toca, pregúntale a la Comisión Nacional de A Salvo del Peligro antes de armar el equipo, no la semana del evento."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: antes del evento 📋",
+        "questions": [
+          {
+            "text": "En un evento masivo, la persona responsable del plan A Salvo del Peligro pide revisar con la Dirección el cronograma antes de publicarlo. La Dirección opina que eso es mezclar funciones. ¿Qué te propone la lección?",
+            "options": [
+              "Que la responsable tiene razón: el plan se aplica en cada decisión del programa, y por eso trabajan coordinadas.",
+              "Que la Dirección tiene razón: la persona responsable vela por el plan, y el programa es asunto de la Dirección.",
+              "Que lo más simple es que la persona responsable asuma también la Dirección, y así decide una sola mano."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Tu Región va a organizar un campamento regional. ¿Quién arma el plan A Salvo del Peligro de ese evento?",
+            "options": [
+              "La Comisión Nacional de A Salvo del Peligro, con la de Gestión del Riesgo.",
+              "El Comisionado Regional de Gestión del Riesgo, con el equipo de la Región.",
+              "La persona responsable designada, con la Dirección del Evento regional."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "En los eventos en que has servido, ¿solía estar claro quién respondía por A Salvo del Peligro? Escribe «sí», «no» o «no sé», y qué cargo crees que debería hacerlo en un evento como esos. Sin nombres ni eventos concretos."
+      }
+    },
+    {
+      "id": 3,
+      "title": "📋 Antes: el plan y el equipo",
+      "emoji": "📋",
+      "navLabel": "Antes",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el plan del evento se prepara antes, y lo más importante de ese antes es la gente: un equipo de servicio formado, que llega sabiendo las reglas, y participantes que saben antes de llegar cómo plantear una preocupación."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Curso 09 ya te mostró qué lleva el plan de un evento: las rutas de atención del municipio, el programa, la infraestructura, un código de buenas prácticas y los mecanismos de reporte. Aquí lo miramos desde quien lo prepara. Antes de que llegue el primer participante, hay cuatro cosas que tienen que estar:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎓 Un equipo formado",
+              "description": "La Política pide dar prioridad a formar al equipo de servicio (p. 33). En los eventos nacionales y regionales se le exige el curso o módulo ASP, y si alguien llega sin certificado, se dispone de los mecanismos <strong>para hacerlo en sitio</strong> (p. 33). No se le devuelve sin más: la Política prevé que lo haga ahí mismo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📣 Participantes informados",
+              "description": "La Política Mundial pide dar a todos, adultos y jóvenes, la información del programa A Salvo del Peligro, incluido un código de prácticas y <em>«cómo plantear las preocupaciones»</em> (4.1). La Herramienta de Autoevaluación de la OSM lo pide <strong>antes</strong> de cada evento nacional (criterio 38), y es buena práctica en cualquiera. Que nadie se entere de cómo se reporta el día que lo necesita.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "♿ Necesidades individuales",
+              "description": "La misma Herramienta pide, para los eventos nacionales, medidas que tengan en cuenta las necesidades individuales y garanticen una inclusión adecuada: el acceso en silla de ruedas, las pasarelas para personas ciegas (criterio 42). Eso se pregunta y se resuelve antes, no en la puerta. El Curso 10 te dio cómo preguntarle a una familia qué apoyos sirven; en un evento, esa pregunta va en la inscripción.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "📄 Lo de Gestión del Riesgo",
+              "description": "Las autorizaciones de participación de los menores, el transporte, la alimentación, la póliza: los protocolos de la Comisión Nacional de Gestión del Riesgo que viste en el Curso 09. El plan A Salvo del Peligro se arma <strong>en articulación</strong> con esa Comisión (p. 33), no por separado.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🎓 Una aclaración que te van a pedir: <strong>el certificado de este curso no es el del módulo ASP</strong>. Los cuatro módulos oficiales están en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido», y sus certificados solo los dan las plataformas oficiales."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: durante el evento 👁️",
+        "questions": [
+          {
+            "text": "En la acreditación de un evento nacional, un dirigente del equipo de servicio no ha hecho el módulo A Salvo del Peligro. El jefe de su contingente propone devolverlo a casa para que no haya excepciones. ¿Qué te propone la lección?",
+            "options": [
+              "Que no se le devuelve: la Política prevé que haga el módulo ahí mismo, en el evento.",
+              "Que el jefe tiene razón: sin certificado no sirve, y el evento no puede abrir excepciones.",
+              "Que se le deja servir el primer día, si se compromete por escrito a enviar el certificado."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente del equipo de servicio propone mandar a los contingentes, dos semanas antes, cómo plantear una preocupación. La Dirección de este evento regional dice que sobra: con los QR del evento alcanza. ¿Qué te propone la lección?",
+            "options": [
+              "Que el dirigente tiene razón: cómo reportar se sabe antes de llegar, no el día que hace falta.",
+              "Que la Dirección tiene razón: con los QR a la vista durante el evento, el aviso previo sobra.",
+              "Que se mande antes, pero a los jefes de contingente, para que ellos decidan cómo transmitirlo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De las cuatro cosas de esta lección —equipo formado, participantes informados, necesidades individuales y Gestión del Riesgo—, ¿cuál se suele dejar para última hora en los eventos que conoces, y qué harías tú tres semanas antes para adelantarla? Una frase, sin nombres."
+      }
+    },
+    {
+      "id": 4,
+      "title": "👁️ Durante: que el plan se cumpla",
+      "emoji": "👁️",
+      "navLabel": "Durante",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un plan que nadie vigila durante el evento es un documento. La Política pide herramientas para monitorearlo, medios de reporte a la vista y, en los eventos regionales y nacionales, el espacio ¡Óyeme!. Y los datos médicos de los participantes se cuidan sin esconderlos de quien los necesita."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo concibe la Política la aplicación en los eventos",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 34.",
+          "text": "La aplicación de la Política Nacional A Salvo del Peligro en los eventos de Scouts de Colombia debe contemplarse como un proceso sistemático, verificable y sujeto a mejora continua. Cada evento debe contar con herramientas de planificación, ejecución y evaluación que permitan monitorear el cumplimiento de los protocolos de protección, la formación de los equipos de servicio, la activación de rutas de atención y la gestión de incidentes"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔍 El monitoreo",
+              "description": "En los eventos nacionales y regionales, las herramientas para monitorear el plan las diseña y las entrega la Comisión Nacional de A Salvo del Peligro (p. 33). Lo que te toca es usarlas: que lo previsto esté pasando, en cada subcampo y en cada turno.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🔴 El reporte, a la vista",
+              "description": "La ruta oficial es el botón «Me Pongo A Salvo del Peligro», y en los eventos nacionales se ponen códigos QR de fácil acceso que llevan al formulario (p. 44). Los medios de reporte se ajustan al principio de confidencialidad (p. 33).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🎧 ¡Óyeme!",
+              "description": "En los eventos regionales y nacionales, la Política incorpora el espacio ¡Óyeme!, con dinamizadores certificados (pp. 34 y 40). El Curso 13 te enseñó qué es y qué no. Lo que este curso añade es qué pasa cuando un dinamizador te busca: es la lección que sigue.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y los datos. La Política pide garantizar la <em>«seguridad, confidencialidad, disponibilidad y autenticidad»</em> de la información sobre las necesidades médicas y dietéticas de los jóvenes (p. 26); el Manual de 2023 dice lo mismo para todas las personas que participan en un evento (8.7 v, p. 25). Fíjate en una palabra: <strong>disponibilidad</strong>. La Política Mundial pide que los requisitos dietéticos y de seguridad <em>«se registran y se comunican a todas las partes interesadas»</em> (4.5), y la Herramienta de la OSM, que los datos médicos estén <em>«fácilmente accesibles a las personas autorizadas en situaciones de emergencia»</em> (criterio 41)."
+        },
+        {
+          "type": "info-box",
+          "text": "🔒 <strong>Los datos, desde tu cargo.</strong> El Curso 09 te enseñó que confidencial no es inaccesible. Aquí la pregunta es otra: <strong>antes de abrir el evento, quién decide quién ve qué</strong>. Que la cocina tenga las alergias y dietas de cada participante, que el puesto de salud tenga las fichas, y que nadie más necesite la lista. (El apartado vecino del Manual de 2023, el del «Escuchadero» con psicólogos, está superado por ¡Óyeme!: Curso 13.)"
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: cuando te enlazan un caso 🚨",
+        "questions": [
+          {
+            "text": "Como responsable A Salvo del Peligro de un campamento nacional, defines qué recibe la cocina sobre la salud de los participantes. ¿Qué propuesta se ajusta a la lección?",
+            "options": [
+              "Las alergias y dietas de cada participante, sin el resto de la ficha médica.",
+              "Las alergias y dietas, y los diagnósticos de quien toma medicación, por si hay una reacción.",
+              "Las fichas médicas completas, para que no tenga que preguntarle a nadie."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "A mitad de un evento nacional, al pasar la herramienta de monitoreo, ves que en un subcampo el QR del reporte quedó tapado por una carpa. ¿Qué te propone la lección?",
+            "options": [
+              "Pedirle a quien coordina el subcampo que lo reubique: estar a la vista es parte del plan.",
+              "Reportarlo hoy por el botón: un plan que no se cumple es un incidente de protección.",
+              "Anotarlo para la evaluación del cierre: lo que importa es que el QR existe."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "En el próximo evento en que sirvas, ¿dónde deberían quedar las fichas médicas y qué cargos deberían poder verlas? Escribe el lugar y los cargos como regla general, sin referirte a ningún evento ni persona concretos."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🚨 Cuando te enlazan un caso",
+      "emoji": "🚨",
+      "navLabel": "Cuando te enlazan",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> si un dinamizador de ¡Óyeme! te busca, es para evaluar qué necesita la persona y, si hace falta, activar de inmediato las rutas. Lo que conozcas se pone en conocimiento del Comité de Gestión de Incidentes. Analizar y decidir es del Comité. Investigar no es de nadie en el evento."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver a quién enlazan los dinamizadores",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 34.",
+          "text": "Entendiendo que dicha escucha no representa atención en salud mental, y enlazando, en caso de ser necesario, a los coordinadores de ¡Oyeme! o líderes de A Salvo del Peligro del evento, para la evaluación de necesidades y acciones posibles, y/o la activación inmediata de las rutas que resulten pertinentes según el incidente"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Lo que te toca",
+              "description": "Evaluar con el dinamizador qué necesita la persona y qué acciones son posibles. Si el caso lo pide, activar de inmediato las rutas que el plan ya tiene identificadas: salud, protección, justicia del municipio. Si la vida o la integridad de alguien corre peligro ya, el primer aviso es de palabra a la Policía, y si necesita atención, se le acompaña al servicio de salud más cercano (Guía de Prevención 2021).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📨 Lo que no se queda contigo",
+              "description": "Todas las personas de la Asociación tienen la obligación de informar o reportar (p. 21), y los roles de la Política, al conocer por cualquier medio algo contrario a ella, <em>«deberán poner en conocimiento»</em> del Comité de Gestión de Incidentes toda la información recibida (p. 40). La ruta es el botón «Me Pongo A Salvo del Peligro» (p. 44).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🚫 Lo que no haces",
+              "description": "Llamar a la persona señalada para oír su versión, juntarla con quien habló, averiguar entre los participantes. El análisis del incidente es del Comité (Anexo 3, p. 44). Y la línea roja de esta línea: el adulto reporta y deriva, nunca investiga (p. 29).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🔀 <strong>Si vienes del Curso 03, esto es nuevo.</strong> Allí aprendiste que el adulto reporta y deriva, y que activar las rutas es del Comité. Aquí la Política le da al líder A Salvo del Peligro del evento algo más: si el caso lo pide, activar de inmediato las rutas que el plan ya identificó, como salud, protección o justicia del municipio (pp. 33, 34 y 40). Analizar, decidir y activar las demás rutas, internas y externas, sigue siendo del Comité (pp. 39 y 44). Y en un campamento de grupo, sin espacio ¡Óyeme!, si alguien te revela algo, la ruta es la del Curso 03."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y no todo enlace es un incidente. Fíjate en la frase de la Política: los dinamizadores enlazan <em>«en caso de ser necesario»</em>. Una scout que extraña la casa, un rover agotado que necesitaba hablar: la escucha basta, y no hay ruta que activar. Lo que sí hay, cuando aparece una señal de daño, es una obligación de poner en conocimiento que no espera al cierre del evento."
+        },
+        {
+          "type": "info-box",
+          "text": "🤐 Todos estos roles actúan bajo <em>«confidencialidad, empatía, enfoque de derechos y no revictimización»</em> (p. 40). Lo que te contó el dinamizador no se comenta en la reunión de dirigentes de la noche: lo saben quienes tienen que saberlo."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: después del evento 🔁",
+        "questions": [
+          {
+            "text": "Eres la responsable ASP de un evento nacional. Un dinamizador de ¡Óyeme! te busca: una scout contó que un dirigente de otro contingente le escribe mensajes que la incomodan. ¿Qué haces?",
+            "options": [
+              "Evaluar con el dinamizador qué necesita ella, y ponerlo hoy en conocimiento del Comité.",
+              "Evaluar con el dinamizador qué necesita ella, y pedirle a él que le saque más detalles.",
+              "Evaluar con el dinamizador qué necesita ella, y reportarlo al Comité al cerrar el evento."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dinamizador de ¡Óyeme! te cuenta que un lobato pasó por el espacio porque extrañaba a su familia; habló un rato y volvió a su carpa. ¿Qué te propone la lección?",
+            "options": [
+              "Nada que activar: escuchar era lo que hacía falta, y la escucha ya se hizo.",
+              "Ponerlo en conocimiento del Comité, para que quede constancia de la escucha.",
+              "Pedirle al dinamizador el nombre del lobato, para avisar esa noche a su familia."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe en orden los pasos que darías si mañana un dinamizador de ¡Óyeme! te busca con un caso que tiene una señal de daño. Solo los pasos, sin casos reales."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🔁 Después: cerrar y aprender",
+      "emoji": "🔁",
+      "navLabel": "Después",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el plan tiene un después. Se evalúa aunque no haya habido incidentes, se documenta lo que funcionó y se recoge lo que dicen los asistentes, para que el próximo evento empiece mejor."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pide la Política para cerrar el ciclo",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 34.",
+          "text": "La trazabilidad de las acciones, la documentación de buenas prácticas y la retroalimentación de los asistentes son elementos clave para fortalecer y garantizar entornos seguros que trascienden lo normativo y se convierten en cultura viva en cada experiencia educativa, operativa y comunitaria"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧾 Trazabilidad",
+              "description": "Que quede registro de lo que se hizo: quién se formó en sitio, qué se monitoreó, qué se activó. No los detalles de un caso —eso es del Comité—, sino que el plan se cumplió y dónde no.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "💡 Buenas prácticas",
+              "description": "Lo que funcionó y vale repetir: el QR en cada baño, la charla previa a los contingentes, la ficha que la cocina sí tenía a mano.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🗣️ Lo que dicen los asistentes",
+              "description": "La retroalimentación de quienes vivieron el evento: ¿sabían cómo reportar?, ¿se sintieron seguros? Un evento sin incidentes reportados no prueba que no los hubo.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Herramienta de la OSM resume el ciclo en tres palabras: un equipo responsable de la seguridad antes (<strong>planificación</strong>), durante (<strong>monitoreo</strong>) e inmediatamente después (<strong>reporte</strong>) del evento (criterio 36). Y la Política lo llama un proceso <em>«sujeto a mejora continua»</em> (p. 34): la evaluación de este evento es el insumo del plan del siguiente."
+        },
+        {
+          "type": "info-box",
+          "text": "🗂️ Y las fichas: cuando el evento termina, salen de los celulares y carpetas personales, y la información se queda solo con quien la recogió y la custodia, como propone el Curso 09."
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve a la reunión del principio, la del silencio. Ahora tienes la respuesta: si el campamento es del grupo o del distrito, responde quien asume la responsabilidad del evento —forma al equipo, pone los medios de reporte y un manual de convivencia—; en los regionales y nacionales responde la Comisión Nacional de A Salvo del Peligro; en los masivos hay una persona designada al lado de la Dirección. Antes, el equipo y la información; durante, el plan vivo; cuando te enlazan un caso, evaluar, activar y poner en conocimiento, sin investigar; después, evaluar aunque no haya pasado nada. Así un evento es una aventura de la que todos vuelven."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Terminó un encuentro regional sin incidentes reportados. La Dirección propone una encuesta corta a los asistentes antes de cerrar el informe. Alguien del equipo dice que sobra: «si nada se reportó, el plan funcionó». ¿Qué te propone la lección?",
+            "options": [
+              "Que la Dirección tiene razón: un evento sin reportes no prueba que no hubo incidentes.",
+              "Que el del equipo tiene razón: sin reportes, basta con documentar lo que funcionó.",
+              "Que la encuesta va, pero al equipo de servicio, que vio el evento de principio a fin."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al redactar el informe de cierre del plan, la Dirección del Evento propone incluir el relato del caso que se puso en conocimiento del Comité, «para que quede trazabilidad». ¿Qué te propone la lección?",
+            "options": [
+              "Que el informe diga qué se activó y que se avisó al Comité, sin el relato.",
+              "Que el relato va: sin él, la trazabilidad del plan queda incompleta.",
+              "Que el informe dé solo cuántos casos hubo, sin decir qué rutas se activaron."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Qué pregunta le harías a los asistentes de un evento para saber si de verdad se sintieron seguros? Escribe solo la pregunta. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}
