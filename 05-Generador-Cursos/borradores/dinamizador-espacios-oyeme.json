@@ -1,0 +1,453 @@
+{
+  "courseId": "dinamizador-espacios-oyeme",
+  "title": "Dinamizador de espacios ¡Óyeme!",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "En los eventos regionales y nacionales hay un espacio para que cualquiera que esté pasando un mal momento encuentre a alguien que lo escuche. Aquí te preparas para ser una de esas personas: qué es y qué no es el rol, cómo se arma un espacio privado y seguro a la vez, cómo distinguir un mal rato de algo más, cuándo y a quién enlazar, y qué queda después del turno. Este curso no te certifica: eso lo acompaña la Coordinación Nacional de Espacios ¡Óyeme!.",
+  "contentVersion": "2026-10-04",
+  "icon": "🎧",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 16,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Primer respondiente",
+      "emoji": "🎧",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "De a dos, siempre",
+      "emoji": "🏕️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Un mal rato o algo más",
+      "emoji": "🌱",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Enlazar a tiempo",
+      "emoji": "🔗",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Cerrar el turno",
+      "emoji": "🗂️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Un espacio para escuchar",
+      "emoji": "👂",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "PREPARACIÓN PARA DINAMIZAR ESPACIOS ¡ÓYEME!",
+    "description": "ha completado el Curso 16 de la Línea Políticas Transversales — Dinamizador de espacios ¡Óyeme!, reconociendo con la Política Nacional A Salvo del Peligro (2025) el rol de primer respondiente que escucha y no ofrece atención en salud mental; armando un espacio privado y seguro a la vez con la estrategia 2+1; distinguiendo un desafío o una incomodidad de un riesgo de daño; enlazando a tiempo con los coordinadores de ¡Óyeme! o los líderes de A Salvo del Peligro del evento; y cuidando lo que se escucha. Este curso no certifica como dinamizador —eso lo acompaña la Coordinación Nacional de Espacios ¡Óyeme!— ni sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>un paso concreto</strong> para prepararte como persona que escucha. Se queda solo en tu navegador.",
+    "placeholder": "Voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Segunda noche de un campamento nacional. Una carpa con un letrero sencillo, dos sillas de más, alguien que te recibe sin preguntarte de qué grupo eres. Por ahí pasan una scout que extraña su casa, un rover que no se siente parte de nada, una dirigente preocupada por alguien de su tropa. Y alguna vez, alguien que viene a contar algo grave. La pregunta de quien se sienta ahí la primera vez es siempre la misma: ¿y si me cuentan algo que no sé manejar? Este curso es para quien quiere estar del otro lado de esa silla."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> qué hace distinto al dinamizador, quién acompaña su certificación y quién lo convoca.",
+            "<strong>Armar</strong> un espacio de escucha que sea privado y seguro a la vez.",
+            "<strong>Distinguir</strong> un desafío o una incomodidad de algo que pide más que escuchar.",
+            "<strong>Enlazar</strong> a tiempo y con la persona correcta, sin investigar.",
+            "<strong>Cuidar</strong> lo que se escucha, y cuidarte, al cerrar el turno."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no te certifica como dinamizador</strong>: eso lo acompaña la Coordinación Nacional de Espacios ¡Óyeme!. Tampoco <strong>sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación; si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se apoya en el 03 (recibir una revelación), el 07 (primeros auxilios psicológicos), el 13 (escuchar a un compañero; qué es ¡Óyeme!) y el 17 (los líderes de A Salvo del Peligro del evento, a quienes enlazas; en los masivos, la persona responsable), que puedes hacer antes o después: lo de esos cursos aquí se da por sabido."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🎧 Primer respondiente, no terapeuta",
+      "emoji": "🎧",
+      "navLabel": "El rol",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el dinamizador de ¡Óyeme! es un primer respondiente: escucha, ayuda a la persona a encontrar sus propios recursos y, si hace falta, enlaza. No atiende en salud mental, y actúa en eventos regionales y nacionales, certificado y a solicitud de la Coordinación Nacional."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la Política a los dinamizadores",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 40.",
+          "text": "Ejercen sus funciones bajo las condiciones de realización en eventos regionales y nacionales, con previa certificación y a solicitud de la Coordinación Nacional de Espacios ¡Óyeme!. Tienen el rol de ser primeros respondientes, encauzando y fortaleciendo las habilidades socioemocionales de quién asista al espacio durante un momento de necesidad, ya sea que enfrente un desafío, un riesgo de daño o cuando experimente incomodidad"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🪑 Del otro lado de la silla",
+              "description": "En el Curso 13 viste ¡Óyeme! desde fuera. Aquí cambia esto: no eres el psicólogo, ni el consejero, ni el investigador. Eres quien escucha, ayuda a que la persona encuentre lo que ya le sirve y, si hace falta, la lleva a quien sigue, <em>«sin riesgo de extralimitación»</em> (p. 34).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📨 A solicitud",
+              "description": "Que estés certificado no te abre el espacio en cualquier evento: los dinamizadores actúan <em>«a solicitud de la Coordinación Nacional»</em> (p. 40). Ni el grupo, ni la Región, ni la Dirección del evento te convocan por su cuenta. Fuera de eso, escuchar sigue siendo cosa de cualquier adulto; lo que no hay es espacio ¡Óyeme!.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🧭 Quién te respalda",
+              "description": "La Coordinación Nacional de Espacios ¡Óyeme! verifica tus requisitos, supervisa los espacios, gestiona los reportes de escucha y acompaña las certificaciones en las regiones (p. 40).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "❓ <strong>Lo que todavía no está publicado.</strong> La Política dice que los dinamizadores trabajan <em>«bajo los lineamientos y las funciones determinadas en el manual operativo»</em> (p. 34). El Manual Operativo que hoy circula es el de 2023, y todavía describe el «Escuchadero» con psicólogo: ese modelo está superado. Las funciones al detalle las fija el manual operativo al que remite la Política; mientras no se publique uno que describa ¡Óyeme!, pregúntale a la Coordinación Nacional por las funciones, los requisitos y el formato del reporte de escucha. Este curso te prepara con lo que la Política sí dice."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: el espacio 🏕️",
+        "questions": [
+          {
+            "text": "Campamento de grupo de tres días, con cuatro grupos invitados. Como hiciste este curso, el jefe de campo te pide montar un espacio ¡Óyeme! con otra dirigente. ¿Qué te propone la lección?",
+            "options": [
+              "Montarlo, pero no como ¡Óyeme!: ese espacio es de eventos regionales y nacionales.",
+              "Montarlo sí: lo que sabes sobre escuchar te sirve en cualquier silla, también en el grupo.",
+              "Montarlo solo si la otra dirigente tiene formación en salud, para cubrir lo que falte."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Tu amiga ya está certificada como dinamizadora. Llega a un evento regional y se ofrece a la Dirección para abrir el espacio esa noche. La Dirección le dice que primero tiene que pedirla la Coordinación Nacional. ¿Qué te propone la lección?",
+            "options": [
+              "Que la Dirección tiene razón: los dinamizadores actúan a solicitud de la Coordinación.",
+              "Que ella tiene razón: con la certificación basta para abrir el espacio en cualquier evento.",
+              "Que puede servir si la Dirección la acepta, porque el evento lo organiza la Región."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la primera frase con la que recibirías a alguien que entra al espacio, y una frase que nunca le dirías. Solo las dos frases."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🏕️ Un espacio privado y seguro a la vez",
+      "emoji": "🏕️",
+      "navLabel": "El espacio",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> quien llega a ¡Óyeme! necesita privacidad para hablar, y también necesita estar a salvo. Las dos cosas caben si, como propone este curso a partir del 2+1, en el espacio se escucha de a dos, nunca a solas."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué dice la Política sobre la estrategia 2+1",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 26.",
+          "text": "La estrategia 2+1 es una medida de protección utilizada para evitar posibles situaciones de riesgo, abuso o malentendidos. Consiste en asegurar que siempre haya al menos tres personas presentes durante las actividades, interacciones o acompañamientos: dos personas adultas responsables y una persona menor de edad, o una persona adulta y dos menores, tanto en comunicaciones entre adultos - adultos, adultos - jóvenes, jóvenes - jóvenes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso lee una escucha como un acompañamiento. Por eso, la propuesta de este curso a partir del 2+1 es que en ¡Óyeme! <strong>nadie escuche solo</strong>: dos dinamizadores con quien llega, sea menor o adulto. Te protege a ti, que nunca quedas en una situación que se preste a malentendidos, y protege a quien llega, que nunca queda a solas con un adulto que no conoce. Es la misma práctica 2+1 del Curso 03, aplicada a una silla de escucha."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👀 A la vista",
+              "description": "La propuesta de este curso: que el espacio se pueda ver desde fuera —una carpa abierta, un rincón del campo— pero que lo que se dice no se oiga. Privado para hablar, visible para estar seguro.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🤝 Sin prejuicio",
+              "description": "La Política pide un ambiente <em>«acogedor, seguro, no amenazante y sin ningún prejuicio»</em> (p. 34). No se pregunta de qué grupo eres para decidir si te escuchan, ni cuántas veces viniste hoy.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "👥 Para otra persona",
+              "description": "Al espacio se puede venir por uno mismo o por otra persona (p. 34): la dirigente preocupada por alguien de su tropa también es bienvenida.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: un mal rato o algo más 🌱",
+        "questions": [
+          {
+            "text": "Estás en el espacio y tu compañera dinamizadora fue por agua. Llega un lobato solo, con ganas de contar algo. ¿Qué te propone la lección?",
+            "options": [
+              "Recibirlo a la vista y pedirle que espere un momento a tu compañera para empezar a contar.",
+              "Recibirlo a la vista y escucharlo tú mientras ella vuelve, con la carpa bien abierta.",
+              "Recibirlo a la vista y llevarlo tú a buscar a tu compañera, para que te cuente por el camino."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una scout llega al espacio por tercera vez en el día. Tu compañera dinamizadora, que la quiere ayudar, propone sugerirle que esta vez lo intente primero con alguien de su patrulla, «para que no dependa de nosotros». ¿Qué te propone la lección?",
+            "options": [
+              "Recibirla como la primera vez, sin preguntarle por qué vuelve tanto al espacio hoy.",
+              "Recibirla solo si antes lo intentó con su patrulla: así no depende del espacio.",
+              "Recibirla, y avisarle a su jefe de tropa que viene seguido, para que esté pendiente."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Si te tocara armar el espacio en un evento, ¿dónde lo pondrías para que fuera privado y a la vez visible? Describe el lugar en una frase, sin nombres."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🌱 Desafío, incomodidad o algo más",
+      "emoji": "🌱",
+      "navLabel": "Un mal rato o algo más",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la mayoría de quienes llegan traen un mal rato: escucharlos y ayudarlos a encontrar lo que ya les sirve basta, y vuelven a su actividad. Lo que dura semanas, lo que afecta la vida o lo que trae un riesgo pide algo más que escuchar."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política nombra tres momentos de necesidad: un <strong>desafío</strong>, una <strong>incomodidad</strong> o un <strong>riesgo de daño</strong> (p. 34). Los dos primeros son lo más común en un evento: el miedo a la actividad de mañana, la pelea con la patrulla, la nostalgia de la casa. Ahí tu papel es escuchar —como aprendiste en el Curso 13 con un compañero adulto; aquí, casi siempre, con un niño o un joven, y por eso lo del Curso 07 sobre primeros auxilios psicológicos es lo que más vas a usar— y ayudar a encauzar."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌿 Lo que ya sirve",
+              "description": "El toolkit de la Oficina Scout Mundial, escrito para el dirigente de una unidad, recuerda que el Escultismo ya hace mucho por el bienestar: estar en la naturaleza, compartir lo que se siente, jugar, cantar, el apoyo de la patrulla (ff. 14–15). Ayudar a alguien a volver a eso es fortalecer sus habilidades.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🫁 Una pausa",
+              "description": "A veces todo es demasiado y el cuerpo necesita parar: el toolkit propone detenerse, darle un respiro al cuerpo y aceptar lo que se siente sin juzgarlo (f. 22). Una pausa así, en el espacio, puede ser todo lo que hace falta.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🚩 Lo que pide más",
+              "description": "Sentirse mal por semanas o meses pide buscar ayuda (f. 28), y quien vive un problema de salud mental necesita a un profesional (f. 30). Y hay señales que no se dejan pasar: la tristeza persistente o las ideas de hacerse daño (f. 30). El toolkit pide también avisar a la familia; en ¡Óyeme!, eso lo decide el enlace, no tú. Ahí no se escucha y se despide: si es algo que dura, se enlaza; si alguien habla de hacerse daño, no se va solo del espacio (lección siguiente).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🗝️ <strong>Cómo se encauza, en la práctica.</strong> No le dices qué hacer: le preguntas. «¿Qué te ha ayudado otras veces cuando te sentiste así?», «¿Con quién de tu patrulla te sientes bien?», «¿Qué te gustaría hacer al salir de aquí?». Si la respuesta es suya, se la lleva."
+        },
+        {
+          "type": "info-box",
+          "text": "🚧 <strong>Lo que no haces aunque sepas.</strong> Aunque tengas formación en salud, en ¡Óyeme! no diagnosticas, no recomiendas medicamentos ni propones volver a verse para «seguir trabajando» lo que salió. La escucha <em>«no representa atención en salud mental»</em> (p. 34): si hace falta un profesional, tu ayuda es que llegue a uno."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: cuándo y a quién enlazar 🔗",
+        "questions": [
+          {
+            "text": "Una scout llega llorando: su patrulla perdió una competencia y siente que fue su culpa. ¿Qué te propone la lección?",
+            "options": [
+              "Escucharla y preguntarle qué la ha calmado otras veces, para que vuelva con su patrulla.",
+              "Escucharla y explicarle que eso suena a ansiedad, para que consulte a un psicólogo al volver.",
+              "Escucharla y luego hablar tú con su patrulla para que dejen de culparla."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al final de la escucha, una scout dice que a veces piensa que sería mejor no despertar. Ya está más tranquila y quiere irse a su carpa. ¿Qué te propone la lección?",
+            "options": [
+              "Quedarse los dos con ella en el espacio, y que el aviso al líder ASP salga ya por teléfono.",
+              "Dejarla volver a su carpa, ya tranquila, y avisar al líder ASP del evento al cerrar el turno.",
+              "Acompañarla tú solo hasta su carpa y, de camino, avisar al líder ASP del evento por teléfono."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una pregunta que le harías a alguien para que encuentre por sí mismo lo que ya le sirve, sin darle tú la respuesta. Solo la pregunta."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🔗 Cuándo y a quién enlazar",
+      "emoji": "🔗",
+      "navLabel": "Enlazar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> cuando lo que llega es más que un mal rato, enlazas con los coordinadores de ¡Óyeme! o los líderes de A Salvo del Peligro del evento. Si es un daño, tu deber es que llegue al Comité, normalmente por ese enlace. No investigas, no prometes secreto y no lo cuentas a nadie más."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver con quién enlaza el dinamizador",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 34.",
+          "text": "Entendiendo que dicha escucha no representa atención en salud mental, y enlazando, en caso de ser necesario, a los coordinadores de ¡Oyeme! o líderes de A Salvo del Peligro del evento, para la evaluación de necesidades y acciones posibles, y/o la activación inmediata de las rutas que resulten pertinentes según el incidente"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔗 Lo que necesita más",
+              "description": "Lo que dura semanas, las señales de la lección anterior, una necesidad que el espacio no cubre: enlazas con la coordinación o el líder ASP del evento, que evalúan qué hacer. Tú no decides solo.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🔴 Un daño",
+              "description": "Si alguien revela un daño, escuchas sin preguntar detalles y sin prometer secreto, como en el Curso 03. Los roles de la Política —también el tuyo— deben poner en conocimiento del Comité de Gestión de Incidentes <em>«toda la información recibida»</em> (p. 40). Lo normal es que lo lleves por el líder ASP del evento, que activa lo urgente y lo pone en conocimiento del Comité. Si no hay a quién enlazar, lo reportas tú por el botón «Me Pongo A Salvo del Peligro» (p. 44).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🚨 Un riesgo ya",
+              "description": "Si la vida o la integridad de alguien corre peligro en ese momento no esperas: la persona no queda sola y se avisa ya al líder ASP del evento; si hace falta, aviso de palabra a la Policía y, si necesita atención, que alguien la acompañe al servicio de salud más cercano (Guía de Prevención 2021). Este curso trata igual a quien habla de hacerse daño: la Guía pide conocer los propios límites y buscar la ayuda de otros (p. 21). Aquí sirve escuchar de a dos: los dos se quedan con la persona, y el aviso sale por teléfono o pidiéndole a otro adulto que llame.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y lo que no haces: averiguar quién fue, buscar a la otra persona, pedir pruebas. La línea roja es la misma de toda esta línea: el adulto reporta y deriva, nunca investiga (Política, p. 29). Todos estos roles actúan bajo <em>«confidencialidad, empatía, enfoque de derechos y no revictimización»</em> (p. 40): lo que te contaron lo saben quienes tienen que saberlo, y nadie más."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: después del turno 🗂️",
+        "questions": [
+          {
+            "text": "Hace una hora enlazaste con el líder ASP del evento por lo que contó una scout. Vuelve y te pide que le repitas lo que ella dijo, con sus palabras, para evaluar qué hacer. ¿Qué haces?",
+            "options": [
+              "Contárselo: es la persona con la que enlazaste, y le toca a él evaluar qué hacer ahora.",
+              "No contárselo: lo que se escucha en el espacio no sale de ahí, tampoco hacia él.",
+              "Pedirle que lo hable él directamente con la scout, para que ella decida qué contar."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un rover te cuenta que un dirigente de otro grupo le escribe mensajes que lo incomodan, y te pide que no se lo digas a nadie. ¿Qué haces?",
+            "options": [
+              "Decirle que eso no lo puedes guardar, y llevarlo hoy mismo al líder ASP del evento.",
+              "Decirle que eso no lo puedes guardar, y pedirle que te muestre los mensajes para llevarlo completo.",
+              "Guardarle el secreto como pidió, y animarlo a usar el botón cuando se sienta listo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la frase con la que abrirías una escucha para que quien llega sepa, antes de contar nada, que si aparece un riesgo vas a tener que pedir ayuda. Solo la frase."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🗂️ Lo que queda después del turno",
+      "emoji": "🗂️",
+      "navLabel": "Después del turno",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> al cerrar el turno, lo que escuchaste va al reporte de escucha que gestiona la Coordinación, además de lo que ya enlazaste, y a ningún otro lado. Y tú también necesitas soltar lo que cargaste, sin contar los casos."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Coordinación Nacional de Espacios ¡Óyeme! es la que <em>«gestiona los reportes de escucha»</em> y garantiza la gestión documental: que lo que pasó en los espacios cuadre con los reportes virtuales (p. 40). Por eso lo que escuchas no queda en tu celular, ni en el grupo de chat de dinamizadores, ni en la conversación de la cena: lo que haya que registrar va por ese canal, con el formato y el alcance que te dé la Coordinación."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🗂️ El reporte de escucha",
+              "description": "Lo gestiona la Coordinación Nacional. Su formato no está publicado: pídeselo a la Coordinación. Lo que sí sabes desde ya es que trae datos de salud y de personas, que son sensibles (Curso 09): lo mínimo y por el canal que te indiquen.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🪣 Tu propio balde",
+              "description": "Escuchar durante horas también llena el balde (Curso 13). El toolkit recuerda que todos tienen el deber de cuidarse <em>a sí mismos</em> y a los demás (f. 43). Al cerrar el turno, hablar de cómo quedaste tú —no de lo que te contaron— es parte del trabajo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧭 La supervisión",
+              "description": "La Coordinación supervisa el ejercicio de los espacios (p. 40). Si un turno te dejó con dudas sobre lo que hiciste, se pregunta ahí, no se resuelve solo.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve a la carpa del principio. Del otro lado de la silla hay alguien que escucha de a dos, a la vista y sin prejuicio; que ayuda a encontrar lo que ya sirve y no diagnostica; que reconoce cuándo un mal rato es algo más y enlaza a tiempo; que no promete secretos ni investiga; y que al cerrar el turno deja lo escuchado en el canal correcto y se cuida. Eso es ser primer respondiente. La certificación para serlo la acompaña la Coordinación. Lo que aprendiste aquí sobre escuchar te sirve en cualquier silla; el espacio ¡Óyeme!, solo donde lo pide la Coordinación."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Al final de un turno largo, tu compañera propone sentarse diez minutos antes de irse. Otro dinamizador dice que sobra: «ya estamos cansados». ¿Qué te propone la lección?",
+            "options": [
+              "Que se sienten, y que cada uno diga cómo quedó él, sin volver sobre lo escuchado.",
+              "Que se sienten, y que repasen los casos difíciles del turno para aprender de ellos.",
+              "Que se vayan: descansar ya es la mejor forma de cuidarse después de un turno así."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Terminó tu turno. Una dinamizadora nueva anota en su celular lo que le contaron, «para no olvidarlo al hacer el reporte». ¿Qué le dices?",
+            "options": [
+              "Que lo que haya que registrar vaya directo al reporte de escucha, no a su celular.",
+              "Que puede dejarlo en el celular si no pone nombres, hasta entregar el reporte.",
+              "Que se lo mande al líder ASP del evento, que es quien recibe todo lo del espacio."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Qué harías al terminar un turno de escucha para soltar lo que cargaste, sin contar lo que escuchaste? Escribe una cosa. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

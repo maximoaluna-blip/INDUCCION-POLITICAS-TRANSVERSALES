@@ -227,6 +227,9 @@ Las 12 claves eran «no se puede», frente a dos distractores «se puede si…»
 ### Al arreglar «quien propone se equivoca», no hagas que siempre acierte el mismo rol (Curso 17, ADR-140)
 Se invirtieron los enunciados para que quien propone acertara a veces, y nació otra regla: **la Dirección siempre tenía razón y el del equipo siempre se equivocaba**. Esto enseñaba además lo contrario de la lección, porque la Dirección no es la responsable del plan. **Contar quién habla y quién acierta, por rol, en todo el curso.** En los cursos de conducta, la regla ciega se queda en 4 de 5 o más porque gana la opción proporcionada: la única pregunta que no salió a ciegas fue una **de dato** (quién arma el plan de un evento regional).
 
+### Un rol cuyas funciones no están publicadas se enseña con lo que la norma sí dice (Curso 16, ADR-143)
+La Política manda las funciones del dinamizador a un manual operativo que no describe ¡Óyeme!. **Barrer el corpus antes de afirmar que algo no existe, decirlo en el curso y mandar a preguntar**, sin inventar formatos. Y cuidar los verbos de la fuente: la Coordinación *acompaña* la certificación, no la emite. En los quizzes, **una pregunta puede responder a otra**: al cerrar una vuelta, leer las diez juntas y no solo cada una.
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 

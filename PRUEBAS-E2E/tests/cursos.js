@@ -98,6 +98,11 @@ const FALLBACK = [
     file: 'responsable-asp-de-evento.html',
     tituloIncluye: 'Responsable de A Salvo del Peligro',
   },
+  {
+    courseId: 'dinamizador-espacios-oyeme',
+    file: 'dinamizador-espacios-oyeme.html',
+    tituloIncluye: 'Dinamizador de espacios',
+  },
 ];
 
 let CURSOS = FALLBACK;

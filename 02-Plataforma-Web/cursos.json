@@ -194,5 +194,19 @@
     "status": "active",
     "file": "responsable-asp-de-evento.html",
     "folder": "responsable-asp-de-evento"
+  },
+  {
+    "courseId": "dinamizador-espacios-oyeme",
+    "title": "Dinamizador de espacios ¡Óyeme!",
+    "description": "En los eventos regionales y nacionales hay un espacio para que cualquiera que esté pasando un mal momento encuentre a alguien que lo escuche. Aquí te preparas para ser una de esas personas: qué es y qué no es el rol, cómo se arma un espacio privado y seguro a la vez, cómo distinguir un mal rato de algo más, cuándo y a quién enlazar, y qué queda después del turno. Este curso no te certifica: eso lo acompaña la Coordinación Nacional de Espacios ¡Óyeme!.",
+    "icon": "🎧",
+    "duration": "30 minutos",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 16,
+    "modules": 6,
+    "status": "active",
+    "file": "dinamizador-espacios-oyeme.html",
+    "folder": "dinamizador-espacios-oyeme"
   }
 ]
