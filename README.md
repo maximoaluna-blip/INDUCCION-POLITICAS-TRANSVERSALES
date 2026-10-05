@@ -1,6 +1,6 @@
 # Línea Políticas Transversales · Asociación Scouts de Colombia
 
-> **PUBLICADA.** 15 cursos activos de los 22 planeados: **el Nivel 1 completo** desde el 27-sep-2026 (ADR-097), el **Nivel 2 completo** desde el 04-oct-2026 (Cursos 07–13; ADR-110, 115, 121, 126, 130, 131 y 136) y el **Nivel 3 en marcha** con el Curso 17, Responsable ASP de evento (ADR-140), y el 16, Dinamizador de espacios ¡Óyeme! (ADR-143).
+> **PUBLICADA.** 16 cursos activos de los 22 planeados: **el Nivel 1 completo** desde el 27-sep-2026 (ADR-097), el **Nivel 2 completo** desde el 04-oct-2026 (Cursos 07–13; ADR-110, 115, 121, 126, 130, 131 y 136) y el **Nivel 3 en marcha** con el Curso 17, Responsable ASP de evento (ADR-140), el 16, Dinamizador de espacios ¡Óyeme! (ADR-143), y el 18, El Consejero de Grupo y los entornos seguros (ADR-144).
 > 🔗 **https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/**
 
 Es la **cuarta línea** de la plataforma de formación de adultos voluntarios. Cubre las tres políticas que la ASC exige o recomienda a **toda persona adulta vinculada**, sea cual sea su cargo, rama o nivel: **A Salvo del Peligro**, **Diversidad e Inclusión** y **Gestión para la Motivación**.

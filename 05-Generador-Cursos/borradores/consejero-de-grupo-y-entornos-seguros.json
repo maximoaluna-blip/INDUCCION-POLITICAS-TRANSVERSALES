@@ -1,0 +1,453 @@
+{
+  "courseId": "consejero-de-grupo-y-entornos-seguros",
+  "title": "El Consejero de Grupo y los entornos seguros",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "En el Consejo de Grupo se aprueban presupuestos, se eligen candidatos y se rinde cuentas a la Asamblea. También se vela por que el grupo sea un lugar seguro. Aquí aprendes qué le toca al consejo en A Salvo del Peligro y qué no: vigilar sin conducir el programa, cuidar que nadie empiece antes de tiempo, frenar una actividad insegura, actuar ante un caso sin investigarlo ni juzgarlo, y rendir cuentas sin exponer a nadie.",
+  "contentVersion": "2026-10-05",
+  "icon": "🏛️",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 18,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Velar no es hacer",
+      "emoji": "🪑",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Nadie empieza antes",
+      "emoji": "🚪",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Frenar a tiempo",
+      "emoji": "🏕️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Reportar sin juzgar",
+      "emoji": "🔴",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Cuentas claras",
+      "emoji": "📊",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Un consejo que cuida",
+      "emoji": "🏛️",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "EL CONSEJERO DE GRUPO Y LOS ENTORNOS SEGUROS",
+    "description": "ha completado el Curso 18 de la Línea Políticas Transversales — El Consejero de Grupo y los entornos seguros, reconociendo con la Política Nacional A Salvo del Peligro (2025) que la política es un componente obligatorio de la gestión de cada grupo; velando, como lo pide el Manual de Cargos, por que se cumpla sin conducir el programa; cuidando que ningún adulto sea nombrado antes de completar los procedimientos; frenando o corrigiendo una actividad que ponga en riesgo a los jóvenes; actuando ante un caso sin investigarlo ni juzgarlo; y rindiendo cuentas de las acciones del grupo sin exponer a nadie. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una cosa concreta</strong> que vas a proponer en el próximo consejo de grupo para que A Salvo del Peligro sea parte de su gestión. Se queda solo en tu navegador.",
+    "placeholder": "En el próximo consejo voy a proponer..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Reunión del consejo, un martes en la noche. Orden del día: el informe del tesorero, la cuota del campamento, el arreglo de la sede, el candidato a Jefe de Grupo. Al final, «varios». A Salvo del Peligro no aparece, porque «eso lo manejan los dirigentes». Este curso es para el consejero que se pregunta si de verdad es así, y qué le tocaría a él."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Distinguir</strong> qué le toca al consejo en A Salvo del Peligro y qué le toca al Equipo de Jefatura.",
+            "<strong>Verificar</strong> que ningún adulto empiece antes de completar los procedimientos.",
+            "<strong>Decidir</strong> cuándo el consejo frena o corrige una actividad que pone en riesgo a los jóvenes.",
+            "<strong>Actuar</strong> ante un caso en el grupo sin investigarlo ni juzgarlo.",
+            "<strong>Rendir cuentas</strong> de lo que el grupo hizo sin exponer a nadie."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación; si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se queda con la parte de A Salvo del Peligro del cargo. El cargo entero lo enseña el curso <em>Ser consejero de grupo</em> de la línea Política de Adultos, y cómo se selecciona a un adulto, su curso de vinculación. Aquí se dan por sabidos."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🪑 Velar no es hacer",
+      "emoji": "🪑",
+      "navLabel": "Velar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Política es un componente obligatorio de la gestión del grupo, y al consejo le toca velar por que se cumpla. Velar es vigilar, pedir cuentas y corregir; el programa lo conduce el Equipo de Jefatura."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pide la Política al nivel local",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Nivel Local (Consejos de Grupo y Ramas)», p. 42.",
+          "text": "La Política Nacional A Salvo del Peligro será un componente obligatorio en la gestión de cada Grupo Scout, constituyéndose en un criterio de calidad educativa, organizacional y de cuidado, evidenciado en la planeación de actividades, en el acompañamiento adulto y en la protección de la niñez y juventud"
+        },
+        {
+          "type": "paragraph",
+          "text": "Y el Manual de Cargos lo pone en la ficha de cada consejero, entre las tareas de fomentar, apoyar y vigilar la gestión de los adultos del grupo: <em>«Vela por el cumplimento de las políticas de a salvo del peligro dentro del Grupo»</em> (ficha 2.1.1, f. 6)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👀 Lo que te toca",
+              "description": "Preguntar cómo va, pedir al Jefe de Grupo que informe, revisar que lo previsto se cumpla y corregir cuando no. Y proponer que A Salvo del Peligro esté en el orden del día, no solo en «varios».",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧭 Lo que no te toca",
+              "description": "Conducir el programa ni planear las reuniones de las unidades: eso es del Equipo de Jefatura, y en el programa el Jefe de Grupo tiene autoridad sobre el consejo (Reglamento de Grupos, art. 12.5.2). Y tampoco gestionar casos: eso es del Comité de Gestión de Incidentes (lección 4).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🗓️ Una propuesta",
+              "description": "Este curso te propone que A Salvo del Peligro sea un punto fijo de cada reunión del consejo, y, si el grupo lo necesita, un comité del consejo que siga las acciones de prevención del grupo (el Reglamento permite crearlos, art. 5.18). Los casos, nunca: esos van por el botón al Comité de Gestión de Incidentes.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: los adultos que entran 🚪",
+        "questions": [
+          {
+            "text": "En el consejo, un consejero dice que A Salvo del Peligro «es cosa de los dirigentes, que para eso hicieron el módulo». ¿Qué te propone la lección?",
+            "options": [
+              "Que no: la Política es parte obligatoria de la gestión del grupo, y el consejo vela por ella.",
+              "Que tiene razón: al consejo le toca lo administrativo y financiero, y a los dirigentes el resto.",
+              "Que tiene razón en parte: al consejo le toca cuando ya llegó un caso al grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero propone pedirle al Jefe de Grupo que el Equipo de Jefatura incluya en el programa reuniones de autocuidado para la Manada, y que informe al consejo cómo van. La vicepresidenta prefiere que el consejo las diseñe y las dirija él mismo. ¿Qué te propone la lección?",
+            "options": [
+              "Lo del consejero: el consejo pide y hace seguimiento, y la Jefatura conduce el programa.",
+              "Lo de la vicepresidenta: si el tema es protección, el consejo debe llevarlo de principio a fin.",
+              "Ninguna: las reuniones de cada unidad no son asunto del consejo, ni siquiera para preguntar."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "En las reuniones del consejo que conoces, ¿A Salvo del Peligro aparece en el orden del día? Escribe «sí», «a veces» o «no», y en qué punto lo pondrías tú. Sin nombres."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🚪 Los adultos que entran",
+      "emoji": "🚪",
+      "navLabel": "Los adultos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la protección empieza antes de que un adulto llegue a la unidad. Al consejo le toca cuidar que nadie sea nombrado antes de completar los procedimientos, ni siquiera cuando hay urgencia."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política dice que para minimizar el riesgo de abuso hay que fortalecer los procesos de vinculación, selección, inducción y evaluación de los adultos (p. 28). Y pide dos cosas que el consejo tiene que poder verificar:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📄 Los documentos",
+              "description": "Exigir dentro del ciclo de vida del adulto <em>«los documentos legales vigentes que garanticen la ausencia de antecedentes penales, disciplinarios, judiciales y de delitos sexuales»</em> (p. 28, punto 1).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "⏳ Después, no antes",
+              "description": "<em>«Realizar nombramiento de adultos únicamente después de que se hayan realizado todos los procedimientos apropiados»</em> (p. 29, punto 4). La urgencia del sábado no cambia el orden. Y no es solo el papel del nombramiento: los certificados se piden <em>«para iniciar el ciclo de vida»</em> del adulto (p. 28, punto 2). Sin ellos, tampoco empieza con la unidad.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🗳️ El Jefe de Grupo",
+              "description": "Aquí el consejo tiene una mano directa: selecciona, consultando al Equipo de Jefatura, hasta tres candidatos que cumplan las calidades, y los presenta al Jefe Regional (o al Nacional, según el caso), que es quien nombra (Reglamento de Grupos, art. 5.6.22). Este curso te propone una regla sencilla: el consejo no presenta a nadie a quien le falten los documentos.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🔎 <strong>Cómo lo verifica el consejo.</strong> No te toca guardar los papeles: los certificados de los módulos de A Salvo del Peligro van al jefe inmediato, y en el grupo quien verifica que un adulto esté al día es el Jefe de Grupo, que además nombra a los dirigentes de rama. Lo que sí haces es pedirle, en el consejo, que confirme antes de cada nombramiento que el adulto tiene sus documentos y sus módulos de A Salvo del Peligro. Esa pregunta, dicha en voz alta, ya es velar."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>Y tú también pasaste por ahí.</strong> Para ser consejero, la ficha pide, entre otros requisitos, no tener medida de aseguramiento vigente ni <em>«aparecer en el registro nacional de agresores sexuales»</em> (ficha 2.1.1, f. 5). Cómo se hace la selección por competencias lo enseña el curso de vinculación de la línea Política de Adultos."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: las actividades 🏕️",
+        "questions": [
+          {
+            "text": "Una consejera recién elegida dice que el requisito sobre el registro de agresores sexuales es para quienes trabajan con los jóvenes, no para quienes se sientan en el consejo. ¿Qué dice su ficha?",
+            "options": [
+              "Que también la cubre: el requisito está en la ficha de su cargo, aunque no vea a los jóvenes.",
+              "Que depende: la cubre desde el día en que acompañe una salida de alguna de las unidades.",
+              "Que tiene razón: el consejo no comparte reuniones con los jóvenes del grupo, solo con adultos."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente nuevo quiere empezar el sábado con la Tropa, que está corta de adultos; sus certificados de antecedentes llegan en dos semanas. El Jefe de Grupo propone que empiece ya, siempre acompañado. ¿Qué te propone la lección?",
+            "options": [
+              "Que espere: solo se le nombra y empieza con la Tropa cuando complete los procedimientos.",
+              "Que empiece acompañado: la medida 2+1 cubre el riesgo mientras llegan los papeles.",
+              "Que empiece ya y se le nombre al llegar los papeles: lo prohibido es nombrar antes."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Cómo sabría tu consejo, hoy, que un adulto nuevo completó los procedimientos antes de empezar? Escribe en una frase dónde lo verificaría, sin nombres."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🏕️ Las actividades",
+      "emoji": "🏕️",
+      "navLabel": "Las actividades",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el consejo no planea las actividades, pero sí puede frenarlas. Si una actividad puede afectar la seguridad de los jóvenes, la ficha le pide al consejero actuar para que no se haga así o se corrija."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué dice la ficha del consejero",
+          "source": "Manual de Cargos, Perfiles y Funciones por Competencias (2020), ficha 2.1.1 Consejero Scout de Grupo, Función 1, f. 6.",
+          "text": "Valida y vigila porque se cumplan las normas de seguridad en las actividades que desarrollan los jóvenes, tomando acciones para evitar que se ejecuten y/o corrijan en caso de que afecten o puedan afectar la seguridad o integridad de los jóvenes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Las normas de seguridad ya las conoces: el plan de la actividad, el Protocolo de Transporte, las autorizaciones, la comida y el fuego, la póliza (Curso 09). La Política dice que la protección se evidencia <em>«en la planeación de actividades»</em> (p. 42). Lo que este curso añade es tu papel: no hacer la planeación, sino asegurarte de que exista y se cumpla."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🛑 Cuándo frenar",
+              "description": "Cuando falta algo que protege a los jóvenes: la salida sin autorizaciones, el bus sin la lista de chequeo, el río sin plan. Se corrige antes; si no se puede, no se hace así.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "✅ Cuándo no",
+              "description": "La reunión semanal de una unidad con su equipo y sus normas de siempre no necesita el visto bueno del consejo: el consejo fomenta el programa según los proyectos que presenta el Jefe de Grupo (Reglamento de Grupos, arts. 5.6.15 y 12.5.2). Velar no es aprobar cada sábado.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📣 Cómo",
+              "description": "Por el conducto regular: con el Jefe de Grupo, que conduce al Equipo de Jefatura (la ficha pide aplicar el conducto regular entre el consejo y el Jefe de Grupo, Función 3). Si no hay acuerdo, no se impone: se lleva al nivel regional (Reglamento de Grupos, art. 12.5). Y si estás ahí y ves el riesgo, actúas ya, como cualquier adulto (Curso 03); lo que el consejo no hace es volverse el supervisor de las salidas.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: cuando hay un caso 🔴",
+        "questions": [
+          {
+            "text": "El jueves te enteras de que el sábado la Tropa sale a un río, y el plan no tiene las autorizaciones de las familias ni la lista de chequeo del bus. ¿Qué te propone la lección?",
+            "options": [
+              "Pedirle al Jefe de Grupo que se complete antes del sábado; si no alcanza, que no salga así.",
+              "Suspenderla desde el consejo y citar al jefe de Tropa a explicar por qué faltaba lo básico.",
+              "Pedirle al Jefe de Grupo que la Tropa salga igual y que las autorizaciones se recojan en el bus."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El presidente propone que el consejo apruebe por escrito, cada semana, las reuniones de todas las unidades. Un consejero dice que eso no le toca al consejo. ¿Qué te propone la lección?",
+            "options": [
+              "Lo del consejero: el consejo vela por las normas, no aprueba cada reunión de las unidades.",
+              "Lo del presidente: velar por A Salvo del Peligro es revisar todo lo que hacen las unidades.",
+              "Que basta con que las unidades informen al consejo una vez al año, en la Asamblea."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Qué actividad de tu grupo sería la primera que le pedirías revisar al Jefe de Grupo antes de que se haga? Escribe solo el tipo de actividad, sin nombres ni fechas."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🔴 Cuando hay un caso en el grupo",
+      "emoji": "🔴",
+      "navLabel": "Un caso",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ante un caso, el consejo reporta y, si puede ser un delito o daña a un joven, lo pone también ante las autoridades. No investiga, no lo juzga y no lo gestiona: eso es del Comité y, para las faltas de un adulto, de la Corte de Honor Nacional."
+        },
+        {
+          "type": "paragraph",
+          "text": "La ficha del consejero tiene una frase que conviene leer despacio: el consejero es <em>«el responsable de denunciar ante las autoridades cualquier conducta de un dirigente que lleve al daño de la integridad de los jóvenes»</em> (ficha 2.1.1, f. 5). No es una excepción a lo que aprendiste en el Curso 03: es la misma obligación que la Política pone en todas las personas, la de informar, derivar o reportar (p. 21), con nombre propio para tu cargo."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Lo que hace el consejo",
+              "description": "Reportar por el botón «Me Pongo A Salvo del Peligro» (p. 44); si puede ser un delito o daña a un joven, ponerlo también ante las autoridades; cooperar con el Comité de Gestión de Incidentes, que lo recibe y lo gestiona (p. 39). Lo reportas tú: el conducto regular es para el programa, no para un caso; pasárselo al Jefe de Grupo para que él reporte no cumple, porque nadie fuera del Comité recibe reportes a nombre de la Asociación (p. 39).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Lo que no hace",
+              "description": "Llamar al dirigente a pedir explicaciones, pedir pruebas a la familia, armar una «comisión» para oír a las partes. El rol del adulto <em>«en ningún caso»</em> es investigativo ni de gestión del reporte (p. 29).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "⚖️ Quién juzga",
+              "description": "La falta de un adulto —también la de un Rover mayor de edad— la conoce la Corte de Honor Nacional (Estatuto, art. 62). La Comisión Disciplinaria Ad-hoc que forma el consejo es para niños, niñas y jóvenes menores de edad, no para dirigentes.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🤐 <strong>Y la confidencialidad.</strong> La ficha le pide al consejo garantizar los espacios de comunicación con las familias (Función 3), pero los principios de la Política son <em>confidencialidad, empatía y enfoque de derechos, no revictimización</em> (p. 42). Las familias pueden saber que el grupo actuó; no quién, ni qué pasó."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: rendir cuentas 📊",
+        "questions": [
+          {
+            "text": "Una mamá le cuenta a un consejero que un dirigente le escribe a su hija por redes, de noche, mensajes que la incomodan. ¿Qué le toca al consejero?",
+            "options": [
+              "Reportar él mismo por el botón y, como puede ser un delito, también ante las autoridades.",
+              "Convocar al consejo para escuchar al dirigente antes de decidir si hace falta reportarlo.",
+              "Contárselo al Jefe de Grupo para que él reporte por el botón y, si es delito, ante las autoridades."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Ya se reportó la conducta de un dirigente del grupo. El presidente propone citarlo al consejo para decidir una sanción. ¿Qué te propone la lección?",
+            "options": [
+              "Que no: la falta de un adulto la conoce la Corte de Honor Nacional, no el consejo.",
+              "Que sí: para eso el Reglamento le da al consejo una Comisión Disciplinaria Ad-hoc.",
+              "Que espere: el Comité de Gestión de Incidentes le pasará el caso al consejo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Si mañana una familia le contara algo grave a un miembro de tu consejo, ¿cuáles serían los dos primeros pasos, en orden? Escríbelos en una línea. Sin nombres ni casos."
+      }
+    },
+    {
+      "id": 6,
+      "title": "📊 Rendir cuentas sin exponer a nadie",
+      "emoji": "📊",
+      "navLabel": "Rendir cuentas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el consejo rinde cuentas de lo que el grupo hizo en A Salvo del Peligro —acciones, no casos— y lo tiene en cuenta cuando acompaña las decisiones sobre el desempeño de sus adultos."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué registra el nivel local",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Nivel Local (Consejos de Grupo y Ramas)», p. 42.",
+          "text": "Realizar un registro de acciones de sensibilización, reporte y mitigación en informes de gestión y socializar aprendizajes y buenas prácticas con sus regiones"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📝 El informe",
+              "description": "Cada año el presidente del consejo le presenta a la Asamblea su informe de labores (Reglamento de Grupos, art. 4.13). Ahí va el registro: cuántas acciones de sensibilización, que se reportó lo que había que reportar, qué se hizo para mitigar riesgos. Sin nombres, sin relatos, sin nada que identifique a nadie.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "📈 El desempeño",
+              "description": "La Política pide una <em>«evaluación de desempeño que incluya elementos relacionados con A Salvo del Peligro»</em> (p. 29, punto 8). El consejo acompaña las decisiones según el desempeño del Jefe de Grupo y de los demás jefes (ficha, Función 2): A Salvo del Peligro entra en esa conversación.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚦 El semáforo",
+              "description": "Si un dirigente trae al consejo sus compromisos del semáforo, como le propuso el Curso 06, el consejo puede hacerles seguimiento. Y lo que el grupo aprendió se socializa con la Región (p. 42).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve a la reunión del martes. Ahora el orden del día tiene un punto más: A Salvo del Peligro, con el Jefe de Grupo informando. El candidato a Jefe de Grupo llegó con sus documentos y nadie empezó con la Tropa sin los suyos; la salida al río se corrigió antes de salir; cuando una familia contó algo, el consejo reportó sin investigar ni juzgar; y el informe a la Asamblea dice lo que se hizo sin exponer a nadie. Velar no es hacer el trabajo de otros: es que el trabajo de todos se haga."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Para el informe a la Asamblea, la secretaria propone escribir: «Este año se atendió un caso en la Tropa». El presidente propone: «Hicimos dos talleres con familias y reportamos por el canal oficial lo que correspondía». ¿Qué te propone la lección?",
+            "options": [
+              "La del presidente: cuenta lo que el grupo hizo sin señalar unidad ni persona.",
+              "La de la secretaria: sin nombres, decir la unidad y el caso no expone a nadie.",
+              "Que no se mencione: A Salvo del Peligro no va en un informe que leen las familias."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El consejo y el Jefe Regional van a hablar del desempeño del Jefe de Grupo. El vicepresidente propone tener en cuenta qué hizo el grupo en A Salvo del Peligro. Una consejera responde que este año no hubo ningún caso, así que no hay nada que mirar ahí. ¿Qué pide la Política?",
+            "options": [
+              "Lo del vicepresidente: aunque no haya casos, lo que el grupo hizo para prevenir cuenta ahí.",
+              "Lo de la consejera: sin incidentes en el año, ese punto de la evaluación queda vacío.",
+              "Ninguno: A Salvo del Peligro lo evalúa aparte el Comité de Gestión de Incidentes."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una línea que podría ir en el próximo informe de tu consejo a la Asamblea sobre A Salvo del Peligro, sin datos de nadie. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

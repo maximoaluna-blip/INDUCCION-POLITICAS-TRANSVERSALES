@@ -230,6 +230,9 @@ Se invirtieron los enunciados para que quien propone acertara a veces, y nació 
 ### Un rol cuyas funciones no están publicadas se enseña con lo que la norma sí dice (Curso 16, ADR-143)
 La Política manda las funciones del dinamizador a un manual operativo que no describe ¡Óyeme!. **Barrer el corpus antes de afirmar que algo no existe, decirlo en el curso y mandar a preguntar**, sin inventar formatos. Y cuidar los verbos de la fuente: la Coordinación *acompaña* la certificación, no la emite. En los quizzes, **una pregunta puede responder a otra**: al cerrar una vuelta, leer las diez juntas y no solo cada una.
 
+### Una norma de 2020 se lee a la luz de la de 2025, y un artículo suspendido no se cita (Curso 18, ADR-144)
+La ficha del consejero lo hace «responsable de denunciar ante las autoridades»: se enseña como la misma obligación de la Política, con nombre propio, no como una regla distinta. Y el RG 5.8.11 parecía el ancla del informe anual, pero es una facultad de cargo suspendida (ADR-111): **antes de citar un artículo del Reglamento de Grupos, mirar si es de cargo**. «Corte de Honor» sin «Nacional» se confunde con la Comisión Ad-hoc, que el RG llama funciones «de Corte de Honor».
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 

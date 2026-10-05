@@ -103,6 +103,11 @@ const FALLBACK = [
     file: 'dinamizador-espacios-oyeme.html',
     tituloIncluye: 'Dinamizador de espacios',
   },
+  {
+    courseId: 'consejero-de-grupo-y-entornos-seguros',
+    file: 'consejero-de-grupo-y-entornos-seguros.html',
+    tituloIncluye: 'Consejero de Grupo',
+  },
 ];
 
 let CURSOS = FALLBACK;

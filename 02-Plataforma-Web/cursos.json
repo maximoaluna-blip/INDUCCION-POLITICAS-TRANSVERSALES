@@ -208,5 +208,19 @@
     "status": "active",
     "file": "dinamizador-espacios-oyeme.html",
     "folder": "dinamizador-espacios-oyeme"
+  },
+  {
+    "courseId": "consejero-de-grupo-y-entornos-seguros",
+    "title": "El Consejero de Grupo y los entornos seguros",
+    "description": "En el Consejo de Grupo se aprueban presupuestos, se eligen candidatos y se rinde cuentas a la Asamblea. También se vela por que el grupo sea un lugar seguro. Aquí aprendes qué le toca al consejo en A Salvo del Peligro y qué no: vigilar sin conducir el programa, cuidar que nadie empiece antes de tiempo, frenar una actividad insegura, actuar ante un caso sin investigarlo ni juzgarlo, y rendir cuentas sin exponer a nadie.",
+    "icon": "🏛️",
+    "duration": "30 minutos",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 18,
+    "modules": 6,
+    "status": "active",
+    "file": "consejero-de-grupo-y-entornos-seguros.html",
+    "folder": "consejero-de-grupo-y-entornos-seguros"
   }
 ]
