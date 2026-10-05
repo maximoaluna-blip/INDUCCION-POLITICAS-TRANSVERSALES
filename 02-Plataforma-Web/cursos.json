@@ -166,5 +166,19 @@
     "status": "active",
     "file": "inclusion-personas-con-discapacidad.html",
     "folder": "inclusion-personas-con-discapacidad"
+  },
+  {
+    "courseId": "inclusion-grupos-minoritarios",
+    "title": "Inclusión de grupos minoritarios y enfoque diferencial",
+    "description": "Colombia es un país pluriétnico y multicultural, y el Movimiento todavía no llega a todos. Aquí aprendes a mirar quién falta en tu grupo, a escuchar a una comunidad antes de proponerle nada, a elegir con ella cómo sumarla, a recibir a familias en movilidad humana y a manejar la tensión entre cultura y derechos, sabiendo qué te toca resolver y qué no.",
+    "icon": "🌎",
+    "duration": "35 minutos",
+    "level": 2,
+    "levelName": "Profundización por política",
+    "order": 11,
+    "modules": 7,
+    "status": "active",
+    "file": "inclusion-grupos-minoritarios.html",
+    "folder": "inclusion-grupos-minoritarios"
   }
 ]

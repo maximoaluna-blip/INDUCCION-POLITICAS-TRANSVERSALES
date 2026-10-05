@@ -88,6 +88,11 @@ const FALLBACK = [
     file: 'inclusion-personas-con-discapacidad.html',
     tituloIncluye: 'Inclusión de personas con discapacidad',
   },
+  {
+    courseId: 'inclusion-grupos-minoritarios',
+    file: 'inclusion-grupos-minoritarios.html',
+    tituloIncluye: 'grupos minoritarios',
+  },
 ];
 
 let CURSOS = FALLBACK;

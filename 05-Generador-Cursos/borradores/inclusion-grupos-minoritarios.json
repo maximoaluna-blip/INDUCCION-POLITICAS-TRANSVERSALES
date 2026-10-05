@@ -1,0 +1,540 @@
+{
+  "courseId": "inclusion-grupos-minoritarios",
+  "title": "Inclusión de grupos minoritarios y enfoque diferencial",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Colombia es un país pluriétnico y multicultural, y el Movimiento todavía no llega a todos. Aquí aprendes a mirar quién falta en tu grupo, a escuchar a una comunidad antes de proponerle nada, a elegir con ella cómo sumarla, a recibir a familias en movilidad humana y a manejar la tensión entre cultura y derechos, sabiendo qué te toca resolver y qué no.",
+  "contentVersion": "2026-10-04",
+  "icon": "🌎",
+  "duration": "35 minutos",
+  "status": "active",
+  "level": 2,
+  "levelName": "Profundización por política",
+  "order": 11,
+  "totalContentModules": 6,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Mirar quién falta",
+      "emoji": "🗺️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Escuchar primero",
+      "emoji": "👂",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "El modelo, en conjunto",
+      "emoji": "🏕️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Nadie es ilegal",
+      "emoji": "🧳",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Cultura con derechos",
+      "emoji": "⚖️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Canalizar no es reportar",
+      "emoji": "🧭",
+      "unlockOnModule": 7
+    },
+    {
+      "id": "achievement-7",
+      "name": "Un grupo para todos",
+      "emoji": "🌎",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "INCLUSIÓN DE GRUPOS MINORITARIOS Y ENFOQUE DIFERENCIAL",
+    "description": "ha completado el Curso 11 de la Línea Políticas Transversales — Inclusión de grupos minoritarios, reconociendo con el Manual Operativo de A Salvo del Peligro que Colombia es un país pluriétnico y multicultural; aplicando, con la Guía Tres de Diversidad e Inclusión de la Oficina Scout Mundial – Centro de Apoyo Interamérica, el proceso para que una comunidad entre al Movimiento: conocer su realidad y escucharla, elegir con ella el modelo de integración y acompañar a las personas en movilidad humana; respetando las tradiciones de las comunidades étnicas siempre que no contraríen la Constitución y los derechos humanos; y distinguiendo lo que se canaliza a especialistas de lo que se reporta. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>un primer paso concreto</strong> para que tu grupo conozca mejor a una comunidad de su entorno a la que hoy no llega. Se queda solo en tu navegador.",
+    "placeholder": "Voy a proponer que..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Mira la foto del último campamento de tu grupo. Ahora piensa en el barrio, el municipio o la vereda donde se reúnen: ¿se parece la foto al lugar? Muchas veces no. Hay comunidades —indígenas, afrodescendientes, familias que llegaron hace poco de otra región o de otro país— a las que el Movimiento todavía no llega. Este curso no te pide sentir culpa por eso: te enseña cómo empezar a cambiarlo, sin llegar a imponer nada."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 35 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Reconocer</strong> qué hace minoritario a un grupo, más allá de su número.",
+            "<strong>Preparar</strong> un acercamiento a una comunidad que empiece por escucharla, sin recoger datos sensibles de nadie.",
+            "<strong>Elegir</strong>, junto con la comunidad, entre los tres modelos para que entre al Movimiento.",
+            "<strong>Recibir</strong> a personas en movilidad humana sin etiquetas ni condiciones que no se piden a otros.",
+            "<strong>Distinguir</strong> una tradición que se respeta de una práctica que vulnera derechos.",
+            "<strong>Separar</strong> lo que se orienta hacia otras instituciones de lo que se reporta."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación. Si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se apoya en el Curso 04 (<em>Diversidad e inclusión en el Movimiento</em>), que ya enseña el estigma, la discriminación, el asistencialismo y el enfoque diferencial: aquí no se repiten."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🗺️ ¿Quién es minoría?",
+      "emoji": "🗺️",
+      "navLabel": "Minorías",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ser minoría no es solo ser pocos. Es estar en una posición no dominante, y por eso con menos acceso a lo que otros dan por hecho — también a la educación no formal, como el Movimiento."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice el Manual Operativo sobre Colombia",
+          "source": "Manual Operativo de la Política A Salvo del Peligro (V1.0, febrero de 2023), p. 2.",
+          "text": "[…] reconociendo que Colombia es un país pluriétnico y multicultural y que como consecuencia de ello encuentra en la diversidad una gran oportunidad, pero también la responsabilidad de estar preparada para abordar los desafíos que implica reunir en una misma organización tantos matices"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía Tres reconoce que <strong>no hay una definición acordada</strong> de minoría. Cita una de 1979 —un grupo numéricamente inferior, en posición no dominante, con rasgos étnicos, religiosos o lingüísticos propios que quiere preservar— y enseguida dice que se queda corta: hoy se discute si otros colectivos también lo son (pp. 64–65). Y pone ejemplos que no dependen del número: comunidades donde las mujeres <em>«son consideradas minorías, quizás no en el ámbito poblacional, pero sí en el ámbito de participación»</em> (p. 69)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏛️ Posición, no solo número",
+              "description": "La Guía dice que es <em>«la perspectiva política, económica y social la que considera a un grupo como minoritario»</em> (p. 68). Un pueblo puede ser la mitad de un municipio y seguir sin voz en él.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🚪 Acceso desigual",
+              "description": "Lo que comparten: menos acceso a la educación, formal y no formal. La distancia física, el idioma, no ser considerados ciudadanos plenos (p. 67).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "📍 Cambia con el lugar",
+              "description": "Las características <em>«varían en cada país (y aun entre regiones de un mismo país)»</em>: no todas las soluciones sirven para todos (p. 67).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política Nacional de A Salvo del Peligro incluye en su marco la <strong>Ley 1482 de 2011, contra la discriminación</strong> (p. 5). Y el Curso 04 te dio las palabras para el resto: estigma, discriminación, enfoque diferencial. Aquí las vas a usar. Y vuelve a la foto del campamento: no te dice cuántos son, te dice quiénes no están."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: escuchar primero 👂",
+        "questions": [
+          {
+            "text": "En un municipio, la comunidad indígena es casi la mitad de la población, pero no tiene a nadie en el concejo ni en la junta del colegio. En el consejo de grupo, una consejera dice que esa comunidad sí es minoría en el municipio. Otro le contesta que no, que son casi la mitad. ¿Qué te dice la lección?",
+            "options": [
+              "Que ella tiene razón: sin voz en lo que se decide, pueden ser minoría aunque sean muchos.",
+              "Que él tiene razón: siendo casi la mitad, pueden elegir a quien quieran en el concejo municipal.",
+              "Que ninguno de los dos: solo son minoría si la ley los reconoce oficialmente."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente dice que en su grupo no hace falta hablar de diversidad étnica: «aquí todos somos colombianos y a nadie se le cierra la puerta». ¿Qué le muestra la lección?",
+            "options": [
+              "Que la puerta abierta no basta: hay comunidades a las que nunca les llega la invitación.",
+              "Que basta con la puerta abierta, siempre que el grupo no rechace nunca a nadie que llegue.",
+              "Que hay que reservar cupos en el grupo para cada comunidad del municipio."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en las comunidades que casi no aparecen en los grupos scouts que conoces. ¿Qué barrera —el horario, el idioma, el costo, el lugar de reunión, la forma de invitar— crees que más las deja fuera? Escribe solo la barrera, sin nombrar comunidades ni personas."
+      }
+    },
+    {
+      "id": 3,
+      "title": "👂 Antes de proponer, escuchar",
+      "emoji": "👂",
+      "navLabel": "Escuchar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> no se llega a una comunidad con el programa armado. Se llega a conocerla, y lo que se hace se decide con ella."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que pide la Guía antes de actuar",
+          "source": "Diversidad e Inclusión – Guía Tres (Oficina Scout Mundial – Centro de Apoyo Interamérica), p. 67.",
+          "text": "Antes de planificar cualquier acción para la inclusión de alguna minoría, requerimos conocer la realidad de ese grupo, para definir, en forma conjunta, las necesidades a atender"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "A · Conocer el contexto",
+              "description": "Cómo es el entorno: quiénes viven ahí, qué acceso tienen, qué necesitan. Y sobre todo, <em>«considerar las opiniones de las personas pertenecientes a grupos minoritarios»</em>, que la Guía llama <strong>paso inicial fundamental</strong> (p. 78)."
+            },
+            {
+              "title": "B · Formar (la Guía lo llama «Educar»)",
+              "description": "Antes de ofrecer un programa, preparar a los dirigentes y, si hace falta, adecuar el material a la lengua de la comunidad (p. 79)."
+            },
+            {
+              "title": "C · Involucrar",
+              "description": "La participación efectiva, incluida la representación de esas personas en los órganos de decisión (p. 79)."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Un cuidado con los datos.</strong> La Guía, que escribe para la organización nacional, propone conocer el contexto con datos <em>«desglosados por sexo, raza, etnia, estado de discapacidad…»</em> (p. 78). Para un grupo, eso no es una ficha que le pregunte a cada familia su etnia o su estatus migratorio: son <strong>datos sensibles</strong> (Curso 09). <strong>La propuesta de este curso:</strong> usar información pública y agregada del territorio —la alcaldía, las organizaciones de la comunidad— y, sobre todo, conversar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una razón práctica para escuchar primero. La misma Guía advierte que <em>«no todas las soluciones funcionan o son adecuadas en la misma medida para todos los casos»</em> (p. 67). El horario de las reuniones, el idioma de las canciones, la comida del campamento, quién habla con las familias: lo que en tu grupo es obvio puede ser una barrera para otra comunidad. Es la <strong>lente cultural</strong> del Curso 04, ahora mirada desde la comunidad. Y es el mismo gesto que el Curso 10 propone con la familia de un niño con discapacidad: conocerse antes de decidir."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: tres modelos 🏕️",
+        "questions": [
+          {
+            "text": "Un grupo quiere abrir actividades en un barrio de familias recién llegadas del Pacífico. El consejo ya armó el programa del semestre y planea presentarlo el sábado. ¿Qué te propone la lección antes de eso?",
+            "options": [
+              "Aplazar la presentación y reunirse antes con las familias a escucharlas.",
+              "Presentarlo el sábado, y preguntarles al final qué le cambiarían.",
+              "Aplazar la presentación y ajustarlo antes con los datos de la alcaldía municipal."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Para el diagnóstico, alguien propone una ficha que pregunte el origen étnico y el estatus migratorio de cada familia del barrio. ¿Qué te propone la lección?",
+            "options": [
+              "Dejar la ficha: no hace falta preguntarle la etnia a ninguna familia del barrio.",
+              "Pedir a cada familia su autorización firmada, y así hacer la ficha completa.",
+              "Hacer la ficha solo con las familias ya inscritas, que confían más en el grupo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe dos preguntas que le harías a una comunidad, en una primera conversación, para saber si el Movimiento le sirve y cómo. Sin nombres ni datos de nadie."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🏕️ Tres modelos para que una comunidad entre al Movimiento",
+      "emoji": "🏕️",
+      "navLabel": "Tres modelos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> hay tres formas de que una comunidad entre al Movimiento, y ninguna es la correcta para todos. Cuál conviene se decide <strong>con la comunidad</strong>, no por ella."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "1 · Integración",
+              "description": "Personas de la comunidad se unen a un grupo scout existente; podría comenzar con un adulto que se ofrece como dirigente o como apoyo y luego invita a los jóvenes. <strong>Necesita</strong> un grupo abierto y dispuesto a adaptar sus prácticas (pp. 80–81).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "2 · Unidad satélite",
+              "description": "Dentro de un grupo existente se abre una unidad dirigida en buena parte por personas de la comunidad. Usa la estructura del grupo y su experiencia. <strong>Necesita</strong> varios adultos de la comunidad comprometidos, con una curva de aprendizaje larga (p. 81).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "3 · Grupo nuevo",
+              "description": "Se abre un grupo dentro de la comunidad, con su propio estilo cultural; es particularmente atractivo para la identidad. <strong>Necesita</strong> muchos adultos comprometidos, material, un lugar de reunión, finanzas y apoyo externo por mucho tiempo (pp. 81–82).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver quién decide el modelo",
+          "source": "Diversidad e Inclusión – Guía Tres, p. 80.",
+          "text": "Cabe aclarar, que la decisión acerca de cuál es el modelo a utilizar debe hacerse conjuntamente por el grupo scout local y miembros de la comunidad en cuestión. Por otro lado, son modelos flexibles, posibles de ser adaptados a cada contexto"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en lo que cada modelo pide al grupo que ya existe: en el primero, <strong>adaptar sus prácticas</strong>; en el segundo, incluso las <strong>de larga data</strong> (p. 81). No es la comunidad la que tiene que parecerse al grupo: el grupo también cambia. Y en el tercero, la Guía avisa que el apoyo tiene que venir de fuera del grupo, del distrito y la organización, <em>«posiblemente durante un periodo de tiempo muy significativo»</em> (p. 82)."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: movilidad humana 🧳",
+        "questions": [
+          {
+            "text": "Una comunidad cercana quiere conocer el Movimiento. Por ahora, una sola persona adulta de la comunidad se ofrece como dirigente, no hay sede propia, y el grupo de al lado está dispuesto a cambiar algunas costumbres. ¿Qué modelo tiene más con qué arrancar, para conversarlo con ellos?",
+            "options": [
+              "Integración: esa persona entra al grupo de al lado y desde ahí invita a los jóvenes.",
+              "Unidad satélite: esa persona la dirige, con el apoyo de los dirigentes del grupo de al lado.",
+              "Grupo nuevo: es el que más cuida su identidad, y esa persona puede empezarlo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la primera reunión, los líderes de la comunidad piden de entrada su propio grupo nuevo, con su estilo. El jefe de grupo no sabe qué responder. ¿Qué le propone la lección?",
+            "options": [
+              "Contarles lo que pide un grupo nuevo y ver juntos si hay con qué arrancarlo.",
+              "Aceptarlo tal cual: el modelo lo elige la comunidad, y el grupo solo apoya.",
+              "Proponerles mejor la integración, que el grupo ya sabe manejar desde hace años."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Pensando en una comunidad de tu entorno, sin nombrarla: ¿cuál de los tres modelos crees que tendría más posibilidades, y qué le pediría a tu grupo? Escribe una o dos líneas."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🧳 Personas en movilidad humana",
+      "emoji": "🧳",
+      "navLabel": "Movilidad",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> una familia migrante o refugiada no es «ilegal»: está o no en un estatus migratorio. Y una familia desplazada dentro del país es tan colombiana como la tuya. A todas, el Movimiento puede ayudarles a sentirse parte de la comunidad que las recibe."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la Guía de la palabra «ilegal»",
+          "source": "Diversidad e Inclusión – Guía Tres, p. 69.",
+          "text": "Coloquialmente en algunos casos se los denomina “legales” o “ilegales” a los mismos, pero sabemos que ningún ser humano es ilegal; en todo caso estará comprendido o no en un determinado estatus migratorio"
+        },
+        {
+          "type": "paragraph",
+          "text": "Llamar «ilegal» a una persona es lo que el Curso 04 llamó <strong>estigma</strong>: un rasgo que la pone por debajo de los demás. Se dice <strong>persona migrante</strong> y, si no tiene sus documentos al día, <strong>en situación irregular</strong>. La Guía explica por qué estas familias quedan más expuestas: sin regularización, muchas <em>«recurren al autoaislamiento»</em>, y eso termina en menos acceso a la educación y la salud, y a veces en no tener ni documentos (p. 70). Y el Manual Operativo pone el <strong>estatus migratorio</strong> y la <strong>condición de refugiado</strong> entre las poblaciones del enfoque diferencial, que viste en el Curso 04 (§5.6, p. 9)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🤝 Integración local",
+              "description": "El Movimiento puede ir <em>«contribuyendo en los procesos de integración local, facilitando la socialización»</em> y ayudando a descubrir la cultura de la comunidad que los acoge (pp. 70–71).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🧑‍🤝‍🧑 Entre pares",
+              "description": "El trabajo en patrullas y seisenas crea un ambiente de fraternidad que llega también a las familias (p. 71). No se les arma una seisena aparte «hasta que se adapten»: se adaptan con los demás.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🗂️ Sin preguntas de más",
+              "description": "A una familia migrante no se le pide nada que no se le pida a otra. Su estatus migratorio es un dato que el grupo no necesita para recibir a su hijo (Curso 09).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📎 Para afiliarse, la Asociación no hace distinción por nacionalidad: es abierta a todos, <em>«sin distinción de nacionalidad»</em> (Estatuto, art. 11). Eso sí: como cualquier niño, para participar necesita estar afiliada (Reglamento Nacional, art. 47). Y para viajar, el Protocolo de Transporte pide a todo menor un documento de identidad (Curso 09). Si a la familia le falta un documento, pregunta en tu Región cómo se resuelve; cuéntale dónde y cómo se tramita, y no la dejes de lado mientras tanto."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: cultura y derechos ⚖️",
+        "questions": [
+          {
+            "text": "Una familia que llegó hace poco de otro país quiere que su hija entre a la Manada, pero aún no tiene sus documentos en regla. ¿Qué te propone la lección?",
+            "options": [
+              "Recibirla y preguntar en la Región cómo afiliarla mientras resuelve sus papeles.",
+              "Esperar a que la familia regularice su situación, y entonces hablar de la Manada.",
+              "Dejarla participar sin pedirle documento ni afiliación, para no tratarla distinto."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Llegan a la Manada dos hermanos refugiados que hablan poco español. Una dirigente prefiere armarles una seisena propia «mientras se adaptan»; un dirigente propone sumarlos a las seisenas que ya existen. ¿Qué te propone la lección?",
+            "options": [
+              "Que él tiene razón: sumarlos a seisenas ya armadas y apoyar el idioma jugando.",
+              "Que ella tiene razón: una seisena propia mientras aprenden, para que no estén solos.",
+              "Que ninguno: que solo miren las actividades hasta que entiendan bien el español."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una cosa concreta que tu unidad podría hacer en las primeras semanas para que una familia recién llegada al país se sienta parte del grupo. Sin nombres ni datos."
+      }
+    },
+    {
+      "id": 6,
+      "title": "⚖️ Cultura y derechos",
+      "emoji": "⚖️",
+      "navLabel": "Cultura y derechos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> las tradiciones de una comunidad se respetan. El límite lo ponen la Constitución y los derechos humanos — no la costumbre del grupo que llega."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que el Manual Operativo propone promover en las familias y en los grupos de comunidades étnicas",
+          "source": "Manual Operativo de la Política A Salvo del Peligro (V1.0, febrero de 2023), §8.8, línea de acción cinco, iii, p. 25.",
+          "text": "Promover en las familias la prevención de cualquier acto o conducta que implique maltrato físico, sexual, psicológico o patrimonial, discriminación, promover la participación y el respeto de las mujeres en las decisiones relacionadas con el entorno familiar y en los grupos scouts en comunidades indígenas, comunidades afrodescendientes y los demás grupos étnicos, estas acciones se establecerán de acuerdo con sus tradiciones y culturas, siempre que no sean contrarias a la Constitución Política y a los instrumentos internacionales de Derechos Humanos"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌿 Lo que se respeta",
+              "description": "La lengua, la forma de organizarse y de tomar decisiones con los mayores, la relación con el territorio, las celebraciones. El Movimiento se adapta a eso: no llega a reemplazarlo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📣 Lo que se promueve",
+              "description": "Que las mujeres participen y sean respetadas en las decisiones de la familia y del grupo, <strong>de acuerdo con su cultura</strong>: conversando y con tiempo. Pero en los órganos del grupo —Asamblea y Consejo— los cargos y los votos son iguales para mujeres y hombres (Estatuto, arts. 11 y 16): eso no espera.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🛑 Lo que no se negocia",
+              "description": "El maltrato físico, sexual o psicológico y la discriminación no se vuelven aceptables por ser costumbre. La Política cita en su marco la <strong>Ley 2089 de 2021</strong>, que prohíbe el castigo físico (p. 5). Lo que vulnera derechos se reporta, como en cualquier grupo (Cursos 03 y 08).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay dos errores opuestos, y los dos son fáciles de cometer con buena intención. Uno es decir «es su cultura» para no ver un daño. El otro es llegar a cambiar todo lo que no se parece a tu grupo, aunque no dañe a nadie. El Manual pide caminar en medio: <strong>promover</strong> derechos <strong>de acuerdo con</strong> las tradiciones, con el límite de la Constitución y los derechos humanos."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Continuar: lo que te toca 🧭",
+        "questions": [
+          {
+            "text": "En una unidad de una comunidad indígena, el equipo de dirigentes decide en círculo, escuchando primero a las personas mayores, mujeres y hombres, y eso toma tiempo. Un dirigente que llegó de la ciudad propone cambiarlo por votación «para ser más ágiles». ¿Qué te dice la lección?",
+            "options": [
+              "Que se respeta: es una forma de decidir que no daña a nadie, y el grupo se adapta.",
+              "Que se respeta, pero las decisiones de plata y de programa se votan siempre en el equipo.",
+              "Que se cambia ya, porque el grupo funciona igual en todas las comunidades."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un scout cuenta que en su casa le pegan cuando le va mal en el colegio. Un dirigente dice: «en su comunidad así se cría, es su cultura; no nos metamos». ¿Qué te dice la lección?",
+            "options": [
+              "Que se reporta igual que si pasara en otra familia: la costumbre no lo excusa.",
+              "Que se reporta, después de preguntar a otros niños si a ellos también les pegan.",
+              "Que se habla primero con los mayores, y se reporta solo si no lo corrigen."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la pregunta que te harías antes de decir «es su cultura», o antes de cambiar algo que no es tuyo. Una línea, sin casos ni nombres."
+      }
+    },
+    {
+      "id": 7,
+      "title": "🧭 Lo que te toca y lo que no",
+      "emoji": "🧭",
+      "navLabel": "Lo que te toca",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Guía, escrita para todas las organizaciones scouts, propone canalizar lo que el grupo no puede atender, incluso un riesgo para alguien. En la ASC, ante un daño, hay algo más que una sugerencia: la Política te obliga a reportar. Orientar a la familia puede ir al lado, nunca en lugar del reporte."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Guía reconoce que los adultos del Movimiento no saben de todo, y que lo que está fuera de su alcance se remite a quien sí sabe, o se trabaja con su asesoría (pp. 74–75). A esa remisión la llama <strong>canalizar</strong>."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔀 Lo que se canaliza",
+              "description": "Una familia sin acceso a salud, a colegio o a trámites: el grupo le cuenta dónde atienden eso. Para la familia, dice la Guía, la atención especializada es <em>«una sugerencia más no una obligatoriedad»</em>, dicho sin culpar a nadie (p. 104). Y que en casa no alcance la plata no es una señal de daño: es una necesidad (Curso 08).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🔴 Lo que se reporta",
+              "description": "Una señal de daño o una revelación. Eso no es una sugerencia: la Política obliga a todas las personas a reportar lo que vulnere la dignidad de un miembro (p. 21). Va por el botón y, si puede ser un delito o daña su dignidad, también al Estado: las dos puertas se suman (Cursos 03 y 07). Si hay riesgo inmediato, el primer aviso es de palabra a la Policía.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🚫 Lo que no se hace",
+              "description": "Convertir al grupo en quien cubre las necesidades de la familia. La Guía lo llama asistencialismo y advierte que puede generar <em>«dependencia en la población destinataria»</em>; pide actividades que fortalezcan las capacidades de cada persona (p. 74). El Curso 04 ya te dio la palabra.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y una cosa sí te toca: que esas personas tengan voz. La Guía pide fomentar <em>«la participación así como la representación de las personas pertenecientes a las minorías en los órganos ejecutivos y de toma de decisión»</em> (p. 79). En un grupo scout, la puerta son las familias: cada familia vota en la Asamblea de Grupo y puede ser elegida al Consejo de Grupo. Lo que te toca es que las familias de la comunidad lleguen a esos espacios y que su voz pese."
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve a la foto del campamento. No se trata de que la foto se vea distinta a la fuerza: se trata de que nadie quede fuera porque nadie fue a escucharlo. Mirar quién falta, conversar antes de proponer, elegir el modelo con la comunidad, recibir sin etiquetas, respetar la cultura sin cerrar los ojos al daño, y saber qué se canaliza y qué se reporta. Así el Movimiento llega a donde todavía no está."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Una familia desplazada que llegó al grupo no tiene acceso a salud y está buscando cupo en el colegio para sus hijos. ¿Qué te propone la lección?",
+            "options": [
+              "Contarle a la familia dónde atienden eso, y que ella decida si va.",
+              "Contarle a la familia dónde atienden eso, y pedirle prueba de que fue.",
+              "Que el grupo se encargue de sus citas y trámites hasta que se estabilice."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un scout de una familia recién llegada viene sin uniforme y sin útiles porque en su casa no alcanza la plata. Un dirigente propone reportarlo «por descuido de los papás». ¿Qué te dice la lección?",
+            "options": [
+              "Que no es una señal de daño sino una necesidad, y se orienta a quien puede apoyar.",
+              "Que no se reporta: el grupo le cubre cada mes lo que le falte, y no se habla más.",
+              "Que se reporta, porque no tener lo básico ya es una forma de descuido de los papás."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Qué haría falta para que las familias de una comunidad que hoy casi no llega a los grupos scouts se sientan con voz en la Asamblea de Grupo? Escribe solo qué haría falta, sin nombres. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

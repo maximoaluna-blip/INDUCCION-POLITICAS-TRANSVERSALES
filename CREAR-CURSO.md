@@ -215,6 +215,9 @@ La reflexión de cierre de los ocho cursos pedía la frase del compromiso «para
 ### Quien escribe las opciones deja de ser lector ciego (Curso 13, ADR-126)
 El auditor que propuso las reescrituras se midió a sí mismo y dijo que la regla ciega bajaba. Un lector nuevo aprobó **6 de 6**. **La regla ciega la mide siempre alguien que no escribió las opciones.** Y cada ronda cierra fugas de forma y abre otras: la opción integradora («X, y además Y»), el par gemelo, el distractor que la lección critica de forma explícita, el término que ya trae la definición. **Pedir al lector que separe forma de sentido común**: lo segundo, en un curso de conducta, es estructural, y perseguirlo no tiene fin.
 
+### Un curso contra el estigma puede estigmatizar en sus ejemplos (Curso 11, ADR-136)
+Las dos únicas prácticas culturales concretas del curso eran negativas y se le atribuían a «la comunidad». **El ejemplo cultural que se respeta va a nombre de la comunidad; el daño, a nombre de una casa cualquiera**, y «es su cultura» queda como el argumento que el alumno aprende a reconocer. Y cuando una guía regional y la Política difieren, **la frontera la pone la norma de la ASC**, dicho con su nombre: la Guía Tres manda canalizar incluso el riesgo, y la Política obliga a reportar.
+
 ### La clave que «converge» (Curso 10, ADR-131)
 Después de cerrar la tesis como clave, el lector ciego aprendió otra regla: **la correcta reúne fragmentos de los dos distractores** («para toda la Tropa» en una, «por escrito» en otra; la clave tiene los dos). **Que ningún fragmento de la clave se repita en un distractor**, y que ninguna muletilla («Nada de fondo:») marque siempre la opción falsa. Y un distractor de exceso puede **coincidir con la fuente**: «misma sanción que al resto» era literal de la Guía. Pasarlo por la doctrinal.
 
@@ -355,6 +358,8 @@ No repetir; queda como acta de lo que costó:
 - [`../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md`](../INDUCCION-PROGRAMA-JOVENES/CREAR-CURSO.md) — referencia viva del proyecto.
 
 ---
+
+_Versión 1.8 — 04-oct-2026: Curso 11 publicado (ADR-136); **Nivel 2 completo, 7 de 7**; una lección en §4-bis (el ejemplo que estigmatiza)._
 
 _Versión 1.7 — 04-oct-2026: Curso 10 publicado (ADR-131); una lección en §4-bis (la clave que converge)._
 
