@@ -264,5 +264,33 @@
     "status": "active",
     "file": "autoevaluacion-institucional-asp.html",
     "folder": "autoevaluacion-institucional-asp"
+  },
+  {
+    "courseId": "gestion-del-cambio-en-el-grupo",
+    "title": "Gestión del cambio en el grupo",
+    "description": "Un grupo decide cambiar algo y, tres meses después, todo sigue igual. Aquí aprendes las herramientas que propone la cartilla Gestión para la Motivación para que un cambio sí ocurra: leer un entorno que cambia rápido, entender la curva por la que pasa todo cambio, el ciclo corto que propone, las cuatro claves que lo sostienen, y qué parte de un cambio se puede probar.",
+    "icon": "🌀",
+    "duration": "30 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 21,
+    "modules": 6,
+    "status": "active",
+    "file": "gestion-del-cambio-en-el-grupo.html",
+    "folder": "gestion-del-cambio-en-el-grupo"
+  },
+  {
+    "courseId": "conducta-etica-y-codigos",
+    "title": "Conducta, ética y códigos",
+    "description": "En la actividad, lo que hace un adulto enseña tanto como lo que dice. Aquí conoces el Código de Honor, Disciplinario y de Conducta de la Asociación y su relación con el código de la Organización Mundial; cómo mirarte cuando dudas de una conducta; qué conductas en una actividad son faltas y qué las agrava; por qué callar también es falta, y a dónde va una queja.",
+    "icon": "⚖️",
+    "duration": "30 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 22,
+    "modules": 6,
+    "status": "draft",
+    "file": "conducta-etica-y-codigos.html",
+    "folder": "conducta-etica-y-codigos"
   }
 ]

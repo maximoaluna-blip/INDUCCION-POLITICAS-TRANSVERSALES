@@ -1,0 +1,490 @@
+{
+  "courseId": "gestion-del-cambio-en-el-grupo",
+  "title": "Gestión del cambio en el grupo",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Un grupo decide cambiar algo y, tres meses después, todo sigue igual. Aquí aprendes las herramientas que propone la cartilla Gestión para la Motivación para que un cambio sí ocurra: leer un entorno que cambia rápido, entender la curva por la que pasa todo cambio, el ciclo corto que propone, las cuatro claves que lo sostienen, y qué parte de un cambio se puede probar.",
+  "contentVersion": "2026-10-12",
+  "icon": "🌀",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 21,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Leer el entorno",
+      "emoji": "🌪️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "La curva",
+      "emoji": "📉",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "El ciclo",
+      "emoji": "🔁",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Las cuatro claves",
+      "emoji": "🤝",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Qué se prueba",
+      "emoji": "🧪",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Cambiar de verdad",
+      "emoji": "🌱",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "GESTIÓN DEL CAMBIO EN EL GRUPO",
+    "description": "ha completado el Curso 21 de la Línea Políticas Transversales — Gestión del cambio en el grupo, reconociendo con la cartilla Gestión para la Motivación (2020) qué es un entorno VICA y la curva por la que pasa un cambio; aplicando el ciclo de Lean Change Management con un cambio pequeño que se prueba y se revisa; haciendo el cambio con quienes lo van a vivir, sin saltarse a quien le toca decidir; y distinguiendo lo que en un grupo se experimenta de lo que exigen la Política A Salvo del Peligro y la Asociación. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>un cambio pequeño</strong> que vas a probar en tu grupo, con cuándo lo vas a revisar. Se queda solo en tu navegador.",
+    "placeholder": "Voy a probar..., y lo revisamos el..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Después de mirarse con el semáforo, el consejo de grupo decidió que todas las familias debían conocer la ruta del botón «Me Pongo A Salvo del Peligro». El jefe de grupo mandó el enlace al chat de padres, escribió «quedó informado» y dio el tema por cerrado. Tres meses después, en la reunión de padres, nadie sabía de qué botón le hablaban. No faltó voluntad: faltó gestionar el cambio."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Reconocer</strong> qué hace que un entorno cambie rápido y por qué eso pide otra forma de cambiar.",
+            "<strong>Ubicar</strong> en qué punto de la curva del cambio está tu grupo.",
+            "<strong>Aplicar</strong> el ciclo de Lean Change —descubrir, elegir una opción, experimentar y revisar— a algo que tu grupo quiera cambiar.",
+            "<strong>Identificar</strong> a quiénes sumar al diseño de un cambio sin saltarse a quien le toca decidir.",
+            "<strong>Distinguir</strong> lo que se experimenta de lo que se cumple."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación; si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Trabaja el capítulo 2 de la cartilla <em>Gestión para la Motivación</em>, la misma del <a href=\"gestion-para-la-motivacion.html\" target=\"_blank\" rel=\"noopener\">Curso 05</a> y del <a href=\"motivar-al-equipo-de-dirigentes.html\" target=\"_blank\" rel=\"noopener\">Curso 12</a>. Lo que aquí se enseña es <strong>una herramienta que la cartilla propone</strong>, no una norma de la Asociación."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🌪️ Un entorno que cambia rápido",
+      "emoji": "🌪️",
+      "navLabel": "El entorno",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la cartilla dice que hoy las organizaciones viven en un entorno VICA, donde lo normal es cambiar. Por eso un cambio anunciado una vez y dado por hecho ya no funciona."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "V — Volatilidad",
+              "description": "Las cosas cambian rápido y sin aviso. En un grupo: el colegio cambia la jornada y el sábado se vacía en un mes.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "I — Incertidumbre",
+              "description": "No se sabe bien qué va a pasar. En un grupo: no sabes si el próximo año tendrás dirigentes para la Manada.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "C — Complejidad",
+              "description": "Muchas causas se cruzan a la vez. En un grupo: faltan jóvenes por el horario, por el costo y por el celular, todo junto.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "A — Ambigüedad",
+              "description": "Una misma situación se lee de varias formas. En un grupo: que falten adultos puede ser cansancio, desmotivación o falta de tiempo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cartilla cuenta que el acrónimo nació en el entorno militar, y nombra cuatro fuerzas que mueven el entorno de una organización: modelos organizacionales que cambian, comportamientos de la población que cambian, una tecnología que cambia rápido y el aumento de la competencia (p. 10). La cartilla no dice qué es esa competencia en un grupo; en este curso la traducimos así: todo lo que le disputa al grupo el sábado de un joven y el tiempo de un adulto voluntario."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué dice la cartilla de los modelos de siempre",
+          "source": "<em>Gestión para la Motivación</em> (Dirección Nacional de Adultos en el Movimiento, agosto de 2020), §2.2, p. 12.",
+          "text": "Hoy en día las organizaciones se enfrentan al reto de actuar en un entorno donde lo «normal» es el cambio constante. Factores como el rápido avance de la tecnología o el aumento de la competencia, hacen que los modelos lineales de gestión del cambio hayan dejado de ser efectivos y no se adapten a esta nueva realidad."
+        },
+        {
+          "type": "info-box",
+          "text": "🗣️ <strong>Una advertencia de lenguaje.</strong> La cartilla habla de «empresas» y de «cultura corporativa». En este curso se traduce a grupo: un equipo de adultos voluntarios no es una empresa, pero el cambio le cuesta igual."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: la curva 📉",
+        "questions": [
+          {
+            "text": "En el consejo, la jefa de grupo dice: «Este año llegaron menos jóvenes a la Tropa. Hagamos lo de siempre, pero con más fuerza: más publicidad en el colegio y la misma propuesta». ¿Qué te propone la lección?",
+            "options": [
+              "Que primero miren qué les ocupa hoy el sábado a esos jóvenes, porque lo de siempre puede no servir.",
+              "Que tiene razón, porque si la propuesta funcionó antes, el problema es que no se difundió lo suficiente.",
+              "Que cambien ya toda la propuesta de la Tropa, porque si el entorno cambia lo viejo ya no sirve."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente dice: «La cartilla habla de empresas y de competencia; eso no aplica a un grupo scout, que no vende nada». ¿Qué le respondes con la lección?",
+            "options": [
+              "Que el grupo también compite, por el sábado de los jóvenes y por el tiempo de los adultos.",
+              "Que tiene razón, y lo del entorno VICA es para empresas que compiten, no para un grupo scout.",
+              "Que eso le aplica a la Asociación nacional, que compite con otras organizaciones, no a cada grupo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una cosa del entorno de tu grupo que haya cambiado en los últimos años y que el grupo todavía no haya terminado de asimilar, sin nombres de personas."
+      }
+    },
+    {
+      "id": 3,
+      "title": "📉 La curva del cambio",
+      "emoji": "📉",
+      "navLabel": "La curva",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> todo cambio pasa por una curva. Primero el desempeño baja —resistencia, caos— y solo después sube a algo nuevo. La resistencia no es el enemigo del cambio: es una etapa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que dispara la curva es un <strong>elemento externo</strong>: algo de afuera que obliga a moverse, como una norma nueva, menos jóvenes o una queja. Desde ahí, la cartilla dibuja seis etapas (p. 11):"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1. Viejo statu quo",
+              "description": "Lo de siempre. Funciona, o parece que funciona."
+            },
+            {
+              "title": "2. Resistencia",
+              "description": "«Siempre lo hemos hecho así». El desempeño empieza a bajar."
+            },
+            {
+              "title": "3. Caos",
+              "description": "Lo viejo ya no sirve y lo nuevo todavía no existe. Es el punto más bajo."
+            },
+            {
+              "title": "4. Idea innovadora",
+              "description": "Aparece una forma distinta de hacerlo."
+            },
+            {
+              "title": "5. Integración",
+              "description": "Lo nuevo se prueba, se ajusta y se vuelve costumbre."
+            },
+            {
+              "title": "6. Nuevo statu quo",
+              "description": "El desempeño queda por encima de donde estaba."
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la cartilla al pie de la curva",
+          "source": "<em>Gestión para la Motivación</em> (Dirección Nacional de Adultos en el Movimiento, agosto de 2020), §2.1, p. 11.",
+          "text": "Las personas encuentran una forma de luchar a través de la curva del cambio cuando quieren suficientemente el resultado."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧭 Para qué sirve",
+              "description": "Para no asustarse cuando las cosas empeoran al principio: es parte del camino. Y para preguntarse si el equipo quiere de verdad el resultado.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Lo que no dice",
+              "description": "Que hay que esperar a que la resistencia pase sola. La curva se cruza cuando las personas quieren el resultado, y eso se trabaja.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El grupo del principio ni siquiera llegó a la resistencia: con el «quedó informado» se quedó en el viejo statu quo."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: el ciclo 🔁",
+        "questions": [
+          {
+            "text": "Un mes después de cambiar la forma de planear las reuniones, el equipo de dirigentes se queja y todo parece peor que antes. El jefe de grupo propone no volver atrás todavía, preguntarle al equipo qué le falta y revisarlo en un mes. ¿Qué te propone la lección?",
+            "options": [
+              "Que tiene razón, porque bajar al principio es parte de la curva y lo que falta se puede trabajar.",
+              "Que vuelvan a lo de antes, porque si el desempeño baja es la señal de que el cambio no sirve al grupo.",
+              "Que impongan el cambio sin más consultas, porque las quejas son resistencia y eso es lo normal."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Dos grupos hicieron el mismo cambio y en los dos el equipo se quejó al principio. Uno siguió y el otro volvió atrás. Según la curva, ¿qué es lo más probable que los distinga?",
+            "options": [
+              "Que en el que siguió, el equipo quería de verdad lo que el cambio iba a lograr.",
+              "Que en el que siguió, la jefatura tuvo autoridad para imponerlo sin consultar al equipo.",
+              "Que en el que siguió, le dieron más tiempo a la resistencia para que pasara sola."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en un cambio que viviste en un grupo scout. Escribe en qué punto de la curva se quedó o hasta dónde llegó, sin nombres de personas."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🔁 Probar en pequeño: el ciclo",
+      "emoji": "🔁",
+      "navLabel": "El ciclo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en vez de un gran cambio de una vez, la cartilla propone un ciclo corto: descubrir el problema, elegir una opción, probarla en pequeño y revisar lo que pasó."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cartilla presenta el <strong>Lean Change Management</strong>, un marco que creó Jason Little combinando varios enfoques —entre ellos los ágiles, el Lean Startup y el diseño—, y que se basa en experimentar, recibir retroalimentación continua y poner el foco en las personas (p. 12). Su ciclo tiene tres pasos:"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1. 🔎 Descubrimientos",
+              "description": "Antes de cambiar, conocer el punto de partida: conversaciones informales, encuestas, entrevistas, revisar lo que pasó (p. 14)."
+            },
+            {
+              "title": "2. 🧩 Opciones",
+              "description": "Con el problema claro, se buscan alternativas y se priorizan por lo que cuestan, el valor que aportan y cuánto alteran (p. 14)."
+            },
+            {
+              "title": "3. 🧪 Experimento",
+              "description": "Se prueba con un cambio mínimo viable: <em>«un cambio pequeño y poco intrusivo»</em> (p. 14). Tiene tres fases: preparar, introducir —sin cambiar muchas cosas a la vez— y revisar si funcionó."
+            }
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "📌 Vuelve al grupo del principio. Un cambio mínimo viable habría sido, por ejemplo, explicar la ruta del botón en diez minutos en la próxima reunión de padres de una rama, preguntar al final qué no se entendió y revisarlo con el consejo antes de llevarlo, en las semanas siguientes, a las demás ramas."
+        },
+        {
+          "type": "info-box",
+          "text": "🔁 <strong>Revisar es parte del cambio.</strong> En el ciclo, la revisión no es un trámite: es donde se aprende si el cambio funcionó y qué ajustar para el siguiente experimento (p. 14). Es lo mismo que el <a href=\"motivar-al-equipo-de-dirigentes.html\" target=\"_blank\" rel=\"noopener\">Curso 12</a> llama devolver y volver a medir."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: las claves 🤝",
+        "questions": [
+          {
+            "text": "El equipo quiere una forma nueva de acompañar a los adultos nuevos en sus primeros meses, además de su asesor personal. Un dirigente propone empezar con los dos que llegaron este mes, «y ya veremos cómo sale». Según el ciclo, ¿qué le falta?",
+            "options": [
+              "Acordar cuándo y con quién revisan la prueba, porque sin revisión no se aprende de ella.",
+              "Ampliarlo de una vez a todos los adultos nuevos, porque dos casos son muy poca muestra.",
+              "Nada, porque lo importante del ciclo es empezar a probar cuanto antes y sin trabas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El equipo de dirigentes quiere que sus reuniones empiecen a tiempo. ¿Cuál de estas es un cambio mínimo viable?",
+            "options": [
+              "Durante un mes, abrir cada reunión con el punto más útil y ver si con eso llegan antes.",
+              "Cambiar a la vez la hora, el lugar y el orden del día, y revisar en un mes si funcionó.",
+              "Escribir una norma de puntualidad con sanciones y aplicarla desde la próxima semana."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en algo que tu grupo quiera cambiar. Escribe cómo sería un cambio mínimo viable para probarlo, sin nombres de personas."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🤝 Cambiar con quienes lo viven",
+      "emoji": "🤝",
+      "navLabel": "Las claves",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> un cambio impuesto desde arriba se resiste más. La cartilla propone diseñarlo con quienes lo van a vivir, y cuidar cuatro claves: equipo, comunicación, cultura y liderazgo."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué dice la cartilla de la co-creación",
+          "source": "<em>Gestión para la Motivación</em> (Dirección Nacional de Adultos en el Movimiento, agosto de 2020), §2.2, p. 12.",
+          "text": "A diferencia de los modelos tradicionales, donde los cambios se impulsan desde arriba, Lean Change Management empodera e involucra a las personas en el diseño del cambio. Co-crear el cambio con aquellos que se verán afectados por el mismo, logrará que tengan una mayor implicación y motivación a lo largo del proceso y, por tanto, exista una mayor probabilidad de éxito a largo plazo."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👥 Equipo",
+              "description": "Quien impulsa el cambio se organiza desde el principio (p. 14).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "📣 Comunicación",
+              "description": "Sin una buena forma de comunicarlo, el cambio no ocurre o queda a medias (p. 14). Un mensaje en el chat no es una estrategia.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🧬 Cultura",
+              "description": "El cambio tiene que ir con la forma de ser del grupo; si no, fracasa sin que se sepa por qué (p. 15).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "🧭 Liderazgo",
+              "description": "Quien lidera crea el ambiente: aprovecha oportunidades, estimula los aportes y anima al equipo a crear (p. 15).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ <strong>Co-crear no es saltarse a quien decide.</strong> Diseñar con todos no le quita a cada órgano del grupo lo que le toca decidir. Por ejemplo, las normas de funcionamiento del grupo las fija su Asamblea, dentro de las normas de la Asociación y de la Región (Reglamento de Grupos, 4.3.12). Y la motivación del equipo que va a vivir el cambio es justo el tema del <a href=\"motivar-al-equipo-de-dirigentes.html\" target=\"_blank\" rel=\"noopener\">Curso 12</a>."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: lo que se prueba y lo que se cumple 🧪",
+        "questions": [
+          {
+            "text": "Un dirigente de la Tropa propone que, antes de cambiar el día de la reunión del equipo, se haga una encuesta corta y una conversación con todos. La jefa de grupo responde: «Es un día nada más; lo cambio y aviso». ¿Qué te propone la lección?",
+            "options": [
+              "Hacer la encuesta y la conversación, porque con los horarios reales del equipo el cambio dura más.",
+              "Cambiarlo y avisar, porque un cambio tan pequeño no necesita la opinión del equipo de dirigentes.",
+              "Dejar la reunión como está hasta encontrar un día en el que puedan todos, sin excepción."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Entre todos, el equipo de dirigentes diseñó con entusiasmo un cambio en las normas de funcionamiento del grupo. Un dirigente propone aplicarlo desde el sábado. ¿Qué te propone la lección?",
+            "options": [
+              "Que lo lleven primero a la Asamblea de Grupo, porque co-crear no le quita esa decisión.",
+              "Que lo apliquen, porque lo que el equipo diseñó entre todos ya tiene el respaldo de los afectados.",
+              "Que lo prueben con una rama durante un trimestre, porque así funciona el cambio mínimo viable."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe qué grupos de personas tendrías que sumar —por ejemplo, los dirigentes de una rama o las familias— para diseñar el cambio que pensaste en la lección anterior."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🧪 Lo que se prueba y lo que se cumple",
+      "emoji": "🧪",
+      "navLabel": "Se prueba, se cumple",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el ciclo sirve para decidir <em>cómo</em> hace las cosas tu grupo. No sirve para decidir <em>si</em> cumple lo que exigen la Política A Salvo del Peligro y la Asociación: eso no es un experimento."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué le pide la Política a cada estructura",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Articulación de la Política en las Estructuras Organizacionales», p. 31.",
+          "text": "Todas las estructuras, desde la Asamblea Scout Nacional hasta los grupos Scouts, son corresponsables de cumplir y hacer cumplir la presente política"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Se prueba",
+              "description": "Cómo llevar la ruta del botón a las familias, cómo acompañar a un adulto nuevo, qué día se reúne el equipo, cómo se prepara un campamento para cumplir lo que pide la Política.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 No se prueba",
+              "description": "Si se cumple la práctica 2+1 —nunca un adulto a solas con un joven— (<a href=\"adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\">Curso 03</a>), si se reporta o no, si los adultos hacen los módulos oficiales. Un «cambio mínimo» que deja una medida de protección como opcional no es un experimento: es un incumplimiento.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si hiciste el <a href=\"mi-compromiso-entornos-seguros.html\" target=\"_blank\" rel=\"noopener\">Curso 06</a>, te quedaron compromisos con fecha, salidos del semáforo de tu grupo. Cada uno es un cambio que hay que gestionar: qué se descubre, qué opción se elige, cómo se prueba en pequeño y cuándo se revisa. Lo que no cambia es que el compromiso se cumple."
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve al grupo del principio. Que las familias conozcan la ruta no estaba en discusión; lo que faltó fue gestionar cómo llegaba. El entorno cambia rápido y un mensaje en el chat no alcanza; la curva avisa que al principio cuesta; el ciclo propone probar en una rama y revisar; la co-creación suma a quienes van a explicarlo; y la Política fija lo que no se negocia. Cambiar de verdad es eso."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Para «probar en pequeño», el jefe de grupo propone que este trimestre las charlas de seguimiento con cada joven se hagan a solas, y revisar después si hacía falta alguien más. ¿Qué te propone la lección?",
+            "options": [
+              "Que eso no se prueba, porque nunca un adulto a solas con un joven, como pide la práctica 2+1.",
+              "Que lo prueben con los jóvenes de la Comunidad, que por su edad ya tienen más criterio.",
+              "Que primero lo consulten con las familias y, si están de acuerdo, lo prueben ese trimestre."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejo quiere cumplir su compromiso de que todos los adultos hagan los módulos oficiales. Un consejero propone probar primero con los dirigentes de la Manada un sábado en la sede, con computador, para hacerlos juntos en la plataforma, y revisar cómo les fue. ¿Qué te propone la lección?",
+            "options": [
+              "Que lo hagan, porque se prueba la forma de cumplir y la meta sigue siendo que todos los hagan.",
+              "Que no, porque lo que exige la Política se cumple de una vez y al tiempo para todos los adultos.",
+              "Que primero esperen a ver cómo le va a la Manada y, según eso, decidan si los demás los hacen."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Toma uno de los compromisos que te dejó el semáforo de tu grupo (si no hiciste el Curso 06, algo que tu grupo deba cumplir de la Política). Escribe cómo lo probarías en pequeño: en qué espacio, con qué rama o equipo y cuándo lo revisarían. No describas qué le falta a tu grupo. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

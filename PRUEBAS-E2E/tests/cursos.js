@@ -123,6 +123,11 @@ const FALLBACK = [
     file: 'autoevaluacion-institucional-asp.html',
     tituloIncluye: 'Autoevaluación institucional',
   },
+  {
+    courseId: 'gestion-del-cambio-en-el-grupo',
+    file: 'gestion-del-cambio-en-el-grupo.html',
+    tituloIncluye: 'Gestión del cambio',
+  },
 ];
 
 let CURSOS = FALLBACK;
