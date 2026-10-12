@@ -236,6 +236,9 @@ La ficha del consejero lo hace «responsable de denunciar ante las autoridades»
 ### Decidir un caso no es lo mismo que decir por dónde se reporta (Curso 14, ADR-147)
 Al marcar como superada la tarea «recomendar las rutas ante casos», la primera versión le quitó al coordinador también lo que cualquier adulto debe hacer. **La frontera es decidir (qué rutas, qué medidas: del Comité) frente a indicar (el botón y, si es delito, las autoridades: de todos).** Y en los quizzes, una opción que dice «como dice tu ficha» le revela a otra pregunta qué dice la ficha: el lector del mismo modelo sacó 5 de 5 por esa fuga, y bajó a 3 al quitarla. **Medir con dos modelos** (ADR-148): Haiku dio 2.
 
+### Una frase de la fuente tiene sujeto: no se le presta a otro rol (Curso 15, ADR-149)
+La primera versión del 15 le atribuyó al referente tres frases ajenas: un criterio de Comunicaciones, una función de la comisión de DI sobre otra política, y una cita de la ficha **cortada justo antes de la palabra que la contradecía**. **Antes de citar, mirar de quién es la frase en la fuente, y no cortar una cita sin elipsis.** Y una palabra de la Política puede no significar lo que el curso cree: llama «de sensibilización» a las campañas de Promoción.
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 

@@ -113,6 +113,11 @@ const FALLBACK = [
     file: 'coordinador-regional-a-salvo-del-peligro.html',
     tituloIncluye: 'Coordinador Regional',
   },
+  {
+    courseId: 'referente-regional-de-promocion',
+    file: 'referente-regional-de-promocion.html',
+    tituloIncluye: 'Referente Regional de Promoción',
+  },
 ];
 
 let CURSOS = FALLBACK;

@@ -236,5 +236,19 @@
     "status": "active",
     "file": "coordinador-regional-a-salvo-del-peligro.html",
     "folder": "coordinador-regional-a-salvo-del-peligro"
+  },
+  {
+    "courseId": "referente-regional-de-promocion",
+    "title": "Referente Regional de Promoción",
+    "description": "Las campañas nacionales de A Salvo del Peligro llegan a las regiones por una persona: el Referente Regional de Promoción. Aquí aprendes qué es ese rol, que nace de la Política de 2025 y no del Manual de Cargos; por qué no recibe casos; cómo se lleva una campaña nacional a tu región sin cambiar su mensaje; qué necesidades se transmiten hacia arriba, y cómo se sabe si una campaña sirvió.",
+    "icon": "📣",
+    "duration": "30 minutos",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 15,
+    "modules": 6,
+    "status": "active",
+    "file": "referente-regional-de-promocion.html",
+    "folder": "referente-regional-de-promocion"
   }
 ]

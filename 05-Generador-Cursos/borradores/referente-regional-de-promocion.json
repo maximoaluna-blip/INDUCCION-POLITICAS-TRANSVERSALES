@@ -1,0 +1,445 @@
+{
+  "courseId": "referente-regional-de-promocion",
+  "title": "Referente Regional de Promoción",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "Las campañas nacionales de A Salvo del Peligro llegan a las regiones por una persona: el Referente Regional de Promoción. Aquí aprendes qué es ese rol, que nace de la Política de 2025 y no del Manual de Cargos; por qué no recibe casos; cómo se lleva una campaña nacional a tu región sin cambiar su mensaje; qué necesidades se transmiten hacia arriba, y cómo se sabe si una campaña sirvió.",
+  "contentVersion": "2026-10-12",
+  "icon": "📣",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 15,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Un rol de la Política",
+      "emoji": "📣",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Promoción, no casos",
+      "emoji": "🚫",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "La campaña en casa",
+      "emoji": "🗺️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "La voz de la región",
+      "emoji": "🔁",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Saber si sirvió",
+      "emoji": "📈",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Promover el cuidado",
+      "emoji": "🌱",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "REFERENTE REGIONAL DE PROMOCIÓN",
+    "description": "ha completado el Curso 15 de la Línea Políticas Transversales — Referente Regional de Promoción, reconociendo con la Política Nacional A Salvo del Peligro (2025) que el referente integra la Coordinación Nacional de Promoción de Entornos Seguros y no recibe casos; llevando las campañas nacionales a su región para que se entiendan allí; transmitiendo las necesidades de la región sin datos que identifiquen a nadie; y reconociendo cómo se evalúa una campaña. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación, ni designa a nadie en el rol. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una acción concreta</strong> para que la próxima campaña nacional de A Salvo del Peligro llegue a los grupos de tu región. Se queda solo en tu navegador.",
+    "placeholder": "Para la próxima campaña voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Te llega por correo la campaña nacional de A Salvo del Peligro del semestre: unas piezas gráficas, un video, una guía para los grupos. En tu región hay treinta grupos, tres de ellos en zona rural y uno en una comunidad indígena. Si nadie hace nada, la campaña se queda en el correo. Tu trabajo es que no se quede ahí, y que de vuelta la Nación sepa qué necesita tu región. Este curso es para eso."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> dónde está el rol en la Política y en qué se diferencia del Coordinador Regional.",
+            "<strong>Actuar</strong> ante una consulta sobre un caso sin recibirlo.",
+            "<strong>Adaptar</strong> una campaña nacional a tu región sin cambiar su mensaje.",
+            "<strong>Transmitir</strong> las necesidades de la región sin datos que identifiquen a nadie.",
+            "<strong>Distinguir</strong> cómo se evalúa una campaña de cómo no."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación, ni te designa en el rol. Si te falta algún módulo, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se apoya en el 03 (reportar sin investigar) y en el 14 (el Coordinador Regional). Y lo que hace una Comisión Regional de Desarrollo Institucional lo enseña el <a href=\"https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/02-Plataforma-Web/comisionado-region-nacion.html\" target=\"_blank\" rel=\"noopener\">Curso 16 de Desarrollo Institucional</a>, en sus lecciones «La comisión de Desarrollo Institucional» y «Llevar la Política a los grupos»: aquí se da por sabido."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "📣 Un rol de la Política",
+      "emoji": "📣",
+      "navLabel": "El rol",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el referente no tiene ficha en el Manual de Cargos: nace de la Política de 2025. Integra la Coordinación Nacional de Promoción de Entornos Seguros y, lo ideal, es una persona por región dentro de la Comisión Regional de Desarrollo Institucional."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la Política el rol",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 40.",
+          "text": "Son adultos en el movimiento que hacen parte de la Comisión Nacional de A Salvo del Peligro en el nivel intermedio. Integran la Coordinación Nacional de Promoción de Entornos Seguros, transmiten las necesidades de la región a esta misma coordinación, y se encargan de garantizar la implementación de las campañas nacionales de promoción en sus respectivas regiones. Idealmente, será seleccionado una persona por cada región, siendo parte de la Comisión Regional de Desarrollo Institucional"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧭 Arriba",
+              "description": "La Coordinación Nacional de Promoción de Entornos Seguros, que coordina el Equipo Nacional de Promoción con un enfoque en el cuidado y el autocuidado (p. 39). Ella orienta las campañas.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏛️ Al lado",
+              "description": "La Comisión Regional de Desarrollo Institucional, con la que el organigrama de la Política te une en doble vía (p. 41). Si eres parte de ella, como miembro de esa comisión te nombra el Jefe Scout Regional, previo aval de la Dirección Nacional de DI, y respondes al Jefe Regional y al Comisionado Regional de DI (ficha 2.2.31). Como referente, la Política no dice quién te selecciona.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🤝 No es el Coordinador Regional",
+              "description": "El Coordinador Regional de A Salvo del Peligro (cargo 2.2.30, Curso 14) es otro rol: plan operativo, actividades, formación. Tú llevas las campañas nacionales a la región. Conviene planear juntos para no duplicar.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "❓ <strong>Lo que la Política no dice.</strong> Dice que el referente <em>«será seleccionado»</em>, pero no quién lo selecciona ni con qué requisitos. Y pide que el Manual de Cargos incluya las funciones de A Salvo del Peligro de cada rol (p. 28, punto 2); el Manual vigente es de 2020 y todavía no tiene ficha para el referente. Si no sabes cómo se designa en tu región, pregúntalo a la Coordinación Nacional de Promoción."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: promoción, no casos 🚫",
+        "questions": [
+          {
+            "text": "Según la Política de 2025, lo ideal es que el Referente Regional de Promoción forme parte de una comisión regional. ¿De cuál?",
+            "options": [
+              "De la Comisión Regional de Desarrollo Institucional.",
+              "De la Comisión Regional de Programa de Jóvenes.",
+              "Del Consejo Scout Regional."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una consejera regional le dice al nuevo referente que espere a que el Manual de Cargos tenga su ficha antes de lanzar la campaña del semestre. Él cree que puede empezar ya. ¿Qué te propone la lección?",
+            "options": [
+              "El referente tiene razón, porque el rol lo crea la Política de 2025 y la Política está vigente.",
+              "La consejera tiene razón, porque la Política pide que el Manual incluya las funciones de cada rol.",
+              "El referente tiene razón, y mientras llega la ficha asume también las tareas del Coordinador Regional."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe en una frase cómo le explicarías a un jefe de grupo la diferencia entre el Referente Regional de Promoción y el Coordinador Regional de A Salvo del Peligro."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🚫 Promoción, no casos",
+      "emoji": "🚫",
+      "navLabel": "No casos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el referente promueve; no recibe ni gestiona casos. Si alguien le cuenta uno, le indica por dónde se reporta, y si él mismo conoce algo contrario a la Política, lo pone en conocimiento del Comité."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política es clara: fuera de los integrantes designados de la Comisión Nacional de A Salvo del Peligro, nadie recibe ni gestiona reportes a nombre de la Asociación (p. 39). Tu rol hace parte de esa Comisión, pero en el nivel intermedio y para la promoción, no para la gestión de incidentes. Y como todos los roles de la Política, si conoces <em>«por cualquier medio»</em> algo contrario a ella, lo pones en conocimiento del Comité de Gestión de Incidentes (p. 40), por el botón «Me Pongo A Salvo del Peligro» (p. 44)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Si un grupo te consulta un caso",
+              "description": "Le dices por dónde va: el botón y, si puede ser un delito, las autoridades (p. 21; Curso 03). Si eres de la comisión de DI, su ficha te pide orientar a los grupos (2.2.31, F4); en un caso, orientar es decir por dónde va.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Lo que no haces",
+              "description": "Recibir el caso para pasarlo tú, preguntar detalles, decidir qué hacer. El rol del adulto <em>«en ningún caso»</em> es investigativo ni de gestión del reporte (p. 29).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🧩 El Equipo de Promoción no es el Equipo de Sensibilización",
+              "description": "El Equipo Nacional de <strong>Sensibilización</strong> acompaña a las personas que contravienen la Política, con prácticas de justicia restaurativa, cuando el Comité lo pide. El de <strong>Promoción</strong>, que es lo tuyo, hace campañas para todos; la Política las llama campañas de sensibilización (p. 40).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: llevar la campaña 🗺️",
+        "questions": [
+          {
+            "text": "En un taller de la campaña, una dirigente se acerca al referente y le cuenta, en voz baja, algo que le preocupa de un scout de su grupo. ¿Qué hace el referente?",
+            "options": [
+              "Indicarle por dónde se reporta y, como lo conoció, ponerlo él también en conocimiento del Comité.",
+              "Pedirle que le cuente los detalles después del taller, para pasarle al Comité un reporte completo.",
+              "Anotarlo entre las necesidades de la región, para el informe que envía a la Coordinación Nacional."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Según la Política, ¿quién acompaña con prácticas de justicia restaurativa a las personas que contravienen la Política?",
+            "options": [
+              "El Equipo Nacional de Sensibilización, cuando el Comité lo pide.",
+              "El Equipo Nacional de Promoción, cuando el Comité lo pide.",
+              "La Coordinación Nacional de Gestión de Incidentes, al cerrar el caso."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la frase con la que, al abrir un taller de la campaña, avisarías que ese espacio no es para contar casos y dirías por dónde van."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🗺️ Llevar la campaña a la región",
+      "emoji": "🗺️",
+      "navLabel": "La campaña",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> garantizar que la campaña nacional llegue a todos los grupos de tu región, con mensajes que se entiendan allí, sin cambiar lo que la campaña dice."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pide la Política a la comunicación de la Política",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Dirección Nacional de Comunicaciones», p. 41.",
+          "text": "Asegurar que los mensajes sean claros, accesibles y culturalmente pertinentes"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📬 Que llegue",
+              "description": "Una campaña que se queda en el correo no existe. Garantizar su implementación (p. 40) es que cada grupo la reciba, sepa para qué es y tenga con qué hacerla. La comisión de DI ya acompaña a los grupos de la región —lo que su ficha llama «animación territorial» (2.2.31, F3)—, y ese mismo camino sirve para la campaña.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🌍 Que se entienda",
+              "description": "La Política le pide a Comunicaciones mensajes claros, accesibles y culturalmente pertinentes (p. 41), y pide entornos seguros adaptados a cada territorio (p. 14). Ese mismo criterio es el tuyo al llevar la campaña: llevarla a la lengua de una comunidad, al formato que funciona en una vereda sin internet, al ejemplo que reconocen en tu región. Las campañas son para todos los actores (p. 40), no solo para los dirigentes.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🔒 Sin cambiar el mensaje",
+              "description": "Adaptar no es reescribir. Lo que la campaña enseña —la ruta del botón, el autocuidado, la corresponsabilidad— viene de la Coordinación Nacional, que orienta al Equipo de Promoción (p. 40). Si crees que algo no sirve para tu región, eso es una necesidad que se transmite (lección siguiente), no un cambio que se hace por tu cuenta.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🌱 <strong>El foco de la promoción.</strong> La Coordinación Nacional de Promoción trabaja en acciones de cuidado y autocuidado (p. 39), y el Equipo Nacional, en fortalecer las competencias socioemocionales de jóvenes y adultos como factor protector ante el daño (p. 40). Una campaña de promoción no habla de casos: habla de cuidar."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: lo que la región necesita 🔁",
+        "questions": [
+          {
+            "text": "La campaña nacional trae un video en español. En tu región hay un grupo en una comunidad indígena donde muchos niños hablan su lengua. Una dirigente propone traducir los mensajes clave. ¿Qué te propone la lección?",
+            "options": [
+              "Que la dirigente tiene razón, porque la Política pide mensajes que se entiendan allí.",
+              "Que no se traduzca, porque la campaña es nacional y debe llegar tal cual a los grupos.",
+              "Que se traduzca para los adultos del grupo, y los niños vean el video en español."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un referente cree que un mensaje de la campaña no encaja en su región y decide quitarlo de las piezas antes de enviarlas a los grupos. Un comisionado le sugiere enviarlas completas. ¿Qué te propone la lección?",
+            "options": [
+              "El comisionado tiene razón, porque si un mensaje no encaja, eso se transmite como necesidad.",
+              "El referente hizo bien, porque conoce su región y su tarea es que la campaña funcione allí.",
+              "El comisionado tiene razón, y el referente no tiene por qué contarle nada a la Coordinación."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en un tipo de lugar de tu región (una vereda sin internet, una comunidad con lengua propia, un barrio). Escribe una adaptación que harías para que una campaña nacional se entienda allí, sin nombres de personas ni de grupos."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🔁 Lo que la región necesita",
+      "emoji": "🔁",
+      "navLabel": "Necesidades",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el referente también lleva información hacia arriba: las necesidades de su región. Son necesidades —de formación, de material, de formato—, no casos ni datos de personas."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver de dónde parte el Equipo Nacional de Promoción",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Equipo Nacional de Promoción de Entornos Seguros», p. 40.",
+          "text": "Adultos en el movimiento responsables de desarrollar estrategias de fortalecimiento de competencias socioemocionales como factor protector ante el daño, partiendo de las necesidades establecidas en el informe periódico presentado por la Coordinación Nacional de Gestión de Incidentes y los Referentes Regionales de Promoción"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Lo que se transmite",
+              "description": "Lo que la región necesita para cuidar mejor: «los grupos rurales no tienen cómo ver videos», «nos piden material sobre ciberacoso», «la campaña llegó tarde para el calendario de campamentos». Datos agregados y útiles para diseñar.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Lo que no se transmite",
+              "description": "Casos, nombres, grupos señalados o cualquier cosa que identifique a alguien. Todos los roles actúan bajo <em>«confidencialidad, empatía, enfoque de derechos y no revictimización»</em> (p. 40). Lo de los casos va por el botón al Comité, nunca en el informe de necesidades.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🗣️ Que la región participe",
+              "description": "La Política pide garantizar la participación activa de las estructuras regionales y locales en la revisión de la Política (p. 37). Tú eres uno de los canales por los que esa voz llega.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "❓ El formato de ese informe no está publicado en el corpus. Si te toca prepararlo, pídeselo a la Coordinación Nacional de Promoción."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: cómo se sabe si sirvió 📈",
+        "questions": [
+          {
+            "text": "Al preparar las necesidades de la región, el referente escribe: «En la Tropa del grupo de la vereda hubo un caso de acoso entre scouts; se necesita una campaña sobre eso». ¿Qué te propone la lección?",
+            "options": [
+              "Que transmita la necesidad sin señalar el grupo ni el caso, y que el caso vaya por el botón.",
+              "Que transmita la necesidad sin señalar el grupo, y cuente el caso sin nombres para dar contexto.",
+              "Que espere a que el Comité cierre el caso antes de pedir una campaña sobre acoso."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Equipo Nacional de Promoción prepara las estrategias del año. Según la Política, ¿de dónde parte?",
+            "options": [
+              "De las necesidades del informe periódico, que también alimentan los referentes.",
+              "De las prioridades que cada Jefe Scout Regional fija para su región.",
+              "De las campañas que mejor funcionaron en otras asociaciones scouts."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una necesidad de tu región que transmitirías a la Coordinación Nacional de Promoción, sin nombres ni grupos."
+      }
+    },
+    {
+      "id": 6,
+      "title": "📈 Cómo se sabe si la campaña sirvió",
+      "emoji": "📈",
+      "navLabel": "Si sirvió",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> una campaña se evalúa por lo que llegó, se entendió y cambió, no por cuántos casos aparecieron después."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Equipo Nacional de Promoción monitorea <em>«la efectividad de las acciones de promoción y su constante mejora»</em> (p. 40), y la Política pide indicadores de desempeño en promoción (p. 37). Mientras no conozcas esos indicadores, lo que puedes aportar es lo que viste: cuántos grupos la recibieron y la hicieron, qué dijeron los jóvenes y los adultos, qué funcionó y qué no."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Lo que sí cuenta",
+              "description": "Grupos alcanzados, actividades hechas con la guía, retroalimentación de quienes participaron, lo que la región adaptó y cómo le fue. Eso vuelve a la Coordinación como insumo para mejorar.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Lo que no basta solo",
+              "description": "El número de reportes, por sí solo, no dice si la campaña sirvió. Piénsalo así: si la campaña enseña por dónde reportar, es esperable que más gente use el botón, y eso no es un fracaso; la Política quiere una cultura de reporte oportuno (p. 21). Y menos reportes no prueba que no haya daño.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🤝 Con quién lo miras",
+              "description": "Con el Coordinador Regional, que tiene el plan operativo (Curso 14), y con tu comisión de DI: la Política pide que cada Región muestre en su evaluación regional cómo cumple A Salvo del Peligro (p. 42).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve al correo del principio. Ahora sabes qué hacer con él: es un rol de la Política, dentro de la Coordinación Nacional de Promoción; no recibes casos, pero sabes por dónde van; llevas la campaña a los treinta grupos —también al rural y al de la comunidad indígena— sin cambiar su mensaje; devuelves a la Nación lo que tu región necesita, sin datos de nadie; y mides la campaña por lo que llegó y cambió. Promover el cuidado es eso."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Tres meses después de la campaña, los reportes por el botón en la región subieron. Un consejero regional dice que la campaña «empeoró las cosas». ¿Qué te propone la lección?",
+            "options": [
+              "Que no necesariamente, porque más gente puede saber ahora por dónde se reporta.",
+              "Que tiene razón, porque una campaña de cuidado debería bajar los reportes de la región.",
+              "Que se suspenda la campaña hasta que el Comité explique por qué subieron los reportes."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El referente quiere saber si la campaña del semestre funcionó en su región. ¿Qué le dice más?",
+            "options": [
+              "Qué hicieron los grupos con la guía, contado por ellos mismos.",
+              "Cuántas veces se descargaron las piezas gráficas desde el correo.",
+              "Qué cantidad de piezas imprimió la región para los grupos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una pregunta que le harías a un grupo de tu región para saber si la última campaña le sirvió. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}
