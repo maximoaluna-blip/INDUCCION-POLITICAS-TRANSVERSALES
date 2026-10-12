@@ -1,0 +1,445 @@
+{
+  "courseId": "coordinador-regional-a-salvo-del-peligro",
+  "title": "Coordinador Regional de A Salvo del Peligro",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "El cargo de Coordinador Regional de A Salvo del Peligro está en el Manual de Cargos de 2020, y la Política de 2025 le cambió una parte. Aquí aprendes qué sigue siendo tuyo —el plan operativo regional, las actividades seguras, la formación y la difusión— y qué ya no —recibir casos, coordinar su atención, activar un comité de crisis—, con quién trabajas y cómo se nota que tu región avanza.",
+  "contentVersion": "2026-10-12",
+  "icon": "🗺️",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 14,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Un cargo vigente",
+      "emoji": "📜",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Los casos, no",
+      "emoji": "✂️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Lo que sí es tuyo",
+      "emoji": "🗺️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Sin duplicar",
+      "emoji": "🤝",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Una región que avanza",
+      "emoji": "📈",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Coordinar sin gestionar",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "COORDINADOR REGIONAL DE A SALVO DEL PELIGRO",
+    "description": "ha completado el Curso 14 de la Línea Políticas Transversales — Coordinador Regional de A Salvo del Peligro, reconociendo que el cargo 2.2.30 del Manual de Cargos sigue vigente y que la Política Nacional A Salvo del Peligro (2025) superó sus tareas sobre casos; asumiendo lo que sigue siendo suyo —el plan operativo regional, las actividades seguras, la formación y la difusión—; coordinándose con los Referentes Regionales de Promoción y con la Comisión Nacional de A Salvo del Peligro; y reconociendo cómo se evidencia el avance de una región. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación, ni nombra a nadie en el cargo. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una acción concreta</strong> que vas a proponer para el próximo plan operativo de tu región en A Salvo del Peligro. Se queda solo en tu navegador.",
+    "placeholder": "Para el próximo plan operativo voy a proponer..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "El Jefe Scout Regional te acaba de nombrar Coordinador Regional de A Salvo del Peligro. Lees la ficha del cargo: articular acciones en la Región, participar en el plan operativo, promover los cursos… y también coordinar la atención de los casos y activar un comité de crisis regional. Después lees la Política de 2025, y nada de eso último aparece. ¿Qué parte del cargo es tuya hoy? Este curso responde esa pregunta."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Explicar</strong> por qué el cargo sigue vigente aunque la Política de 2025 no lo nombre.",
+            "<strong>Distinguir</strong> las tareas de la ficha que siguen siendo tuyas de las que superó la Política.",
+            "<strong>Actuar</strong> ante un caso como cualquier adulto, sin recibirlo ni gestionarlo.",
+            "<strong>Planear</strong> con los Referentes Regionales de Promoción una acción de prevención sin duplicar la campaña nacional.",
+            "<strong>Distinguir</strong> un indicador de acción de uno de casos."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación, ni te nombra en el cargo. Si te falta algún módulo, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se apoya en el 03 (reportar sin investigar), el 07 (las rutas del Estado), el 17 (los eventos) y el 18 (el consejo de grupo): aquí se dan por sabidos. Si eres Jefe Scout Regional o comisionado, lee el curso al revés: es lo que puedes pedirle a tu coordinador, y lo que ya no."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "📜 Un cargo de 2020 en una política de 2025",
+      "emoji": "📜",
+      "navLabel": "El cargo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el cargo existe y está vigente. La Política de 2025 no lo nombra entre sus roles, pero tampoco lo deroga: ordena actualizar el Manual de Cargos. Mientras eso no pase, lees la ficha a la luz de la Política."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define la ficha el cargo",
+          "source": "Manual de Cargos, Perfiles y Funciones por Competencias (2020), ficha 2.2.30, f. 385.",
+          "text": "Tiene a su cargo la responsabilidad de articular acciones en la Región para la implementación de la Política mundial a salvo del peligro y los lineamientos proporcionados por la nación en relación a entornos protectores"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🖊️ Quién te nombra",
+              "description": "El Jefe Scout Regional, previo aval de la Comisión Nacional de Gestión del Riesgo. Respondes al Jefe Scout Regional y a los comisionados regional y nacional de gestión del riesgo; te responden los comisionados de programa y los jefes de rama (f. 385).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "📌 Por qué sigue vigente",
+              "description": "El Manual de Cargos no fue suspendido, y la Política no lo deroga: le ordena a la Asociación incluir en el manual las funciones de A Salvo del Peligro de cada rol (p. 28, punto 2). Superado no es lo mismo que inexistente.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "⚖️ Quién manda si chocan",
+              "description": "Donde la ficha y la Política dicen cosas distintas, prevalece la Política, que es posterior y es la norma de A Salvo del Peligro. Esa es la lectura de esta línea: la reinterpretación oficial del cargo todavía no se ha publicado.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: lo que ya no te toca ✂️",
+        "questions": [
+          {
+            "text": "Según su ficha, ¿quién nombra al Coordinador Regional de A Salvo del Peligro?",
+            "options": [
+              "El Jefe Scout Regional, previo aval de la Comisión Nacional de Gestión del Riesgo.",
+              "El Jefe Scout Regional, previo aval de la Comisión Nacional de A Salvo del Peligro.",
+              "El Jefe Scout Regional, previo aval del Consejo Scout Regional."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El nuevo coordinador le dice a la jefatura que, como la Política de 2025 no nombra su cargo, va a esperar a que actualicen el Manual de Cargos para empezar. Un comisionado regional le dice que no hace falta esperar. ¿Qué te propone la lección?",
+            "options": [
+              "El comisionado: el cargo está vigente, y donde la ficha choque con la Política, manda la Política.",
+              "El coordinador: sin el Manual actualizado no puede saber qué tareas de su ficha le quedan.",
+              "A medias: puede empezar con la prevención y dejar en pausa las tareas sobre casos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe en una frase cómo le explicarías a tu jefatura regional por qué este cargo sigue vigente aunque la Política de 2025 no lo nombre."
+      }
+    },
+    {
+      "id": 3,
+      "title": "✂️ Lo que ya no te toca",
+      "emoji": "✂️",
+      "navLabel": "Lo que ya no",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> tres tareas de la ficha tocan los casos, y la Política se las dio a otros. Ante un caso eres un adulto más: reportas, no recibes, no gestionas y no investigas."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver quién recibe y gestiona los casos hoy",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 39.",
+          "text": "Es por ello, que no se autoriza a miembros de la Asociación Scout de Colombia distintos a los integrantes de la Comisión Nacional de A Salvo del Peligro designados para ello, recibir y gestionar reportes a nombre de la ASC. Cualquier disposición y gestión contraria a lo aquí dispuesto por parte de los miembros de Scouts de Colombia establecerá en ellos la respectiva responsabilidad legal a que haya lugar"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✂️ (en parte) «Conocer y recomendar las rutas de actuación, ante casos…»",
+              "description": "Decidir qué se hace en un caso —qué rutas se activan, qué medidas se toman— ya no es tuyo: eso lo hace el Comité de Gestión de Incidentes (p. 39). Decirle a alguien por dónde se reporta —el botón y, si puede ser un delito, las autoridades— sí: eso lo hace cualquier adulto. Y conocer las rutas y enseñarlas también es tuyo (lección siguiente).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "✂️ «Coordinar las acciones de protección… en los casos»",
+              "description": "También es del Comité: determinar las acciones inmediatas y recomendar medidas preventivas según la gravedad (p. 39).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "✂️ «Activar el comité de crisis regional»",
+              "description": "La Política no tiene un comité de crisis regional. Lo que hay es el Comité de Gestión de Incidentes, nacional, dentro de la Comisión Nacional de A Salvo del Peligro (p. 39).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Y si un caso te llega a ti? Haces lo mismo que cualquier adulto (Curso 03): lo reportas por el botón «Me Pongo A Salvo del Peligro» (p. 44); si puede ser un delito, también ante las autoridades (p. 21); y no investigas, porque el rol del adulto <em>«en ningún caso»</em> es investigativo ni de gestión del reporte (p. 29). Si un grupo te llama para que tomes el caso, tu ayuda es decirle por dónde va."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y tu ficha te pide algo más: ser garante del debido proceso, actuar con objetividad <em>«siempre salvaguardando la presunción de inocencia y el buen nombre»</em> de las partes (competencia 8). Ante un caso, eso quiere decir no opinar sobre él."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: lo que sigue siendo tuyo 🗺️",
+        "questions": [
+          {
+            "text": "El Jefe Scout Regional le pide al coordinador que, desde ahora, los grupos le manden a él los casos, para tener un consolidado regional. ¿Qué te propone la lección?",
+            "options": [
+              "Decirle que no: van por el botón al Comité, y un canal regional de casos no está permitido.",
+              "Recibirlos para el consolidado, sin gestionarlos, y reenviarlos al Comité ese mismo día.",
+              "Aceptar: responde al Jefe Scout Regional, y su ficha lo define como el referente regional."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En un taller, un jefe de grupo le pregunta al coordinador cuál es la ruta oficial si un scout revela algo, y él se la explica: el botón y, si puede ser un delito, las autoridades. Un comisionado le dice después que eso ya no le toca. ¿Qué te propone la lección?",
+            "options": [
+              "El coordinador hizo bien: explicar la ruta oficial es difusión, y sigue siendo suya.",
+              "El comisionado tiene razón: desde 2025 las consultas sobre rutas las responde el Comité.",
+              "A medias: podía nombrar el botón, pero mencionar a las autoridades le toca al Comité."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Si mañana un grupo de tu región te pidiera tomar un caso, ¿qué frase le dirías para orientarlo sin recibirlo? Escribe solo la frase, sin nombres ni casos."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🗺️ Lo que sigue siendo tuyo",
+      "emoji": "🗺️",
+      "navLabel": "Lo que sí",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la mayor parte del cargo sigue intacta. Es un cargo de prevención: el plan operativo regional, las actividades seguras, la formación de los adultos y la difusión."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pide la Política a las regiones",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Nivel Intermedio (Regiones Scout)», p. 42.",
+          "text": "Las Regiones deberán asegurar que el cumplimiento de esta política se evidencie en sus planes operativos, procesos de acompañamiento a los distritos y en los mecanismos de evaluación regional, articulando la política como parte de la gestión de calidad regional"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📋 El plan operativo",
+              "description": "Acompañar su formulación, ejecución y seguimiento para que cumpla los lineamientos de A Salvo del Peligro, y proponer acciones de difusión sobre actividades seguras y prevención del abuso (ficha, Función 1). Tu competencia de gestión del riesgo lo resume: formular, ejecutar y evaluar acciones de actividades seguras y prevención del abuso (competencia 22). Es justo lo que la Política le pide a la región.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🏕️ Las actividades regionales",
+              "description": "Participar en su planeación para que sean seguras (Función 1) y, como pide tu competencia de seguridad, intervenir <em>«cada vez que considere que se está afectando la integridad de cualquier joven o adulto»</em> (competencia 10).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🎓 La formación y la difusión",
+              "description": "Promover que los adultos hagan los cursos, seminarios y talleres de A Salvo del Peligro; socializar la Política y las estrategias de interacción entre miembros; mantener informadas a las jefaturas de los grupos y de la Región (Función 3).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Cómo se ve eso en un plan? Por ejemplo —son ejemplos, no exigencias de la Política—: un taller de la ruta oficial por distrito en el semestre; cada actividad regional con su análisis de seguridad antes de la convocatoria; una visita de acompañamiento a los grupos que lo pidan. Y si en una actividad ves un riesgo, intervenir para cortarlo no es gestionar el caso: lo cortas, y luego lo reportas por el botón."
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>Una nota sobre los eventos.</strong> El plan A Salvo del Peligro de un evento regional lo arma la Comisión Nacional de A Salvo del Peligro (p. 33, Curso 17). Participar en la planeación de la actividad no te convierte en su autor: aportas el conocimiento de la región."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: con quién trabajas 🤝",
+        "questions": [
+          {
+            "text": "La Región empieza a formular su plan operativo del año. ¿Qué le toca al coordinador, según la lección?",
+            "options": [
+              "Acompañar su formulación para que A Salvo del Peligro quede dentro del plan, con seguimiento.",
+              "Redactar él un plan de A Salvo del Peligro aparte, para que el tema no se diluya en el plan general.",
+              "Proponer que incluya los talleres y dejar el seguimiento a la Comisión Nacional, que es la que evalúa."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En una actividad regional, el coordinador ve que un dirigente se lleva solo a un lobato hacia una carpa apartada. ¿Qué te propone la lección?",
+            "options": [
+              "Intervenir en ese momento y, después, reportar por el botón lo que vio en la actividad.",
+              "Intervenir en ese momento y preguntarle al dirigente qué pasaba antes de reportar por el botón.",
+              "No intervenir y avisarle esa noche al Jefe Scout Regional, para no gestionar él la situación."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en la próxima actividad regional del calendario. Escribe una pregunta de seguridad que llevarías a su planeación, sin nombres."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🤝 Con quién trabajas",
+      "emoji": "🤝",
+      "navLabel": "Con quién",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en la región no estás solo. Los Referentes Regionales de Promoción hacen las campañas nacionales; el Comisionado Nacional de A Salvo del Peligro da los lineamientos; la Comisión Nacional de Gestión del Riesgo avaló tu nombramiento y sigue trabajando contigo. Coordinar es no duplicar."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📣 Los Referentes Regionales de Promoción",
+              "description": "Integran la Coordinación Nacional de Promoción de Entornos Seguros, garantizan las campañas nacionales en la región y le transmiten sus necesidades; lo ideal es que haya uno por región, dentro de la Comisión Regional de Desarrollo Institucional (p. 40). No reciben casos. Lo tuyo y lo suyo se tocan en la promoción: se planea junto.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🧭 Quién da los lineamientos",
+              "description": "Tu ficha dice que aplicas los lineamientos de la Comisión Nacional de Gestión del Riesgo. Hoy, los de A Salvo del Peligro los da el Comisionado Nacional de A Salvo del Peligro, que lidera esa Comisión (p. 39). Son dos comisiones distintas, y trabajas con las dos: esas tareas de tu ficha siguen siendo tuyas; lo que cambió es de quién vienen los lineamientos de A Salvo del Peligro. Con la de Gestión del Riesgo sigues trabajando, por ejemplo en los eventos (p. 33).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏛️ La jefatura regional",
+              "description": "Respondes al Jefe Scout Regional, y te responden los comisionados de programa y los jefes de rama (ficha, f. 385). Por ahí llega lo que propones a los grupos.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: cómo se nota el avance 📈",
+        "questions": [
+          {
+            "text": "La Referente Regional de Promoción va a lanzar la campaña nacional en la Región el mismo mes en que el coordinador planeaba su propia campaña. ¿Qué te propone la lección?",
+            "options": [
+              "Que la planeen juntos como una sola acción, la campaña nacional con lo que la región le añada.",
+              "Que lancen las dos el mismo mes, cada una con su material, para que el mensaje llegue dos veces.",
+              "Que el coordinador suspenda la suya, porque la promoción le corresponde a la Referente."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Según la Política de 2025, ¿quién da hoy los lineamientos sobre prevención del abuso a todos los niveles?",
+            "options": [
+              "El Comisionado Nacional de A Salvo del Peligro.",
+              "La Comisión Nacional de Gestión del Riesgo.",
+              "El Coordinador Nacional de Gestión de Incidentes."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una pregunta que le harías a la Referente o al Referente Regional de Promoción antes de planear juntos una acción de prevención en tu región."
+      }
+    },
+    {
+      "id": 6,
+      "title": "📈 Cómo se nota que la región avanza",
+      "emoji": "📈",
+      "navLabel": "El avance",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el avance de una región en A Salvo del Peligro se ve en lo que hace —su plan, el acompañamiento a los distritos, su evaluación—, no en cuántos casos pasan por el coordinador."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política dice dónde mirar: en los planes operativos, en el acompañamiento a los distritos y en los mecanismos de evaluación regional (p. 42). Y pide a la Asociación indicadores de cumplimiento por rol, nivel y tipo de actividad (p. 43). Si tu región todavía no tiene esos indicadores, mira lo que hizo: cuántos adultos se formaron, qué actividades se planearon con su análisis de seguridad, qué distritos y grupos se acompañaron."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Lo que sí mide",
+              "description": "Acciones: talleres, adultos formados, distritos y grupos acompañados, actividades planeadas de forma segura. Los grupos, además, registran sus acciones de sensibilización, reporte y mitigación en sus informes de gestión (p. 42, Curso 18).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Lo que no mide",
+              "description": "Cuántos casos pasaron por ti: no deberían pasar. Y menos, cuántos casos hubo en la región: un número bajo de reportes no prueba que no haya daño.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "📣 Lo que se socializa",
+              "description": "Los grupos socializan con la Región sus aprendizajes y buenas prácticas (p. 42, Curso 18). Esa es tu cosecha: lo que un grupo aprendió puede ir al plan operativo del año siguiente.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve a la ficha que leíste al empezar. Ahora sabes leerla: el cargo es tuyo y está vigente; el plan operativo, las actividades seguras, la formación y la difusión siguen siendo tuyos; los casos, no —esos van por el botón al Comité—. Trabajas con los Referentes de Promoción sin duplicar, con las dos comisiones nacionales sabiendo cuál es cuál, y mides tu región por lo que hace. Coordinar sin gestionar: ese es el cargo hoy."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "La Región cerró el año con dos reportes por el botón, frente a nueve del año anterior. Un comisionado propone presentarlo como el logro del año en A Salvo del Peligro, y el Jefe Scout Regional duda. ¿Qué te propone la lección?",
+            "options": [
+              "El Jefe Scout Regional hace bien, porque el logro son los talleres y los adultos formados.",
+              "El comisionado tiene razón si la cifra va junto a los adultos formados en el año.",
+              "Presentarla, y que el coordinador explique la baja con lo que sabe de los casos."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Tras un caso que se conoció en la Región, un comisionado de programa le pide al coordinador no hablar de A Salvo del Peligro en los grupos por un tiempo, «para no alimentar rumores». ¿Qué te propone la lección?",
+            "options": [
+              "Seguir difundiendo la ruta y el botón en los grupos, sin mencionar el caso ni opinar sobre él.",
+              "Pausar los talleres hasta que el Comité cierre el caso y, mientras, recordar el botón por mensaje.",
+              "Seguir con los talleres y usar ese caso, sin nombres, como ejemplo para que se entienda la ruta."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe un indicador de acción —no de casos— con el que medirías el avance de tu región en A Salvo del Peligro este año. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

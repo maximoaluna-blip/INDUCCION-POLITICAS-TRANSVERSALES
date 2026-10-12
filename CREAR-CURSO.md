@@ -233,6 +233,9 @@ La Política manda las funciones del dinamizador a un manual operativo que no de
 ### Una norma de 2020 se lee a la luz de la de 2025, y un artículo suspendido no se cita (Curso 18, ADR-144)
 La ficha del consejero lo hace «responsable de denunciar ante las autoridades»: se enseña como la misma obligación de la Política, con nombre propio, no como una regla distinta. Y el RG 5.8.11 parecía el ancla del informe anual, pero es una facultad de cargo suspendida (ADR-111): **antes de citar un artículo del Reglamento de Grupos, mirar si es de cargo**. «Corte de Honor» sin «Nacional» se confunde con la Comisión Ad-hoc, que el RG llama funciones «de Corte de Honor».
 
+### Decidir un caso no es lo mismo que decir por dónde se reporta (Curso 14, ADR-147)
+Al marcar como superada la tarea «recomendar las rutas ante casos», la primera versión le quitó al coordinador también lo que cualquier adulto debe hacer. **La frontera es decidir (qué rutas, qué medidas: del Comité) frente a indicar (el botón y, si es delito, las autoridades: de todos).** Y en los quizzes, una opción que dice «como dice tu ficha» le revela a otra pregunta qué dice la ficha: el lector del mismo modelo sacó 5 de 5 por esa fuga, y bajó a 3 al quitarla. **Medir con dos modelos** (ADR-148): Haiku dio 2.
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 

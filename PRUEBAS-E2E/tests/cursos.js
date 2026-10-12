@@ -108,6 +108,11 @@ const FALLBACK = [
     file: 'consejero-de-grupo-y-entornos-seguros.html',
     tituloIncluye: 'Consejero de Grupo',
   },
+  {
+    courseId: 'coordinador-regional-a-salvo-del-peligro',
+    file: 'coordinador-regional-a-salvo-del-peligro.html',
+    tituloIncluye: 'Coordinador Regional',
+  },
 ];
 
 let CURSOS = FALLBACK;

@@ -222,5 +222,19 @@
     "status": "active",
     "file": "consejero-de-grupo-y-entornos-seguros.html",
     "folder": "consejero-de-grupo-y-entornos-seguros"
+  },
+  {
+    "courseId": "coordinador-regional-a-salvo-del-peligro",
+    "title": "Coordinador Regional de A Salvo del Peligro",
+    "description": "El cargo de Coordinador Regional de A Salvo del Peligro está en el Manual de Cargos de 2020, y la Política de 2025 le cambió una parte. Aquí aprendes qué sigue siendo tuyo —el plan operativo regional, las actividades seguras, la formación y la difusión— y qué ya no —recibir casos, coordinar su atención, activar un comité de crisis—, con quién trabajas y cómo se nota que tu región avanza.",
+    "icon": "🗺️",
+    "duration": "30 minutos",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 14,
+    "modules": 6,
+    "status": "active",
+    "file": "coordinador-regional-a-salvo-del-peligro.html",
+    "folder": "coordinador-regional-a-salvo-del-peligro"
   }
 ]
