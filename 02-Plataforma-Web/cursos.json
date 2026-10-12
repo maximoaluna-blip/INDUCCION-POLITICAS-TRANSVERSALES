@@ -250,5 +250,19 @@
     "status": "active",
     "file": "referente-regional-de-promocion.html",
     "folder": "referente-regional-de-promocion"
+  },
+  {
+    "courseId": "autoevaluacion-institucional-asp",
+    "title": "Autoevaluación institucional de A Salvo del Peligro",
+    "description": "¿Cómo sabe la Asociación si su Política de A Salvo del Peligro está funcionando? Aquí aprendes el ciclo de vida de la Política, los tres instrumentos con que se mira —el semáforo del grupo, la herramienta de autoevaluación de la Oficina Scout Mundial y el GSAT— y para qué nivel es cada uno, cómo se lee una escala que no es un puntaje, y qué le toca a tu grupo para que la evaluación de arriba tenga con qué hacerse.",
+    "icon": "🔎",
+    "duration": "30 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 20,
+    "modules": 6,
+    "status": "active",
+    "file": "autoevaluacion-institucional-asp.html",
+    "folder": "autoevaluacion-institucional-asp"
   }
 ]

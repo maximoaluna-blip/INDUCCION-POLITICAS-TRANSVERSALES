@@ -118,6 +118,11 @@ const FALLBACK = [
     file: 'referente-regional-de-promocion.html',
     tituloIncluye: 'Referente Regional de Promoción',
   },
+  {
+    courseId: 'autoevaluacion-institucional-asp',
+    file: 'autoevaluacion-institucional-asp.html',
+    tituloIncluye: 'Autoevaluación institucional',
+  },
 ];
 
 let CURSOS = FALLBACK;

@@ -1,0 +1,522 @@
+{
+  "courseId": "autoevaluacion-institucional-asp",
+  "title": "Autoevaluación institucional de A Salvo del Peligro",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "¿Cómo sabe la Asociación si su Política de A Salvo del Peligro está funcionando? Aquí aprendes el ciclo de vida de la Política, los tres instrumentos con que se mira —el semáforo del grupo, la herramienta de autoevaluación de la Oficina Scout Mundial y el GSAT— y para qué nivel es cada uno, cómo se lee una escala que no es un puntaje, y qué le toca a tu grupo para que la evaluación de arriba tenga con qué hacerse.",
+  "contentVersion": "2026-10-12",
+  "icon": "🔎",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 20,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "La Política se revisa",
+      "emoji": "🔄",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Tres instrumentos",
+      "emoji": "🧰",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Cuatro colores",
+      "emoji": "🎨",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "La evidencia viene de abajo",
+      "emoji": "🔎",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Registrar y compartir",
+      "emoji": "📝",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Mejora continua",
+      "emoji": "🌱",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "AUTOEVALUACIÓN INSTITUCIONAL DE A SALVO DEL PELIGRO",
+    "description": "ha completado el Curso 20 de la Línea Políticas Transversales — Autoevaluación institucional de A Salvo del Peligro, reconociendo el ciclo de vida de la Política Nacional A Salvo del Peligro (2025); distinguiendo el semáforo de grupo, la Herramienta de Autoevaluación A Salvo del Peligro de la Oficina Scout Mundial y el GSAT, cada uno en su nivel; leyendo una autoevaluación por la evidencia y no como un puntaje; y reconociendo lo que el grupo registra y comparte con su Región. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una acción concreta</strong> para que tu grupo o tu Región registre y comparta lo que aprende sobre A Salvo del Peligro. Se queda solo en tu navegador.",
+    "placeholder": "Este año, en mi grupo, voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "En la asamblea regional alguien pregunta: «¿Y cómo sabemos si la Política de A Salvo del Peligro está funcionando?». Un consejero responde rápido: «Por los reportes: si bajan, vamos bien». Otro dice que el grupo ya hizo «la autoevaluación» y le salió verde. Un tercero ha oído hablar del GSAT, pero no sabe qué es. Los tres hablan de evaluar, y ninguno habla de lo mismo. Este curso es para ordenar esa conversación."
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Y a ti qué te toca, si nunca vas a llenar el GSAT? Más de lo que parece: lo que haces en tu grupo es lo que esos instrumentos miden (Lección 4)."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Describir</strong> cómo se revisa la Política y con qué insumos.",
+            "<strong>Distinguir</strong> el semáforo de grupo, la herramienta de la Oficina Scout Mundial y el GSAT, y para qué nivel es cada uno.",
+            "<strong>Leer</strong> una autoevaluación por la evidencia, no como un puntaje.",
+            "<strong>Reconocer</strong> qué hace tu grupo que sirve de evidencia a la evaluación nacional.",
+            "<strong>Registrar</strong> y compartir lo que el grupo aprende, sin datos que identifiquen a nadie."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación. Si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se apoya en el <a href=\"mi-compromiso-entornos-seguros.html\" target=\"_blank\" rel=\"noopener\">Curso 06</a>, donde tu grupo se miró con el semáforo. Y el GSAT, el estándar de calidad con que se mira la Asociación entera, lo enseña el <a href=\"https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/02-Plataforma-Web/salud-institucional-gsat.html\" target=\"_blank\" rel=\"noopener\">Curso 18 de Desarrollo Institucional</a>, en sus lecciones «Las diez dimensiones» y «De la evaluación al plan de acción»: aquí solo se ubica."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🔄 La Política se revisa",
+      "emoji": "🔄",
+      "navLabel": "El ciclo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Política no es un documento que se firma y se guarda. Tiene un ciclo de vida: se revisa cada cuatro años, y para saber cómo va se usan cinco insumos. Ninguno, por sí solo, dice si funciona."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cada cuánto se revisa",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), Anexo 1 «Ciclo de vida de la política», p. 36.",
+          "text": "La política será objeto de revisión cada cuatro (4) años, con el fin de garantizar su vigencia, pertinencia y actualización conforme a las necesidades institucionales y normativas."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "1️⃣ Informe semestral de incidentes",
+              "description": "<em>«De manera general y garantizando la confidencialidad de los datos»</em>: cuántos y de qué tipo, no quiénes. Los datos de cada caso los maneja la Comisión Nacional (p. 39).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "2️⃣ Informe anual de la Comisión Nacional",
+              "description": "Lo que hizo en el año la Comisión Nacional de A Salvo del Peligro.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "3️⃣ Plan Operativo de la Asociación",
+              "description": "La Política tiene que estar en lo que se planea, no al lado.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "4️⃣ Herramienta de Autoevaluación GSAT",
+              "description": "<em>«O el sistema de calidad vigente que disponga Scouts de Colombia»</em>. Es el estándar con que se mira la Asociación entera.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "5️⃣ Trazabilidad de incidentes",
+              "description": "En articulación con la Corte de Honor Nacional y otros órganos nacionales (p. 36).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y el ciclo no se hace solo en la Nación. La Política pide <strong>garantizar la participación activa de las estructuras regionales y locales</strong> en la validación y el ajuste, indicadores de desempeño en promoción, gestión de incidentes, formación y cultura organizacional, y que los hallazgos de informes, evaluaciones y retroalimentación de los territorios se traduzcan en <em>«ajustes concretos y documentados»</em> (p. 37)."
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Y los reportes de los que hablaba el consejero de la asamblea? Son materia del primer insumo, no el único. Para saber si la Política funciona se miran junto con lo que hizo la Comisión, lo que se planeó y lo que dice el GSAT. Un número solo no alcanza. Y si conociste el Manual Operativo de 2023, recordarás el Informe Periódico de Actividades Seguras: el ciclo de 2025 ya no lo lista entre sus insumos."
+        },
+        {
+          "type": "info-box",
+          "text": "❓ <strong>Lo que no está publicado.</strong> Los informes semestrales y anuales, y los indicadores de desempeño, no están en el corpus de la Asociación. Este curso no los inventa. Si quieres conocerlos, pregunta en tu Región o a la Comisión Nacional."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: tres instrumentos 🧰",
+        "questions": [
+          {
+            "text": "En la asamblea, un consejero dice: «Si este semestre bajaron los reportes, la Política está funcionando». ¿Qué te propone la lección?",
+            "options": [
+              "Que los incidentes son uno de cinco insumos, y se miran junto con los demás.",
+              "Que tiene razón, porque el informe de incidentes es el que mide la Política.",
+              "Que eso se sabrá en la revisión de cada cuatro años, y antes no se puede medir."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En el consejo regional, una consejera propone llevar a la próxima revisión de la Política lo que aprendieron los grupos de la región. Otro consejero dice que eso es asunto de la Nación. ¿Qué te propone la lección?",
+            "options": [
+              "Que la consejera tiene razón, porque la Política pide que participen las regiones.",
+              "Que el consejero tiene razón, porque las regiones no participan en la revisión.",
+              "Que la Región ajuste su propia versión de la Política, sin esperar la revisión."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una pregunta que le harías a tu Región sobre cómo participa en la revisión de la Política."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🧰 Tres instrumentos, tres niveles",
+      "emoji": "🧰",
+      "navLabel": "Instrumentos",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> hay tres instrumentos y cada uno mira un nivel distinto. Confundirlos es como medir la estatura con un termómetro: algo sale, pero no lo que se buscaba."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🚦 El semáforo de grupo",
+              "description": "17 preguntas para que un grupo se mire a sí mismo. Es un formato de la serie documental de la PNAM, y lo usaste en el <a href=\"mi-compromiso-entornos-seguros.html\" target=\"_blank\" rel=\"noopener\">Curso 06</a>. Es el que le toca al grupo.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🌍 La herramienta de la Oficina Scout Mundial",
+              "description": "La <em>Herramienta de Autoevaluación A Salvo del Peligro</em> (2019): 42 criterios para que la <strong>organización nacional</strong> mire cómo aplica la Política Mundial. Su subtítulo lo dice: es para <em>«tu organización Scout Nacional»</em>.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🏛️ El GSAT",
+              "description": "El estándar de calidad de la Organización Mundial con que se evalúa la Asociación entera, en diez dimensiones. Es al que remite la Política de 2025 (pp. 36 y 43). Lo enseña el <a href=\"https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/02-Plataforma-Web/salud-institucional-gsat.html\" target=\"_blank\" rel=\"noopener\">Curso 18 de Desarrollo Institucional</a>.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo se conectan la herramienta y el GSAT",
+          "source": "A Salvo del Peligro – Herramienta de Autoevaluación (Oficina Scout Mundial, febrero de 2019), p. 6.",
+          "text": "Al responder a las siguientes preguntas, usted podrá identificar las áreas de implementación que cumplan con el nivel mínimo de desempeño esperado, tal como se define en La Política mundial A Salvo del Peligro y se refleja en el Estándar de Calidad de la OMMS - el Instrumento de Evaluación de Apoyo Global (GSAT )."
+        },
+        {
+          "type": "paragraph",
+          "text": "La herramienta de 2019 es, en la práctica, una lupa sobre la parte del GSAT que toca la protección: la Política de A Salvo del Peligro está en su dimensión 4 (gestión de la integridad), los procesos para los adultos en la 6 y las competencias de los jóvenes para mantenerse a salvo en la 8 (p. 7). El Manual Operativo de 2023 la lista entre sus recursos (p. 28)."
+        },
+        {
+          "type": "info-box",
+          "text": "🧭 <strong>Lo que la Política de 2025 nombra</strong> es el GSAT <em>«u otros sistemas de calidad reconocidos por la OMMS y de la organización al interior»</em> (p. 43). No dice que la Asociación haya aplicado la herramienta de 2019, y este curso tampoco lo afirma."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: los colores 🎨",
+        "questions": [
+          {
+            "text": "Un jefe de grupo quiere calificar a su grupo con la herramienta de la Oficina Scout Mundial y mandar el resultado a la Región. ¿Qué te propone la lección?",
+            "options": [
+              "Que use el semáforo de grupo, porque la herramienta mira a la organización nacional.",
+              "Que la aplique, porque sus 42 criterios sirven igual para un grupo que para la Nación.",
+              "Que espere a que la Región aplique el GSAT y mire su grupo con ese resultado."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En una reunión regional alguien afirma: «La Asociación ya se evaluó con la herramienta de 2019 y salió bien en protección». ¿Qué te propone la lección?",
+            "options": [
+              "Que pregunte de dónde sale, porque la Política nombra el GSAT y no esa herramienta de 2019.",
+              "Que lo dé por cierto, porque esa herramienta está entre los recursos del Manual Operativo.",
+              "Que aclare que en la Política de 2025 la herramienta de 2019 quedó reemplazada por el GSAT."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en la última vez que en tu grupo se habló de «evaluarse». ¿Cuál de los tres instrumentos le correspondía, y por qué? Responde sin nombres de personas."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🎨 Cuatro colores",
+      "emoji": "🎨",
+      "navLabel": "Los colores",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la herramienta pone cada criterio en un color según la evidencia que hay, y cada color pide un paso distinto. No se suma ni se compara: sirve para decidir qué mejorar."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔴 Rojo — incumplimiento",
+              "description": "No hay evidencia de que se haya hecho algo. <em>«¡Puede ser hora de empezar!»</em>. Lo que sigue: planear de inmediato los pasos para cumplir.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🟡 Amarillo — pocos puntos",
+              "description": "Se han hecho algunas cosas, no todas. Lo que sigue: mirar si el plan de acción es factible y si tiene los recursos.",
+              "color": "#fffde7",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🟢 Verde claro — la mayoría",
+              "description": "Se tiene la mayoría, actualizado y aplicado. Lo que sigue: una revisión de mitad de período y los ajustes.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🌲 Verde oscuro — plena conformidad",
+              "description": "Además se evalúa y se actualiza con regularidad. Lo que sigue: mantenerlo, y hasta compartirlo como buena práctica.",
+              "color": "#c8e6c9",
+              "borderColor": "#1b5e20"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🚦 <strong>¿Y el semáforo del Curso 06?</strong> También usa colores, pero son tres, y su hoja habla de puntaje: es la forma de mirarse del grupo. La herramienta de la Oficina Scout Mundial tiene cuatro, más «no aplicable», y avisa que no es un ejercicio de puntuación. Lo que comparten es lo que importa: el color no es una nota, es la lista de lo que sigue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una quinta casilla, <strong>no aplicable</strong>, para lo que no corresponde por las circunstancias locales (p. 9). Y los colores, con lo que sigue después de cada uno, están en las pp. 9 y 17 de la herramienta."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la advertencia de la herramienta",
+          "source": "A Salvo del Peligro – Herramienta de Autoevaluación (Oficina Scout Mundial, febrero de 2019), p. 9.",
+          "text": "Nota importante: esta herramienta no tiene la intención de ser un ejercicio de Puntuación, sino de ser utilizada como un recurso de fortalecimiento de capacidades por su OSN para identificar estrategias de mejora."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔎 Con evidencia",
+              "description": "Las respuestas deben basarse, en lo posible, en evidencia que se pueda mostrar (p. 8). Un color sin evidencia es una opinión.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🤝 Con otros",
+              "description": "La herramienta pide involucrar a las partes interesadas: Consejo, equipo ejecutivo, Programa de Jóvenes, Adultos en el Movimiento (p. 8). Y los resultados se comparten y se discuten con el Consejo Nacional después de un período de reflexión (p. 17).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: la evidencia viene de abajo 🔎",
+        "questions": [
+          {
+            "text": "Aplicando la herramienta, el equipo duda entre amarillo y verde claro en un criterio. La responsable propone revisar primero qué se puede mostrar. ¿Qué te propone la lección?",
+            "options": [
+              "Que tiene razón, porque el color sale de lo que se puede mostrar.",
+              "Que mejor lo voten, porque así el color lo decide todo el equipo.",
+              "Que lo marquen no aplicable, porque así la duda no pesa en el resultado."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En el criterio de la formación de adultos, A Salvo del Peligro está en casi todos los cursos introductorios, se actualizó el año pasado y se dicta; lo que no hay es una fecha para volver a evaluarlo. ¿En qué color va y qué sigue?",
+            "options": [
+              "Verde claro, y sigue una revisión de mitad de período.",
+              "Verde oscuro, y sigue compartirlo como buena práctica.",
+              "Amarillo, y sigue mirar si el plan de acción es factible."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Piensa en algo que tu grupo hace para cuidar a niños, niñas y jóvenes. Escribe qué evidencia podrías mostrar de eso, sin nombres de personas."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🔎 La evidencia viene de abajo",
+      "emoji": "🔎",
+      "navLabel": "Evidencia",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> los criterios hablan de la organización nacional, pero casi todos se cumplen —o no— en lo que hace un adulto en su grupo. Leerlos desde tu lugar te muestra qué parte de la evidencia eres tú."
+        },
+        {
+          "type": "paragraph",
+          "text": "La herramienta tiene 42 criterios en cinco bloques: general, Programa de Jóvenes, Adultos en el Movimiento, estructuras de la organización y eventos (pp. 10–16). Mira algunos desde un grupo:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👨‍👩‍👧 Criterio 20 — las familias",
+              "description": "Hay pautas para comunicar las normas a los padres, las organizaciones y las autoridades, y <em>«las pautas se difunden a sus adultos»</em> (p. 13). Desde tu grupo: que tú las conozcas y las uses.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "👥 Criterio 21 — la formación",
+              "description": "Toda la formación introductoria de los adultos incluye A Salvo del Peligro (p. 13). Desde tu grupo: adultos que hicieron los módulos oficiales.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🗂️ Criterio 26 — el archivo",
+              "description": "Las denuncias se documentan y archivan de forma confidencial (p. 14). El registro de cada reporte lo lleva la Comisión Nacional, que gestiona los casos con su Comité (Política, p. 39). Desde tu grupo: no llevar archivo propio de casos; lo que toca es reportar.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🔘 Criterio 29 — el reporte",
+              "description": "Hay un sistema para reportar a nivel nacional, por una persona o un área asignada (p. 15). Hoy es el botón «Me Pongo A Salvo del Peligro» y el Comité de Gestión de Incidentes (Política, pp. 39 y 44). Desde tu grupo: que los adultos sepan dónde está el botón y lo usen cuando toca.",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "⛺ Criterios 36 a 40 — los eventos",
+              "description": "En cada evento scout nacional: un equipo responsable antes, durante y después; un plan; reglas informadas; adultos formados; un sistema para reportar (p. 16). La Política pide a todo evento, de cualquier nivel, adultos formados, reglas de convivencia y una forma confidencial de reportar; el plan se exige en los nacionales y regionales, y la persona responsable, en los masivos (p. 33). Desde tu grupo: lo enseñan el <a href=\"responsable-asp-de-evento.html\" target=\"_blank\" rel=\"noopener\">Curso 17</a> y, para las actividades, el <a href=\"actividades-seguras-y-datos.html\" target=\"_blank\" rel=\"noopener\">Curso 09</a>.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🧩 Lo que pasa en un grupo no es «el GSAT del grupo», pero es lo que hace que el criterio nacional salga en un color o en otro. La herramienta lo dice al cerrar: <em>«Cada persona joven y adulto, tiene un papel que jugar»</em> (p. 19)."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: lo que le toca al grupo 📝",
+        "questions": [
+          {
+            "text": "Para el criterio 29 (un sistema para reportar), la Región pregunta qué aporta tu grupo como evidencia. ¿Qué aporta más?",
+            "options": [
+              "Que sus adultos saben dónde está el botón y quién recibe lo que se reporta.",
+              "Que el grupo tiene su propio buzón de quejas y lo revisa el consejo cada mes.",
+              "Que el consejo de grupo marque el criterio en verde en su acta del año."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Leyendo el criterio 26, un jefe de grupo propone que el grupo no lleve archivo propio de los reportes. ¿Qué te propone la lección?",
+            "options": [
+              "Que tiene razón, porque el registro de cada caso lo lleva la Comisión Nacional.",
+              "Que guarde una copia bajo llave, por si la Región se la pide como evidencia.",
+              "Que lo lleve el Coordinador Regional, que gestiona los casos de su propia región."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Elige uno de los criterios de la lección. Escribe qué hace tu grupo que sirve de evidencia para él, o qué le falta, sin nombres de personas ni detalles de casos."
+      }
+    },
+    {
+      "id": 6,
+      "title": "📝 Lo que le toca al grupo",
+      "emoji": "📝",
+      "navLabel": "El grupo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el grupo no aplica el GSAT ni la herramienta mundial: esos miran a la Asociación, aunque sus dimensiones pueden servirle de espejo, como dice el Curso 18 de DI. El grupo es parte de esa evaluación con lo suyo, y lo que la Política le pide es otra cosa: que la protección se vea en lo que hace, que registre sus acciones en los informes de gestión y que comparta lo que aprende con su Región."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que la Política pide al grupo",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), «Nivel Local (Consejos de Grupo y Ramas)», p. 42.",
+          "text": "La Política Nacional A Salvo del Peligro será un componente obligatorio en la gestión de cada Grupo Scout, constituyéndose en un criterio de calidad educativa, organizacional y de cuidado, evidenciado en la planeación de actividades, en el acompañamiento adulto y en la protección de la niñez y juventud. Realizar un registro de acciones de sensibilización, reporte y mitigación en informes de gestión y socializar aprendizajes y buenas prácticas con sus regiones."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📝 Registrar",
+              "description": "Acciones: la actividad de sensibilización que se hizo, que se reportó por el botón cuando hubo que hacerlo, la medida de mitigación que se tomó. Sin nombres ni detalles de casos: todos los roles trabajan con confidencialidad y no revictimización (p. 42).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🔁 Compartir",
+              "description": "Lo aprendido y las buenas prácticas van a la Región (p. 42). Y la Región, a su vez, muestra en su evaluación regional cómo cumple la Política (p. 42).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🚦 Mirarse",
+              "description": "El semáforo de grupo del <a href=\"mi-compromiso-entornos-seguros.html\" target=\"_blank\" rel=\"noopener\">Curso 06</a> es la forma de mirarse que le toca al grupo. Con su nombre: no es «el GSAT del grupo».",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "❓ <strong>Lo que la Política no dice.</strong> No trae el formato del informe de gestión del grupo ni dice cuántas veces al año se hace. Si tu grupo no lo tiene, pregúntalo en tu Región."
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve a la asamblea del principio. Los reportes, por sí solos, no dicen si la Política funciona; la Asociación mira con un ciclo de cinco insumos y la revisa cada cuatro años. El «verde» del grupo es un semáforo de grupo, con su nombre, y su valor está en lo que el grupo hace después. El GSAT es de la Asociación entera, y la herramienta de 2019 es su lupa de protección."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "El consejo de grupo arma su informe de gestión del año. ¿Cuál de estas entradas está escrita como lo pide la Política, con sus principios (p. 42)?",
+            "options": [
+              "«En mayo hicimos un taller de sensibilización con las familias de la Manada».",
+              "«Hubo un caso en la Tropa este año; ya se reportó y el joven está mejor».",
+              "«El consejo de grupo considera que el grupo cumple bien con toda la Política»."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejo de grupo terminó su semáforo. La jefa de grupo propone contarle a la Región lo que aprendieron y qué van a cambiar. ¿Qué te propone la lección?",
+            "options": [
+              "Que lo haga, porque compartir lo aprendido con la Región es parte de lo que le toca.",
+              "Que mande el color que sacaron, para que la Región pueda comparar a los grupos.",
+              "Que lo haga, y que agregue el detalle de los casos del año para que la Región vea el contexto."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿Qué aprendizaje o buena práctica de tu grupo vale la pena contarle a la Región? Escríbelo en una frase, sin nombres ni casos. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

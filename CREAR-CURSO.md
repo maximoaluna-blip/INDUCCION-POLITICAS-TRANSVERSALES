@@ -239,6 +239,9 @@ Al marcar como superada la tarea «recomendar las rutas ante casos», la primera
 ### Una frase de la fuente tiene sujeto: no se le presta a otro rol (Curso 15, ADR-149)
 La primera versión del 15 le atribuyó al referente tres frases ajenas: un criterio de Comunicaciones, una función de la comisión de DI sobre otra política, y una cita de la ficha **cortada justo antes de la palabra que la contradecía**. **Antes de citar, mirar de quién es la frase en la fuente, y no cortar una cita sin elipsis.** Y una palabra de la Política puede no significar lo que el curso cree: llama «de sensibilización» a las campañas de Promoción.
 
+### Quien propone también acierta, y un distractor «correcta + exceso» puede ser defendible (Curso 20, ADR-151)
+En el 20, quien proponía algo se equivocaba en las cinco preguntas, y dos logros visibles en la portada («Cada instrumento en su nivel», «Colores, no puntos») anunciaban la clave. **Contar quién acierta por rol en todo el curso y leer los logros como pistas.** Al corregirlo aparecieron cuatro distractores «de espera» que nunca acertaban, y un «que lo haga, y además sume los casos» que la propia lección hacía defendible («cuántos, no quiénes»). **El exceso de un distractor tiene que chocar con la fuente sin discusión.** El mismo modelo acertó todo a ciegas en las tres versiones: con tesis única es estructural (ADR-148).
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 
