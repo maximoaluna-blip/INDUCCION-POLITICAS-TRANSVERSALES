@@ -54,7 +54,7 @@ conducta y el límite.**
 
 ## Estado
 
-**Dónde va la línea: `../ESTADO.md`**, que genera `python ../generar-estado.py` y no se escribe a mano. Qué pasó y por qué: `../docs/BITACORA.md` y los ADR 062 (publicación), 064, 066 y **097** (Nivel 1 cerrado, 6 de 6). Cómo se construye el siguiente: [`CREAR-CURSO.md`](CREAR-CURSO.md), empezando por su **§4-bis**.
+**Dónde va la línea: `../ESTADO.md`**, que genera `python ../generar-estado.py` y no se escribe a mano. Qué pasó y por qué: `../docs/BITACORA.md` y los ADR 062 (publicación), **097, 136, 149 y 155** (cierre de los Niveles 1 a 4; **la línea quedó completa, 22 de 22, el 12-oct-2026**). Lo siguiente se pregunta al dueño. Cómo se construye el siguiente: [`CREAR-CURSO.md`](CREAR-CURSO.md), empezando por su **§4-bis**.
 
 Reglas que dejó construir el Nivel 1:
 - **`verificar-certificado.html` vive en la raíz del repo**, enlazada desde el pie del `index.html` (ADR-070). Al tocarla, comprobar el `SCRIPT_URL` (el backend de la plataforma, no el de Rover) y que siga enlazada.
@@ -63,6 +63,12 @@ Reglas que dejó construir el Nivel 1:
 - **El glosario fue tres veces la raíz del peor hallazgo** (Cursos 03, 05 y 04). Antes de escribir una afirmación, mirar qué dice `../GLOSARIO-ASC.md` sobre lo mismo, y corregir arriba, no solo el curso.
 - **Al planear un nivel, mirar qué curso sostiene a cuál:** el orden de construcción no tiene por qué seguir la numeración, pero el hueco se nota.
 - **Acuerdo 405:** ningún curso afirma qué política de D&I adoptó, y no se desempata por fecha (ADR-097). El Curso 04 trabaja con la Política Interamericana **como la de la Región**.
+
+Reglas que dejaron los Niveles 2 a 4 (el detalle, en el §4-bis de `CREAR-CURSO.md`):
+- **La regla ciega se mide con dos lectores nuevos de modelos distintos** y se registra; no se reescribe para perseguir la cifra (ADR-148). Lo que sí se corrige: quién acierta por rol y por género, parejas de prefijo con la clave dentro, «correcta + exceso» defendible, preguntas que se responden entre sí, logros que anuncian la clave.
+- **No existe la «regla de los dos adultos»:** la medida es la **práctica 2+1** (Política p. 26), que admite un adulto con dos o más menores, también en chats. Un ejemplo de norma se escribe con el nombre de la norma.
+- **La compuerta del antídoto lee los JSON fuente, también los borradores:** un borrador sin «no sustituye ni certifica los módulos oficiales» tumba la suite de producción de otro curso.
+- **El Curso 19 es para familias**, no para dirigentes: declara `registration.motivationLabel` (gancho del `build-course.js` de la línea) y sus reflexiones, que viajan a la hoja, nunca piden datos de los hijos. ⚠️ El núcleo todavía le muestra textos de «adultos» (deuda del ADR-090).
 
 ## Las tres reglas «no negociables» ya son compuerta (ADR-060, 17-sep-2026)
 

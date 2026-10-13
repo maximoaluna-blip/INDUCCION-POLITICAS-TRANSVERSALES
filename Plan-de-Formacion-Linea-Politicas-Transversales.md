@@ -4,6 +4,8 @@
 
 **Asociación Scouts de Colombia · Plataforma de Formación de Adultos**
 
+> ✅ **CUMPLIDO el 12-oct-2026: los 22 cursos están publicados** (ADR-155). Lo que cambió al construir está en el diseño de cada curso y en los ADR; el estado vive en `../ESTADO.md`.
+>
 > **v1.0 — APROBADO POR EL DUEÑO el 17-sep-2026.** Auditado doctrinalmente (v0.1) y corregido (v0.2); aprobado sin cambios de estructura. **La línea puede construirse y publicarse.** Ver `DECISIONES.md` **ADR-059**.
 > 4 niveles · 22 cursos propuestos · Ruta progresiva
 >
