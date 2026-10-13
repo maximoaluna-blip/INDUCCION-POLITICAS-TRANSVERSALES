@@ -289,8 +289,22 @@
     "levelName": "Transversales",
     "order": 22,
     "modules": 6,
-    "status": "draft",
+    "status": "active",
     "file": "conducta-etica-y-codigos.html",
     "folder": "conducta-etica-y-codigos"
+  },
+  {
+    "courseId": "a-salvo-del-peligro-para-familias",
+    "title": "A Salvo del Peligro para familias",
+    "description": "Si tu hija, tu hijo o alguien a tu cargo es scout, o si trabajas con un grupo como patrocinador, proveedor o aliado, la Política A Salvo del Peligro también es contigo. Aquí sabes qué medidas de cuidado puedes pedir que te expliquen, a quién preguntarle, por dónde se reporta una preocupación y qué rige para quienes acompañan a un grupo desde afuera.",
+    "icon": "👨‍👩‍👧",
+    "duration": "25 minutos",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 19,
+    "modules": 6,
+    "status": "active",
+    "file": "a-salvo-del-peligro-para-familias.html",
+    "folder": "a-salvo-del-peligro-para-familias"
   }
 ]

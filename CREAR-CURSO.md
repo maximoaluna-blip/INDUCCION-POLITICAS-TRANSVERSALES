@@ -245,6 +245,12 @@ En el 20, quien proponía algo se equivocaba en las cinco preguntas, y dos logro
 ### Un ejemplo de protección se cita con el nombre de la norma (Curso 21, ADR-152)
 Para ilustrar «lo que exige la Política no se experimenta», la primera versión del 21 inventó una «regla de los dos adultos». **La Política no la tiene:** su medida es la **práctica 2+1** (p. 26), que admite un adulto con dos menores, y el ejemplo del quiz ni siquiera la incumplía. **Un ejemplo de norma se escribe con el nombre de la norma y se comprueba que el caso la viola.** En los quizzes, además, cuando dos opciones empiezan igual y la otra es «la correcta más un añadido» («y que…», «salvo que…»), la pareja delata la clave; y quien es solo «dirigente» no puede equivocarse siempre.
 
+### «Si dudas, abstente» no es «si dudas, calla» (Curso 22, ADR-153)
+El Código de Honor recomienda abstenerse ante la duda, y una primera versión del 22 dejaba leer que el que vio una falta y dudó hizo bien en callar. **Una regla sobre la conducta propia se dice como tal, y se separa de lo que uno ve** (art. 3 g: callar una falta también es falta). Y una negativa absoluta («ninguna norma prohíbe…») se lee como permiso: el Código tiene una cláusula abierta (art. 4 e).
+
+### Un curso para familias no es un curso para dirigentes con otro título (Curso 19, ADR-155)
+El destinatario cambia el registro (`registration.motivationLabel`, que PT no tenía), la jerga (patrulla, consejo, revictimización: se explican), las reflexiones (una familia escribe sobre su hijo, y eso viaja a la hoja) y el tono (preguntar sin vigilar). **Y el módulo oficial que la Política encarga no se da por existente.**
+
 ### Un curso de salud mental no pregunta cómo estás (Curso 13)
 En un curso así, «¿qué se te olvida cuando estás cargado?» ya es pedir el estado propio, y viaja a la hoja. **Las reflexiones piden una frase o una conducta**; lo personal va al «Compromiso Personal».
 

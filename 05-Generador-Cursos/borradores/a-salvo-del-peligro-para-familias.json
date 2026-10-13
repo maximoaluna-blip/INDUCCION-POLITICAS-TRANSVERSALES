@@ -1,0 +1,441 @@
+{
+  "courseId": "a-salvo-del-peligro-para-familias",
+  "title": "A Salvo del Peligro para familias",
+  "subtitle": "Para familias y partes interesadas — Asociación Scouts de Colombia",
+  "description": "Si tu hija, tu hijo o alguien a tu cargo es scout, o si trabajas con un grupo como patrocinador, proveedor o aliado, la Política A Salvo del Peligro también es contigo. Aquí sabes qué medidas de cuidado puedes pedir que te expliquen, a quién preguntarle, por dónde se reporta una preocupación y qué rige para quienes acompañan a un grupo desde afuera.",
+  "contentVersion": "2026-10-12",
+  "icon": "👨‍👩‍👧",
+  "duration": "25 minutos",
+  "status": "active",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 19,
+  "totalContentModules": 5,
+  "registration": {
+    "motivationLabel": "¿Qué te trae a este curso? Por ejemplo: soy madre, padre o cuidador de un scout, o trabajo con un grupo."
+  },
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "También es contigo",
+      "emoji": "🤝",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Lo que se cuida",
+      "emoji": "🛡️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Mis preguntas",
+      "emoji": "❓",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "La ruta",
+      "emoji": "🔘",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Desde afuera",
+      "emoji": "🧩",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Cuidar juntos",
+      "emoji": "🌱",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "A SALVO DEL PELIGRO PARA FAMILIAS",
+    "description": "ha completado el Curso 19 de la Línea Políticas Transversales — A Salvo del Peligro para familias y partes interesadas, reconociendo que la Política Nacional A Salvo del Peligro (2025) también incluye a familias, cuidadores, patrocinadores, proveedores y aliados; qué medidas de cuidado puede pedir que le expliquen; a quién preguntarle; y por dónde se reporta una preocupación. Este curso no es el módulo para familias y partes interesadas que la Política encarga a la Asociación, ni sustituye ni certifica los módulos oficiales de A Salvo del Peligro. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una pregunta</strong> que le vas a hacer al grupo, y cuándo. Se queda solo en tu navegador.",
+    "placeholder": "En la próxima reunión de padres voy a preguntar..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Una mamá deja a su hijo de nueve años el sábado en la sede y se va con una pregunta que no se atreve a hacer: «¿Cómo sé que aquí lo cuidan?». No desconfía de nadie; simplemente no sabe qué preguntar ni a quién. Este curso es para ella, para cualquier familia y para quienes acompañan a un grupo desde afuera."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 25 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar. Al final de cada lección hay una pregunta abierta: lo que escribas lo puede leer el equipo de formación de la Asociación, así que no pongas nombres ni datos de tus hijos."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Reconocer</strong> que la Política A Salvo del Peligro también te incluye.",
+            "<strong>Nombrar</strong> dos medidas de cuidado que puedes pedir que te expliquen.",
+            "<strong>Preguntarle</strong> al grupo lo que necesitas saber, y a quién.",
+            "<strong>Ubicar</strong> la ruta oficial si algo te preocupa.",
+            "<strong>Distinguir</strong> qué rige para patrocinadores, proveedores y aliados."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 <strong>Lo que este curso no es.</strong> La Política le encarga a la Asociación un módulo de A Salvo del Peligro para familias, representantes legales, proveedores y entidades patrocinadoras (p. 32). Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong>, ni ese ni los que la Asociación exige a sus adultos: es una introducción. Si el grupo te ofrece el módulo oficial, hazlo."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "🤝 La Política también es contigo",
+      "emoji": "🤝",
+      "navLabel": "También contigo",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> la Política no es solo para los dirigentes —los adultos voluntarios que acompañan a los scouts—. Incluye a las familias, a los cuidadores y a quienes acompañan al Movimiento, porque cuidar es una tarea compartida. Compartida no quiere decir que hagas el trabajo de los dirigentes."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver a quiénes incluye la Política",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), p. 23.",
+          "text": "Es así como, su alcance se amplía a las partes interesadas involucradas en el cuidado de la membresía, tales como: familias, cuidadores, representantes legales, colaboradores externos, patrocinadores, proveedores de servicios, organizaciones aliadas o convenios con corresponsabilidad operativa."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🇨🇴 Una responsabilidad compartida",
+              "description": "La Política se apoya en la ley colombiana, que pone la protección de niños, niñas y adolescentes en manos del Estado, la familia y la sociedad (Constitución, art. 44; Ley 1098 de 2006; Política, p. 5).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "📝 Un compromiso que te deben explicar",
+              "description": "La Asociación debe escribir su declaración de compromiso con la protección, incluirla en la inscripción de los miembros y explicarla <em>«de forma prioritaria a las familias»</em> (p. 31).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🗣️ Tu voz cuenta",
+              "description": "La Política se alinea con estándares de calidad que piden la participación activa de jóvenes y familias en la construcción de políticas (p. 6). Hoy tu voz entra por dos puertas: preguntarle al grupo (lección 3) y la ruta de reporte (lección 4).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: lo que se cuida 🛡️",
+        "questions": [
+          {
+            "text": "Al inscribir a su hijo, un papá firma los formularios y nadie le explica cómo cuida el grupo a los jóvenes. Le pregunta a su pareja si eso es normal. ¿Qué te propone la lección?",
+            "options": [
+              "Que lo pida, porque la Asociación debe explicarles a las familias su compromiso de protección.",
+              "Que es normal, porque ese compromiso se les explica a los dirigentes cuando entran al grupo.",
+              "Que lo reporte por el botón, porque no explicárselo a una familia ya es un incidente grave del grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la reunión de padres, una mamá comenta: «Yo dejo a mi hija y ya; eso de A Salvo del Peligro es cosa de los dirigentes». ¿Qué te propone la lección?",
+            "options": [
+              "Que el cuidado es compartido y la incluye, sin pedirle que haga el trabajo de los dirigentes.",
+              "Que las familias deben acompañar cada salida para comprobar que los dirigentes cumplan lo pactado.",
+              "Que cada familia decide si participa, según firme o no el compromiso al inscribir a su hija."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Antes de este curso, ¿a quién creías que le tocaba cuidar a los scouts en una actividad? Responde con cargos o grupos de personas (los dirigentes, las familias…), sin nombres ni datos de tus hijos."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🛡️ Lo que la Asociación se compromete a cuidar",
+      "emoji": "🛡️",
+      "navLabel": "Lo que se cuida",
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Piensa en el chat del campamento de tu hijo: ¿quién está ahí? La Política trae medidas concretas que responden preguntas así. No hace falta conocerlas todas: con unas pocas ya sabes qué esperar."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👥 Nunca un adulto a solas con un joven",
+              "description": "Es la práctica 2+1: siempre al menos tres personas presentes —dos adultos y un menor, o un adulto y dos o más menores—, también en las comunicaciones (p. 26).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "📱 En línea, con reglas",
+              "description": "La Política pide regular el contacto de los adultos con los jóvenes en plataformas digitales, tener directrices para publicar imágenes de jóvenes y cuidarlos del ciberacoso y del engaño de adultos que buscan ganarse por internet la confianza de un menor (lo que se conoce como grooming) (p. 26).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🎓 Adultos formados y revisados",
+              "description": "Antes de nombrar a un adulto se piden documentos que garanticen la ausencia de antecedentes, y la formación en A Salvo del Peligro es parte básica de su preparación (pp. 28–29).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "🔒 Datos que se cuidan",
+              "description": "La información médica, de alimentación y de desarrollo de los jóvenes se maneja con seguridad y confidencialidad, y está disponible para quien la necesita (p. 26).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "❓ <strong>Lo que la Política no detalla.</strong> No trae, por ejemplo, la directriz exacta para publicar fotos ni la lista de plataformas permitidas. Eso se pregunta en el grupo, que es lo que verás en la lección siguiente."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: tus preguntas ❓",
+        "questions": [
+          {
+            "text": "Una dirigente de la Tropa de tu hijo les escribe a los seis scouts de su patrulla —el pequeño equipo de scouts en el que está— en el chat de la patrulla para recordarles el horario. No hay otro adulto en ese chat, y tu cuñado dice que eso rompe la práctica 2+1. ¿Qué te propone la lección?",
+            "options": [
+              "Que la cumple, porque la práctica 2+1 también vale con un adulto y dos o más menores.",
+              "Que la rompe, porque en toda comunicación con jóvenes tiene que haber dos adultos a la vez.",
+              "Que vale por ser del horario, y que para cualquier otro tema tendrían que estar dos adultos en el chat."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al llenar la ficha de inscripción de su hijo, un papá duda en escribir que toma un medicamento, porque teme que se entere todo el grupo. ¿Qué te propone la lección?",
+            "options": [
+              "Que lo escriba y pregunte cómo se guarda, porque esos datos se manejan con confidencialidad.",
+              "Que no lo escriba, porque la Política le pide al grupo no recoger datos de salud de los jóvenes.",
+              "Que lo escriba y además lo avise en el chat del grupo, para que todos los adultos lo tengan presente."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "De las cuatro medidas, ¿cuál te gustaría que el grupo te explicara primero? Escribe cuál es y una frase sobre la medida, sin datos de tus hijos ni de nadie."
+      }
+    },
+    {
+      "id": 4,
+      "title": "❓ Lo que puedes preguntarle al grupo",
+      "emoji": "❓",
+      "navLabel": "Preguntar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> preguntar no es desconfiar. Un grupo que cuida sabe responder cómo lo hace. Puedes preguntarle al dirigente que acompaña a tu hijo, o a la jefa o el jefe de grupo, que coordina a los adultos del grupo; una reunión de padres es un buen momento. Lo que no te van a contar son los casos de otras personas: eso también es cuidado."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "¿Cómo aplican la práctica 2+1 en las salidas, en los campamentos y en los chats?",
+            "¿Los dirigentes hicieron la formación de A Salvo del Peligro?",
+            "¿Quién le puede escribir a mi hijo o mi hija, y por qué medio?",
+            "¿Cómo deciden qué fotos de los jóvenes se publican y dónde?",
+            "Si algo me preocupa, ¿cuál es la ruta? (lección siguiente)"
+          ]
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✅ Lo que sí te deben explicar",
+              "description": "Cómo cuidan: las medidas, las rutas, quién responde. La Asociación debe comunicar a todas las partes interesadas sus protocolos y mecanismos de reporte (p. 29), y los consejos de grupo (el equipo de adultos que dirige el grupo) deben velar por que la Política se conozca y se aplique (p. 23).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🔒 Lo que no te van a contar",
+              "description": "Los casos de otras familias. Todos los roles trabajan con confidencialidad y sin hacer pasar a nadie otra vez por lo que vivió (lo que la Política llama no revictimización) (p. 42). Si alguna vez te pasa a ti, también te van a cuidar así.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: si algo te preocupa 🔘",
+        "questions": [
+          {
+            "text": "En la reunión de padres, un papá pregunta cómo deciden qué fotos de los scouts se publican y dónde. Después, otro papá le comenta que esas preguntas incomodan a los dirigentes. ¿Qué te propone la lección?",
+            "options": [
+              "Que la pregunta es válida y se puede hacer así, porque un grupo que cuida sabe explicar cómo lo hace.",
+              "Que debió hacerla por el botón de reporte, que es el canal oficial para las dudas de las familias.",
+              "Que espere a ver una foto que le moleste en las redes y entonces pregunte con ese ejemplo en la mano."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Corre el rumor de un problema en otra patrulla. Un abuelo le pide a la jefa de grupo —quien coordina a los adultos del grupo— que le cuente qué pasó. Ella le dice que no puede contarle casos de otras familias. ¿Qué te propone la lección?",
+            "options": [
+              "Que ella actúa bien, porque no contar los casos de otros también cuida a cada familia.",
+              "Que debería contarle lo que pasó, porque callar un problema así es lo mismo que encubrirlo.",
+              "Que el abuelo hable con las familias de esa patrulla, que sí pueden contarle los detalles."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "¿En qué momento del año te parece natural hacerle una de estas preguntas al grupo: al inscribir, en una reunión de padres o antes de un campamento? Escribe el momento y la pregunta, sin nombres ni situaciones de nadie."
+      }
+    },
+    {
+      "id": 5,
+      "title": "🔘 Si algo te preocupa",
+      "emoji": "🔘",
+      "navLabel": "La ruta",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> hay una ruta oficial: el botón «Me Pongo A Salvo del Peligro», en la página de la Asociación. Si puede ser un delito, también se acude a las autoridades. No tienes que averiguar nada antes: reportar es contar lo que sabes, aunque no estés seguro de si es grave."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver dónde está la ruta oficial",
+          "source": "Política Nacional a Salvo del Peligro (Acuerdo C.S.N. 657, diciembre de 2025), Anexo 3, p. 44.",
+          "text": "La ruta oficial para presentar un reporte de incidentes es el botón “Me Pongo A Salvo del Peligro”, el cual se encuentra ubicado en la página de Scouts de Colombia; allí se diligencia el formulario, disponible en todo momento y desde cualquier dispositivo."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔘 El botón",
+              "description": "Está en la página de Scouts de Colombia (scout.org.co). Lo recibe el Comité de Gestión de Incidentes, un equipo de la Asociación que analiza el caso y decide qué rutas activar (p. 44). La Asociación se compromete a tener canales de reporte para todas las personas (p. 32).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚨 Si puede ser un delito",
+              "description": "La Política pide informar también a los sistemas del Estado: salud, protección y justicia (p. 21). Y si hay peligro inmediato para la vida o la integridad de alguien, primero se avisa a la Policía (Guía de Prevención y Atención del Daño, 2020-2021, pp. 26, 28 y 30).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🛡️ Sin represalias",
+              "description": "La Asociación debe garantizar canales de reporte accesibles, confidenciales y seguros, con protección frente a represalias, y comunicarlos a las familias (p. 32).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "🚫 <strong>Lo que no hace falta.</strong> No tienes que confrontar a nadie, juntar pruebas, hacer tu propia investigación, vigilar a los dirigentes ni alertar a otras familias. Lo tuyo es reportar; lo demás lo valora quien recibe el reporte. Durante el trámite se respetan el debido proceso —que todas las partes sean escuchadas—, la confidencialidad y la dignidad de todas las personas (p. 44)."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: desde afuera 🧩",
+        "questions": [
+          {
+            "text": "Una mamá que acompaña una salida ve algo en el trato de un adulto con un scout que la deja intranquila. ¿Qué te propone la lección?",
+            "options": [
+              "Que reporte por el botón lo que vio, tal como lo vio, sin esperar a estar segura de nada.",
+              "Que hable a solas con ese adulto y le pida que le explique lo que hizo, antes de reportar.",
+              "Que lo cuente en el chat de padres, para que todas las familias estén atentas a ese adulto."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una tía que cuida a un scout quiere reportar algo que le preocupa, pero no es miembro de la Asociación. ¿Qué te propone la lección?",
+            "options": [
+              "Que use el botón de la página de la Asociación, que también recibe reportes como el suyo.",
+              "Que pida antes que la inscriban como miembro del grupo, para que su reporte tenga validez.",
+              "Que se lo cuente primero al jefe de grupo, que es quien decide si el caso pasa al botón."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe dónde vas a guardar la ruta del botón para encontrarla si algún día la necesitas. Sin datos de nadie."
+      }
+    },
+    {
+      "id": 6,
+      "title": "🧩 Patrocinadores, proveedores y aliados",
+      "emoji": "🧩",
+      "navLabel": "Desde afuera",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> quien acompaña a un grupo desde afuera y toca el cuidado de los scouts —un transportador, un campo de campamento, una empresa que patrocina, una organización aliada— también está en el alcance de la Política (p. 23), y también puede reportar."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📋 Lo que rige",
+              "description": "La Asociación debe darte a conocer su compromiso con la protección (p. 31), y en cada actividad o evento rigen sus reglas de cuidado. En los eventos, la Política pide medios de reporte confidenciales y un plan de A Salvo del Peligro en los nacionales y regionales (p. 33).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🎓 El módulo",
+              "description": "La Política le encarga a la Asociación un módulo para proveedores y entidades patrocinadoras, además de familias (p. 32). Pregúntale al grupo si ya está disponible.",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🔘 Si ves algo",
+              "description": "La ruta es la misma: el botón «Me Pongo A Salvo del Peligro» (pp. 32 y 44).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve a la mamá del principio y a su pregunta: «¿Cómo sé que aquí lo cuidan?». Ya no tiene que quedarse callada. Sabe que la Política también es con ella; que hay medidas que puede pedir que le expliquen, como la práctica 2+1, también en los chats; que puede preguntárselo a quien acompaña a su hijo sin que suene a desconfianza; que no le van a contar casos de otros; y que si algo le preocupa hay una ruta oficial. Cuidar juntos es eso."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "El dueño de una empresa de buses que el grupo contrata para un campamento recibe las reglas de cuidado del viaje. Piensa que no le aplican, porque él no es scout. ¿Qué te propone la lección?",
+            "options": [
+              "Que le aplican, porque quien presta un servicio que toca el cuidado de los scouts está en el alcance.",
+              "Que dependen del contrato, y si no las incluye por escrito el grupo no se las puede exigir al dueño.",
+              "Que el grupo se las explique a los scouts, que son quienes deben cumplirlas durante todo el viaje."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "La gerente de una empresa que patrocina a un grupo hizo este curso y dice que con eso su empresa ya cumple lo que pide la Política. ¿Qué te propone la lección?",
+            "options": [
+              "Que este curso es una introducción, y que pregunte si el módulo para patrocinadores ya está disponible.",
+              "Que su empresa ya cumple, porque el certificado de este curso es el que la Política pide a los patrocinadores.",
+              "Que reporte por el botón que su empresa ya se formó, para que el Comité lo deje registrado."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe qué te llevas de este curso para tu familia o tu organización. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}

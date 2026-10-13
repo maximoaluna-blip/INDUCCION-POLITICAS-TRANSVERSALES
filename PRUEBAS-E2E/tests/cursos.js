@@ -128,6 +128,16 @@ const FALLBACK = [
     file: 'gestion-del-cambio-en-el-grupo.html',
     tituloIncluye: 'Gestión del cambio',
   },
+  {
+    courseId: 'conducta-etica-y-codigos',
+    file: 'conducta-etica-y-codigos.html',
+    tituloIncluye: 'Conducta, ética y códigos',
+  },
+  {
+    courseId: 'a-salvo-del-peligro-para-familias',
+    file: 'a-salvo-del-peligro-para-familias.html',
+    tituloIncluye: 'A Salvo del Peligro para familias',
+  },
 ];
 
 let CURSOS = FALLBACK;

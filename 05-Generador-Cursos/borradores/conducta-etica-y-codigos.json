@@ -1,0 +1,467 @@
+{
+  "courseId": "conducta-etica-y-codigos",
+  "title": "Conducta, ética y códigos",
+  "subtitle": "Formación de Adultos Voluntarios — Asociación Scouts de Colombia",
+  "description": "En la actividad, lo que hace un adulto enseña tanto como lo que dice. Aquí conoces el Código de Honor, Disciplinario y de Conducta de la Asociación y su relación con el código de la Organización Mundial; cómo mirarte cuando dudas de una conducta; qué conductas en una actividad son faltas y qué las agrava; por qué callar también es falta, y a dónde va una queja.",
+  "contentVersion": "2026-10-12",
+  "icon": "⚖️",
+  "duration": "30 minutos",
+  "status": "active",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 22,
+  "totalContentModules": 5,
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "El código",
+      "emoji": "📜",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Cuatro preguntas",
+      "emoji": "🤔",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "En la actividad",
+      "emoji": "🏕️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Lo que viste",
+      "emoji": "📢",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "El proceso",
+      "emoji": "⚖️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-6",
+      "name": "Honor scout",
+      "emoji": "🌱",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "CONDUCTA, ÉTICA Y CÓDIGOS",
+    "description": "ha completado el Curso 22 de la Línea Políticas Transversales — Conducta, ética y códigos, reconociendo el Código de Honor, Disciplinario y de Conducta de la Asociación (2022) como el que le aplica y el de la Organización Mundial como su referencia; usando las preguntas del Código ante una conducta dudosa; reconociendo las conductas que en una actividad son faltas y lo que las agrava; y sabiendo que callar una falta también lo es y que las faltas de los adultos las conoce la Corte de Honor Nacional. Este curso no sustituye ni certifica los módulos oficiales de A Salvo del Peligro que exige la Asociación. Este certificado acredita haber cursado esta formación"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe aquí tu compromiso: <strong>una conducta concreta</strong> que vas a cuidar en tu próxima actividad. Se queda solo en tu navegador.",
+    "placeholder": "En la próxima actividad voy a..."
+  },
+  "modules": [
+    {
+      "id": 1,
+      "title": "👋 Antes de empezar",
+      "emoji": "👋",
+      "navLabel": "Antes de empezar",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "paragraph",
+          "text": "Último fuego de campamento. Los scouts ya duermen. Un dirigente sube a sus redes un video de la noche, con un chiste sobre un scout que lloró porque extrañaba su casa. Otro saca unas cervezas «porque ya terminó la jornada». Un tercero ve las dos cosas, duda, y no dice nada. Ninguno de los tres pensó que estaba haciendo algo grave. Este curso es para que sepas qué dice el código que te aplica sobre esa noche."
+        },
+        {
+          "type": "info-box",
+          "text": "⏱️ <strong>Unos 30 minutos.</strong> Cada lección cierra con dos preguntas y hay que acertar <strong>las dos</strong> para seguir. Puedes reintentar las veces que quieras: si te equivocas, el sistema te dice qué pregunta fallaste —no cuál era la buena— y te la vuelve a barajar."
+        },
+        {
+          "type": "course-objectives",
+          "items": [
+            "<strong>Ubicar</strong> qué código te aplica y de dónde viene.",
+            "<strong>Usar</strong> las preguntas del Código ante una conducta dudosa.",
+            "<strong>Reconocer</strong> conductas que en una actividad son faltas, y lo que las agrava.",
+            "<strong>Elegir</strong> el camino para informar lo que ves: el botón o la Corte de Honor Nacional.",
+            "<strong>Diferenciar</strong> conocer las faltas de juzgarlas."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "📌 Este curso <strong>no sustituye ni certifica los módulos oficiales de A Salvo del Peligro</strong> que exige la Asociación; si te falta alguno, los cuatro están enlazados en el <a href=\"bienvenida-politicas-transversales.html\" target=\"_blank\" rel=\"noopener\">Curso 01</a>, lección «📋 Lo exigido». Se apoya en el <a href=\"adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\">Curso 03</a> (reportar sin investigar). Los conflictos de interés, los regalos y las inhabilidades de un cargo los enseña el <a href=\"https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/02-Plataforma-Web/etica-e-integridad.html\" target=\"_blank\" rel=\"noopener\">Curso 19 de Desarrollo Institucional</a>: aquí se trata la conducta en la actividad."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "📜 El código que te aplica",
+      "emoji": "📜",
+      "navLabel": "El código",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> en la Asociación, el que obliga es el Código de Honor, Disciplinario y de Conducta. Se inspira en el código de la Organización Mundial, que se escribió para el equipo de la propia Organización Mundial."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es el honor scout",
+          "source": "<em>Código de Honor, Disciplinario y de Conducta</em> (Acuerdo C.S.N. 510 y Resolución C.S.N. 004-22, 2022), Preámbulo, p. 2.",
+          "text": "Se entiende por honor scout, el conjunto de cualidades que llevan a un miembro de la Asociación Scouts de Colombia a comportarse de acuerdo con los principios, valores y virtudes, promesa y ley que fomenta la filosofía del Movimiento Scout, y a cumplir con los deberes que estos promueven."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🇨🇴 El Código de Honor",
+              "description": "Lo aprobó el Consejo Scout Nacional en 2022. Se aplica a quienes tienen o tuvieron cargos, a voluntarios y empleados y a los dirigentes de todo nivel (p. 2). A los adultos se les suman las obligaciones del cargo que ejercen (p. 2).",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🌍 El código de la OMMS",
+              "description": "Es de 2019. Su alcance es el «Equipo de la OMMS»: quienes la Organización Mundial nombra o elige, y el personal de la Oficina Scout Mundial (p. 4). El Código de Honor copia casi palabra por palabra la descripción de su preámbulo, sus cuatro preguntas y las normas 1.1 a 1.3 (en la 1.3 amplió la protección también a los adultos). La 1.4 la cambió (lección 3).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            },
+            {
+              "title": "🧭 Lo que comparten",
+              "description": "Los dos se basan en la Promesa y la Ley, y dicen que buscan prevenir comportamientos no deseados y permitir tomar medidas si se dan (Código de Honor, p. 2; OMMS, p. 4).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Corte de Honor hay dos.</strong> En este curso hablamos de la <strong>Corte de Honor Nacional</strong>, el órgano que conoce las faltas. La «Corte de Honor» de la Tropa es otra cosa: un espacio de los jóvenes con sus dirigentes."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "nextLabel": "Continuar: cuando dudas 🤔",
+        "questions": [
+          {
+            "text": "Una exjefa de Tropa dejó su cargo hace un año y ahora ayuda como voluntaria en las salidas del grupo. Ella misma dice que el Código de Honor le sigue aplicando. ¿Qué te propone la lección?",
+            "options": [
+              "Que está en lo cierto, porque el Código cubre a quien tuvo cargo y a quien ayuda como voluntario.",
+              "Que ya no le aplica, porque el Código es para quien tiene un cargo hoy y no para quien lo tuvo.",
+              "Que le aplica por lo que hizo en su cargo, y lo de ahora lo regulan las normas del grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una dirigente dice que su grupo se rige por el código de la OMMS, porque «es el mundial y está por encima». Un consejero le dice que el que obliga en la Asociación es el Código de Honor. ¿Qué te propone la lección?",
+            "options": [
+              "Que el consejero tiene razón, porque el de la OMMS es para el equipo de la Organización Mundial.",
+              "Que la dirigente tiene razón, porque un código mundial está por encima del de cada asociación.",
+              "Que el de la OMMS rige en los eventos internacionales y el Código de Honor en los del país."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una conducta concreta que, para ti, muestra el honor scout en una actividad con jóvenes: algo que haces o dejas de hacer delante de ellos."
+      }
+    },
+    {
+      "id": 3,
+      "title": "🤔 Cuando dudas",
+      "emoji": "🤔",
+      "navLabel": "Cuando dudas",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el Código no trae una lista de todo lo que puede pasar. Trae cuatro preguntas para mirarte, y un consejo: si queda la duda, no lo hagas. Ese consejo es para lo que tú vas a hacer."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que recomienda el Código ante la duda",
+          "source": "<em>Código de Honor, Disciplinario y de Conducta</em> (Acuerdo C.S.N. 510 y Resolución C.S.N. 004-22, 2022), Preámbulo, p. 3.",
+          "text": "Todos los miembros de la ASC, deben considerar sus acciones y pedir orientación cuando tengan dudas sobre cierta conducta o situación. Si existe alguna duda sobre dicha conducta o situación, entonces lo recomendado, es que se abstenga de participar en dicha situación."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Está en sintonía con el código?",
+            "¿Es legal y ético?",
+            "¿Se identifica con mis valores y con los de la Asociación?",
+            "¿Me sentiría feliz si apareciera como un titular en las redes sociales o en los medios de comunicación?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El <a href=\"https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/02-Plataforma-Web/etica-e-integridad.html\" target=\"_blank\" rel=\"noopener\">Curso 19 de Desarrollo Institucional</a> usa estas mismas preguntas, en su lección «Declarar y decidir», para resolver un conflicto de interés. Aquí sirven para algo más cotidiano: el video que vas a subir, el chiste que vas a hacer delante de la Manada, la cerveza que alguien saca en el campamento."
+        },
+        {
+          "type": "mission-box",
+          "text": "📌 Vuelve al fuego del principio. El video con el chiste sobre el scout que extrañaba su casa no pasa la cuarta pregunta: ¿te sentirías feliz si ese video saliera en los medios, con el nombre del grupo? Y pedir orientación antes de subirlo es justo lo que el Código recomienda."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "nextLabel": "Continuar: en la actividad 🏕️",
+        "questions": [
+          {
+            "text": "Una dirigente quiere subir a sus redes un video gracioso de un scout que se cayó al barro en el campamento. Un dirigente le sugiere pasarlo antes por las preguntas del Código. ¿Qué te propone la lección?",
+            "options": [
+              "Que la pregunta del titular ya avisa, porque en los medios ese video dejaría mal al scout.",
+              "Que lo suba, porque es gracioso y el scout no salió herido ni se ha quejado de nada en el grupo.",
+              "Que le pida permiso al scout y, si él dice que sí, lo suba sin hacerse más preguntas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente pasó por las cuatro preguntas el chiste que piensa hacer en el fuego de la Manada, y con una de ellas le queda la duda. ¿Qué te propone la lección?",
+            "options": [
+              "Que pida orientación y, si la duda sigue, no lo haga, como recomienda el Código.",
+              "Que lo haga, porque pasó tres de las cuatro preguntas y con la mayoría ya basta.",
+              "Que se arriesgue y, si a un lobato le molesta, le pida disculpas delante de la Manada."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe el tipo de situación de actividad en la que un adulto podría dudar —por ejemplo, «fotos en redes»— y cuál de las cuatro preguntas la resolvería. Solo el tipo, sin nombres ni casos."
+      }
+    },
+    {
+      "id": 4,
+      "title": "🏕️ La conducta en la actividad",
+      "emoji": "🏕️",
+      "navLabel": "En la actividad",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> el Código pide un espacio cómodo y seguro para todos, sin discriminación, acoso ni violencia. Y gradúa las faltas: leves, graves y muy graves. Algunas circunstancias las agravan: por ejemplo, agredir a alguien delante de menores."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🤝 Para todos (1.1 y 1.2)",
+              "description": "Las actividades deben ser un espacio cómodo y seguro. Tratar a todos por igual y no usar <em>«lenguaje degradante o abusivo»</em> ni comentarios discriminatorios que hagan sentir mal a alguien (p. 4).",
+              "color": "#e8f5e9",
+              "borderColor": "#43a047"
+            },
+            {
+              "title": "🚫 Sin violencia (1.3)",
+              "description": "El abuso, el acoso y la violencia son inaceptables, también el abuso verbal o con gestos y el lenguaje sexista, racista y homofóbico (p. 4).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "🔒 Sin conducta sexual (1.4)",
+              "description": "Aun entre adultos que consienten, el contexto de las actividades scouts no es el espacio para la interacción sexual: está prohibido y es falta muy grave (p. 5). Aquí la Asociación es más estricta que la OMMS, que habla de consentimiento positivo. Y tener o buscar relaciones sexuales con un miembro juvenil a tu cuidado es inaceptable (1.3): eso toca la protección y va por el botón (lección 4).",
+              "color": "#f3e5f5",
+              "borderColor": "#8e24aa"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Algunas faltas que el Código nombra y que pasan en una actividad:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "Leve (art. 2)",
+              "description": "Un comportamiento que sea mal ejemplo, sobre todo para los jóvenes (literal i).",
+              "color": "#fffde7",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "Grave (art. 3)",
+              "description": "Abusar del alcohol, consumir sustancias o presentarse a una actividad notoriamente alterado (literal d). Reincidir en el mal ejemplo (literal m).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "Muy grave (art. 4)",
+              "description": "Usar las redes sociales contra el buen nombre de la Asociación o de un miembro (literal d). Inducir a otros a consumir alcohol o sustancias (literal k). Atentar contra la integridad personal o sexual de alguien (literal f).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚖️ <strong>Lo que agrava.</strong> Una agresión verbal o física es más grave si ocurre en un sitio público, delante de jóvenes o menores de edad, o con el uniforme puesto (art. 5, literal h)."
+        },
+        {
+          "type": "mission-box",
+          "text": "📌 Vuelve al fuego. ¿Y las cervezas «porque ya terminó la jornada»? El Código no las nombra por sí solas, pero sí castiga lo que en una actividad atente contra el decoro o los valores scouts (art. 4, literal e). Y los scouts duermen, pero siguen a cargo de esos adultos. Pásalas por las cuatro preguntas de la lección anterior. Y mira la tabla: un mal ejemplo ya es falta leve; abusar del alcohol o llegar alterado, grave; inducir a otros a consumir, muy grave."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "nextLabel": "Continuar: callar también es falta 📢",
+        "questions": [
+          {
+            "text": "En la reunión de dirigentes, un dirigente propone dejar de llamar «el gordo» a un scout de la Tropa, aunque el chico se ría con el apodo. La jefa de Tropa responde que, si él no se queja, no pasa nada. ¿Qué te propone la lección?",
+            "options": [
+              "Que el dirigente tiene razón, porque el Código pide no usar lenguaje degradante, aunque se ría.",
+              "Que la jefa de Tropa tiene razón, porque si el scout se ríe y no se queja, el apodo no le molesta.",
+              "Que le pregunten al scout delante de su patrulla si le molesta, y que se haga lo que él diga."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En dos ocasiones, un dirigente insulta a otro adulto del grupo. La primera, en la sede, sin jóvenes y de civil. La segunda, en un parque, delante de la Manada y con el uniforme. ¿Qué te propone la lección?",
+            "options": [
+              "Que la segunda es más grave, por el sitio público, los menores delante y el uniforme.",
+              "Que pesan lo mismo, porque el Código mira la agresión y no el lugar ni quién la vio.",
+              "Que la de la sede no es falta, porque sin jóvenes ni uniforme queda entre adultos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe una conducta de un adulto en una actividad que para ti sería mal ejemplo para los jóvenes, sin nombres de personas ni de grupos."
+      }
+    },
+    {
+      "id": 5,
+      "title": "📢 Callar también es falta",
+      "emoji": "📢",
+      "navLabel": "Informar",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> ocultar una falta, no informarla o pedirle a otro que no la informe es, en sí mismo, una falta grave. Informar no es investigar: dices lo que viste por el camino que corresponde, y otros deciden."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice el Código",
+          "source": "<em>Código de Honor, Disciplinario y de Conducta</em> (Acuerdo C.S.N. 510 y Resolución C.S.N. 004-22, 2022), art. 3, literal g.",
+          "text": "Ocultar, no informar o inducir a otros a no informar las faltas contra la Promesa, la Ley Scout, los Estatutos o los Reglamentos, cometidas por miembros de la Asociación Scouts de Colombia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ojo con el consejo de la lección 2. «Si dudas, abstente» es para lo que <strong>tú</strong> vas a hacer. Ante lo que <strong>viste</strong>, la duda no te manda a callar: te manda a pedir orientación y a informar por el camino que corresponde."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔘 Si toca la protección",
+              "description": "Si alguien puede estar en riesgo o se dañó a un niño, niña, joven o adulto, va por el botón «Me Pongo A Salvo del Peligro» y, si puede ser un delito, a las autoridades (Política, pp. 21 y 44). Si es las dos cosas —protección y falta de un adulto—, primero el botón. Cómo hacerlo sin investigar lo enseña el <a href=\"adulto-garante-entorno-seguro.html\" target=\"_blank\" rel=\"noopener\">Curso 03</a>.",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            },
+            {
+              "title": "⚖️ Si es una falta de un adulto",
+              "description": "La conoce la <strong>Corte de Honor Nacional</strong>. Ni el consejo de grupo ni la Región sancionan a un adulto: la Comisión Disciplinaria Ad-hoc del grupo es para niños, niñas y jóvenes (lo explica el <a href=\"consejero-de-grupo-y-entornos-seguros.html\" target=\"_blank\" rel=\"noopener\">Curso 18</a>, para consejeros de grupo). Si no sabes cómo hacer llegar una queja, pide orientación —es lo que el Código recomienda— antes que guardártela.",
+              "color": "#e3f2fd",
+              "borderColor": "#1e88e5"
+            },
+            {
+              "title": "🚫 Lo que no haces",
+              "description": "Si toca la protección, averiguar por tu cuenta o pedirle explicaciones a la persona (Política, p. 29). Y en cualquier caso, arreglarlo «entre nosotros» para no dañarle la hoja de vida. Encubrir una falta grave también es falta (art. 3, literal h). Frenar un comentario en el momento está bien, pero no reemplaza informar si fue una falta.",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            }
+          ]
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "nextLabel": "Continuar: quién juzga ⚖️",
+        "questions": [
+          {
+            "text": "En otra actividad, un dirigente que vio a un compañero llegar alterado dice al día siguiente: «El Código pide que, si tengo dudas, me abstenga. Así que no digo nada». ¿Qué te propone la lección?",
+            "options": [
+              "Que abstenerse es para su propia conducta, y ante lo que vio le toca pedir orientación e informar.",
+              "Que hace bien, porque si no está seguro de que fuera una falta, informarlo sería juzgar al compañero.",
+              "Que antes de decir algo confirme con los demás si alguien más lo vio, para no informar algo dudoso."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En una reunión, un dirigente le grita e insulta a un lobato delante de la Manada. Un consejero propone llevarlo a la Corte de Honor Nacional. Una dirigente dice que, como se dañó a un niño, va primero por el botón. ¿Qué te propone la lección?",
+            "options": [
+              "Que la dirigente tiene razón, porque si se dañó a un niño toca la protección y va primero por el botón.",
+              "Que el consejero tiene razón, porque el botón es para lo que pasa entre jóvenes, y esto lo hizo un adulto.",
+              "Que lo hablen con el jefe de Manada, que responde por la unidad y sabrá a dónde mandarlo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe la frase con la que le dirías a un compañero que no vas a callar algo que viste, sin nombres ni detalles del caso."
+      }
+    },
+    {
+      "id": 6,
+      "title": "⚖️ Quién juzga, y para qué lo sabes",
+      "emoji": "⚖️",
+      "navLabel": "Quién juzga",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>Idea central:</strong> las sanciones las impone la Corte de Honor Nacional, con un procedimiento y derecho a defensa. Conocer las faltas te sirve para mirarte y para saber a dónde va una queja, no para juzgar a nadie."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📝 Amonestación",
+              "description": "Verbal o escrita, por resolución de la Corte; la escrita queda en la hoja de vida (art. 7).",
+              "color": "#fffde7",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "⏸️ Suspensión",
+              "description": "De tres meses a dos años, según la gravedad (arts. 3 y 7).",
+              "color": "#fff3e0",
+              "borderColor": "#fb8c00"
+            },
+            {
+              "title": "🚪 Expulsión",
+              "description": "Para faltas muy graves, con revisión de segunda instancia (art. 7).",
+              "color": "#ffebee",
+              "borderColor": "#e53935"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Corte puede además suspender de forma provisional a un investigado, como medida preventiva, si puede interferir en la investigación o seguir causando daño. Esa suspensión <strong>no es una sanción</strong>, y también la decide la Corte (art. 7, parágrafo primero). Y quien es investigado tiene derecho a presentar descargos, pedir pruebas y tener defensor (art. 27)."
+        },
+        {
+          "type": "mission-box",
+          "text": "Vuelve al fuego del principio. El video con el chiste no pasaba la cuarta pregunta. Las cervezas, pasadas por las mismas preguntas, tampoco salían bien paradas: los scouts dormían, pero seguían a cargo de esos adultos. Y el que vio las dos cosas y dudó tenía otra salida que callar: pedir orientación e informar. No te toca decidir si alguno de los tres cometió una falta: te toca mirarte con el Código, informar por el camino que corresponde y dejar que decida quien debe. Eso es el honor scout en una actividad."
+        }
+      ],
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "nextLabel": "Obtener Certificado 🏆",
+        "questions": [
+          {
+            "text": "Una jefa de grupo les cuenta a sus dirigentes que la Corte de Honor Nacional suspendió a un compañero como medida preventiva mientras investiga, y les pide que no lo traten como a alguien ya sancionado. ¿Qué te propone la lección?",
+            "options": [
+              "Que tiene razón, porque esa suspensión es una medida preventiva y el caso no está decidido.",
+              "Que esa suspensión ya es la sanción, y lo que falta por decidir es cuánto tiempo va a durar.",
+              "Que la jefa de grupo la puede levantar cuando el compañero presente sus descargos ante ella."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente investigado por la Corte de Honor Nacional decide nombrar un defensor y se lo pide a una compañera. Un consejero le advierte a ella que, si lo defiende, queda en falta por encubrirlo. ¿Qué te propone la lección?",
+            "options": [
+              "Que puede aceptar, porque el investigado tiene derecho a defensor y defenderlo no es encubrir.",
+              "Que el consejero tiene razón, porque defender a un investigado es pedir que su falta no se informe.",
+              "Que lo defienda mejor ante el consejo de grupo, que es donde conocen bien al compañero."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "reflection": {
+        "prompt": "Escribe qué te llevas de este curso para tu próxima actividad. Tu compromiso no va aquí: lo escribes al final, en el cuadro «Compromiso Personal», que se queda solo en tu navegador."
+      }
+    }
+  ]
+}
